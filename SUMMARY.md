@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Menu Options](README.md)
+* [Using Prompts](README.md)
+  * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)
 * [Batch Scraping and Bot Actions](batch-scraping-and-bot-actions.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
@@ -12,5 +13,4 @@
 * [Testing](testing.md)
 * [Config Options](config-options/README.md)
   * [Setting metadata path](config-options/setting-metadata-path.md)
-  * [Username selection or Fuzzy Search](config-options/username-selection-or-fuzzy-search.md)
   * [Customizing save path](config-options/customizing-save-path.md)

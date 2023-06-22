@@ -1,4 +1,4 @@
-# Menu Options
+# Using Prompts
 
 ## Getting to the menu
 

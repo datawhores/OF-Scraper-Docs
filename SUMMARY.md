@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Installation](README.md)
+* [Welcome](README.md)
+* [Installation](installation.md)
 * [Getting Started](getting-started.md)
 * [FAQ](faq.md)
 * [Config Options](config-options/README.md)

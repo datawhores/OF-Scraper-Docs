@@ -1,8 +1,6 @@
 # Table of contents
 
-* [Installation](README.md)
-* [Getting Started](getting-started.md)
-* [Using Prompts](<README (1).md>)
+* [Using Prompts](README.md)
   * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)
 * [Batch Scraping and Bot Actions](batch-scraping-and-bot-actions.md)

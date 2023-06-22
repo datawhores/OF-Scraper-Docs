@@ -98,7 +98,7 @@ You can use these placeholders
 
 for more details about switching from DigitialCriminal's script
 
-https://github.com/excludedBittern8/ofscraper/wiki/Migrating-from-DC-script
+[https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script](https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script)
 
 You will basically need to change this setting to map to your old metadata locations
 
@@ -198,4 +198,4 @@ Any python code that returns a string should be acceptable
 
 More details about these settings can be seen here
 
-https://github.com/excludedBittern8/ofscraper/wiki/Customizing-save-path
+[https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path](https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path)

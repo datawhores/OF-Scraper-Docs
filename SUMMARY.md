@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Using Prompts](README.md)
-  * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
+  * [Username selection or Fuzzy Search](readme/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)
 * [Batch Scraping and Bot Actions](batch-scraping-and-bot-actions.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)

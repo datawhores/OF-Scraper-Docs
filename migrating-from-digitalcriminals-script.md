@@ -1,6 +1,6 @@
 # Migrating from Digitalcriminal's script
 
-See: https://github.com/datawhores/OF-Scraper/wiki/Setting-metadata-path for general info
+See:[https://of-scraper.gitbook.io/of-scraper/config-options/setting-metadata-path](https://of-scraper.gitbook.io/of-scraper/config-options/setting-metadata-path)
 
 ## Example
 

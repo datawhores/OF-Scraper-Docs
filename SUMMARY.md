@@ -1,7 +1,16 @@
 # Table of contents
 
-* [Auth](README.md)
+* [Menu Options](README.md)
+* [Auth](auth.md)
 * [Batch Scraping and Bot Actions](batch-scraping-and-bot-actions.md)
+* [Content Check Modes](content-check-modes.md)
 * [Controlling Output](controlling-output.md)
 * [Command Reference](command-reference.md)
-* [Config Options](config-options.md)
+* [Docker](docker.md)
+* [Migrating from Digitalcriminal's script](migrating-from-digitalcriminals-script.md)
+* [Config Options](config-options/README.md)
+  * [Scraping Individual Posts or Media](config-options/scraping-individual-posts-or-media.md)
+  * [Setting metadata path](config-options/setting-metadata-path.md)
+  * [Testing](config-options/testing.md)
+  * [Username selection or Fuzzy Search](config-options/username-selection-or-fuzzy-search.md)
+  * [Customizing save path](config-options/customizing-save-path.md)

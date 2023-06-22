@@ -356,4 +356,4 @@ ofscraper --no-cache
 
 ## output options
 
-see: https://github.com/datawhores/ofscraper/wiki/Controlling-Output-Level
+see: [https://of-scraper.gitbook.io/of-scraper/controlling-output](https://of-scraper.gitbook.io/of-scraper/controlling-output)

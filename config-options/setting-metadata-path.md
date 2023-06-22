@@ -2,7 +2,7 @@
 
 You can change the default metadata or where the script looks for database files in config.json
 
-Using your old metadata files from DigitalCriminals script allows for them to be used for dupe check right away additional new files will be appended to the files
+Using your old metadata files from DIGITALCRIMINALS' script allows for them to be used for dupe check right away additional new files will be appended to the files
 
 ## Config File Location
 

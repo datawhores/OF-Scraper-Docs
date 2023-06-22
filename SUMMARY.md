@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Installation](README.md)
+* [Getting Started](getting-started.md)
 * [Using Prompts](<README (1).md>)
   * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)

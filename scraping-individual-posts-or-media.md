@@ -39,7 +39,9 @@ More types of urls are accepted the best way to get a better understanding of th
 
 ## Scraping Individual Media
 
-**1. Run a content scraper mode** https://github.com/datawhores/OF-Scraper/wiki/Content-Check-Modes
+**1. Run a content scraper mode**
+
+[**https://of-scraper.gitbook.io/of-scraper/content-check-modes**](https://of-scraper.gitbook.io/of-scraper/content-check-modes)
 
 **2. Use ";" or "'" to toggle the checkmark of the row you want to download**
 

@@ -1,6 +1,10 @@
 # Migrating from Digitalcriminal's script
 
-See:[https://of-scraper.gitbook.io/of-scraper/config-options/setting-metadata-path](https://of-scraper.gitbook.io/of-scraper/config-options/setting-metadata-path)
+
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/setting-metadata-path" %}
+
+
 
 ## Example
 

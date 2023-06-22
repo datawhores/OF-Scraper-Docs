@@ -1,12 +1,5 @@
 # Setting metadata path
 
-## Table-of-contents
-
-* Config File Location
-  * Windows
-  * Linux
-* Changing metadata location
-
 You can change the default metadata or where the script looks for database files in config.json
 
 Using your old metadata files from DigitalCriminals script allows for them to be used for dupe check right away additional new files will be appended to the files

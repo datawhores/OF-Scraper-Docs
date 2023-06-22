@@ -98,7 +98,9 @@ You can use these placeholders
 
 for more details about switching from DigitialCriminal's script
 
-[https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script](https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script)
+
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script" %}
 
 You will basically need to change this setting to map to your old metadata locations
 
@@ -106,13 +108,19 @@ You will basically need to change this setting to map to your old metadata locat
 
 decryption is required for certain content use this to set the path mp4decrypt for you system
 
-This is not installed with pip and must be retrieved desperately https://github.com/datawhores/ofscraper/tree/main/bin or https://www.bento4.com/downloads/
+This is not installed with pip and must be retrieved &#x20;
+
+{% embed url="https://www.bento4.com/downloads/" %}
 
 you only need mp4decrypt or mp4decrypt.exe other files can be deleted
 
 ## ffmpeg
 
 This is required to join audio and video parts of files used with mp4decrypt to output final file
+
+
+
+{% embed url="https://ffmpeg.org/download.html" %}
 
 ## textlength
 
@@ -198,4 +206,6 @@ Any python code that returns a string should be acceptable
 
 More details about these settings can be seen here
 
-[https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path](https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path)
+
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path" %}

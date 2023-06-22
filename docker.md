@@ -17,9 +17,17 @@ docker run  -it --rm --name=ofscraper -v anypath:/root/ofscraper/.config/ ghcr.i
 
 ## Images
 
-https://hub.docker.com/r/datawhores/of-scraper
 
-https://github.com/datawhores/OF-Scraper/pkgs/container/of-scraper/
+
+{% embed url="https://hub.docker.com/r/datawhores/of-scraper" %}
+Images on Docker.com
+{% endembed %}
+
+{% embed url="https://github.com/datawhores/OF-Scraper/pkgs/container/of-scraper/" %}
+Images on ghcr.io
+{% endembed %}
+
+
 
 | Syntax             | Example      | What it is                           |
 | ------------------ | ------------ | ------------------------------------ |

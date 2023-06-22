@@ -14,7 +14,9 @@ You have numerous options for how you want to retrieve auth information. If your
 
 Follow the instructions here for how to install in your browser
 
-https://github.com/M-rcus/OnlyFans-Cookie-Helper
+
+
+{% embed url="https://github.com/M-rcus/OnlyFans-Cookie-Helper" %}
 
 ![image](https://user-images.githubusercontent.com/67020411/230731183-26a43e62-4385-4fd9-aee8-f75a7c2d33cb.png)
 

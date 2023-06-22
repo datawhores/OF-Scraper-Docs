@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Using Prompts](README.md)
+* [Installation](README.md)
+* [Using Prompts](<README (1).md>)
   * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)
 * [Batch Scraping and Bot Actions](batch-scraping-and-bot-actions.md)
@@ -14,3 +15,4 @@
 * [Config Options](config-options/README.md)
   * [Setting metadata path](config-options/setting-metadata-path.md)
   * [Customizing save path](config-options/customizing-save-path.md)
+* [Getting Started](getting-started.md)

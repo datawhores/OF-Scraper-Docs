@@ -356,4 +356,6 @@ ofscraper --no-cache
 
 ## output options
 
-see: [https://of-scraper.gitbook.io/of-scraper/controlling-output](https://of-scraper.gitbook.io/of-scraper/controlling-output)
+
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/controlling-output" %}

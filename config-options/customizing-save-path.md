@@ -2,21 +2,7 @@
 
 You can edit the save path of files by editing the config file
 
-## Table-of-contents
 
-* Config File Location
-  * Windows
-  * Linux
-  * Change config location
-* Editing Save path
-  * save\_location
-  * dir\_path
-  * Filename
-  * date (optional)
-  * textlength
-* Remapping Responsetype
-
-## Config File Location
 
 ### Windows
 

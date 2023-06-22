@@ -1,11 +1,10 @@
+---
+description: Setting up authorization
+---
+
 # Auth
 
-## Table-of-contents
 
-* General
-  * Cookie Helper
-  * Browser Extraction
-* Manual
 
 ## General
 

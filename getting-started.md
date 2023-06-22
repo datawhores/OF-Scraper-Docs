@@ -20,5 +20,3 @@ For information about the prompt/menu system
 
 
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/" %}
-

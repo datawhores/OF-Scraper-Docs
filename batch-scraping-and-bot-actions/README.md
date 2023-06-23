@@ -79,69 +79,7 @@ Truncation use common operating system file length restrictions to determine the
 ofscraper --original
 ```
 
-## Advanced Args
 
-### au, --auth
-
-This can be combined with --config
-
-This option has preference over the auth path --config would have provided
-
-```
-Change location of auth file
-```
-
-### --users-first
-
-Changes the order of downloading to retrieve links for all selected users first This means waiting longer for downloads to start, but this can be useful in certain situations
-
-```
-ofscraper --user-first
-```
-
-### multiple configs
-
-```
-ofscraper --config folder or file
-```
-
-This arg will try to parse whether the argument is a folder or file
-
-There are two parts
-
-config file: File that holds the config information config folder: Folder where config file recedes also has additional information like the file cache
-
-1. Path is a current file
-
-* config file path will be argument passed
-* config folder will be the parent of the config file
-
-2. Path does not exist, but the parent path exists as a directory
-
-* config file will be generated using defaults
-* config folder will be the parent path of the config folder
-
-3. Path does not exist and parent path does not exists The parent path must not be a file else the program will crash
-
-* config file will be generated using defaults
-* config folder will be the path given, and will be created on run
-
-#### Shared information
-
-Two configs within the same folder can share
-
-* Profiles
-* log files
-* cache
-* authorization
-
-### no cache
-
-skips cache when retrieving post
-
-```
-ofscraper --no-cache
-```
 
 ### Output Options
 

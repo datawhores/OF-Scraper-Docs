@@ -13,7 +13,7 @@
 * [Batch Scraping and Bot Actions](batch-scraping-and-bot-actions/README.md)
   * [Selecting Posts](batch-scraping-and-bot-actions/selecting-posts.md)
   * [Model Selection/Sorting](batch-scraping-and-bot-actions/model-selection-sorting.md)
-  * [Page 1](batch-scraping-and-bot-actions/page-1.md)
+  * [Advanced Args](batch-scraping-and-bot-actions/advanced-args.md)
 * [Command Reference](command-reference.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Content Check Modes](content-check-modes.md)

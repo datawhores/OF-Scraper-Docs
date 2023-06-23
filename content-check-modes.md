@@ -2,7 +2,7 @@
 
 ## What is this
 
-<img src=".gitbook/assets/image2.png" alt="" data-size="original">
+<figure><img src=".gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
 scrapes onlyfans.com and parses the database to display information about content through a generated table
 
@@ -42,15 +42,22 @@ The form on top holds all the filters clicking on submit will filter the form
 
 ### Adding filter from table
 
-Click on a cell like the one containing the word videos If you enter semicolon: \[ ;] or &#x20;
+Click on a cell to heighlight it
 
-apostrophe: \[ ' ]  the table will filter to rows matching that cell value
+enter semicolon: \[ ;] or  apostrophe: \[ ' ]  the table will filter to rows matching that cell value
 
 
 
-<img src=".gitbook/assets/img1.png" alt="" data-size="original">
+#### Example
 
-In this case only cell matching videos will appear
+The word videos is heightlighted\
+
+
+<figure><img src=".gitbook/assets/img1.png" alt=""><figcaption></figcaption></figure>
+
+Once enter semicolon: \[ ;] or  apostrophe: \[ ' ]   is pressed
+
+only cell matching videos will appear
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/11911f08-2e0c-4759-b033-1fcaf40a5e6f)
 

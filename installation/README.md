@@ -9,6 +9,10 @@ As it will put OF-scraper into its own virtualenv and ensure that the program do
 \
 [https://pypa.github.io/pipx/](https://pypa.github.io/pipx/)
 
+
+
+
+
 #### Recommended python3.9 or python3.10
 
 ### Windows:
@@ -69,3 +73,4 @@ or
 pipx install ofscraper==x --force
 ```
 
+{% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pip-install" %}

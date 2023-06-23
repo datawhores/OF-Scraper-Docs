@@ -1,5 +1,7 @@
 # PIP Install
 
+pipx is recommended but OF-Scraper can also be installed via pip
+
 ## Installation
 
 **Recommended python3.9 or python3.10**

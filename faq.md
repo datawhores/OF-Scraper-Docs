@@ -1,8 +1,8 @@
 # FAQ
 
-### Can this bypass protected content
+### Can this download locked
 
-No
+Yes..if unlocked prior
 
 ### Status Down
 

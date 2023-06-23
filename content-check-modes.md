@@ -1,7 +1,5 @@
 # Content Check Modes
 
-
-
 ## What is this
 
 scrapes onlyfans.com and parses the database to display information about content through a generated table
@@ -12,7 +10,17 @@ The table is searchable/can be filtered
 
 Table includes lots of information including
 
-* price of content
+*   price of content
+
+    #### a, --action
+
+    ```
+    Possible choices: like, unlike
+    ```
+
+    ```
+    perform like or unlike action on each post
+    ```
 * Will try to show if media is in your library based on media id
 * If the media is unlocked
 * The post that a media is connected
@@ -40,7 +48,9 @@ The form on top holds all the filters clicking on submit will filter the form
 
 ### Adding filter from table
 
-Click on a cell like the one containing the word videos If you enter ";" or "'" the table will filter to rows matching that cell value
+Click on a cell like the one containing the word videos If you enter semicolon: \[ ;] or &#x20;
+
+apostrophe: \[ ' ]  the table will filter to rows matching that cell value
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/b7b3a85e-3427-423d-baae-12f42c3d1ff7)
 

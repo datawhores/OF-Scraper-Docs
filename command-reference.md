@@ -4,7 +4,7 @@ description: These page is based on the ofscraper -h output
 
 # Command Reference
 
-## Overview
+Overview
 
 ## Global Args
 
@@ -226,9 +226,7 @@ Filter by whether or not your subscription has expired or not
 
 #### -be, --before
 
-
-
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions#filter-post-by-date" %}
+{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" %}
 
 ```
 Process post at or before the given date general synax is 
@@ -237,9 +235,7 @@ Month/Day/Year Works for like,unlike, and downloading posts
 
 #### -af, --after
 
-
-
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions#filter-post-by-date" %}
+{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
 
 ```
 Process post at or after the given date 

@@ -1,16 +1,25 @@
 # Migrating from Digitalcriminal's script
 
-
-
 {% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/setting-metadata-path" %}
-
-
 
 ## Example
 
-Lets say you have this common setup for storing metadata /Onlyfans/Modelx/Metadata where ModelX can be replaced with any username
+This is based on common settings from DC script
 
-This is a config that could be used in this case Pay attention to the save\_location and metadata arguments
+```
+ "dir_format": "{model_username}/{responsetype}/{value}/{mediatype}/"
+```
+
+Means a path like&#x20;
+
+```
+ "dir_format": "modelA/Messages/Free/Images/"
+```
+
+
+
+\
+
 
 ```
 {
@@ -18,7 +27,7 @@ This is a config that could be used in this case Pay attention to the save\_loca
         "main_profile": "main_profile",
         "save_location": "/Onlyfans",
         "file_size_limit": 0,
-        "dir_format": "{model_username}/{responsetype}/{mediatype}/",
+        "dir_format": "{model_username}/{responsetype}/{value}/{mediatype}/",
         "file_format": "{filename}.{ext}",
         "textlength": 0,
         "date": "MM-DD-YYYY",

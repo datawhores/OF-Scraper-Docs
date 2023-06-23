@@ -1,6 +1,6 @@
 # FAQ
 
-### Can this download locked
+### Can this download locked content
 
 Yes..if unlocked prior
 

@@ -1,5 +1,12 @@
 # Installation
 
+## Intro
+
+You can install with pip but it is recommend to install with pipx
+
+\
+As it will put OF-scraper into its own virtualenv and ensure that the program doesn't get interference from others installed
+
 #### Recommended python3.9 or python3.10
 
 ### Windows:
@@ -7,7 +14,7 @@
 #### stable
 
 ```
-pip install ofscraper
+pipx install ofscraper
 ```
 
 or
@@ -15,7 +22,7 @@ or
 #### development
 
 ```
-pip install git+https://github.com/datawhores/OF-Scraper.git 
+pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
 or

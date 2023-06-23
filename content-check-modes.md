@@ -2,6 +2,8 @@
 
 ## What is this
 
+<img src=".gitbook/assets/image2.png" alt="" data-size="original">
+
 scrapes onlyfans.com and parses the database to display information about content through a generated table
 
 Each individual media is given it own row within the table
@@ -10,23 +12,15 @@ The table is searchable/can be filtered
 
 Table includes lots of information including
 
-*   price of content
-
-    #### a, --action
-
-    ```
-    Possible choices: like, unlike
-    ```
-
-    ```
-    perform like or unlike action on each post
-    ```
+* price of content
 * Will try to show if media is in your library based on media id
 * If the media is unlocked
 * The post that a media is connected
 * Date the media was posted
 * text included with the media
 * Length of media
+
+
 
 It uses cache to speed things up
 
@@ -52,7 +46,9 @@ Click on a cell like the one containing the word videos If you enter semicolon: 
 
 apostrophe: \[ ' ]  the table will filter to rows matching that cell value
 
-![image](https://github.com/datawhores/OF-Scraper/assets/67020411/b7b3a85e-3427-423d-baae-12f42c3d1ff7)
+
+
+<img src=".gitbook/assets/img1.png" alt="" data-size="original">
 
 In this case only cell matching videos will appear
 

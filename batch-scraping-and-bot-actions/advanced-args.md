@@ -28,7 +28,10 @@ ofscraper --config folder or file
 
 The program will try to make a good guess of where you want the config folder
 
-Below are a table of the checks.
+Below are a table of the check\
+If a check is false then then the next check is done\
+\
+There is a failback check if all other checks fail
 
 
 

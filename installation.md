@@ -5,7 +5,9 @@
 You can install with pip but it is recommend to install with pipx
 
 \
-As it will put OF-scraper into its own virtualenv and ensure that the program doesn't get interference from others installed
+As it will put OF-scraper into its own virtualenv and ensure that the program doesn't get interference from others installed\
+\
+[https://pypa.github.io/pipx/](https://pypa.github.io/pipx/)
 
 #### Recommended python3.9 or python3.10
 
@@ -17,62 +19,53 @@ As it will put OF-scraper into its own virtualenv and ensure that the program do
 pipx install ofscraper
 ```
 
-or
-
 #### development
 
 ```
 pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
-or
-
 #### specific version
 
 ```
-pip install ofscraper==x
+pipx install ofscraper==version
 ```
 
-where x is the vesion you want to install
+where x is the version you want to install
 
 ### macOS/Linux
 
 ```
-pip3 install ofscraper
+pipx install ofscraper
 ```
 
-or
+#### development
+
+
 
 ```
-pip3 install git+https://github.com/datawhores/OF-Scraper.git 
+pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
-
-or
 
 #### specific version
 
 ```
-pip install ofscraper==x
+pipx install ofscraper==x --force
 ```
 
-where x is the vesion you want to install
+where x is the version you want to install
 
 ### Upgrade
 
 Not uninstalling has caused user issues in the past
 
 ```
-pip3 uninstall ofscraper
-```
-
-Then run one of the install commands above
-
-```
-pip3 install ofscraper --upgrade
+ pipx upgrade ofscraper
 ```
 
 or
 
 ```
-pip3 install ofscraper==latest version number
+pipx install ofscraper==x --force
 ```
+

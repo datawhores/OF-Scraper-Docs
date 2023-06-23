@@ -52,6 +52,37 @@ Two configs within the same folder can share
 * cache
 * authorization
 
+#### Duplication check
+
+This is based on your config setting
+
+\
+If two configs have the same settings for metadata, then you will not have duplicates among those configs
+
+### multiple profile
+
+Authentication for different accounts is done through profiles
+
+The default profile can be changed through the config or by passing the --profile argument
+
+#### Example
+
+```
+ofscraper --profile test
+```
+
+```
+config file location=/home/test/.config/ofscraper/config.json
+```
+
+profile is always place within the config file locations parent folder, and is always appending with \_profile
+
+Therefore the profile here would be&#x20;
+
+```
+profile location=/home/test/.config/ofscraper/test_profile
+```
+
 ### no cache
 
 skips cache when retrieving post

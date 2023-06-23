@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Installation](installation/README.md)
+* [Install](installation/README.md)
   * [PIP Install](installation/pip-install.md)
 * [Getting Started](getting-started.md)
 * [FAQ](faq.md)

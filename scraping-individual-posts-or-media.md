@@ -1,12 +1,5 @@
 # Scraping Individual Posts or Media
 
-## Table-of-contents
-
-* Scraping content from timeline post
-* Scraping content from Purchase Page
-* Scraping Individual Media
-  * Good things to know
-
 ## Scraping content from timeline post
 
 **1. click '...' and then copy link to post**

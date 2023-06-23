@@ -1,12 +1,6 @@
 # Username selection or Fuzzy Search
 
-## Table-of-contents
 
-* Selecting a model
-* Sorting/Filtering List
-* Searching the list
-  * How does searching effect my currectly select models?
-  * Unselecting
 
 ofscraper uses fuzzy search to make managing which models are selected easier
 
@@ -60,7 +54,7 @@ The result is only 1 appears here
 
 ![image](https://user-images.githubusercontent.com/67020411/230736203-c7e433f9-30a9-4c35-8615-8046b3d7d001.png)
 
-### How does searching effect my currectly select models?
+### How does searching effect my currently select models?
 
 It doesn't it only effects which models appear in the list for example
 

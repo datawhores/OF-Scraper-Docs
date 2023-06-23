@@ -113,6 +113,26 @@ don’t truncate long paths
 Default: False
 ```
 
+#### -c, --letter-count
+
+```
+intrepret config ‘textlength’ as max length by letter
+```
+
+```
+Default: False
+```
+
+#### -a, --action
+
+```
+Possible choices: like, unlike
+```
+
+```
+perform like or unlike action on each post
+```
+
 ### Post
 
 What type of post to scrape
@@ -142,25 +162,7 @@ Download content from a model
 Default:None
 ```
 
-#### -c, --letter-count
 
-```
-intrepret config ‘textlength’ as max length by letter
-```
-
-```
-Default: False
-```
-
-#### -a, --action
-
-```
-Possible choices: like, unlike
-```
-
-```
-perform like or unlike action on each post
-```
 
 #### -sk, --skip-timed
 

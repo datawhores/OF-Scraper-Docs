@@ -41,11 +41,9 @@ More types of urls are accepted the best way to get a better understanding of th
 
 **1. Run a content scraper mode**
 
-
-
 {% embed url="https://of-scraper.gitbook.io/of-scraper/content-check-modes" %}
 
-**2. Use ";" or "'" to toggle the checkmark of the row you want to download**
+**2. Use ";" or "'," to toggle the checkmark of the row you want to download**
 
 * Only unlocked media will have a checkmark
 * media marked for download will have 'added' in them

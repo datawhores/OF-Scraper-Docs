@@ -20,7 +20,7 @@ This is based on common settings from DC script
 
 Means a full path like
 
-<pre class="language-markup"><code class="lang-markup"> "/<a data-footnote-ref href="#user-content-fn-1">Onlyfans/</a><a data-footnote-ref href="#user-content-fn-2">modelA</a>/Messages/Free/Images/"
+<pre class="language-markup"><code class="lang-markup"> "/<a data-footnote-ref href="#user-content-fn-1">Onlyfans/</a><a data-footnote-ref href="#user-content-fn-2">modelA/Messages/Free/Images/</a>"
 </code></pre>
 
 1. /Onlyfans is the save\_location
@@ -28,14 +28,13 @@ Means a full path like
 
 #### metadata
 
-```
-"metadata": "{save_location}/{model_username}/Metadata"
-```
+<pre><code>"metadata": "<a data-footnote-ref href="#user-content-fn-3">{save_location}</a>/{model_username}/Metadata"
+</code></pre>
 
 means a path for user\_data.db like
 
 ```
-"OnlyFans/ModelA/Metadta"
+"OnlyFans/ModelA/Metadata"
 ```
 
 ```
@@ -73,4 +72,9 @@ means a path for user\_data.db like
 
 [^1]: save\_location
 
-[^2]: 
+[^2]: dir\_format
+
+
+
+[^3]: Save location from config
+

@@ -16,15 +16,9 @@ ofscraper
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/model-selection-sorting" %}
 
-## Liking/Unliking content
+{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/liking-post" %}
 
-```
- ofscraper --action like
-```
-
-```
- ofscraper --action unlike
-```
+##
 
 ## Performing multiple actions
 

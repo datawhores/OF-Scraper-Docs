@@ -15,7 +15,7 @@
   * [Selecting Posts](batch-scraping-and-bot-actions/selecting-posts.md)
   * [Model Selection/Sorting](batch-scraping-and-bot-actions/model-selection-sorting.md)
   * [Advanced Args](batch-scraping-and-bot-actions/advanced-args.md)
-  * [Liking Post](batch-scraping-and-bot-actions/liking-post.md)
+  * [Liking/Unliking Post](batch-scraping-and-bot-actions/liking-unliking-post.md)
 * [Command Reference](command-reference.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Content Check Modes](content-check-modes.md)

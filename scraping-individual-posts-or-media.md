@@ -36,9 +36,11 @@ More types of urls are accepted the best way to get a better understanding of th
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/content-check-modes" %}
 
-**2. Use ";" or "'," to toggle the checkmark of the row you want to download**
+**2. Use the mouse to toggle the checkmark of the row you want to download**\
+_Note you can also toggle with  ";" or "',"_&#x20;
 
-* Only unlocked media will have a checkmark
+Only unlocked media will have a checkmark
+
 * media marked for download will have 'added' in them
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/48e3badd-5502-480b-aeaa-04d58c769dd1)

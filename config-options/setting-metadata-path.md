@@ -45,5 +45,7 @@ You can use these placeholders
 {configpath}= parent dir of config.json
 {profile} = current profile 
 {save_location} = returns the parsed path from 'save_location' option
-
+{profile} = currently active profile
+{my_username}=the username for the authorized account
+{my_id} = the id for the authorized account
 ```

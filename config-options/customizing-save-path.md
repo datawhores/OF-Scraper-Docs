@@ -2,8 +2,6 @@
 
 You can edit the save path of files by editing the config file
 
-
-
 ### Windows
 
 Not a daily windows user, but it should be
@@ -92,6 +90,9 @@ open issue if you need help
 {sitename} = Onlyfans
 
 {model_username} = The model's username
+{profile} = the current active profile
+{user} = Your username
+
 ```
 
 ### Filename
@@ -124,7 +125,9 @@ The filename part of saved file
 {model_id}= unique id number for model
 
 
-{ext} = The media's file extension.
+{ext} = The media's file extension
+{profile} = the current active profile
+{user} = Your username
 ```
 
 ### date (optional)

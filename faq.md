@@ -10,6 +10,18 @@ Both programs are cross-platform
 
 {% embed url="https://www.bento4.com/documentation/mp4decrypt/" %}
 
+#### what to do after downloading
+
+Just provide OF-Scraper the path to the program
+
+**Note:** This needs to be the full path
+
+#### Copying path on windows
+
+If windows doesn't have a built in esay way to get the full path
+
+{% embed url="https://pathcopycopy.github.io/" %}
+
 ### <mark style="color:blue;">ofscraper not found</mark>
 
 This usually means that your need to update your path

@@ -1,5 +1,23 @@
 # FAQ
 
+### <mark style="color:blue;">Something is not working</mark>
+
+
+
+run to output to console
+
+```
+ofscraper --output debug
+```
+
+or to output to your config folder
+
+```
+ofscraper --llog debug
+```
+
+Send logs on discord channel or make a git issue
+
 ### <mark style="color:blue;">MP4Decrypt and FFMPEG</mark>
 
 The programs mentioned are required to download content

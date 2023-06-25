@@ -98,8 +98,6 @@ You can use these placeholders
 
 for more details about switching from DigitialCriminal's script
 
-
-
 {% embed url="https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script" %}
 
 You will basically need to change this setting to map to your old metadata locations
@@ -108,7 +106,7 @@ You will basically need to change this setting to map to your old metadata locat
 
 decryption is required for certain content use this to set the path mp4decrypt for you system
 
-This is not installed with pip and must be retrieved &#x20;
+This is not installed with pip and must be retrieved
 
 {% embed url="https://www.bento4.com/downloads/" %}
 
@@ -117,8 +115,6 @@ you only need mp4decrypt or mp4decrypt.exe other files can be deleted
 ## ffmpeg
 
 This is required to join audio and video parts of files used with mp4decrypt to output final file
-
-
 
 {% embed url="https://ffmpeg.org/download.html" %}
 
@@ -194,7 +190,9 @@ max=10
 
 code-execution This allows for the execution of code when generating metadata path, file\_format, and dir\_format
 
-all placeholders are available as placeholders the input for these options will be converted to an f- string
+all placeholders are available as placeholders the input for these options will be converted to an f- string\
+\
+As an example
 
 ```
 eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
@@ -205,7 +203,5 @@ Any python code that returns a string should be acceptable
 ## Config settings for save locations
 
 More details about these settings can be seen here
-
-
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path" %}

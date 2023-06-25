@@ -1,27 +1,41 @@
 # FAQ
 
-### Can this download locked content
+### <mark style="color:blue;">MP4Decrypt and FFMPEG</mark>
+
+The programs mentioned are required to download content
+
+Both programs are cross-platform
+
+{% embed url="https://ffmpeg.org/download.html" %}
+
+{% embed url="https://www.bento4.com/documentation/mp4decrypt/" %}
+
+### <mark style="color:blue;">ofscraper not found</mark>
+
+This usually means that your need to update your path
+
+### <mark style="color:blue;">Can this download locked content</mark>
 
 Yes..if unlocked prior
 
-### Status Down
+### <mark style="color:blue;">Status Down</mark>
 
 This typically means that your auth information is not correct, or onlyfans signed you out.
 
-### 404 Issue
+### <mark style="color:blue;">404 Issue</mark>
 
 This could mean that the content you are trying to scrape is no longer present. It can also indicate that model has deleted her account, and it is no longer accesible on the platform
 
-### Request taking a long time
+### <mark style="color:blue;">Request taking a long time</mark>
 
 If a request fails ofscraper will pause and try again a few times. This can lead to certain runs taking longer at points.
 
-### 429 issue
+### <mark style="color:blue;">429 issue</mark>
 
 * This comes from making too many requests
 * 1000 likes is the max per day
 
-## Scrape entire paid page or --scape-paid should I do it
+## <mark style="color:blue;">Scrape entire paid page or --scape-paid should I do it</mark>
 
 It really depends on how much content you've purchased.
 

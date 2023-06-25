@@ -1,15 +1,15 @@
 # Advanced Args
 
+###
 
+### --profile
 
-### au, --auth
+This can be **combined** with --config
 
-This can be combined with --config
-
-This option has preference over the auth path --config would have provided
+This option has preference over the profile  the currently active config would have provided
 
 ```
-Change location of auth file
+Change location of profile 
 ```
 
 ### --users-first

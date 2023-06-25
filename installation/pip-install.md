@@ -49,7 +49,7 @@ or
 **specific version**
 
 ```
-pip install ofscraper==x
+pip3 install ofscraper==x
 ```
 
 where x is the vesion you want to install

@@ -91,7 +91,8 @@ open issue if you need help
 
 {model_username} = The model's username
 {profile} = the current active profile
-{user} = Your username
+{my_username}=the username for the authorized account
+{my_id} = the id for the authorized account
 
 ```
 
@@ -127,7 +128,8 @@ The filename part of saved file
 
 {ext} = The media's file extension
 {profile} = the current active profile
-{user} = Your username
+{my_username}=the username for the authorized account
+{my_id} = the id for the authorized account
 ```
 
 ### date (optional)

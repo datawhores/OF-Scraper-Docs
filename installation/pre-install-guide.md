@@ -94,7 +94,10 @@ pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
 
 ```
 
-&#x20;
+## &#x20;step 5
+
+henceforth everything involving OF-Scraper will happen at the terminal program\
+Any commands that you see should be entered within the terminal program
 
 ## MAC&#x20;
 

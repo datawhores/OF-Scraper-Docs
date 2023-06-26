@@ -20,11 +20,11 @@ First step is to open your terminal program
 
 check if you have python installed
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 You should see something like
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 **Doesn't Work**\
 Move to step 3
@@ -63,7 +63,7 @@ If py -3 doesn't work you will need to install python
 
 **Make sure to add to environmental variables**
 
-### ![](<../.gitbook/assets/image (8).png>)
+### ![](<../.gitbook/assets/image (10).png>)
 
 
 
@@ -109,6 +109,54 @@ First step is to open your terminal program
 
 ![](../.gitbook/assets/image.png)
 
+### Step 2
+
+MAC should come with some python version but it may be too old
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+**Doesn't Work**\
+Move to step 3
+
+**Version Too old**
+
+You should have an output between
+
+3.8-3.11
+
+or
+
+3.11+
+
+Move to step 3 if it is 3.7-
 
 
-###
+
+### Step 3
+
+{% embed url="https://www.lifewire.com/how-to-install-python-on-mac-4781318" %}
+\
+
+{% endembed %}
+
+## step 4
+
+Back at the terminal type
+
+Last step is to confirm that pip is installed
+
+```
+python3 -m pip -V
+```
+
+It should say something like
+
+```
+pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
+
+```
+
+## &#x20;step 5
+
+henceforth everything involving OF-Scraper will happen at the terminal program\
+Any commands that you see should be entered within the terminal program

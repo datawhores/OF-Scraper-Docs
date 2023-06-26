@@ -29,8 +29,6 @@ As it will put OF-scraper into its own virtualenv and ensure that the program do
 
 ## Install
 
-Open Terminal Program
-
 ### Windows:
 
 #### stable

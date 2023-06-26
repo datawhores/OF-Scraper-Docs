@@ -1,17 +1,27 @@
 # Install
 
+### Before Starting
+
+The guide assumes&#x20;
+
+1. You have your terminal program open&#x20;
+2. You have already installed python&#x20;
+
+If your not sure about this follow this guide
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pre-install-guide" %}
+
 ## Intro
 
 You can install with pip but it is recommend to install with pipx
 
 \
 As it will put OF-scraper into its own virtualenv and ensure that the program doesn't get interference from others installed\
-\
-\
-\
-\
-\
-[https://pypa.github.io/pipx/](https://pypa.github.io/pipx/)
+
+
+{% embed url="https://pypa.github.io/pipx/" %}
+
+
 
 ### Still want to install with pip
 

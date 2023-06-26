@@ -11,7 +11,7 @@ pipx is recommended but OF-Scraper can also be installed via pip
 **stable**
 
 ```
-pip install ofscraper
+py -3 -m pip install ofscraper
 ```
 
 or
@@ -19,7 +19,7 @@ or
 **development**
 
 ```
-pip install git+https://github.com/datawhores/OF-Scraper.git 
+py -3 -m pip install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
 or
@@ -27,7 +27,7 @@ or
 **specific version**
 
 ```
-pip install ofscraper==x
+py -3 -m pip install ofscraper==x
 ```
 
 where x is the vesion you want to install
@@ -35,13 +35,13 @@ where x is the vesion you want to install
 #### macOS/Linux
 
 ```
-pip3 install ofscraper
+python3 -m pip install ofscraper
 ```
 
 or
 
 ```
-pip3 install git+https://github.com/datawhores/OF-Scraper.git 
+python3 -m pip install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
 or
@@ -49,7 +49,7 @@ or
 **specific version**
 
 ```
-pip3 install ofscraper==x
+python3 -m pip install ofscraper==x
 ```
 
 where x is the vesion you want to install
@@ -59,17 +59,17 @@ where x is the vesion you want to install
 Not uninstalling has caused user issues in the past
 
 ```
-pip3 uninstall ofscraper
+python3 -m pip uninstall ofscraper
 ```
 
 Then run one of the install commands above
 
 ```
-pip3 install ofscraper --upgrade
+python3 -m pip install ofscraper --upgrade
 ```
 
 or
 
 ```
-pip3 install ofscraper==latest version number
+python3 -m pip install ofscraper==latest version number
 ```

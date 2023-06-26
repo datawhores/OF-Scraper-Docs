@@ -3,6 +3,7 @@
 * [Welcome](README.md)
 * [Install](installation/README.md)
   * [PIP Install](installation/pip-install.md)
+  * [Pre-Install Guide](installation/pre-install-guide.md)
 * [Getting Started](getting-started.md)
 * [FAQ](faq.md)
 * [Config Options](config-options/README.md)

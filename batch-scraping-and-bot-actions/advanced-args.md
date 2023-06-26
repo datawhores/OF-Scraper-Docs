@@ -87,6 +87,8 @@ profile location=/home/test/.config/ofscraper/test_profile
 
 skips cache when retrieving post
 
+Mostly for testing
+
 ```
 ofscraper --no-cache
 ```

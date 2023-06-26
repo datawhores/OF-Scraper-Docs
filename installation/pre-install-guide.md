@@ -31,15 +31,15 @@ Move to step 3
 
 **Version Too old**
 
-**If the output is not**
+You should have an output between
 
-3.8.\*
+3.8-3.11
 
-3.9.\*
+or
 
-3.10.\*
+3.11+
 
-Move to step 3\
+Move to step 3 if it is 3.7-\
 \
 **Every Okay**
 

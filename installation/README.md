@@ -21,7 +21,9 @@ As it will put OF-scraper into its own virtualenv and ensure that the program do
 
 {% embed url="https://pypa.github.io/pipx/" %}
 
+#### CLI
 
+This is a CLI program so commands must be entered from your terminal program
 
 ### Still want to install with pip
 

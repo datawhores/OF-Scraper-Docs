@@ -27,9 +27,9 @@ As it will put OF-scraper into its own virtualenv and ensure that the program do
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pip-install" %}
 
-## First step
+## Install
 
-The first step for any CLI program like OF-Scraper is to always open some terminal program
+Open Terminal Program
 
 ### Windows:
 

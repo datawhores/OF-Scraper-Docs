@@ -11,6 +11,8 @@ If your not sure about this follow this guide
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pre-install-guide" %}
 
+##
+
 ## Intro
 
 You can install with pip but it is recommend to install with pipx
@@ -30,6 +32,10 @@ This is a CLI program so commands must be entered from your terminal program
 {% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pip-install" %}
 
 ## Install
+
+### Video
+
+{% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 
 ### Windows:
 

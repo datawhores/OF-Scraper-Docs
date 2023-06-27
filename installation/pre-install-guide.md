@@ -6,6 +6,10 @@ python should already be installed
 
 ## Windows
 
+### Video
+
+{% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
+
 ### Step 1
 
 First step is to open your terminal program

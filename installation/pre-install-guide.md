@@ -105,6 +105,8 @@ Any commands that you see should be entered within the terminal program
 
 ## MAC&#x20;
 
+###
+
 ### Step 1
 
 First step is to open your terminal program
@@ -139,9 +141,17 @@ Move to step 3 if it is 3.7-\
 
 ### Step 3
 
-{% embed url="https://www.lifewire.com/how-to-install-python-on-mac-4781318" %}
-\
+**Manual**
 
+{% embed url="https://www.lifewire.com/how-to-install-python-on-mac-4781318" %}
+install python the manual way\
+
+{% endembed %}
+
+**Auto**
+
+{% embed url="https://docs.conda.io/en/latest/miniconda.html" %}
+a more automatic installer
 {% endembed %}
 
 ## step 4

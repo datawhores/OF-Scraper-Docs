@@ -150,6 +150,10 @@ install python the manual way\
 
 **Auto**
 
+
+
+{% embed url="https://arpitrana.medium.com/installing-miniconda-on-mac-osx-ac4557a715f7" %}
+
 {% embed url="https://docs.conda.io/en/latest/miniconda.html" %}
 a more automatic installer
 {% endembed %}

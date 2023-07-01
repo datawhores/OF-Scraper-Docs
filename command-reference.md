@@ -173,13 +173,33 @@ skip promotional or temporary post
 #### -ft, --filter
 
 ```
-Filter post by provide regex 
+Filter post by text with inputed regex 
 Note if you include any uppercase characters the search will be case-sensitive
 ```
 
 ```
 Default: “.*”
 ```
+
+#### -dt, --download type
+
+```
+Possible choices: protected,normal
+```
+
+```python
+Filter what type of download you want 
+None==Both,
+protected=Files that need mp4decrpyt
+Normal= Files that don't need mp4decrpyt
+
+```
+
+```
+Default: None
+```
+
+####
 
 #### -sp, --scrape-paid
 
@@ -228,21 +248,22 @@ Filter by whether or not your subscription has expired or not
 
 #### -be, --before
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" %}
-
 ```
 Process post at or before the given date general synax is 
-Month/Day/Year Works for like,unlike, and downloading posts
+Month/Day/Year 
+Works for like,unlike, and downloading posts
 ```
 
 #### -af, --after
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
-
 ```
 Process post at or after the given date 
-Month/Day/Year nWorks for like,unlike, and downloading posts
+Month/Day/Year 
+
+Works for like,unlike, and downloading posts
 ```
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
 
 ### sort
 

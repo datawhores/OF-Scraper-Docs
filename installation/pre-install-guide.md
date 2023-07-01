@@ -24,11 +24,11 @@ First step is to open your terminal program
 
 check if you have python installed
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 You should see something like
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 **Doesn't Work**\
 Move to step 3
@@ -59,15 +59,15 @@ If py -3 doesn't work you will need to install python
 
 **Make sure to install PIP**
 
-![](<../.gitbook/assets/image (10).png>)
+![](../.gitbook/assets/image.png)
 
 **Make sure to install py launcher**
 
-![](<../.gitbook/assets/image (10).png>)
+![](../.gitbook/assets/image.png)
 
 **Make sure to add to environmental variables**
 
-### ![](<../.gitbook/assets/image (2).png>)
+### ![](<../.gitbook/assets/image (7).png>)
 
 
 
@@ -113,7 +113,7 @@ First step is to open your terminal program
 
 #### Terminal Program
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 ### Step 2
 

@@ -10,6 +10,9 @@ description: various options for output
 
 outputs to discord channel
 
+Note discord logs will only contain the log message\
+While other logs will contain information like function call, and line number
+
 #### LEVELS
 
 * OFF

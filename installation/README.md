@@ -1,5 +1,13 @@
 # Install
 
+## No Install Run
+
+We have complete binaries in the OF-Scraper repo
+
+These should allow you to install you to run OF-Scraper without having to install anything additional on your computer.&#x20;
+
+[https://github.com/datawhores/OF-Scraper/releases](https://github.com/datawhores/OF-Scraper/releases)
+
 ### Before Starting
 
 The guide assumes&#x20;

@@ -6,9 +6,15 @@ We have complete binaries in the OF-Scraper repo
 
 These will allow you to run OF-Scraper without having to install anything additional on your computer.&#x20;
 
-[https://github.com/datawhores/OF-Scraper/releases](https://github.com/datawhores/OF-Scraper/releases)
+{% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
 
-### Before Starting
+{% content-ref url="release-info.md" %}
+[release-info.md](release-info.md)
+{% endcontent-ref %}
+
+
+
+### [Release Info](https://app.gitbook.com/o/KULkvbsBAkF5q8PRvd1h/s/OlkVHnCqS3EnmDo4hGKm/\~/changes/112/installation/release-info)Before Starting
 
 The guide assumes&#x20;
 

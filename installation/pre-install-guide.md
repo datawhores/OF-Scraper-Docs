@@ -24,7 +24,7 @@ First step is to open your terminal program
 
 check if you have python installed
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 You should see something like
 
@@ -59,11 +59,11 @@ If py -3 doesn't work you will need to install python
 
 **Make sure to install PIP**
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (4).png>)
 
 **Make sure to install py launcher**
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (4).png>)
 
 **Make sure to add to environmental variables**
 

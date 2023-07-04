@@ -16,13 +16,17 @@ These are meant to be stable releases
 
 ## Files
 
-### Zip
+### .zip
 
 You can unzip these and the resulting folder can be use to run the script by using the ofscraper file in the directory.&#x20;
 
 The only difference between this and other release is that startup can be slightly faster with a zip, and directory because a temp folder doesn't need to be made every time you start the script
 
-You will want to run the file that starts with ofscraper\_
+You will want to run the file that starts with ofscraper\_ in your terminal program
+
+#### Exampe
+
+![](../.gitbook/assets/image.png)
 
 ###
 

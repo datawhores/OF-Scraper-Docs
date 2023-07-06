@@ -102,6 +102,5 @@ Available for all output destinations
 **TRACE**
 
 ```
-Less conservative version of DEBUG
-This mode can print a lot of output to the console
+This is the most verbose mode of all
 ```

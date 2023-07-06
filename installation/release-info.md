@@ -28,6 +28,8 @@ The only difference between this and other release is that startup can be slight
 
 You will want to run the file that starts with ofscraper\_ in your terminal program
 
+![](<../.gitbook/assets/image (12).png>)
+
 #### Example
 
 ![](../.gitbook/assets/image.png)

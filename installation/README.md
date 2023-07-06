@@ -8,13 +8,9 @@ These will allow you to run OF-Scraper without having to install anything additi
 
 {% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
 
-{% content-ref url="release-info.md" %}
-[release-info.md](release-info.md)
-{% endcontent-ref %}
+{% embed url="https://of-scraper.gitbook.io/of-scraper/installation/release-info" %}
 
-
-
-### [Release Info](https://app.gitbook.com/o/KULkvbsBAkF5q8PRvd1h/s/OlkVHnCqS3EnmDo4hGKm/\~/changes/112/installation/release-info)Before Starting
+### Before Starting
 
 The guide assumes&#x20;
 

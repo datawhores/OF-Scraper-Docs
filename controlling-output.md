@@ -20,6 +20,7 @@ While other logs will contain information like function call, and line number
 * LOW
 * NORMAL
 * DEBUG
+* TRACE
 
 ### Output
 
@@ -31,6 +32,7 @@ output to the console
 * LOW
 * NORMAL
 * DEBUG
+* TRACE
 
 ### Log
 
@@ -40,6 +42,7 @@ output to logfile within the config folder
 * LOW
 * NORMAL
 * DEBUG
+* TRACE
 
 ## Output LEVEL
 
@@ -94,4 +97,11 @@ discord and log file will receive all general status messages, but not progress 
 Adds debugger messages and tracebacks to 'Normal'
 Available for all output destinations
 
+```
+
+**TRACE**
+
+```
+Less conservative version of DEBUG
+This mode can print a lot of output to the console
 ```

@@ -113,7 +113,7 @@ First step is to open your terminal program
 
 #### Terminal Program
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ### Step 2
 

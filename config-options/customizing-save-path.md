@@ -93,6 +93,8 @@ open issue if you need help
 {profile} = the current active profile
 {my_username}=the username for the authorized account
 {my_id} = the id for the authorized account
+{label} = label of post if present
+{download_type}= Protected or Normal based on need for decryption
 
 ```
 
@@ -130,6 +132,8 @@ The filename part of saved file
 {profile} = the current active profile
 {my_username}=the username for the authorized account
 {my_id} = the id for the authorized account
+{label} = label of post if present otherwise empty ""
+{download_type}= Protected or Normal based on need for decryption
 ```
 
 ### date (optional)

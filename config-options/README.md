@@ -186,7 +186,7 @@ min=1
 max=10
 ```
 
-##
+## code-execution
 
 code-execution This allows for the execution of code when generating metadata path, file\_format, and dir\_format
 
@@ -199,6 +199,28 @@ eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
 ```
 
 Any python code that returns a string should be acceptable
+
+## custom
+
+Custom dict is value is available during final name creation
+
+So you can use this to remap values for example
+
+#### Example
+
+if the placeholder modelname is "modelname" then the value would be replace with "I want this name"
+
+```
+custom:{"modelname":"I want this name"}
+code-execution:true
+dir_format:{custom.get(model_username,model_username)}
+```
+
+
+
+
+
+##
 
 ## Config settings for save locations
 

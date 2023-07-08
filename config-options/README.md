@@ -204,11 +204,17 @@ Any python code that returns a string should be acceptable
 
 Custom dict is value is available during final name creation
 
-So you can use this to remap values for example
+It a basic key value pair so you can combine this with code-execution
+
+to replace any values you want&#x20;
+
+
 
 #### Example
 
 if the placeholder modelname is "modelname" then the value would be replace with "I want this name"
+
+
 
 ```
 custom:{"modelname":"I want this name"}

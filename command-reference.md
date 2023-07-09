@@ -211,6 +211,16 @@ scrape the entire paid page for content. This can take a very long time
 Default: False
 ```
 
+### -lb,--label
+
+```
+scrape specific labels
+```
+
+```
+Default: None
+```
+
 ### filters
 
 Filters out usernames based on selected parameters

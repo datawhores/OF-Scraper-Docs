@@ -317,6 +317,37 @@ disable cache
 Default: False
 ```
 
+#### -k, --key-mode
+
+```
+key mode override
+```
+
+```
+default: auto
+```
+
+#### -dr, --dynamic-rules&#x20;
+
+```
+Dynamic signing
+```
+
+```
+default: deviint
+```
+
+## --part-cleanup
+
+```
+Cleanup part files
+This will remove the ability to resume
+```
+
+```
+default: false
+```
+
 ## post\_check
 
 Display a generated table of data with information about models post(s)

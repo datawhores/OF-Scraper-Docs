@@ -211,7 +211,7 @@ scrape the entire paid page for content. This can take a very long time
 Default: False
 ```
 
-### -lb,--label
+#### -lb,--label
 
 ```
 scrape specific labels
@@ -347,7 +347,7 @@ Dynamic signing
 default: deviint
 ```
 
-## --part-cleanup
+#### -pc,--part-cleanup
 
 ```
 Cleanup part files

@@ -208,7 +208,7 @@ This value can be anything, but having it as a dictionary is recommended
 
 
 
-It a basic key value pair so you can combine this with code-execution
+It a basic key value pair object so you can combine this with code-execution
 
 to replace any values you want&#x20;
 

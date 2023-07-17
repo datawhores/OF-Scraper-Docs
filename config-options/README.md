@@ -202,7 +202,11 @@ Any python code that returns a string should be acceptable
 
 ## custom
 
-Custom dict is value is available during final name creation
+Custom is a value that is available during final name creation
+
+This value can be anything, but having it as a dictionary is recommended
+
+
 
 It a basic key value pair so you can combine this with code-execution
 
@@ -210,23 +214,21 @@ to replace any values you want&#x20;
 
 
 
-#### Example
-
-if the placeholder modelname is "modelname" then the value would be replace with "I want this name"
-
-
+#### Example&#x20;
 
 ```
-custom:{"modelname":"I want this name"}
 code-execution:true
 dir_format:{custom.get(model_username,model_username)}
+custom={"mymodel","replace"}
 ```
 
+The custom value is used by custom.get() to do a key value substitution on the 'mymodel' name
+
+meaning that every time my model is passed as the model\_username, that value is replaced with
+
+'replaced'
 
 
-
-
-##
 
 ## Config settings for save locations
 

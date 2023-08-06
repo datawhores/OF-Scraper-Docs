@@ -1,6 +1,6 @@
 # FAQ
 
-### <mark style="color:blue;">Lots of tempvideo or tempaudio</mark>
+### <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 
 Make sure your cdm is setup correctly
 

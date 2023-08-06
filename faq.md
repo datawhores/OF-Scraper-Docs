@@ -1,5 +1,11 @@
 # FAQ
 
+### <mark style="color:blue;">Lots of tempvideo or tempaudio</mark>
+
+Make sure your cdm is setup correctly
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/cdm" %}
+
 ### <mark style="color:blue;">Something is not working</mark>
 
 
@@ -13,7 +19,7 @@ ofscraper --output debug
 or to output to your config folder
 
 ```
-ofscraper --llog debug
+ofscraper --log debug
 ```
 
 Send logs on discord channel or make a git issue

@@ -1,14 +1,12 @@
 # FAQ
 
-### <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
+## <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 
 Make sure your cdm is setup correctly
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/cdm" %}
+{% embed url="https://of-scraper.gitbook.io/of-scraper/cdm-options" %}
 
 ### <mark style="color:blue;">Something is not working</mark>
-
-
 
 run to output to console
 

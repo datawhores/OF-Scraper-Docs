@@ -6,7 +6,7 @@
 
 These are releases from commits. Basically they are version that come in between the different numbered releases. They can be more up to date, but also can have issues that haven't been resolved yet
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 ### numbered i.e X.X.X
 
@@ -32,7 +32,7 @@ You will want to run the file that starts with ofscraper\_ in your terminal prog
 
 #### Example
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 ###
 

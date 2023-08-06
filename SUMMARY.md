@@ -27,3 +27,4 @@
 * [Migrating from Digitalcriminal's script](migrating-from-digitalcriminals-script.md)
 * [Testing](testing.md)
 * [Request Change to Doc](request-change-to-doc.md)
+* [CDM options](cdm-options.md)

@@ -4,16 +4,31 @@
 
 Note: Binaries are no longer stored in github you will have use one of these mounts to store the binary files autodownloader puts files in /root/.config/ofscraper/bin
 
-| host    | docker                            | use            | required |
-| ------- | --------------------------------- | -------------- | -------- |
-| anypath | /home/ofscraper/.config/ofscraper | store config   | True     |
-| anypath | anypath                           | binary storage | False    |
+| host    | docker                            | use          | required |
+| ------- | --------------------------------- | ------------ | -------- |
+| anypath | /home/ofscraper/.config/ofscraper | store config | True     |
+| anypath | anypath                           | data storage | False    |
 
-Docker Run
+### Docker Run
+
+```
+docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main ofscraper {args}
+```
+
+#### Older Version
+
+This version and any version older will require a different entry point\
+\
+[#](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)[https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)\
+
 
 ```
 docker run  -it --rm --name=ofscraper -v anypath:/root/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main {args}
 ```
+
+You can also tell if the command already passed ofscraper in the entrypoint if you see this&#x20;
+
+'ofscraper' (choose from 'post\_check', 'msg\_check', 'paid\_check', 'story\_check', 'manual')
 
 ## Images
 

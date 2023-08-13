@@ -202,31 +202,35 @@ Any python code that returns a string should be acceptable
 
 ## custom
 
-Custom is a value that is available during final name creation
+During filename creation
 
-This value can be anything, but having it as a dictionary is recommended
+\
+When running the script custom is provided as a way to generate additional  values.
 
+The only restriction of what can be entered is that the input needs to be valid when passesd into eval\
 
-
-It a basic key value pair object so you can combine this with code-execution
-
-to replace any values you want&#x20;
-
-
-
-#### Example&#x20;
 
 ```
 code-execution:true
 dir_format:{custom.get(model_username,model_username)}
-custom={"mymodel","replace"}
+custom={"mymodel","'replace'"}
 ```
 
-The custom value is used by custom.get() to do a key value substitution on the 'mymodel' name
+Here the we have to quote the quote because&#x20;
 
-meaning that every time my model is passed as the model\_username, that value is replaced with
+eval("replace") would be interpreted as the variable replace, which is not a valid variable within the context of any of the naming functions\
+\
+**Example**&#x20;
 
-'replaced'
+
+
+```
+code-execution:true
+dir_format:{custom.get(model_username,model_username)}
+custom=f"{5}"
+```
+
+A string is the only valid input for eval
 
 
 

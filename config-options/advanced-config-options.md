@@ -22,7 +22,20 @@ If the number of downloads for a model is not high enough, then the main thread 
 
 ## download-sems
 
-If threads is the number of workers for downloading, then download-sems is the number of tasks each worker can process at a time.
+If threads is the number of workers for downloading, then download-sems is the number of tasks each worker can process at a time.\
+\
+
+
+## Maxfile-sem
+
+wraps around download function to control the total number of files be processed at once
+
+Zero means no limit.&#x20;
+
+Changing this setting should only be required in very unique cases\
+
+
+
 
 ## code-execution
 

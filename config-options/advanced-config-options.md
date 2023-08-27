@@ -98,3 +98,31 @@ The inner quotes are important since eval processes&#x20;
 
 what is inside the quotes as code
 
+
+
+## Dynamic Rules
+
+Used for signing request
+
+On rare occasions  changing these may fix issues
+
+Most of the time the rules are the same
+
+\
+
+
+## cache-mode
+
+The script using diskcache -> [https://grantjenks.com/docs/diskcache/tutorial.html#caveats](https://grantjenks.com/docs/diskcache/tutorial.html#caveats)\
+\
+sqlite is fine for most users\
+However certain users may want to look into the json backend\
+\
+For example if on a network drive
+
+
+
+
+
+\
+\

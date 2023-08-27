@@ -26,7 +26,7 @@ If threads is the number of workers for downloading, then download-sems is the n
 \
 
 
-## Maxfile-sem
+## maxfile-sem
 
 wraps around download function to control the total number of files be processed at once
 

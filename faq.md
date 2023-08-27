@@ -1,5 +1,16 @@
 # FAQ
 
+## <mark style="color:blue;">Missing Post</mark>
+
+This typically is because the model has deleted the post.\
+Unfortunately OF-Scraper would not be able to scrape this content
+
+## <mark style="color:blue;">Number of users doesn't match account number</mark>
+
+We have tested this out, and onlyfans seems to be showing the historical number of accounts
+
+Without accounting for accounts that have been deleted.
+
 ## <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 
 Make sure your cdm is setup correctly

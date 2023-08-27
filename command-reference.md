@@ -87,7 +87,7 @@ ofscraper  [global args] [main program args]
 #### u, --username
 
 ```
-select which username to process (name,name2) Set to ALL for all users
+select which username to process (name,name2) Set to ALL (case-sensitive) for all users
 ```
 
 #### -eu, --excluded-username

@@ -4,7 +4,17 @@
 
 We have complete binaries in the OF-Scraper repo
 
-These will allow you to run OF-Scraper without having to install anything additional on your computer.&#x20;
+These will allow you to run OF-Scraper without having to install anything additional on your computer
+
+
+
+The main difference between the zip and the exe, is that the exe has to unpack to a temporary folder. In theory this might slow down the startup time of the script.&#x20;
+
+
+
+**Warning**
+
+The windows binaries especially are prone to unique issues, because of there use of spawn vs forking of processes. If your facing issues with the script, then it may be fixed by investing into a proper install.
 
 {% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
 

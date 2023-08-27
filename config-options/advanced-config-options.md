@@ -1,8 +1,12 @@
 # Advanced config options
 
+##
+
+
+
 ## threads
 
-Number of threads to use for downloading
+Number of threads or workers to use for downloading
 
 ```
 min=0
@@ -13,6 +17,12 @@ max=10
 \
 Another thing to note, is that even with a thread number greater then 0\
 If the number of downloads for a model is not high enough, then the main thread will be used for downloading
+
+
+
+## download-sems
+
+If threads is the number of workers for downloading, then download-sems is the number of tasks each worker can process at a time.
 
 ## code-execution
 

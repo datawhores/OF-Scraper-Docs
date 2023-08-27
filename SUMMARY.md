@@ -10,6 +10,7 @@
 * [Config Options](config-options/README.md)
   * [Setting metadata path](config-options/setting-metadata-path.md)
   * [Customizing save path](config-options/customizing-save-path.md)
+  * [Advanced config options](config-options/advanced-config-options.md)
 * [Using Prompts](using-prompts/README.md)
   * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)

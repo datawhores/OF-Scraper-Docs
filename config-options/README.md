@@ -177,61 +177,6 @@ https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
 You need to add the url, and pass the --discord argument when running the script
 ```
 
-## threads
-
-Number of threads to use for downloading
-
-```
-min=1
-max=10
-```
-
-## code-execution
-
-code-execution This allows for the execution of code when generating metadata path, file\_format, and dir\_format
-
-all placeholders are available as placeholders the input for these options will be converted to an f- string\
-\
-As an example
-
-```
-eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
-```
-
-Any python code that returns a string should be acceptable
-
-## custom
-
-During filename creation
-
-\
-When running the script custom is provided as a way to generate additional  values.
-
-The only restriction of what can be entered is that the input needs to be valid when passesd into eval\
-
-
-```
-code-execution:true
-dir_format:{custom.get(model_username,model_username)}
-custom={"mymodel","'replace'"}
-```
-
-Here the we have to quote the quote because&#x20;
-
-eval("replace") would be interpreted as the variable replace, which is not a valid variable within the context of any of the naming functions\
-\
-**Example**&#x20;
-
-
-
-```
-code-execution:true
-dir_format:{custom.get(model_username,model_username)}
-custom=f"{5}"
-```
-
-A string is the only valid input for eval
-
 
 
 ## Config settings for save locations

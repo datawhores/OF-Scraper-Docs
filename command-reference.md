@@ -24,10 +24,12 @@ Default: “2.4.5+main.8f998cd”
 Change location of config folder/file
 ```
 
-### au, --auth
+### au, --profile
 
 ```
-Change location of auth file
+Change location of profile directory
+
+This is where the auth information is held
 ```
 
 ### Logging

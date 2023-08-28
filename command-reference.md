@@ -307,6 +307,55 @@ Works for like,unlike, and downloading posts
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
 
+### -mt,--mediatype
+
+
+
+```
+Possible choices: Videos,Audio,Images
+```
+
+```
+overwrite the mediatype filter from config
+
+```
+
+```
+Default: None
+```
+
+### -sx,--size-max
+
+
+
+```
+Filter Files larger then the given size
+
+Can accept humanize strings such as 
+"10gb"
+
+```
+
+```
+Default: None
+```
+
+### -sm,--size-min
+
+
+
+```
+Filter Files smaller then the given size
+
+Can accept humanize strings such as 
+"10gb"
+
+```
+
+```
+Default: None
+```
+
 ### sort
 
 Options on how to sort list

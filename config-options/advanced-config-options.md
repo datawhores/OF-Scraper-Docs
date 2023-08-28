@@ -22,15 +22,20 @@ If the number of downloads for a model is not high enough, then the main thread 
 
 ## download-sems
 
+Max concurrent number of downloads per thread
+
 If threads is the number of workers for downloading, then download-sems is the number of tasks each worker can process at a time.\
 \
 
 
 ## maxfile-sem
 
+Max concurrent files per thread
+
 wraps around download function to control the total number of files be processed at once
 
-Zero means no limit.&#x20;
+\
+Zero means no limit
 
 Changing this setting should only be required in very unique cases\
 
@@ -104,9 +109,15 @@ what is inside the quotes as code
 
 Used for signing request
 
+Without this request would fail to authorized
+
+
+
+There is mostly no difference between the options.
+
 On rare occasions  changing these may fix issues
 
-Most of the time the rules are the same
+
 
 \
 
@@ -118,9 +129,9 @@ The script using diskcache -> [https://grantjenks.com/docs/diskcache/tutorial.ht
 sqlite is fine for most users\
 However certain users may want to look into the json backend\
 \
-For example if on a network drive
+For example the author notes that sqlite performance may be limited on network drives.
 
-
+So switching to json is a good option&#x20;
 
 
 

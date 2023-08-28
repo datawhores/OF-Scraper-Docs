@@ -14,9 +14,23 @@ max=10
 ```
 
 0 threads: This is a special setting indicating that you want to use the main program thread for downloading as well\
+
+
+### Caveats
+
 \
-Another thing to note, is that even with a thread number greater then 0\
-If the number of downloads for a model is not high enough, then the main thread will be used for downloading
+One thing to note, is that even with a thread number greater then 0\
+If the number of downloads for a model is not higher then download sems , then only the main thread will be used for downloading
+
+Second the max number of usable threads will be set based on your system regardless of what is in the config file\
+\
+This is tied to the unused threads on windows and linux
+
+On Mac the OS does not provide this as part of the os api, thus the max is set to the total number of threads on the system
+
+
+
+
 
 
 

@@ -135,4 +135,11 @@ So switching to json is a good option&#x20;
 
 
 
-\
+Backend\
+
+
+
+Both aio and httpx are able to process downloads, and requests
+
+Switching is only required if your the small percentage of users who system does not perform well with aio. Historically this has been mac users, and a subset of that
+

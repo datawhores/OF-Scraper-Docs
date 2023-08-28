@@ -105,7 +105,7 @@ what is inside the quotes as code
 
 
 
-## Dynamic Rules
+## dynamic Rules
 
 Used for signing request
 
@@ -135,11 +135,25 @@ So switching to json is a good option&#x20;
 
 
 
-Backend\
+backend\
 
 
 
 Both aio and httpx are able to process downloads, and requests
 
 Switching is only required if your the small percentage of users who system does not perform well with aio. Historically this has been mac users, and a subset of that
+
+
+
+## partfileclean
+
+WIthout this the script will try to auto resume .part files
+
+Consequently  if left off, then you may see your folder filled with .part files if many downloads fail.
+
+## downloadbars
+
+Whether or not to display download bars
+
+Turning these off can have a postive effect on performance
 

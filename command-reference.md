@@ -253,41 +253,6 @@ scrape specific labels
 Default: None
 ```
 
-### filters
-
-Filters out usernames based on selected parameters
-
-#### -at, --account-type
-
-```
-Possible choices: paid, free
-```
-
-```
-Filter Free or paid accounts paid and free correspond to your original price 
-and not the renewal price
-```
-
-#### -rw, --renewal
-
-```
-Possible choices: active, disabled
-```
-
-```
-Filter by whether renewal is on or off for account
-```
-
-#### -ss, --sub-status
-
-```
-Possible choices: active, expired
-```
-
-```
-Filter by whether or not your subscription has expired or not
-```
-
 #### -be, --before
 
 ```
@@ -354,6 +319,60 @@ Can accept humanize strings such as
 
 ```
 Default: None
+```
+
+###
+
+### filters
+
+Filters out usernames based on selected parameters
+
+#### -at, --account-type
+
+```
+Possible choices: paid, free
+```
+
+```
+Filter Free or paid accounts paid and free correspond to your original price 
+and not the renewal price
+```
+
+#### -rw, --renewal
+
+```
+Possible choices: active, disabled
+```
+
+```
+Filter by whether renewal is on or off for account
+```
+
+#### -ss, --sub-status
+
+```
+Possible choices: active, expired
+```
+
+```
+Filter by whether or not your subscription has expired or not
+```
+
+#### -ul, --user-list
+
+```
+Filter by userlist
+
+Default List is given the name
+"ofscraper.main"
+
+Default List is scrape if no argment is passed
+Default List will not be automatically scraped if argment is passed
+
+```
+
+```
+Default: []
 ```
 
 ### sort

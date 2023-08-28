@@ -9,7 +9,10 @@ Unfortunately OF-Scraper would not be able to scrape this content
 
 We have tested this out, and onlyfans seems to be showing the historical number of accounts
 
-Without accounting for accounts that have been deleted.
+Without accounting for accounts that have been deleted
+
+Note: Version <3.1 Had error with caused by the API not always returning the desired number of users\
+
 
 ## <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 

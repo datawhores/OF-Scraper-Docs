@@ -24,7 +24,7 @@ Default: “2.4.5+main.8f998cd”
 Change location of config folder/file
 ```
 
-### au, --profile
+### r, --profile
 
 ```
 Change location of profile directory
@@ -153,7 +153,7 @@ Default: False
 
 ```
 Possible choices: highlights,all,archived,messages,
-timeline,pinned,stories,purchased,profile,skip
+timeline,pinned,stories,purchased,profile,skip,labels
 ```
 
 ```

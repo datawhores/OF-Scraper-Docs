@@ -437,17 +437,57 @@ key mode override
 default: auto
 ```
 
-#### -dr, --dynamic-rules&#x20;
+#### -dr, --download-bars&#x20;
 
 ```
-Dynamic signing
+Toggle download bars
+
+Default is to use what is in the config
 ```
 
 ```
-default: deviint
+default: None
+```
+
+#### -sd, --download-sems
+
+```
+Set number of concurent downloads per thread
+
+Default is to use what is in the config
+```
+
+```
+default: None
+```
+
+#### -sd, --download-threads
+
+```
+Set number of parallell threads
+
+Default is to use what is in the config
+
+Setting to zero will force use of main thread for downloading
+Main Thread is also used if downloads can not fill download-sems
+```
+
+```
+default: None
 ```
 
 #### -pc,--part-cleanup
+
+```
+Cleanup part files
+This will remove the ability to resume
+```
+
+```
+default: false
+```
+
+#### -db,--part-cleanup
 
 ```
 Cleanup part files

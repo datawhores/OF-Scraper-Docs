@@ -8,7 +8,7 @@ Overview
 
 ## Global Args
 
-### v, --version
+### -v, --version
 
 ```
 show program’s version number and exit
@@ -18,13 +18,13 @@ show program’s version number and exit
 Default: “2.4.5+main.8f998cd”
 ```
 
-### cg, --config
+### -cg, --config
 
 ```
 Change location of config folder/file
 ```
 
-### r, --profile
+### -r, --profile
 
 ```
 Change location of profile directory
@@ -36,7 +36,7 @@ This is where the auth information is held
 
 Arguments for output controls
 
-#### l, --log
+#### -l, --log
 
 ```
 Possible choices: OFF, STATS, LOW, NORMAL, DEBUG
@@ -50,7 +50,7 @@ set log file level
 Default: OFF
 ```
 
-#### dc, --discord
+### -dc, --discord
 
 ```
 Possible choices: OFF, STATS, LOW, NORMAL, DEBUG
@@ -64,7 +64,7 @@ set discord log level
 Default: OFF
 ```
 
-#### p, --output
+### -p, --output
 
 ```
 Possible choices: PROMPT, STATS, LOW, NORMAL, DEBUG
@@ -86,7 +86,7 @@ ofscraper  [global args] [main program args]
 
 ### General Arguments for scraper
 
-#### u, --username
+#### -u, --username
 
 ```
 select which username to process (name,name2) Set to ALL (case-sensitive) for all users
@@ -156,9 +156,8 @@ Possible choices: highlights,all,archived,messages,
 timeline,pinned,stories,purchased,profile,skip,labels
 ```
 
-```
-Download content from a model
-```
+<pre><code><strong>Download content from a model
+</strong></code></pre>
 
 ```
 Default:None
@@ -166,10 +165,24 @@ Default:None
 
 
 
+#### -eo, --excluded-posts
+
+```
+Possible choices: highlights,all,archived,messages,timeline,pinned,stories,purchased,profile,skip,labels
+```
+
+```
+Exclude certain posts from download
+has preference over --post
+```
+
+<pre><code><strong>Default: None
+</strong></code></pre>
+
 #### -sk, --skip-timed
 
 ```
-skip promotional or temporary post
+Skipped temporary post, mostly used for promo
 ```
 
 #### -ft, --filter
@@ -177,11 +190,28 @@ skip promotional or temporary post
 ```
 Filter post by text with inputed regex 
 Note if you include any uppercase characters the search will be case-sensitive
+
+Post will be included if it passes filter test
 ```
 
 ```
 Default: “.*”
 ```
+
+#### -nf, --neg-filter
+
+```
+Filter post by text with inputed regex 
+Note if you include any uppercase characters the search will be case-sensitive
+
+Post will be excluded if it passes filter test
+```
+
+```
+Default: None
+```
+
+####
 
 #### -dt, --download type
 

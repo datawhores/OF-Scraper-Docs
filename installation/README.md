@@ -57,7 +57,25 @@ This is a CLI program so commands must be entered from your terminal program
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 
+### Setting Python Version
+
+pipx will use your default python version \
+\
+To ensure a specific version of python use pyenv
+
+[https://github.com/pyenv/pyen](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv)v\
+\
+
+
+### Install python with pyenv
+
+pyenv install {python version}
+
+
+
 ### Windows:
+
+####
 
 #### stable
 
@@ -78,6 +96,16 @@ pipx install ofscraper==version
 ```
 
 where x is the version you want to install
+
+#### Specific version of python
+
+```
+Append --python $(where {python version})
+```
+
+```
+Example: pipx install ofscraper --python $(where python3.11)
+```
 
 ### macOS/Linux
 
@@ -100,6 +128,18 @@ pipx install ofscraper==x --force
 ```
 
 where x is the version you want to install
+
+#### Specific version of python
+
+
+
+```
+Append --python $(which {python version})
+```
+
+```
+Example: pipx install ofscraper --python $(which python3.11)
+```
 
 ### Upgrade
 

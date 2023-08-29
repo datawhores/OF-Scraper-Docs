@@ -381,13 +381,27 @@ Filter by whether or not your subscription has expired or not
 #### -ul, --user-list
 
 ```
-Filter by userlist
+Filter by userlist(s)
 
 Default List is given the name
 "ofscraper.main"
 
 Default List is scrape if no argment is passed
 Default List will not be automatically scraped if argment is passed
+
+```
+
+```
+Default: []
+```
+
+#### -bl, --black-list
+
+```
+exclude all models in given userlist(s)
+
+Default List is given the name
+"ofscraper.main"
 
 ```
 

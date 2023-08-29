@@ -182,7 +182,27 @@ has preference over --post
 #### -sk, --skip-timed
 
 ```
-Skipped temporary post, mostly used for promo
+Skipped temporary post
+
+mostly used for promo
+```
+
+#### -mo, --mass-only
+
+```
+Filter downloads to only downloads marked as a mass message
+```
+
+#### -mm, --mass-msg
+
+```
+Skip any downloads mark as mass messages
+```
+
+#### -ok, --only-timed
+
+```
+Only download temporary post, mostly used for promo
 ```
 
 #### -ft, --filter

@@ -187,7 +187,7 @@ Skipped temporary post
 mostly used for promo
 ```
 
-#### -mo, --mass-only
+#### -ms, --mass-skip
 
 ```
 Filter downloads to only downloads marked as a mass message

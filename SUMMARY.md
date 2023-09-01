@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Requirements](requirements.md)
 * [Install](installation/README.md)
   * [PIP Install](installation/pip-install.md)
   * [Pre-Install Guide](installation/pre-install-guide.md)

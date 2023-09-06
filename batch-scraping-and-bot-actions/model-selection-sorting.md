@@ -1,7 +1,5 @@
 # Model Selection/Sorting
 
-
-
 ### Selecting from Commandline
 
 comma separate list of which model you want to scrape
@@ -19,6 +17,24 @@ comma separate list of which model you want to scrape
 'ALL' is effected by filters it is also case sensitive
 
 ### Filtering username list
+
+\
+
+
+The following are can be change dynamically if using prompts
+
+```
+---account-type,--sub-status and renewal
+```
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/using-prompts" %}
+
+Additionally this does not change the retrieval of usernames \
+only the subset of returned usernames that are return\
+\
+To retrieve only specific usernames setup a collection on onlyfans, and use the --userlist or --blacklist args
+
+
 
 #### Version >2.1
 
@@ -117,3 +133,5 @@ This changes the sort to be desc
 ofscraper --sort price --desc
 
 ```
+
+Retriving specific list

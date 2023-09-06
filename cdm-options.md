@@ -106,7 +106,7 @@ you could also pass the keymode arg
 
 
 
-### Keydb
+### KEYDB
 
 This is the third automatic option
 
@@ -118,6 +118,7 @@ If you can not access the site most likely the site is down, and you must select
 * You must retrieve an api key from the website
 * Authenticate with a discord account
 * copy api key from [https://keysdb.net/me](https://keysdb.net/me)
+* api key is alpha-numeric around 64 characters
 
 
 

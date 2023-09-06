@@ -345,9 +345,10 @@ Default: None
 
 ### filters
 
-Filters out usernames based on selected parameters
+Filters out usernames based on selected parameters\
 
-#### -at, --account-type
+
+\-at, --account-type
 
 ```
 Possible choices: paid, free
@@ -386,6 +387,10 @@ Filter by userlist(s)
 Default List is given the name
 "ofscraper.main"
 
+Other built-ins
+"ofscraper.active"
+"ofscraper.disabled"
+
 Default List is scrape if no argment is passed
 Default List will not be automatically scraped if argment is passed
 
@@ -403,6 +408,9 @@ exclude all models in given userlist(s)
 Default List is given the name
 "ofscraper.main"
 
+Other built-ins
+"ofscraper.active"
+"ofscraper.disabled"
 ```
 
 ```

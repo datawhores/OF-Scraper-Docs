@@ -100,7 +100,10 @@ open issue if you need help
 
 ### Filename
 
-The filename part of saved file
+The filename part of saved file\
+
+
+
 
 ```
 {sitename} = Onlyfans
@@ -134,6 +137,15 @@ The filename part of saved file
 {my_id} = the id for the authorized account
 {label} = label of post if present otherwise empty ""
 {download_type}= Protected or Normal based on need for decryption
+```
+
+#### <mark style="color:red;">**Warning**</mark>
+
+```
+When setting up filename make sure you have a unique element 
+text,media_id,post_id,filename  are all unique elemement
+
+Without this filenames will conflict
 ```
 
 ### date (optional)

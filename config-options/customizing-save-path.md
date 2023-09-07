@@ -143,7 +143,7 @@ The filename part of saved file\
 
 ```
 When setting up filename make sure you have a unique element 
-text,media_id,post_id,filename  are all unique elemement
+text,media_id,post_id,filename  are all unique element
 
 Without this filenames will conflict
 ```

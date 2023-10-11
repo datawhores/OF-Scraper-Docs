@@ -7,12 +7,11 @@ Unfortunately OF-Scraper would not be able to scrape this content
 
 ## <mark style="color:blue;">Number of users doesn't match account number</mark>
 
-We have tested this out, and onlyfans seems to be showing the historical number of accounts
+See
 
-Without accounting for accounts that have been deleted
-
-Note: Version <3.1 Had error with caused by the API not always returning the desired number of users\
-
+[https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312](https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312)\
+\
+Each time you scroll down the api will request 10 names, but it is often that 10 names will not be returned
 
 ## <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 

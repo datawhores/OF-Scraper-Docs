@@ -7,11 +7,27 @@ Unfortunately OF-Scraper would not be able to scrape this content
 
 ## <mark style="color:blue;">Number of users doesn't match account number</mark>
 
-See
-
 [https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312](https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312)\
 \
 Each time you scroll down the api will request 10 names, but it is often that 10 names will not be returned
+
+
+
+### Example
+
+Account: 400 total subs
+
+Onlyfans will do offsets of \[0,10,20,30,40,....390]
+
+Max Number of Subscriptions:400
+
+However offset 10 may only return 5 names&#x20;
+
+This will happen many times, so the actual number will be less then 400
+
+###
+
+
 
 ## <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 

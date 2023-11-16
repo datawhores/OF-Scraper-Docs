@@ -1,6 +1,6 @@
 # Request Change to Doc
 
-Documents are sync with GitHub to requests&#x20;
+Documents are synced with GitHub
 
 You can make a pull request for a change at
 

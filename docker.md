@@ -2,7 +2,9 @@
 
 ## Volumes
 
-Note: Binaries are no longer stored in github you will have use one of these mounts to store the binary files autodownloader puts files in /root/.config/ofscraper/bin
+Note: Binaries are no longer stored in github you will have to use one of the mounts to store the binaries.
+
+If you select the autodownload option, the binaries will be stored in /root/.config/ofscraper/bin within the docker image
 
 | host    | docker                            | use          | required |
 | ------- | --------------------------------- | ------------ | -------- |

@@ -22,6 +22,7 @@
   * [Advanced Args](batch-scraping-and-bot-actions/advanced-args.md)
   * [Liking/Unliking Post](batch-scraping-and-bot-actions/liking-unliking-post.md)
   * [Deleted Models](batch-scraping-and-bot-actions/deleted-models.md)
+  * [Scripting tips](batch-scraping-and-bot-actions/scripting-tips.md)
 * [Command Reference](command-reference.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Content Check Modes](content-check-modes.md)

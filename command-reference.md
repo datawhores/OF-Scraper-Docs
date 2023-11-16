@@ -295,9 +295,7 @@ Works for like,unlike, and downloading posts
 ### -md, --metadata
 
 ```
-Processes metadata for post only
-
-This will have preference over any other mediafilter
+skips downloading files to system
 ```
 
 ### -mt,--mediatype

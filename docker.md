@@ -15,7 +15,7 @@ Note: Binaries are no longer stored in github you will have use one of these mou
 docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main ofscraper {args}
 ```
 
-#### Older Version
+#### Older Versions
 
 The docker file was changed to  better support permissions on the host, if you using one of the older version you will need to modify your docker run or compose file
 

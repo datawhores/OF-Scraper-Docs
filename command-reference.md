@@ -292,6 +292,14 @@ Works for like,unlike, and downloading posts
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
 
+### -md, --metadata
+
+```
+Processes metadata for post only
+
+This will have preference over any other mediafilter
+```
+
 ### -mt,--mediatype
 
 

@@ -17,8 +17,9 @@ docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.i
 
 #### Older Version
 
-This version and any version older will require a different entry point\
-\
+The docker file was changed to  better support permissions on the host, if you using one of the older version you will need to modify your docker run or compose file
+
+**This verison and older will require the modificaiton**\
 [#](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)[https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)\
 
 

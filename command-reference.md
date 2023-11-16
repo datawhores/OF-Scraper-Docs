@@ -295,7 +295,7 @@ Works for like,unlike, and downloading posts
 ### -md, --metadata
 
 ```
-skips downloading files to system
+skips downloading files to disk
 ```
 
 ### -mt,--mediatype

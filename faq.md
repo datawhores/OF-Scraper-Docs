@@ -69,13 +69,31 @@ Both programs are cross-platform
 
 #### Binaries
 
-These are the binaries used during auto download
+_These are the binaries used during auto download_
+
+**FFmpeg**
+
+***
 
 **Windows:** https://github.com/BtbN/FFmpeg-Builds/releases -> ffmpeg-master-latest-win64-gpl.zip
 
 **Linux:** [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases) -> shared version
 
 **Mac:**  https://www.bok.net/Bento4/binaries/ -> Bento4-SDK-1-6-0-640.universal-apple-macosx.zip
+
+***
+
+**Mp4decrypt**
+
+***
+
+**Window:** https://www.bok.net/Bento4/binaries -> Bento4-SDK-1-6-0-640.x86\_64-microsoft-win32.zip
+
+**Linux:**  https://www.bok.net/Bento4/binaries -> Bento4-SDK-1-6-0-640.x86\_64-unknown-linux.zip
+
+**Mac :** https://www.bok.net/Bento4/binaries -> Bento4-SDK-1-6-0-640.universal-apple-macosx.zip
+
+***
 
 #### More info
 

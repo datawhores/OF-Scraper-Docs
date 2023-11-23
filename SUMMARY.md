@@ -7,7 +7,7 @@
   * [Pre-Install Guide](installation/pre-install-guide.md)
   * [Release Info](installation/release-info.md)
 * [Getting Started](getting-started.md)
-* [FAQ](faq.md)
+* [FAQ/Common Issues](faq.md)
 * [Config Options](config-options/README.md)
   * [Setting metadata path](config-options/setting-metadata-path.md)
   * [Customizing save path](config-options/customizing-save-path.md)

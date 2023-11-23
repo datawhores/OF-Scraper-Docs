@@ -156,15 +156,15 @@ I would use it once on the first run just to get what is in your library Then I 
 
 
 
-## 13. <mark style="color:blue;">FFmpeg  shared libary not found Error</mark>
+## 13. <mark style="color:blue;">FFmpeg  shared library not found Error</mark>
 
 Example: : version \`GLIBCXX\_3.4.29' not found
 
 ### Cause
 
-Missing shared libaries
+Missing shared libraries
 
-Seems to only effect linux&#x20;
+Seems to only effect Linux&#x20;
 
 ### Fix
 

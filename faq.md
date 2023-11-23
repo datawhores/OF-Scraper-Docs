@@ -17,13 +17,19 @@ Each time you scroll down the api will request 10 names, but it is often that 10
 
 Account: 400 total subs
 
-Onlyfans will do offsets of \[0,10,20,30,40,....390]
+**Active Accounts**
 
-Max Number of Subscriptions:400
+This number should be more accurate, but seems to update based on a schedule so it may be a few off until things sync up
 
-However offset 10 may only return 5 names&#x20;
+**Expired and ALL**
 
-This will happen many times, so the actual number will be less then 400
+The number here can be greatly effected by expired subscriptions
+
+For example a account may state it has 400 subs
+
+However as onlyfans iterate through each offset \[0,10,20,30,40,....390]
+
+Some offsets will not return 10 numbers, reducing the number at the end
 
 ###
 

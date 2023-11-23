@@ -168,9 +168,7 @@ Seems to only effect Linux&#x20;
 
 ### Fix
 
-Get the non-shared version
-
-gpl or lgpl
+Get the gpl non-shared version
 
 [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases)
 

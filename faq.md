@@ -67,9 +67,21 @@ Both programs are cross-platform
 
 {% embed url="https://www.bento4.com/documentation/mp4decrypt/" %}
 
+#### Binaries
+
+These are the binaries used during auto download
+
+**Windows:** https://github.com/BtbN/FFmpeg-Builds/releases -> ffmpeg-master-latest-win64-gpl.zip
+
+**Linux:** [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases) -> shared version
+
+**Mac:**  https://www.bok.net/Bento4/binaries/ -> Bento4-SDK-1-6-0-640.universal-apple-macosx.zip
+
+#### More info
+
 #### what to do after downloading
 
-Just provide OF-Scraper the path to the program
+Just provide OF-Scraper the path to the program in the config file
 
 **Note:** This needs to be the full path
 

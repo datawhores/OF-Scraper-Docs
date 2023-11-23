@@ -174,7 +174,8 @@ gpl or lgpl
 
 [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases)
 
-### Some Info 
+### Some Info
 
-[https://superuser.com/questions/1712179/which-version-of-ffmpeg-is-the-latest](https://superuser.com/questions/1712179/which-version-of-ffmpeg-is-the-latest)
+* [https://superuser.com/questions/1712179/which-version-of-ffmpeg-is-the-latest](https://superuser.com/questions/1712179/which-version-of-ffmpeg-is-the-latest)
+* using the version in your Linux Repo may not work
 

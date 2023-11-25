@@ -130,6 +130,12 @@ All spaces within the filename will be replaced with this character Note: This o
 
 This can be used with the text placeholder
 
+## appendlog
+
+Create a new log&#x20;
+
+##
+
 ## Responsetype
 
 This is only used for remapping values for the {responsetype} placeholder
@@ -184,3 +190,5 @@ You need to add the url, and pass the --discord argument when running the script
 More details about these settings can be seen here
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path" %}
+
+Key Options

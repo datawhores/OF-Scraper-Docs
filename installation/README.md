@@ -2,19 +2,15 @@
 
 ## No Install Run
 
-We have complete binaries in the OF-Scraper repo
+The OF-Scraper repository contains comprehensive binaries enabling you to run OF-Scraper without requiring additional installations on your computer.
 
-These will allow you to run OF-Scraper without having to install anything additional on your computer
-
-
-
-The main difference between the zip and the exe, is that the exe has to unpack to a temporary folder. In theory this might slow down the startup time of the script.&#x20;
+The zip file operates straight away, but with the exe, it needs to unpack into a temporary folder, which might cause the script to start a bit slower.
 
 
 
 **Warning**
 
-The windows binaries especially are prone to unique issues, because of there use of spawn vs forking of processes. If your facing issues with the script, then it may be fixed by investing into a proper install.
+Windows binaries, in particular, can have distinct issues due to their use of spawning versus forking processes. If you encounter problems with the script, they might be resolved by opting for a proper installation.
 
 {% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
 
@@ -22,12 +18,7 @@ The windows binaries especially are prone to unique issues, because of there use
 
 ### Before Starting
 
-The guide assumes&#x20;
-
-1. You have your terminal program open&#x20;
-2. You have already installed python&#x20;
-
-If your not sure about this follow this guide
+The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pre-install-guide" %}
 
@@ -35,23 +26,29 @@ If your not sure about this follow this guide
 
 ## Intro
 
-You can install with pip but it is recommend to install with pipx
+While you can install it using pip, it's recommended to use pipx. This method places OF-scraper&#x20;
 
-\
-As it will put OF-scraper into its own virtualenv and ensure that the program doesn't get interference from others installed\
-
+into its own virtual environment, ensuring the program operates without interference from other installations.
 
 {% embed url="https://pypa.github.io/pipx/" %}
 
-#### CLI
 
-This is a CLI program so commands must be entered from your terminal program
 
-### Still want to install with pip
+###
+
+<details>
+
+<summary>Still want to install with pip</summary>
+
+[https://of-scraper.gitbook.io/of-scraper/installation/pip-install](https://of-scraper.gitbook.io/of-scraper/installation/pip-install)
+
+</details>
+
+###
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pip-install" %}
 
-## Install
+## Install&#x20;
 
 ### Video
 
@@ -59,11 +56,8 @@ This is a CLI program so commands must be entered from your terminal program
 
 ### Setting Python Version
 
-pipx will use your default python version \
 \
-To ensure a specific version of python use pyenv
-
-[https://github.com/pyenv/pyen](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv)v\
+pipx utilizes your default Python version. If you need to ensure a specific Python version, consider using pyenv: [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv).\
 \
 
 

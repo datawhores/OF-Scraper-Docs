@@ -1,6 +1,6 @@
 # PIP Install
 
-pipx is recommended but OF-Scraper can also be installed via pip
+pipx is the preferred method, although you can also install OF-Scraper using pip.
 
 ## Installation
 
@@ -30,7 +30,7 @@ or
 py -3 -m pip install ofscraper==x
 ```
 
-where x is the vesion you want to install
+where 'x' represents the version you intend to install
 
 #### macOS/Linux
 
@@ -52,17 +52,17 @@ or
 python3 -m pip install ofscraper==x
 ```
 
-where x is the vesion you want to install
+where 'x' represents the version you intend to install
 
 #### Upgrade
 
-Not uninstalling has caused user issues in the past
+Not uninstalling has caused problems for users before
 
 ```
 python3 -m pip uninstall ofscraper
 ```
 
-Then run one of the install commands above
+Next, run one of the installation commands listed below
 
 ```
 python3 -m pip install ofscraper --upgrade

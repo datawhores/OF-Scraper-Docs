@@ -41,13 +41,9 @@
 
 ### main\_profile
 
-In most cases their is no need to changes this
+In most cases, there's no need to modify this setup. Profiles are organized into directories within the config location, with the value being derived from the directory name. Each directory can correspond to a distinct authentication file.&#x20;
 
-Profiles are separated by directories in the config location. The value here is based on the name of the directory.
-
-Each directory can correspond to a different auth file.
-
-Note: each profile will share the same config
+Note: all profiles will share the same configuration.
 
 ## save\_location
 

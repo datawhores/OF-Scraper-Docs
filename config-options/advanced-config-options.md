@@ -6,7 +6,7 @@
 
 ## threads
 
-Number of threads or workers to use for downloading
+The count of threads or workers designated for downloading
 
 ```
 min=0
@@ -19,14 +19,9 @@ max=10
 ### Caveats
 
 \
-One thing to note, is that even with a thread number greater then 0\
-If the number of downloads for a model is not higher then download sems , then only the main thread will be used for downloading
+It's important to note that if the thread count exceeds 0 but the number of downloads for a model doesn't surpass the download semaphore, only the main thread will handle the downloading process. Additionally, the maximum number of usable threads is determined by your system, irrespective of the configuration file settings.
 
-Second the max number of usable threads will be set based on your system regardless of what is in the config file\
-\
-This is tied to the unused threads on windows and linux
-
-On Mac the OS does not provide this as part of the os api, thus the max is set to the total number of threads on the system
+This is linked to the handling of unused threads on Windows and Linux. However, on Mac, the operating system lacks this specific OS API, so the maximum is established as the total number of threads on the system
 
 
 
@@ -44,23 +39,14 @@ If threads is the number of workers for downloading, then download-sems is the n
 
 ## maxfile-sem
 
-Max concurrent files per thread
-
-wraps around download function to control the total number of files be processed at once
-
-\
-Zero means no limit
-
-Changing this setting should only be required in very unique cases\
-
-
+The maximum concurrent number of downloads per thread is defined by 'download-sems.' So, if 'threads' represents the count of workers for downloading, 'download-sems' specifies the number of tasks each worker can handle simultaneously.\
 
 
 ## code-execution
 
-code-execution This allows for the execution of code when generating metadata path, file\_format, and dir\_format
+The 'code-execution' feature enables code execution during the generation of metadata, path, file\_format, and dir\_format.&#x20;
 
-all placeholders are available as placeholders the input for these options will be converted to an f- string\
+All available placeholders can be used within these options, and the input for these choices will be transformed into an f-string for processing.\
 \
 As an example
 
@@ -68,15 +54,13 @@ As an example
 eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
 ```
 
-Any python code that returns a string should be acceptable
+Any Python code that produces a string as its output should work just fine in this context.
 
 ## custom
 
-Previously custom was converted into a dictionary with the built in json libary in python
+Before, 'custom' was transformed into a dictionary using Python's built-in JSON library.&#x20;
 
-While  this is still possible
-
-OF-Scraper now offers the ability to write small scripts within the custom block
+While this approach remains an option, OF-Scraper now supports scripting within the 'custom' block, allowing for the inclusion of small scripts directly.
 
 
 
@@ -112,40 +96,26 @@ dir_format:{custom.get(model_username,model_username)}
 custom={"mymodel","'replace'.lower()"}
 ```
 
-Something importnat to see is that when dealing with strings\
-The inner quotes are important since eval processes&#x20;
+It's crucial to note that when working with strings, the inner quotes hold significance because 'eval' interprets what's inside the quotes as code.&#x20;
 
-what is inside the quotes as code
+Therefore, maintaining the inner quotes is vital for accurate interpretation by 'eval'.
 
 
 
 ## dynamic Rules
 
-Used for signing request
-
-Without this request would fail to authorized
-
-
-
-There is mostly no difference between the options.
-
-On rare occasions  changing these may fix issues
-
-
-
 \
+This is utilized to sign a request, essential for its authorization. Without this, the request would lack proper authorization and fail.
+
+Generally, the options remain mostly identical. However, in rare instances, modifying these options might resolve certain issues.
+
 
 
 ## cache-mode
 
-The script using diskcache -> [https://grantjenks.com/docs/diskcache/tutorial.html#caveats](https://grantjenks.com/docs/diskcache/tutorial.html#caveats)\
-\
-sqlite is fine for most users\
-However certain users may want to look into the json backend\
-\
-For example the author notes that sqlite performance may be limited on network drives.
+The script uses DiskCache, which has different options like SQLite and JSON.&#x20;
 
-So switching to json is a good option&#x20;
+For most folks, SQLite works fine, but if you're on a network drive, its performance might not be great. That's when switching to JSON could be a smart move, according to the author.
 
 
 
@@ -153,21 +123,26 @@ backend\
 
 
 
-Both aio and httpx are able to process downloads, and requests
+\
+Both aio and httpx can handle downloads and requests. You'd only need to switch if your system doesn't work smoothly with aio.&#x20;
 
-Switching is only required if your the small percentage of users who system does not perform well with aio. Historically this has been mac users, and a subset of that
+Historically, this has mostly been an issue for Mac users, and even then, only a small group among them.
 
 
 
 ## partfileclean
 
-WIthout this the script will try to auto resume .part files
+If you set this to false, the script will attempt to automatically resume .part files.&#x20;
 
-Consequently  if left off, then you may see your folder filled with .part files if many downloads fail.
+You might find your folder filled with .part files in case numerous downloads fail.
 
 ## downloadbars
 
-Whether or not to display download bars
+whether to show download progress bars or not
 
-Turning these off can have a postive effect on performance
+Disabling these can improve performance
+
+## appendlog
+
+If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
 

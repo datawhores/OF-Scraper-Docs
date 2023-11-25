@@ -1,14 +1,14 @@
 # Setting metadata path
 
-You can change the default metadata or where the script looks for database files in config.json
+In the config.json file, you can modify the default metadata location or adjust where the script searches for database files
 
-Using your old metadata files from DIGITALCRIMINALS' script allows for them to be used for dupe check right away additional new files will be appended to the files
+Using your existing metadata files from DIGITALCRIMINALS' script enables immediate utilization for dupe checks, with any new files added subsequently being appended to the existing ones
 
 ## Config File Location
 
 ### Windows
 
-Not a daily windows user, but it should be
+I'm not someone who uses Windows on a daily basis, but it should be&#x20;
 
 ```
 C:/Users/username/.config/ofscraper/config.json
@@ -26,13 +26,11 @@ or
 /root/.config/ofscaper/config.json
 ```
 
-where username is your login name
+Replace "username" with your login name
 
 ## Changing metadata location
 
-Edit the metadata section in the config.json
-
-You can use these placeholders
+Modify the metadata section in the config.json file using these placeholders
 
 ```
 {sitename} = Onlyfans

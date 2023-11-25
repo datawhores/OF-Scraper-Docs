@@ -1,10 +1,12 @@
 # Customizing save path
 
-You can edit the save path of files by editing the config file
+You can adjust the file save path by editing the configuration file.
+
+## Config Path
 
 ### Windows
 
-Not a daily windows user, but it should be
+I'm not someone who uses Windows on a daily basis, but it should be
 
 ```
 C:/Users/username/.config/ofscraper/config.json
@@ -63,7 +65,7 @@ This can also be changed with the --config option
 
 Each file will be saved to `/root/Data/ofscraper/{model_username}/{responsetype}/{mediatype}/{filename}.{ext}`
 
-where the {} values will be replaced with the placeholders described below
+The placeholders described below will substitute the {} values
 
 ### save\_location
 
@@ -71,7 +73,7 @@ This is the root of all saved files
 
 ### dir\_path
 
-relative path within save\_location to save files
+The  relative directory path within the save location where files are stored
 
 ```
 {date}=The post's creation date, see date section for formatting
@@ -100,7 +102,7 @@ open issue if you need help
 
 ### Filename
 
-The filename part of saved file\
+The file's name segment in the saved file\
 
 
 
@@ -150,27 +152,28 @@ Without this filenames will conflict
 
 ### date (optional)
 
-The synax for date is different, and does not use bracket syntax is based on arrow implementation
+\
+The date syntax varies and doesn't utilize bracket notation; instead, it follows the Arrow implementation.
 
-see https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens
+For more details, refer to the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens).&#x20;
 
-open issue in repo if you need help
+If you require further assistance, consider opening an issue in the repository for support
 
 ### textlength
 
-default is max number of words to include
+By default, it includes the maximum number of words
 
-You can change this to max number of letters with --letter-count arg
+&#x20;You have the option to switch this to the maximum number of letters using the '--letter-count' argument
 
-Note: 0 corresponds to no limit
+Keep in mind, specifying '0' equals to no limit.
 
 ## Remapping Responsetype
 
-This feature allows you to use the responsetype placeholder to group downloads, but to go further and group multiple types of downloads in the same folder. Or remap downloads into a different folder based on responsetype.
+This functionality lets you group downloads using the 'responsetype' placeholder. It also allows combining different download types into a single folder or directing downloads to separate folders based on their 'responsetype'
 
-For example you could group all stories and highlights, or put purchased and messages into a folder called 'Premium'. Another option would be to put timeline post into a folder called posts.
+For instance, you have the option to consolidate all 'stories' and 'highlights,' or categorize 'purchased' items and 'messages' within a designated folder named 'Premium.' Another possibility is to organize 'timeline posts' into a distinct folder titled 'posts.'
 
-The first value is the type of response it mapping too, you should not change this value. The second value is what value responsetype should remap to
+The initial value represents the response type it's mapped to, which shouldn't be altered. The second value determines what the 'responsetype' should be remapped to
 
 #### Example
 

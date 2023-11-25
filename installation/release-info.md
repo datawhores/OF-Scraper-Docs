@@ -2,9 +2,11 @@
 
 ## Release types
 
-### package\_
+[2023.11.25\_939507\_downloadt\_f6052f8\_package](https://github.com/datawhores/OF-Scraper/releases/tag/f6052f8)
 
-These are releases from commits. Basically they are version that come in between the different numbered releases. They can be more up to date, but also can have issues that haven't been resolved yet
+### .\*\_package
+
+These are releases derived from commits, essentially versions that occur between numbered releases. They can be more current, but might also contain unresolved issues.
 
 ![](<../.gitbook/assets/image (1) (2) (1).png>)
 
@@ -16,17 +18,13 @@ These are meant to be stable releases
 
 ##
 
-##
-
 ## Files
 
 ### .zip
 
-You can unzip these and the resulting folder can be use to run the script by using the ofscraper file in the directory.&#x20;
+You can unzip these files, and the resulting folder can be used to run the script by utilizing the file starting with 'ofscraper\_' in your terminal program.&#x20;
 
-The only difference between this and other release is that startup can be slightly faster with a zip, and directory because a temp folder doesn't need to be made every time you start the script
-
-You will want to run the file that starts with ofscraper\_ in your terminal program
+The distinction from other releases is that startup might be slightly faster with a zip or directory since a temporary folder isn't generated each time the script begins.
 
 ![](<../.gitbook/assets/image (12).png>)
 

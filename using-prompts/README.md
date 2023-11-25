@@ -4,13 +4,13 @@
 
 ![image](https://user-images.githubusercontent.com/67020411/230734717-e85b02ee-2e66-467a-abe0-2f479c1e6671.png)
 
-The easiest way is to run this command
+The simplest method is to execute this command
 
 ```
 ofscraper
 ```
 
-Technically any command without a scraping option will trigger the menu to show
+Basically, any command lacking a scraping option will trigger the menu display
 
 ## Edit Profile
 
@@ -23,15 +23,15 @@ Use this option to
 * rename a profile
 * delete profile
 
-Each profile is tied to a single account, so if you want to have more then one account. You will need multiple profiles
+Each profile corresponds to a single account. So, if you aim to have multiple accounts, you'll require multiple profiles
 
 ## Edit config.json
 
 ![image](https://user-images.githubusercontent.com/67020411/230734909-5ad9c464-4984-4594-a0de-676344b84697.png)
 
-If you want to avoid digging for where the config file is located, used this to change settings from within the script
+To bypass the hassle of finding the config file's location, utilize this to modify settings directly from within the script.&#x20;
 
-Your previous selections will be provided, and you will have an opportunity to edit them
+Your prior choices will be available, allowing you the chance to edit them conveniently.
 
 ## Edit auth.json
 
@@ -39,6 +39,6 @@ Your previous selections will be provided, and you will have an opportunity to e
 
 Typically this is not a setting that needs to be access manually
 
-However you can use this to change auth settings for the current profile
+However, you have the option to directly modify the authentication JSON using this method.
 
-Note that if auth fails the auth menu options will be picked automatically
+Just a heads-up: if the authentication fails, the authentication menu will pop up, prompting you to enter new settings

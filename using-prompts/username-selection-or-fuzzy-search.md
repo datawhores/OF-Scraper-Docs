@@ -1,12 +1,8 @@
 # Username selection or Fuzzy Search
 
+Ofscraper applies a fuzzy search technique to simplify managing selected models. This approximate search aims to find strong matches for the string you input.
 
-
-ofscraper uses fuzzy search to make managing which models are selected easier
-
-This is an approximation search that attempts to find good matches for the string you enter
-
-The confusing part of this process is which models are selected.
+However, the challenge lies in determining which models are being selected.
 
 ## Selecting a model
 

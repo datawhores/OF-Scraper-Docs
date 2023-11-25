@@ -52,7 +52,7 @@ into its own virtual environment, ensuring the program operates without interfer
 
 Otherwise, If you prefer to proceed using pipx, you can follow along with the guide
 
-### Before Install
+## Preparing Pipx
 
 #### Setting Python Version
 

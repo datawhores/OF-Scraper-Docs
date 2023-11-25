@@ -28,7 +28,8 @@ ofscraper manual --url copied_link
 
 ## Advanced
 
-More types of urls are accepted the best way to get a better understanding of this would be to look at manual.py at the get\_info function
+\
+To grasp this better, checking out the **`get_info`** function in **`manual.py`** is the ideal way as it accepts a wider range of URLs.
 
 ## Scraping Individual Media
 
@@ -68,7 +69,7 @@ You can redownload by using ";" or "'" to untoggle and then retoggle with the ad
 
 ### Good things to know
 
-* Downloads will not start right away as the program is set to poll the queue for new downloads every 10 seconds
-* There is no progress bar, so having debug mode might be good
-* You can click on the table and add more downloads right away, any value mark as downloading will be locked
-* Sorting and filtering should work as well
+* Downloads won't start off immediately because the program is designed to check the queue for new downloads every 10 seconds.
+* Since there isn't a progress bar, enabling debug mode could be helpful in this situation.
+* By clicking on the table, you can instantly add more downloads. Any entry marked as "downloading" will be inaccessible for modification
+* Sorting and filtering functionalities should also be operational

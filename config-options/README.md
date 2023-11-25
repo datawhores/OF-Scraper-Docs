@@ -145,9 +145,7 @@ It should be employed in conjunction with the text placeholder.
 
 ## appendlog
 
-When set to False, a new log will be created for each run
-
-Otherwise, logs will be consolidated into one file per day.
+If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
 
 ## Responsetype
 

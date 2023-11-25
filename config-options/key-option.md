@@ -2,11 +2,9 @@
 
 ## key-mode-default
 
-The default cdm to use for decrypting content
+The default Content Decryption Module (CDM) used for decrypting content.&#x20;
 
-Some cdms will require extra&#x20;
-
-configuration&#x20;
+Certain CDMs might need additional configuration.
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/cdm-options" %}
 
@@ -24,7 +22,15 @@ Used for manual cdm
 
 ## client-id
 
-used for manual cdm
+Used for manual cdm
+
+### keydb\_api
+
+Used for keydb cdm
+
+
+
+
 
 
 

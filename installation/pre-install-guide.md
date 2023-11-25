@@ -2,7 +2,7 @@
 
 ## Linux
 
-python should already be installed
+Python is usually pre-installed on Linux systems
 
 ## Windows
 
@@ -12,7 +12,7 @@ python should already be installed
 
 ### Step 1
 
-First step is to open your terminal program
+Start by opening your terminal program
 
 
 
@@ -22,11 +22,11 @@ First step is to open your terminal program
 
 ### Step 2
 
-check if you have python installed
+Verify if Python is installed on your system
 
 <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-You should see something like
+You'll see something resembling the image below
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -35,15 +35,8 @@ Move to step 3
 
 **Version Too old**
 
-You should have an output between
+You should get an output between 3.10.12 to the latest version of 3.12. If not, proceed to step 3 to upgrade to an appropriate version
 
-3.8-3.11
-
-or
-
-3.11+
-
-Move to step 3 if it is 3.7-\
 \
 **Every Okay**
 
@@ -51,7 +44,7 @@ Move to step 4
 
 ### Step 3 \[Optional Maybe]
 
-If py -3 doesn't work you will need to install python
+If 'py -3' doesn't work, you'll need to install Python
 
 {% embed url="https://www.python.org/downloads/" %}
 
@@ -77,21 +70,19 @@ If py -3 doesn't work you will need to install python
 
 #### Done
 
-Go back to step2 and try again
+Return to step 2 and retry the process
 
 
 
 ## step 4
 
-Back at the terminal type
-
-Last step is to confirm that pip is installed
+To confirm that pip is installed, return to the terminal and type
 
 ```
 py -3 -m pip -V
 ```
 
-It should say something like
+You should see a message similar to
 
 ```
 pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
@@ -100,8 +91,7 @@ pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
 
 ## &#x20;step 5
 
-henceforth everything involving OF-Scraper will happen at the terminal program\
-Any commands that you see should be entered within the terminal program
+From now on, all actions related to OF-Scraper will take place in the terminal program. Enter any commands you see within the terminal
 
 ## MAC&#x20;
 
@@ -109,7 +99,7 @@ Any commands that you see should be entered within the terminal program
 
 ### Step 1
 
-First step is to open your terminal program
+Start by opening your terminal program
 
 #### Terminal Program
 
@@ -117,7 +107,7 @@ First step is to open your terminal program
 
 ### Step 2
 
-MAC should come with some python version but it may be too old
+Macs usually come with a pre-installed Python version, but it might be outdated
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
@@ -126,17 +116,7 @@ Move to step 3
 
 **Version Too old**
 
-You should have an output between
-
-3.8-3.11
-
-or
-
-3.11+
-
-Move to step 3 if it is 3.7-\
-
-
+You should get an output between 3.10.12 to the latest version of 3.12. If not, proceed to step 3 to upgrade to an appropriate version\
 
 
 ### Step 3
@@ -160,15 +140,13 @@ a more automatic installer
 
 ## step 4
 
-Back at the terminal type
-
-Last step is to confirm that pip is installed
+To confirm that pip is installed, return to the terminal and type
 
 ```
 python3 -m pip -V
 ```
 
-It should say something like
+You should see a message similar to
 
 ```
 pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
@@ -177,5 +155,4 @@ pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
 
 ## &#x20;step 5
 
-henceforth everything involving OF-Scraper will happen at the terminal program\
-Any commands that you see should be entered within the terminal program
+From now on, all actions related to OF-Scraper will take place in the terminal program. Enter any commands you see within the terminal.

@@ -59,7 +59,7 @@ format for files
 
 ## filter
 
-Controls which kind of content you want to download
+Determines the type of content you wish to download.
 
 ```
 Options are Images,Audios,Videos case insensitive
@@ -67,9 +67,17 @@ Options are Images,Audios,Videos case insensitive
 
 ## file\_size\_limit
 
-Controls the max file to download
+Controls the maximum allowable file size for downloads
 
 Note: This is in bytes
+
+## file\_size\_min
+
+Controls the minimum allowable file size for downloads
+
+Note: This is in bytes
+
+
 
 ## metadata
 
@@ -92,57 +100,64 @@ You can use these placeholders
 
 ### Migrating From Digitalcriminals' Script
 
-for more details about switching from DigitialCriminal's script
+For more detailed information regarding the transition from DigitialCriminal's script
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script" %}
 
-You will basically need to change this setting to map to your old metadata locations
+Essentially, you'll need to adjust this setting to align with your previous metadata locations.
+
+
 
 ## mp4decrypt
 
-decryption is required for certain content use this to set the path mp4decrypt for you system
+Decryption is necessary for specific content. Utilize this to establish the path for 'mp4decrypt' on your system.
 
-This is not installed with pip and must be retrieved
+Please note, it's not available through pip and must be obtained separately.
 
 {% embed url="https://www.bento4.com/downloads/" %}
 
-you only need mp4decrypt or mp4decrypt.exe other files can be deleted
+You'll only require 'mp4decrypt' or 'mp4decrypt.exe'
+
+other files can be deleted.
+
+\
+
 
 ## ffmpeg
 
-This is required to join audio and video parts of files used with mp4decrypt to output final file
+This is necessary to combine audio and video parts of files utilized with mp4decrypt, resulting in the final output file
 
 {% embed url="https://ffmpeg.org/download.html" %}
 
 ## textlength
 
-Restricts the length of text placeholder to the number of words `0` represents unlimited text
+Sets a cap on the text placeholder to a certain number of words, with 0 indicating an unrestricted text length
 
 to restrict by letter count pass `--letter-count` argument
 
 ## space-replacer
 
-All spaces within the filename will be replaced with this character Note: This only affects the filename, and not other parts of the path like parent directories
+This character will replace all spaces within the filename.
 
-This can be used with the text placeholder
+&#x20;Note: This change applies exclusively to the filename and doesn't affect other path components like parent directories.
+
+It should be employed in conjunction with the text placeholder.
 
 ## appendlog
 
-Create a new log&#x20;
+When set to False, a new log will be created for each run
 
-##
+Otherwise, logs will be consolidated into one file per day.
 
 ## Responsetype
 
-This is only used for remapping values for the {responsetype} placeholder
+This setting solely remaps values for the {responsetype} placeholder
 
-Empty values or "" will use the the programs default values
-
-The initial values match with the accepted values for --posts argument
+Empty values or "" will default to the program's preset values
 
 #### Example
 
-This is to show use the responsemap to group messages, and paid content into the same folder
+This configures the responsemap to consolidate messages and paid content into a unified folder.
 
 ```
 "timeline": "Posts",
@@ -183,7 +198,7 @@ You need to add the url, and pass the --discord argument when running the script
 
 ## Config settings for save locations
 
-More details about these settings can be seen here
+Further details about these settings are available here
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path" %}
 

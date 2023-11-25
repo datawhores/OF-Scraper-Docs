@@ -1,6 +1,6 @@
 # Install
 
-## No Install Run
+No Install Run
 
 The OF-Scraper repository contains comprehensive binaries enabling you to run OF-Scraper without requiring additional installations on your computer.
 
@@ -30,11 +30,13 @@ While you can install it using pip, it's recommended to use pipx. This method pl
 
 into its own virtual environment, ensuring the program operates without interference from other installations.
 
+
+
 {% embed url="https://pypa.github.io/pipx/" %}
 
 
 
-###
+***
 
 <details>
 
@@ -44,26 +46,32 @@ into its own virtual environment, ensuring the program operates without interfer
 
 </details>
 
-###
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pip-install" %}
 
-## Install&#x20;
+***
 
-### Video
+Otherwise, If you prefer to proceed using pipx, you can follow along with the guide
 
-{% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
-
-### Setting Python Version
+#### Setting Python Version
 
 \
 pipx utilizes your default Python version. If you need to ensure a specific Python version, consider using pyenv: [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv).\
 \
 
 
-### Install python with pyenv
+#### Install python with pyenv
 
 pyenv install {python version}
+
+##
+
+## Install
+
+### Video
+
+Watch this video for a quick overview of the install and run process
+
+{% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 
 
 
@@ -137,7 +145,7 @@ Example: pipx install ofscraper --python $(which python3.11)
 
 ### Upgrade
 
-Not uninstalling has caused user issues in the past
+Not uninstalling has caused problems for users before
 
 ```
  pipx upgrade ofscraper

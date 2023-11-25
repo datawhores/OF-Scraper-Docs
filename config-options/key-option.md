@@ -1,4 +1,4 @@
-# Key option
+# Key options
 
 ## key-mode-default
 

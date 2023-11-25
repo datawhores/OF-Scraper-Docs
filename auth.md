@@ -4,37 +4,37 @@ description: Setting up authorization
 
 # Auth
 
-
-
 ## General
 
-You have numerous options for how you want to retrieve auth information. If your able to then I would recommend using the cookie helper option. It requires the least work once setup
+You have various options for fetching authentication info. If possible, I'd suggest going for the cookie helper option—it demands the least effort once it's set up.
 
-### Cookie Helper
+### M-rcus Cookie Helper
 
-Follow the instructions here for how to install in your browser
-
-
+Please follow the instructions provided here to install it in your browser
 
 {% embed url="https://github.com/M-rcus/OnlyFans-Cookie-Helper" %}
 
 ![image](https://user-images.githubusercontent.com/67020411/230731183-26a43e62-4385-4fd9-aee8-f75a7c2d33cb.png)
 
-Select paste from cookie helper all you have to do is copy and paste the output from the program
+With the helper, all you need to do is copy and paste the output from the program.
+
+
 
 ### Browser Extraction
 
-This is probably the second easiest method. Unfortunately not all information can be auto extracted.
+This method is probably the second simplest. However, not all information can be automatically extracted.&#x20;
 
-You will still need to go and find the x-bc header and the User-Agent as shown below
+You'll still need to manually locate and provide the x-bc header and the User-Agent as demonstrated below.
 
 ![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/request\_headers.png)
 
-For more details you can go to the manual section below, you don't have to worry about extracting any cookie information with this option
+For more details, check out the manual section below.
+
+You won't need to worry about extracting any cookie information with this choice
 
 ## Manual
 
-This option will have you manual fill all the required information
+With this option, you'll need to manually input all the required information
 
 ```json
 {
@@ -49,7 +49,7 @@ This option will have you manual fill all the required information
 }
 ```
 
-It's really not that bad. I'll show you in the next sections how to get these bits of info.
+It's not too terrible. I'll walk you through how to get this info in the next parts.
 
 #### Step One: Creating the 'auth.json' File
 

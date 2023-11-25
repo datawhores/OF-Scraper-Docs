@@ -16,7 +16,7 @@ Windows binaries, in particular, can have distinct issues due to their use of sp
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/installation/release-info" %}
 
-### Before Starting
+## Before Starting
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
 

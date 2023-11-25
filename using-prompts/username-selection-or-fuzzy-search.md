@@ -28,9 +28,7 @@ pageDown+right
 
 ## Sorting/Filtering List
 
-This will allow you to change the filters that control which models appear on the list
-
-and the order they are sorted in
+You'll be able to adjust the filters which controls the appearance of models on the list and how they're sorted
 
 ```
 ctrl-z 
@@ -38,15 +36,15 @@ ctrl-z
 
 ## Searching the list
 
-This is as easy as typing for example
+It's as simple as typing, for instance, 'example.'&#x20;
 
-The result will be based on your account, and the filters that you have applied
+The outcome is based on your account and the filters you've implemented.
 
 ![image](https://user-images.githubusercontent.com/67020411/230736225-1b24a4b3-d56f-4297-88bd-63e2d4815990.png)
 
-Typing 1 here filters out all other non-matching options
+Entering '1' here filters out all other non-matching options, displaying only '1'.
 
-The result is only 1 appears here
+
 
 ![image](https://user-images.githubusercontent.com/67020411/230736203-c7e433f9-30a9-4c35-8615-8046b3d7d001.png)
 
@@ -58,15 +56,17 @@ It doesn't it only effects which models appear in the list for example
 
 ![image](https://user-images.githubusercontent.com/67020411/230736159-bdc9f4ec-87d7-48ac-9099-81743b52c785.png)
 
-Even though in the second image my previously selected options no longer appear, they are still selected. This can be seen by the (3) in parenthesis
+In the second image, although my previously chosen options aren't visible, they're still selected,&#x20;
 
-The parenthesis indicates the number of selected options
+As shown by the number in parentheses, denoting the count of selected options (3).
 
-### Unselecting
+## Unselecting
 
-You need to change the filter to an empty string, or provide one that shows the model you want to remove
+To remove a model, either change the filter to an empty string or input a filter that displays the specific model you wish to remove. Y
 
-Again you can use the previously mention keys to toggle between selected and unselected
+You can use the previously mentioned keys to toggle between selecting and unselecting models.
+
+## Toggles
 
 For all models
 

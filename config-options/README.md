@@ -184,12 +184,13 @@ profile -> maps to archived  -> files save to "{model_username}/Profile/{mediaty
 ## discord
 
 ```
-Push updates to discord using webhooks
-for setup see
 
-https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
-
-You need to add the url, and pass the --discord argument when running the script
+To send updates to Discord using webhooks, 
+follow the setup guide at
+https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks.
+  
+You'll need to add the URL provided in the setup 
+and include the --discord argument when executing the script.
 ```
 
 

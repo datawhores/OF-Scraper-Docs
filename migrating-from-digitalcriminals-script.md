@@ -24,14 +24,14 @@ Means a full path like
 </code></pre>
 
 1. /Onlyfans is the save\_location
-2. /modelA/Messages/Free/Images/ is the dir\_fomrat
+2. /modelA/Messages/Free/Images/ is the dir\_format
 
 #### metadata
 
 <pre><code>"metadata": "<a data-footnote-ref href="#user-content-fn-3">{save_location}</a>/{model_username}/Metadata"
 </code></pre>
 
-means a path for user\_data.db like
+This refers to a directory path designated for storing 'user\_data.db'.
 
 ```
 "OnlyFans/ModelA/Metadata"
@@ -41,27 +41,45 @@ means a path for user\_data.db like
 {
     "config": {
         "main_profile": "main_profile",
-        "save_location": "/Onlyfans",
+        "save_location": "/root/Data/ofscraper",
         "file_size_limit": 0,
-        "dir_format": "{model_username}/{responsetype}/{value}/{mediatype}/",
-        "file_format": "{filename}.{ext}",
+        "file_size_min": 0,
+        "dir_format": "{model_username.upper()}/{responsetype}/{mediatype}/",
+        "file_format": "{custom.get(filename,f'{date}-{text}.{ext}')}",
         "textlength": 0,
+        "space-replacer": " ",
         "date": "MM-DD-YYYY",
-        "metadata": "{save_location}/Metadata",
+        "metadata": "{configpath}/{profile}/.data/{model_username}_{model_id}",
         "filter": [
             "Images",
             "Audios",
             "Videos"
         ],
-        "mp4decrypt": "/root/ofscraper/bin/mp4decrypt",
+        "threads": 10,
+        "code-execution": true,
+        "custom": null,
+        "mp4decrypt": "/root/.config/ofscraper/bin/mp4decrypt",
+        "ffmpeg": "/root/.config/ofscraper/bin/ffmpeg",
         "discord": "",
+        "private-key": "/root/.config/ofscraper/device/private_key.pem",
+        "client-id": "/root/.config/ofscraper/device/client_id.bin",
+        "key-mode-default": "manual",
+        "keydb_api": "",
+        "dynamic-mode-default": "deviint",
+        "partfileclean": false,
+        "backend": "aio",
+        "download-sems": 10,
+        "maxfile-sem": 0,
+        "downloadbars": true,
+        "cache-mode": "sqlite",
+        "appendlog": false,
         "responsetype": {
             "timeline": "Posts",
             "message": "Messages",
             "archived": "Archived",
-            "paid": "Paid",
+            "paid": "Messages",
             "stories": "Stories",
-            "highlights": "Highlights",
+            "highlights": "Stories",
             "profile": "Profile",
             "pinned": "Posts"
         }

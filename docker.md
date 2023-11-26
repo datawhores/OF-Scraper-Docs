@@ -2,9 +2,9 @@
 
 ## Volumes
 
-Note: Binaries are no longer stored in github you will have to use one of the mounts to store the binaries.
+Note: Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.&#x20;
 
-If you select the autodownload option, the binaries will be stored in /root/.config/ofscraper/bin within the docker image
+If you opt for the autodownload feature when installing mp4decrpy or ffmpeg, the binaries will be stored in /root/.config/ofscraper/bin within the Docker image.
 
 | host    | docker                            | use          | required |
 | ------- | --------------------------------- | ------------ | -------- |
@@ -19,19 +19,17 @@ docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.i
 
 #### Older Versions
 
-The docker file was changed to  better support permissions on the host, if you using one of the older version you will need to modify your docker run or compose file
+\
+The Docker file was updated to enhance host permissions support. If you're using an older version, you'll need to adjust your Docker run or compose file.
 
-**This verison and older will require the modificaiton**\
-[#](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)[https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)\
+&#x20;For versions equal to or older than this commit: [https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)\
 
 
 ```
 docker run  -it --rm --name=ofscraper -v anypath:/root/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main {args}
 ```
 
-You can also tell if the command already passed ofscraper in the entrypoint if you see this&#x20;
-
-'ofscraper' (choose from 'post\_check', 'msg\_check', 'paid\_check', 'story\_check', 'manual')
+You can determine if the command has already passed 'ofscraper' in the entrypoint by checking for this sequence: 'ofscraper' (options include: 'post\_check', 'msg\_check', 'paid\_check', 'story\_check', 'manual').
 
 ## Images
 

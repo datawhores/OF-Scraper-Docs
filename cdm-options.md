@@ -1,12 +1,11 @@
 # CDM options
 
-You'll need to use a cdm to process encrypted content \
-This is marked by the use of tempvideo and tempaudio\
+To handle encrypted content, you'll require a CDM (Content Decryption Module). Indicators for this are the utilization of 'tempvideo' and 'tempaudio'.\
 
 
 ### Manual
 
-This is the recommended method as it is the most reliable and wont be  effected by lost of third party access or shutdown of services.&#x20;
+This method is recommended due to its reliability and independence from potential issues like loss of third-party access or service shutdowns.
 
 #### Setup
 
@@ -15,7 +14,7 @@ This is the recommended method as it is the most reliable and wont be  effected 
     \- private key file
 
     \-client id file
-* Save the files to a easily accessed location
+* Save the files to a location that is easily accessible
 
 #### Changing via config manually
 
@@ -25,17 +24,13 @@ change key-mode-default&#x20;
 key-mode-default:manual
 ```
 
-change client-id
+change client-id and private-key
 
-Make sure to use the full path
+Ensure you utilize the complete file path
 
 ```json
 private-key:...??privatekey.pem
 ```
-
-change private-key&#x20;
-
-Make sure to use the full path
 
 ```json
 client-id:...??client_id.bin
@@ -43,17 +38,26 @@ client-id:...??client_id.bin
 
 #### Changing via the prompt menu
 
-* go to edit advance config settings menu
-* When prompted for key-mode change to manual
-* When prompted for private-key provide the full path&#x20;
-* When prompted for client-id provide the full path
+* go to edit advance config settings menu in the prompt menu
+
+<details>
+
+<summary>prompt menu</summary>
+
+[https://of-scraper.gitbook.io/of-scraper/using-prompts](https://of-scraper.gitbook.io/of-scraper/using-prompts)
+
+</details>
+
+* Switch to manual key-mode when prompted
+* When asked for the private-key, provide the complete path
+* When requested for the client-id, provide the complete path
 
 ### CDRM
 
-This is the first automatic option
+\
+This is the initial automated option provided by [https://cdrm-project.com/](https://cdrm-project.com/).&#x20;
 
-provided by [https://cdrm-project.com/](https://cdrm-project.com/)\
-If you can not access the site most likely the site is down, and you must select a alternative
+If you're unable to access the site, it's likely down, and you'll need to choose an alternative.
 
 #### Changing via config manually
 
@@ -71,19 +75,16 @@ you could also pass --key-mode arg
 
 #### Changing via the prompt menu
 
-* go to edit advance config settings
-* when prompting for key-mode select cdrm
+* Navigate to the "Edit Advanced Config Settings" section
+* When prompted to choose the key-mode, opt for "cdrm".
 
 
 
 ### CDRM2
 
-This is the second automatic option
+This is the secondary automatic option&#x20;
 
-provided by [http://172.106.17.134:8080/](http://172.106.17.134:8080/)\
-If you can not access the site most likely the site is down, and you must select a alternative
-
-Setup
+provided by [http://172.106.17.134:8080/](http://172.106.17.134:8080/). If you're unable to access the site, it's likely down, and you'll need to choose an alternative setup.
 
 #### Changing via config manually
 
@@ -93,7 +94,7 @@ change key-mode-default&#x20;
 key-mode-default:cdrm2
 ```
 
-you could also pass the keymode arg
+you could also pass the key-mode arg
 
 ```
 --key-mode-cdrm2
@@ -101,8 +102,8 @@ you could also pass the keymode arg
 
 #### Changing via the prompt menu
 
-* go to edit advance config settings
-* when prompting for key-mode select cdrm2
+* Navigate to the "Edit Advanced Config Settings" section
+* When prompted to choose the key-mode, opt for "cdrm2"
 
 
 
@@ -145,6 +146,8 @@ You must also have the keydb\_api setup in the config for this option
 
 #### Changing via the prompt menu
 
-1. go to edit advance config settings
-2. when prompting for key-mode select keydb
-3. When prompted enter your keydb api key\
+
+
+* Navigate to the "Edit Advanced Config Settings" section
+* When prompted to choose the key-mode, opt for "keydb".
+* Enter your keydb API key when prompted.

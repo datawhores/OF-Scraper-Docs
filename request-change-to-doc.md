@@ -1,7 +1,11 @@
 # Request Change to Doc
 
-Documents are synced with GitHub
+The documents are synchronized with GitHub
 
-You can make a pull request for a change at
+
+
+To propose a change, you can create a pull request at:&#x20;
 
 [https://github.com/datawhores/OF-Scraper-Docs](https://github.com/datawhores/OF-Scraper-Docs)
+
+\

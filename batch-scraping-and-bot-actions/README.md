@@ -6,7 +6,7 @@ description: Options for automation
 
 ## Basic Run
 
-This will allow you to select args through the prompt menus
+This enables you to choose arguments using the prompt menus.
 
 ```
 ofscraper
@@ -22,12 +22,12 @@ ofscraper
 
 ## Performing multiple actions
 
-These actions can be combined together
+You can combine these actions together
 
 * posts
 * likes or unlike (only 1 because liking and unliking all posts doesn't make sense)
 
-The command here will download all wall posts for selected model, and also like all posts
+This command will download all wall posts for the selected model and simultaneously like all the posts
 
 ```
  ofscraper --posts all --action like
@@ -35,7 +35,7 @@ The command here will download all wall posts for selected model, and also like 
 
 ## Bypass all prompts
 
-You need to pick at least one scraping method and username to bypass all prompts
+Selecting at least one scraping method and providing a username will bypass all prompt
 
 ```
  ofscraper --posts all --username ALL
@@ -43,23 +43,21 @@ You need to pick at least one scraping method and username to bypass all prompts
 
 ## Running command in the background
 
-You need to pick at least one scraping method for daemon mode to work
+For daemon mode to function, you must select at least one scraping method
 
 ```
  ofscraper --daemon 10 --posts all
 ```
 
-The script will run at minimum every 10 minutes. If it takes longer then 10 minutes to finish. Then the next run will start as soon as the last run finishes
+The script will operate at least every 10 minutes. If a run extends beyond 10 minutes, the subsequent run begins immediately after the prior one concludes.
 
-Daemon mode will ask you to pick a username if the --username argument is not passed This only needs to be done once, and your settings are remember each time the daemon loops
+&#x20;In daemon mode, if the --username argument isn't provided, it will prompt you to pick a username. This step is a one-time requirement as your settings are retained for each loop in the daemon.
 
 ## Modifications to Filename
 
 ### Toggle letter count for textlength
 
-By default textlength will correspond to the number of words max you want
-
-pass in the --letter-count arg to change this to max number of letters
+By default, 'textlength' corresponds to the maximum number of words you desire. To modify this to represent the maximum number of letters, use the '--letter-count' argument.
 
 ```
 ofscraper --letter-count
@@ -67,7 +65,7 @@ ofscraper --letter-count
 
 ### Skip truncation
 
-Truncation use common operating system file length restrictions to determine the best place to cut off a long file name to use the original file names pass --original pass in the --letter-count arg to change this to max number of letters
+To utilize the original file names, include the '--original' flag.
 
 ```
 ofscraper --original

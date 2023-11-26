@@ -8,10 +8,9 @@ description: various options for output
 
 ### Discord
 
-outputs to discord channel
+The output goes to the Discord channel.
 
-Note discord logs will only contain the log message\
-While other logs will contain information like function call, and line number
+Please note, Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.
 
 #### LEVELS
 
@@ -46,30 +45,32 @@ output to logfile within the config folder
 
 ## Output LEVEL
 
-With the release of 1.9 you now have more control over the level of output
+With the 1.9 release, you gain increased control over the output level.
 
 **OFF**
 
 ```
-This can be used to turn discord or log file logging off
 
-These outputs are disabled by default
+This feature allows you to deactivate Discord or log file logging. 
+By default, these outputs are turned off.
 ```
 
 **PROMPT**
 
 ```
-prompts and some output to the console is required to run the program in certain cases.
-This sets the console output to strictly what is required. Passing a scraping action and usernames should disable most if not all output
+
+The program needs prompts and specific console output for certain operations. 
+It configures console output to only show necessary information. 
+Providing a scraping action and usernames should largely disable most,
+ if not all, additional output.
 ```
 
 **LOW**
 
 ```
-Turns off all progress bars 
-Shows barebones information about the status of the program as it is running
-Also shows avatars
-Available for all output destinations
+
+It disables all progress bars and displays essential program status while running. 
+It also includes avatars and applies to all output destinations.
 ```
 
 **STATS**
@@ -80,27 +81,28 @@ Slight modification to LOW no avatars will be shown
 
 ```
 
-**NORMAL**
+**NORMAL**.
 
 ```
-This is the default level of output to the console
-Progress bars will be shown in console, along with all general status messages
-
-Available for all output destinations
-discord and log file will receive all general status messages, but not progress bars
-
+The default console output level, progress bars
+ and general status messages are displayed. 
+ All output destinations, including Discord and log files, 
+ receive general status messages but exclude progress bars.
 ```
 
 **DEBUG**
 
 ```
-Adds debugger messages and tracebacks to 'Normal'
-Available for all output destinations
+It includes debugger messages and tracebacks within the 
+'Normal' output level. 
+This applies to all output destinations.
 
 ```
 
 **TRACE**
 
 ```
-This is the most verbose mode of all
+
+This mode provides the most detailed and extensive 
+information compared to all other modes.
 ```

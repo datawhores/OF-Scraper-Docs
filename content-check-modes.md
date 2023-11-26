@@ -4,13 +4,9 @@
 
 <figure><img src=".gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
-scrapes onlyfans.com and parses the database to display information about content through a generated table
+It scrapes data from OnlyFans.com, parsing the database to showcase content information via a generated table.&#x20;
 
-Each individual media is given it own row within the table
-
-The table is searchable/can be filtered
-
-Table includes lots of information including
+Each media item occupies its own row within the table, which is searchable and offers filtering options. The table is comprehensive, containing various details for each entry
 
 * price of content
 * Will try to show if media is in your library based on media id
@@ -22,9 +18,9 @@ Table includes lots of information including
 
 
 
-It uses cache to speed things up
+It utilizes caching to expedite processes.&#x20;
 
-Cache is created with the normal scraper or when you run one content check mode, and lasts for a day before the program get's new data You can also use --force to retrieve the latest data
+The cache is established either during regular scraping or when running in content check mode, persisting for a day before the program updates with fresh data. Additionally, you can employ '--force' to fetch the most recent information.
 
 ## Sorting the table
 
@@ -38,7 +34,7 @@ Click the column labels on the top ![image](https://github.com/datawhores/OF-Scr
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/7aba01b5-e768-43aa-ba98-6d85aca4e37e)
 
-The form on top holds all the filters clicking on submit will filter the form
+The form above contains all the filters. Clicking 'Submit' will apply the selected filters to the form
 
 ### Adding filter from table
 
@@ -50,7 +46,7 @@ enter semicolon: \[ ;] or  apostrophe: \[ ' ]  the table will filter to rows mat
 
 #### Example
 
-The word videos is heightlighted\
+The word 'videos' is highlighted\
 
 
 <figure><img src=".gitbook/assets/img1.png" alt=""><figcaption></figcaption></figure>
@@ -61,15 +57,11 @@ only cell matching videos will appear
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/11911f08-2e0c-4759-b033-1fcaf40a5e6f)
 
-Additionally the forum will also update
-
-This process stacks until you press reset
+Furthermore, the forum will also refresh. This cycle continues until you press the reset button.
 
 ### Reset the table
 
-Click the reset button.
-
-Note: the current table information is saved to memory, so new information won't be retrieved until you restart the program
+Click on the reset button. Keep in mind, the program saves the current table information in memory, so it won't fetch new data until you restart it
 
 ### Table Columns
 
@@ -149,7 +141,7 @@ Dog
 
 #### Searching for full string match
 
-This will trigger the search to match text that are exactly dog, and not text containing dog within them
+This will prompt the search to specifically match text that is exactly "dog," rather than text that contains "dog" within it
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/010b2d9a-a841-4b96-85c2-220a1fbecafc)
 
@@ -157,7 +149,7 @@ This will trigger the search to match text that are exactly dog, and not text co
 
 ### Post Check Mode
 
-This is for checking posts on the main timeline or paid content via the post url
+This functionality is for reviewing posts on the main timeline or for paid content accessed through the post URL
 
 1. you must add the --url or --file argument
 2. You can combine the previous args
@@ -206,9 +198,9 @@ model
 
 ### Message Check Mode
 
-To not repeat message check mode is the same as post\_check the only difference is the type of posts accepted
+To avoid redundancy, the "check mode" is equivalent to "post\_check," differing only in the accepted types of posts.&#x20;
 
-Since there is no way to link to a specific post if cache is expired then all messages must be scrape
+When the cache expires all messages must be scraped again.
 
 #### Examples
 
@@ -238,7 +230,7 @@ model
 
 ### Paid Check Mode
 
-Scrapes paid content via username
+It gathers paid content using the username provided
 
 1. you must add the --username or --file argument
 2. You can combine the previous args
@@ -283,7 +275,7 @@ model
 
 ### story check mode
 
-Scrapes story/highlights via username Note: stories are temporary
+It collects stories and highlights using the provided username. Note that stories are temporary content
 
 1. you must add the --username or --file argument
 2. You can combine the previous args
@@ -306,7 +298,7 @@ Should contain usernames line separated
 
 ### Getting latest content
 
-For each of these modes information for each model is cached for 24 hours. add the --force argument to any of the modes to retrieve the latest content
+In each of these modes, details for each model are cached for 24 hours. To fetch the most recent content, append the "--force" argument to any of these modes.
 
 ```
 ofscraper msg_check --url url --force

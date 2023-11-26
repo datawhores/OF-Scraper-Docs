@@ -1,11 +1,11 @@
 # Testing
 
-There is a suite of different test available in the repo
+The repository includes a set of various tests in its suite.
 
 ## Install
 
-Test have their own requirements and can be install with poetry install --with testing
+Tests have specific requirements and can be installed using 'poetry install --with tests'
 
 ## Running
 
-then you can run the test suite with pytest from the cloned repo
+Afterwards, you can execute the test suite using 'pytest' from the cloned repository

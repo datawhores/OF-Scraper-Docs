@@ -24,15 +24,21 @@ The count here can be significantly impacted by expired subscriptions.
 
 For instance, an account may indicate it has 400 subscribers, but as OnlyFans iterates through each offset \[0, 10, 20, 30,...390], some offsets won't return 10 numbers, ultimately reducing the final count.
 
-###
 
-## 3. <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
+
+## 3. <mark style="color:blue;">Missing Models</mark>
+
+Before creating an issue, ensure that you're using the latest version available.
+
+
+
+## 4. <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 
 Ensure your CDM (Content Decryption Module) is set up correctly
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/cdm-options" %}
 
-## 4. <mark style="color:blue;">Something is not working</mark>
+## 5. <mark style="color:blue;">Something is not working</mark>
 
 Run the command to display the output in the console
 
@@ -48,7 +54,7 @@ ofscraper --log debug
 
 Send the logs to a Discord channel or create a GitHub issue
 
-## 5. <mark style="color:blue;">MP4Decrypt and FFMPEG</mark>
+## 6. <mark style="color:blue;">MP4Decrypt and FFMPEG</mark>
 
 The mentioned programs below are necessary for downloading content, and they are compatible across various platforms.
 
@@ -98,36 +104,36 @@ You can utilize the tool below if Windows lacks an easy method to acquire the fu
 
 {% embed url="https://pathcopycopy.github.io/" %}
 
-## 6. <mark style="color:blue;">ofscraper not found</mark>
+## 7. <mark style="color:blue;">ofscraper not found</mark>
 
 This generally means that you need to update your PATH
 
-## 7. <mark style="color:blue;">Can this download locked content</mark>
+## 8. <mark style="color:blue;">Can this download locked content</mark>
 
 Yes.....if it was unlocked before.
 
-## 8. <mark style="color:blue;">Status Down</mark>
+## 9. <mark style="color:blue;">Status Down</mark>
 
 This usually indicates that your authentication information is incorrect, or you've been signed out from OnlyFans
 
-## 9. <mark style="color:blue;">404 Response</mark>
+## 10. <mark style="color:blue;">404 Response</mark>
 
 This could imply that the content you're attempting to scrape is no longer available. It might also signal that the model has deleted her account, making it inaccessible on the platform.
 
 
 
-## 10. <mark style="color:blue;">Request taking a long time</mark>
+## 11. <mark style="color:blue;">Request taking a long time</mark>
 
 If a request fails, OF-Scraper will pause and make several retry attempts. Frequent retries could extend the duration of certain runs.
 
-## 11. <mark style="color:blue;">429 Response</mark>
+## 12. <mark style="color:blue;">429 Response</mark>
 
 * This error may stem from excessive requests, particularly when auto-liking/unliking.&#x20;
 * The maximum appears to be 1000 per day.
 
 
 
-## 12. <mark style="color:blue;">409 Response</mark>
+## 13. <mark style="color:blue;">409 Response</mark>
 
 \
 You might observe cases where content is unavailable on the OnlyFans site, often indicated by placeholders or non-loading media.&#x20;
@@ -136,7 +142,7 @@ VPN users might experience this based on the VPN server they're connected to. Co
 
 The most effective solution would be to switch VPN servers or allow some time for the situation to reset.
 
-## 13. <mark style="color:blue;">Scrape entire paid page or --scape-paid should I do it</mark>
+## 14. <mark style="color:blue;">Scrape entire paid page or --scape-paid should I do it</mark>
 
 The amount of content you've purchased largely determines this
 
@@ -162,7 +168,7 @@ If you're conducting frequent scans, such as one per day, it's alright to turn i
 
 
 
-## 14. <mark style="color:blue;">FFmpeg  shared library not found Error</mark>
+## 15. <mark style="color:blue;">FFmpeg  shared library not found Error</mark>
 
 Example: : version \`GLIBCXX\_3.4.29' not found
 

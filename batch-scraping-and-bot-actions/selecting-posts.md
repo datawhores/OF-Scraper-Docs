@@ -1,10 +1,8 @@
 # Selecting Posts
 
-
-
 ### By post type
 
-comma separate list of what you which posts you want to download content from
+A comma-separated list indicating the posts from which you wish to download content.
 
 ```
  ofscraper --posts highlights,timeline
@@ -32,7 +30,7 @@ Duplicates will be removed
 
 ### Bypass dupe check
 
-By default content will be saved to a database to prevent duplicate downloads If you need to download all of the content available for a specific model pass the --dupe arg
+By default, content is stored in a database to prevent duplicate downloads. If you wish to download all available content for a specific model, include the '--dupe' argument.
 
 ```
 ofscraper --dupe
@@ -42,7 +40,7 @@ ofscraper --dupe
 
 #### Before
 
-Filters at or before the given date also Works for downloading, liking posts, and unliking posts
+Filters  posts on or before the specified date. It functions for downloading, liking, and unliking posts.
 
 ```
 ofscraper --before date
@@ -50,7 +48,7 @@ ofscraper --before date
 
 #### After
 
-Filters at or after the given date Works for downloading, liking posts, and unliking posts
+Filter  posts on or after the specified date. It functions for downloading, liking, and unliking posts.
 
 ```
 ofscraper --after date
@@ -71,7 +69,7 @@ We can convert certain strings into dates The general rules seem to be (number) 
 * year
 * second
 
-You can also get more granularity by passing a comma If you use one of the debuggers you can see the output in UTC
+You can enhance granularity by including a comma. When utilizing debuggers, the output will display in UTC, offering greater detail.
 
 ```
 1 year ago, 1 month ago
@@ -87,11 +85,15 @@ ofscraper --skip-timed
 
 ### Filtering by text content
 
-Note this can accept regex, but most likely you will have to quote the string as a way to escape the input Capital Letter will trigger a case sensitive search
+This feature can accept regex patterns, but you might need to enclose the string in quotes to escape the input properly. Additionally, using a capital letter will initiate a case-sensitive search.
 
 ```
 ofscraper --filter 
 ```
+
+#### Neg Filter Note:&#x20;
+
+This will exclude any posts that match the provided regex pattern.
 
 ### Search entire paid page
 

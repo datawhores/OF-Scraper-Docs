@@ -11,7 +11,7 @@ Overview
 ### -v, --version
 
 ```
-show program’s version number and exit
+Display the program's version number and then exi
 ```
 
 ```
@@ -21,15 +21,15 @@ Default: “2.4.5+main.8f998cd”
 ### -cg, --config
 
 ```
-Change location of config folder/file
+Modify the location of the configuration folder or file
 ```
 
 ### -r, --profile
 
 ```
-Change location of profile directory
 
-This is where the auth information is held
+Alter the location of the profile directory, 
+which houses the authentication information
 ```
 
 ### Logging
@@ -43,7 +43,7 @@ Possible choices: OFF, STATS, LOW, NORMAL, DEBUG
 ```
 
 ```
-set log file level
+Establish the log file level
 ```
 
 ```
@@ -57,7 +57,7 @@ Possible choices: OFF, STATS, LOW, NORMAL, DEBUG
 ```
 
 ```
-set discord log level
+Adjust the Discord log level
 ```
 
 ```
@@ -71,7 +71,7 @@ Possible choices: PROMPT, STATS, LOW, NORMAL, DEBUG
 ```
 
 ```
-set console output log level
+Adjust the log level for console output
 ```
 
 ```
@@ -89,13 +89,15 @@ ofscraper  [global args] [main program args]
 #### -u, --username
 
 ```
-select which username to process (name,name2) Set to ALL (case-sensitive) for all users
+Choose the usernames to process, separated by commas (e.g., name, name2). 
+Use ALL (case-sensitive) to include all users.
 ```
 
 #### -eu, --excluded-username
 
 ```
-select which usernames to exclude (name,name2) This has preference over –username
+Specify the usernames to exclude (e.g., name, name2). 
+This takes precedence over the '--username' option.
 ```
 
 #### -d, --daemon

@@ -74,7 +74,7 @@ _These are the binaries used specifically during the automatic download process_
 
 **Linux:** [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases) -> shared version
 
-**Mac:**  [https://www.bok.net/Bento4/binaries/](https://www.bok.net/Bento4/binaries/) -> Bento4-SDK-1-6-0-640.universal-apple-macosx.zip
+**Mac:**  [**https://evermeet.cx/ffmpeg/get/zip**](https://evermeet.cx/ffmpeg/get/zip) -> downloads latest snapshot zip
 
 ***
 

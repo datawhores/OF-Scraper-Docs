@@ -87,23 +87,32 @@ ofscraper --skip-timed
 
 This feature can accept regex patterns, but you might need to enclose the string in quotes to escape the input properly. Additionally, using a capital letter will initiate a case-sensitive search.
 
+#### Filter
+
+This will include only post that match the provided regex patter
+
 ```
+
 ofscraper --filter 
 ```
 
-#### Neg Filter Note:&#x20;
+#### Neg Filter:&#x20;
 
 This will exclude any posts that match the provided regex pattern.
 
+```
+ofscraper --negfilter 
+```
+
 ### Search entire paid page
 
-This option is meant for handle situations where for example a model account has been deleted
+This option is designed to manage situations like when a model account has been deleted
 
 ```
 ofscraper --scrape-paid
 ```
 
-If you want to skip the other prompts and only scrape the paid page
+To exclusively scrape the paid page and skip other prompts
 
 ```
 ofscraper --scrape-paid --post None

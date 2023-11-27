@@ -2,16 +2,13 @@
 
 ## 1. <mark style="color:blue;">Missing Post</mark>
 
-This typically is because the model has deleted the post.\
-Unfortunately OF-Scraper would not be able to scrape this content
+Certain models delete content, which restricts OF-Scraper from accessing this specific content.
 
 ## 2<mark style="color:blue;">.  Number of users doesn't match account number</mark>
 
 [https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312](https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312)\
 \
-Each time you scroll down the api will request 10 names, but it is often that 10 names will not be returned
-
-
+Every time you scroll down, the API requests 10 names, but frequently, fewer than 10 names are returned
 
 ### Example
 
@@ -19,49 +16,41 @@ Account: 400 total subs
 
 **Active Accounts**
 
-This number should be more accurate, but seems to update based on a schedule so it may be a few off until things sync up
+This figure is expected to be more accurate, but it seems to update according to a schedule, so it might be slightly off until synchronization occurs.
 
 **Expired and ALL**
 
-The number here can be greatly effected by expired subscriptions
+The count here can be significantly impacted by expired subscriptions.
 
-For example a account may state it has 400 subs
-
-However as onlyfans iterate through each offset \[0,10,20,30,40,....390]
-
-Some offsets will not return 10 numbers, reducing the number at the end
+For instance, an account may indicate it has 400 subscribers, but as OnlyFans iterates through each offset \[0, 10, 20, 30,...390], some offsets won't return 10 numbers, ultimately reducing the final count.
 
 ###
 
-
-
 ## 3. <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 
-Make sure your cdm is setup correctly
+Ensure your CDM (Content Decryption Module) is set up correctly
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/cdm-options" %}
 
 ## 4. <mark style="color:blue;">Something is not working</mark>
 
-run to output to console
+Run the command to display the output in the console
 
 ```
 ofscraper --output debug
 ```
 
-or to output to your config folder
+Alternatively, run the command to output to your configuration folder.
 
 ```
 ofscraper --log debug
 ```
 
-Send logs on discord channel or make a git issue
+Send the logs to a Discord channel or create a GitHub issue
 
-### 5. <mark style="color:blue;">MP4Decrypt and FFMPEG</mark>
+## 5. <mark style="color:blue;">MP4Decrypt and FFMPEG</mark>
 
-The programs mentioned are required to download content
-
-Both programs are cross-platform
+The mentioned programs below are necessary for downloading content, and they are compatible across various platforms.
 
 {% embed url="https://ffmpeg.org/download.html" %}
 
@@ -69,7 +58,7 @@ Both programs are cross-platform
 
 #### Binaries
 
-_These are the binaries used during auto download_
+_These are the binaries used specifically during the automatic download process_
 
 **FFmpeg**
 
@@ -99,64 +88,81 @@ _These are the binaries used during auto download_
 
 #### what to do after downloading
 
-Just provide OF-Scraper the path to the program in the config file
+Simply provide OF-Scraper with the path to the program in the configuration file
 
-**Note:** This needs to be the full path
+**Note:** Ensure to input the complete path
 
 #### Copying path on windows
 
-If windows doesn't have a built in esay way to get the full path
+You can utilize the tool below if Windows lacks an easy method to acquire the full path.
 
 {% embed url="https://pathcopycopy.github.io/" %}
 
-### 6. <mark style="color:blue;">ofscraper not found</mark>
+## 6. <mark style="color:blue;">ofscraper not found</mark>
 
-This usually means that your need to update your path
+This generally means that you need to update your PATH
 
-### 7. <mark style="color:blue;">Can this download locked content</mark>
+## 7. <mark style="color:blue;">Can this download locked content</mark>
 
-Yes..if unlocked prior
+Yes.....if it was unlocked before.
 
-### 8. <mark style="color:blue;">Status Down</mark>
+## 8. <mark style="color:blue;">Status Down</mark>
 
-This typically means that your auth information is not correct, or onlyfans signed you out.
+This usually indicates that your authentication information is incorrect, or you've been signed out from OnlyFans
 
-### 9. <mark style="color:blue;">404 Issue</mark>
+## 9. <mark style="color:blue;">404 Response</mark>
 
-This could mean that the content you are trying to scrape is no longer present. It can also indicate that model has deleted her account, and it is no longer accesible on the platform
+This could imply that the content you're attempting to scrape is no longer available. It might also signal that the model has deleted her account, making it inaccessible on the platform.
 
-### 10. <mark style="color:blue;">Request taking a long time</mark>
 
-If a request fails ofscraper will pause and try again a few times. This can lead to certain runs taking longer at points.
 
-### 11. <mark style="color:blue;">429 issue</mark>
+## 10. <mark style="color:blue;">Request taking a long time</mark>
 
-* This can come from making too many requests, when auto liking/unliking
-* 1000 seems to br the max per day
+If a request fails, OF-Scraper will pause and make several retry attempts. Frequent retries could extend the duration of certain runs.
 
-## 12. <mark style="color:blue;">Scrape entire paid page or --scape-paid should I do it</mark>
+## 11. <mark style="color:blue;">429 Response</mark>
 
-It really depends on how much content you've purchased.
+* This error may stem from excessive requests, particularly when auto-liking/unliking.&#x20;
+* The maximum appears to be 1000 per day.
+
+
+
+## 12. <mark style="color:blue;">409 Response</mark>
+
+\
+You might observe cases where content is unavailable on the OnlyFans site, often indicated by placeholders or non-loading media.&#x20;
+
+VPN users might experience this based on the VPN server they're connected to. Consequently, this also affects the API and OF-Scraper's ability to scrape content.
+
+The most effective solution would be to switch VPN servers or allow some time for the situation to reset.
+
+## 13. <mark style="color:blue;">Scrape entire paid page or --scape-paid should I do it</mark>
+
+The amount of content you've purchased largely determines this
 
 #### Does the regular scraper get purchased content?
 
-Yes if you selected "purchased" then all purchased content for selected models will be scraped. This is done by using the models username as an input on the purchase page
+Yes, if you've chosen "purchased," all purchased content for the selected models will be scraped. This is accomplished by using the models' usernames as input on the purchase page.
 
 #### Then why the prompt
 
-Some models have deleted accounts, and getting there purchases requires scanning the entire purchase page. They have no name to use as an input
+Certain models may have deleted accounts, making it necessary to scan the entire purchase page to access their purchases. Since they lack a name to use as input, a thorough scan becomes necessary.
 
 #### When would you use to use it&#x20;
 
-I would use it once on the first run just to get what is in your library Then I would use it if you haven't scan in a while
+Personally, I rarely use this setting. However, if your scans are infrequent, it might be a good idea to turn it on.&#x20;
+
+I'd also recommend using it during your initial scan.
+
+
 
 #### When would you not use it
 
-&#x20;I do at least one scan a day So I would turn it off for most scans, after the initial scan
+If you're conducting frequent scans, such as one per day, it's alright to turn it off for most scans
 
 
 
-## 13. <mark style="color:blue;">FFmpeg  shared library not found Error</mark>
+## 14. <mark style="color:blue;">FFmpeg  shared library not found Error</mark>
 
 Example: : version \`GLIBCXX\_3.4.29' not found
 
@@ -164,11 +170,11 @@ Example: : version \`GLIBCXX\_3.4.29' not found
 
 Missing shared libraries
 
-Seems to only effect Linux&#x20;
+This issue appears to only affect Linux systems
 
 ### Fix
 
-Get the gpl non-shared version
+Obtain the GPL non-shared release version.
 
 [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases)
 

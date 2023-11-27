@@ -2,11 +2,11 @@
 
 ### --scrape-paid
 
-meant for scraping content from deleted models,the regular scraper already scrapes content from models with active accounts
+This is intended for scraping content specifically from deleted models. The regular scraper already covers content from models with active accounts
 
 ### --post skip
 
-use this with --scrape-paid to only to skip the post type prompt, and the username prompt
+Utilize this alongside '--scrape-paid' to exclusively skip the post type prompt and the username prompt
 
 
 

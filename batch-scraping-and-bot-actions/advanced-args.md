@@ -4,9 +4,9 @@
 
 ### --profile
 
-This can be **combined** with --config
+You can combine this with **'--config'**.&#x20;
 
-This option has preference over the profile  the currently active config would have provided
+This option holds precedence over the currently active profile within the configuration file
 
 ```
 Change location of profile 
@@ -14,7 +14,7 @@ Change location of profile
 
 ### --users-first
 
-Changes the order of downloading to retrieve links for all selected users first This means waiting longer for downloads to start, but this can be useful in certain situations
+This adjustment alters the download order to prioritize fetching links for all selected users initially. While this may lead to a longer wait for downloads to commence, it can prove beneficial in specific scenarios.
 
 ```
 ofscraper --user-first
@@ -26,10 +26,9 @@ ofscraper --user-first
 ofscraper --config folder or file
 ```
 
-The program will try to make a good guess of where you want the config folder
+The program attempts to intelligently guess the location of your config folder.&#x20;
 
-You can see what the program is looking for in the table\
-The checks will stop once True or the failback check is reached
+You can observe the locations it's scanning in the table. The checks will cease upon reaching a successful match (True) or reaching the failback check.
 
 
 
@@ -54,16 +53,11 @@ Two configs within the same folder can share
 
 #### Duplication check
 
-This is based on your config setting
-
-\
-If two configs have the same settings for metadata, then you will not have duplicates among those configs
+This relies on your configuration settings. If two configurations share identical metadata settings, duplicates won't exist between those configurations.
 
 ### multiple profile
 
-Authentication for different accounts is done through profiles
-
-The default profile can be changed through the config or by passing the --profile argument
+Authentication for various accounts is managed via profiles. You can modify the default profile either through the configuration or by using the '--profile' argument.
 
 #### Example
 
@@ -75,9 +69,9 @@ ofscraper --profile test
 config file location=/home/test/.config/ofscraper/config.json
 ```
 
-profile is always place within the config file locations parent folder, and is always appending with \_profile
+The profile is consistently located within the parent folder of the configuration file and is always appended with '\_profile'.&#x20;
 
-Therefore the profile here would be&#x20;
+Hence, in this scenario, the profile would be
 
 ```
 profile location=/home/test/.config/ofscraper/test_profile
@@ -85,9 +79,9 @@ profile location=/home/test/.config/ofscraper/test_profile
 
 ### no cache
 
-skips cache when retrieving post
+It bypasses the cache when fetching posts, primarily for testing purposes.
 
-Mostly for testing
+
 
 ```
 ofscraper --no-cache

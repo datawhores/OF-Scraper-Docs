@@ -2,7 +2,7 @@
 
 ### Selecting from Commandline
 
-comma separate list of which model you want to scrape
+You can provide a comma-separated list indicating the models you wish to scrape
 
 ```
  ofscraper --username name1,name
@@ -14,14 +14,11 @@ comma separate list of which model you want to scrape
  ofscraper --username ALL
 ```
 
-'ALL' is effected by filters it is also case sensitive
+'ALL' is influenced by filters, and it  is case-sensitive.
 
 ### Filtering username list
 
-\
-
-
-The following are can be change dynamically if using prompts
+The following settings can be dynamically modified if using prompts.
 
 ```
 ---account-type,--sub-status and renewal
@@ -29,20 +26,19 @@ The following are can be change dynamically if using prompts
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/using-prompts" %}
 
-Additionally this does not change the retrieval of usernames \
-only the subset of returned usernames that are return\
+Furthermore, this adjustment doesn't alter the retrieval of usernames; it solely impacts the subset of usernames that are displayed\
 \
-To retrieve only specific usernames setup a collection on onlyfans, and use the --userlist or --blacklist args
+If you wish to retrieve specific usernames, set up a collection on OnlyFans, then utilize the '--userlist' or '--blacklist' arguments accordingly
 
 
 
 #### Version >2.1
 
-\--username now has preference over any filters The result is that only the --usernames selected will be used The only exception is ALL which can be filtered
+Now, '--username' takes precedence over any filters. Consequently, only the selected '--usernames' will be utilized, with the exception of 'ALL', which can still be filtered.
 
 #### Restrict by account type
 
-This will restrict the program to only interact with free accounts
+This will limit the program to exclusively interact with and display free accounts
 
 ```
  ofscraper --account-type free --username ALL
@@ -50,7 +46,7 @@ This will restrict the program to only interact with free accounts
 
 #### Restrict by subscription status
 
-This can be used to scrape for example messages from expired accounts
+This demonstrates scraping messages from subscriptions that have expired
 
 ```
 ofscraper --sub-status expired --posts messages --username ALLf
@@ -58,7 +54,7 @@ ofscraper --sub-status expired --posts messages --username ALLf
 
 #### Restrict by renewal status
 
-You can use this option to scrape only accounts that will expire
+You can utilize this option to exclusively scrape active accounts, considering the renewal status of their subscriptions.
 
 ```
 ofscraper  --renewal disabled --username ALL
@@ -66,13 +62,13 @@ ofscraper  --renewal disabled --username ALL
 
 #### Combining filters
 
-A common way to use filters might be to only scrape accounts that are set to expire
+Filters are commonly employed to scrape accounts that are scheduled for expiration.
 
 ```
 ofscraper  --account-type paid --sub-status active --renewal expired --username ALL
 ```
 
-Alternatively maybe only free accounts with active subscriptions
+Alternatively, you might choose to scrape only free accounts with active subscriptions
 
 ```
 ofscraper  --account-type free --sub-status active --username ALL
@@ -80,7 +76,7 @@ ofscraper  --account-type free --sub-status active --username ALL
 
 ### Exclude specific models
 
-Note this takes preference over --username including --username ALL
+Please note that this takes precedence over '--username', including '--username ALL'.
 
 ```
 ofscraper --excluded-username username
@@ -88,7 +84,7 @@ ofscraper --excluded-username username
 
 ### Sorting username list
 
-Default is by name in asc order
+The default setting is to sort alphabetically by name in ascending order
 
 #### sort by account expiring date
 
@@ -113,10 +109,12 @@ ofscraper --sort name
 
 #### sort by account price
 
-* Price is current subscription price
-* if that can not be found lowest promo price return from API
-* if that is not available normal membership price
-* if that is not found zero
+* The main data source for the 'price' field is the current subscription cost.
+* If the current subscription price isn't available, the 'lowest promo price' retrieved from the API is returned instead.
+* If the lowest promotional price isn't available, the regular membership price is retrieved instead
+*   If none of the above is available, the value returned will be zero.
+
+
 
 ```
 ofscraper --sort price
@@ -125,13 +123,35 @@ ofscraper --sort price
 
 ### desc option
 
-Normal sort will be asc
+By default, the sorting is in ascending order.&#x20;
 
-This changes the sort to be desc
+Utilizing this changes the sorting to descending order.
 
 ```
 ofscraper --sort price --desc
 
 ```
 
-Retriving specific list
+### Retrieving specific list
+
+This option enables switching from the primary list of OnlyFans accounts to a previously designated collection of accounts.
+
+```
+ofscraper --userlist "tiktok"
+```
+
+You have the ability to merge multiple lists
+
+```
+ofscraper --userlist "tiktok" --userlist "tiktok2"
+```
+
+### Blocking list of Names
+
+Collections offer the functionality to block a list of names
+
+```
+ofscraper --blacklist "tiktok" 
+```
+
+Please note that this takes precedence over the '--userlist' option and also 'ALL' parameter

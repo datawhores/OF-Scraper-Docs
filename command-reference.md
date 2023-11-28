@@ -309,7 +309,7 @@ Possible choices: Videos,Audio,Images
 
 ```
 
-Override the mediatype filter specified in the configuration.
+Override the mediatype filter specified in the configuration file
 ```
 
 ```
@@ -448,7 +448,7 @@ Advanced Args
 #### -uf, --users-first
 
 ```
-Scrape all users first rather then one at a time. This only effects downloading posts
+Prioritize downloading posts by scraping all users at once instead of one at a time
 ```
 
 ```
@@ -468,19 +468,17 @@ Default: False
 #### -k, --key-mode
 
 ```
-key mode override
+Override the key mode in the configuration file
 ```
 
 ```
 default: auto
 ```
 
-#### -dr, --download-bars&#x20;
+#### -db, --download-bars&#x20;
 
 ```
-Toggle download bars
-
-Default is to use what is in the config
+Override the download-bars setting in the configuration file
 ```
 
 ```
@@ -490,9 +488,7 @@ default: None
 #### -sd, --download-sems
 
 ```
-Set number of concurent downloads per thread
-
-Default is to use what is in the config
+Override the download-sems setting in the configuration file
 ```
 
 ```
@@ -502,12 +498,10 @@ default: None
 #### -sd, --download-threads
 
 ```
-Set number of parallell threads
+Override the download-threads setting in the configuration file
 
-Default is to use what is in the config
-
-Setting to zero will force use of main thread for downloading
-Main Thread is also used if downloads can not fill download-sems
+Setting the value to zero will force the use of the main thread for downloading. 
+The main thread is also utilized if downloads cannot fill the download-sems.
 ```
 
 ```
@@ -517,19 +511,20 @@ default: None
 #### -pc,--part-cleanup
 
 ```
-Cleanup part files
-This will remove the ability to resume
+
+Override the tempfile clean setting in the configuration
+file, eliminating the ability to resume downloads.
 ```
 
 ```
 default: false
 ```
 
-#### -db,--part-cleanup
+#### -dr,--dynamic-rules
 
 ```
-Cleanup part files
-This will remove the ability to resume
+Override the dynamic-rules setting in the configuration file; 
+it's utilized for signing requests
 ```
 
 ```
@@ -538,11 +533,9 @@ default: false
 
 ## post\_check
 
-Display a generated table of data with information about models post(s)
+Display a generated table of data showcasing model posts. Accept multiple URLs through command-line input or a file.
 
-Multiple URLs can be passed via command-line or file
-
-Cache lasts for 24 hours
+&#x20;The cached information will be stored for 24 hours.
 
 ```
 ofscraper post_check [global args] [post_check args]
@@ -557,15 +550,13 @@ Scan posts via url
 ### -f, --file
 
 ```
-Scan posts via file
-
-With line separated URL(s)
+Scan posts using a file containing URLs separated by lines.
 ```
 
 ### -fo, --force
 
 ```
-force retrieval of new posts info from API
+Force the API to retrieve updated information on posts
 ```
 
 ```
@@ -574,11 +565,9 @@ Default: False
 
 ## msg\_check
 
-Display a generated table of data with information about models messages(s)
+Display a generated table displaying data regarding model messages. Accept multiple URLs through command-line input or a file.&#x20;
 
-Multiple URLs can be passed via command line or file
-
-Cache lasts for 24 hours
+Information retrieved will be cached for 24 hours
 
 ```
 ofscraper msg_check [global args] [msg_check args]
@@ -593,15 +582,13 @@ Scan messages via url
 ### -f, --file
 
 ```
-Scan messages via file
-
-With line separated URL(s)
+Scan messages using a file containing URLs separated by lines
 ```
 
 ### -fo, --force
 
 ```
-force retrieval of new messages info from API
+Force the API to retrieve updated information on messages
 ```
 
 ```
@@ -610,11 +597,9 @@ Default: False
 
 ## paid\_check
 
-Display a generated table of data with information about content purchased from model
+Display a generated table featuring information on purchased content from models.&#x20;
 
-Multiple usernames can be passed via command line or file
-
-Cache lasts for 24 hours
+Allows multiple usernames to be entered via command-line input or a file. Retain cached data for 24 hours.
 
 ```
 ofscraper paid_check [global args] [paid_check args]
@@ -629,15 +614,13 @@ Scan purchases via username
 ### -f, --file
 
 ```
-Scan purchases via file
-
-With line separated username(s)
+Scan paid content using a file containing usernames separated by lines.
 ```
 
 ### -fo, --force
 
 ```
-force retrieval of new posts info from API
+Force the API to retrieve updated information on paid content
 ```
 
 ```

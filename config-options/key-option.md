@@ -8,25 +8,25 @@ Certain CDMs might need additional configuration.
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/cdm-options" %}
 
-This can be overwritten with the&#x20;
+The following command can overwrite this setting
 
 ```
 --key-mode 
 ```
 
-command
+
 
 ## private-key
 
-Used for manual cdm
+Utilized for manual cdm
 
 ## client-id
 
-Used for manual cdm
+Utilized for manual cdm
 
-### keydb\_api
+## keydb\_api
 
-Used for keydb cdm
+Utilized for keydb api
 
 
 

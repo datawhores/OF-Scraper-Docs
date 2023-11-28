@@ -184,7 +184,7 @@ As a default, it is the maximum number of words. You can switch this to the maxi
 
 Remember, specifying '0' equates to no limit.
 
-## Remapping Responsetype
+## Remapping responsetype
 
 This feature enables you to group downloads using the 'responsetype' placeholder. It allows combining various download types into a single folder or segregating downloads into separate folders based on their 'responsetype.'
 

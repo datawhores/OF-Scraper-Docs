@@ -161,7 +161,7 @@ It should be employed in conjunction with the text placeholder.
 
 If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
 
-## Responsetype
+## responsetype
 
 This setting solely remaps values for the {responsetype} placeholder
 
@@ -169,7 +169,7 @@ Empty values or "" will default to the program's preset values
 
 #### Example
 
-This configures the responsemap to consolidate messages and paid content into a unified folder.
+This configures the response map to consolidate messages and paid content into a unified folder.
 
 ```
 "timeline": "Posts",
@@ -215,4 +215,6 @@ Further details about these settings are available here
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path" %}
 
-Key Options
+## Key Options
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/key-options" %}

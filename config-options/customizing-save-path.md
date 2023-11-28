@@ -116,7 +116,7 @@ Please open an issue if further assistance is required.
 {profile} = The currently active profile
 {my_username}=The authorized account's username
 {my_id} = The identification number 
-for the  authorized account.
+for the  authorized account
 {label} = The label assigned to the post, if available
 {download_type}= Indication of whether it's protected or normal, determined by the necessity for decryption
 
@@ -134,24 +134,23 @@ The file's name segment in the saved file\
 
 {first_letter} = first letter of model's username
 
-{post_id} = The posts' ID.
+{post_id} = The posts' ID
 
-{media_id} = The media's ID.
+{media_id} = The media's ID
 
-{model_username} = The model's username.
+{model_username} = The model's username
 
 {responsetype} = Posts,Messages,Paid,etc
 
 {mediatype} = Images,Audios,Videos,etc
 
-{filename} = The media's filename.
+{filename} = The media's filename
 
-{value} = Value of the content. Paid or Free.
+{value} = The content's value: Whether it's categorized as Paid or Free
 
-{text} = The media's text. Truncation of file names has been tested to fit with OS limits. However, it is still recommended to set a textlength limit.
-
-
-{date} = The post's creation date.
+{text} = The text within the media. Truncation of file names has been tested to fit within OS limits, 
+still it's advisable to establish a text length limit.
+{date} = The date when the post was created.
 {model_id}= unique id number for model
 
 

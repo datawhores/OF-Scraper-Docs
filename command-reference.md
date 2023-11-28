@@ -648,14 +648,13 @@ Scan stories/highlights via username
 ### -f, --file
 
 ```
-Scan stories/highlights via file
-With line separated username(s)
+Scan stories/highlist using a file containing usernames separated by lines.
 ```
 
 ### -fo, --force
 
 ```
-force retrieval of new posts info from API
+Force the API to retrieve updated information on stories/highlights
 ```
 
 ```
@@ -664,17 +663,15 @@ Default: False
 
 ## Manual
 
-Manually download content via url or postid
+Retrieve content manually using either a URL or a post ID
 
 ### -f, --file
 
 ```
-File with line separated list of 
-
-links/postid to download
+File containing a list of links or post IDs separated by lines
 ```
 
-\-u, --url
+### -u, --url
 
 ```
 url(s) to download

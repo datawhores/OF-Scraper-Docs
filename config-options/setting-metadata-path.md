@@ -8,7 +8,7 @@ Using your existing metadata files from DIGITALCRIMINALS' script enables immedia
 
 ### Windows
 
-I'm not someone who uses Windows on a daily basis, but it should be&#x20;
+I don't often work on Windows, but the location should generally be.
 
 ```
 C:/Users/username/.config/ofscraper/config.json
@@ -30,7 +30,7 @@ Replace "username" with your login name
 
 ## Changing metadata location
 
-Modify the metadata section in the config.json file using these placeholders
+Adjust the metadata section in the config.json file by inserting the appropriate locations or paths using the provided placeholders
 
 ```
 {sitename} = Onlyfans
@@ -39,11 +39,11 @@ Modify the metadata section in the config.json file using these placeholders
 
 {model_username} = The model's username.
 
-{model_id}= unique id number for model
-{configpath}= parent dir of config.json
-{profile} = current profile 
-{save_location} = returns the parsed path from 'save_location' option
-{profile} = currently active profile
-{my_username}=the username for the authorized account
-{my_id} = the id for the authorized account
+{model_id}= Unique identification number for model
+{configpath}= The directory containing the config.json file
+{profile} =The currently active profile
+{save_location} = This option retrieves the parsed path specified in the 'save_location' 
+option
+{my_username}=The authorized account's username
+{my_id} = The identification number assigned to the authorized account
 ```

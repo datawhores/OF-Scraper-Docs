@@ -1,8 +1,12 @@
+---
+description: Requirements for pip or pipx installations
+---
+
 # Requirements
 
-Requirements for pip or pipx only
+**Recommend Version: python 3.11**
 
-###
+
 
 ## OF-Scraper >=2.64
 

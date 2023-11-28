@@ -103,14 +103,14 @@ This takes precedence over the '--username' option.
 #### -d, --daemon
 
 ```
-run script in the background Set value to minimum minutes between script runs 
-Overdue runs will run as soon as previous run finishes
+Execute the script in the background. Set the value for the minimum duration between script runs. 
+Overdue runs will commence immediately after the previous run finishes.
 ```
 
 #### -g, --original
 
 ```
-don’t truncate long paths
+Do not truncate lengthy paths
 ```
 
 ```
@@ -133,9 +133,8 @@ Default: False
 Possible choices: like, unlike
 ```
 
-```
-perform like or unlike action on each post
-```
+<pre><code><strong>Execute a like or unlike action on each post
+</strong></code></pre>
 
 ### Post
 
@@ -144,7 +143,7 @@ What type of post to scrape
 #### -e, --dupe
 
 ```
-Bypass the dupe check and redownload all files
+Override the duplicate check and re-download all files.
 ```
 
 ```
@@ -158,8 +157,9 @@ Possible choices: highlights,all,archived,messages,
 timeline,pinned,stories,purchased,profile,skip,labels
 ```
 
-<pre><code><strong>Download content from a model
-</strong></code></pre>
+```
+Download content from a specific model
+```
 
 ```
 Default:None
@@ -178,42 +178,42 @@ Exclude certain posts from download
 has preference over --post
 ```
 
-<pre><code><strong>Default: None
-</strong></code></pre>
+```
+
+Omit specific posts from the download process
+Has priority over the '--post' option.
+```
 
 #### -sk, --skip-timed
 
 ```
 Skipped temporary post
-
-mostly used for promo
+commonly used for promotions
 ```
 
 #### -ms, --mass-skip
 
 ```
-Filter downloads to only downloads marked as a mass message
+Filter downloads to exclusively include downloads labeled as mass messages.
 ```
 
 #### -mm, --mass-msg
 
-```
-Skip any downloads mark as mass messages
-```
+<pre><code><strong>Exclude any downloads marked as mass messages
+</strong></code></pre>
 
 #### -ok, --only-timed
 
 ```
-Only download temporary post, mostly used for promo
+Download only temporary posts,, mostly used for promo
 ```
 
 #### -ft, --filter
 
 ```
-Filter post by text with inputed regex 
-Note if you include any uppercase characters the search will be case-sensitive
-
-Post will be included if it passes filter test
+Filter posts using a provided regex pattern. 
+Please note that including any uppercase characters will make the search case-sensitive. 
+Posts will be included if they pass the filter test.
 ```
 
 ```
@@ -223,10 +223,9 @@ Default: “.*”
 #### -nf, --neg-filter
 
 ```
-Filter post by text with inputed regex 
-Note if you include any uppercase characters the search will be case-sensitive
-
-Post will be excluded if it passes filter test
+Use a regex pattern to filter posts by text. 
+Note that including uppercase characters will make the search case-sensitive. 
+Posts passing the filter test will be excluded.
 ```
 
 ```
@@ -242,10 +241,11 @@ Possible choices: protected,normal
 ```
 
 ```python
-Filter what type of download you want 
-None==Both,
-protected=Files that need mp4decrpyt
-Normal= Files that don't need mp4decrpyt
+Specify the download type:
+
+None: Both types
+Protected: Files requiring mp4decrypt
+Normal: Files not needing mp4decrypt
 
 ```
 
@@ -257,9 +257,9 @@ Default: None
 
 #### -sp, --scrape-paid
 
-```
-scrape the entire paid page for content. This can take a very long time
-```
+<pre><code><strong>Scrape the entire paid page for content. 
+</strong>This process can take a substantial amount of time.
+</code></pre>
 
 ```
 Default: False
@@ -268,7 +268,7 @@ Default: False
 #### -lb,--label
 
 ```
-scrape specific labels
+Scrape specific labelss
 ```
 
 ```
@@ -278,18 +278,16 @@ Default: None
 #### -be, --before
 
 ```
-Process post at or before the given date general synax is 
-Month/Day/Year 
-Works for like,unlike, and downloading posts
+Process posts on or before a specific date. 
+The general syntax is Month/Day/Year. 
+This functionality works for actions like liking, unliking, and downloading posts
 ```
 
 #### -af, --after
 
 ```
-Process post at or after the given date 
-Month/Day/Year 
-
-Works for like,unlike, and downloading posts
+Process posts on or after a specified date in the format Month/Day/Year. 
+This functionality applies to actions like liking, unliking, and downloading posts.
 ```
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
@@ -297,7 +295,8 @@ Works for like,unlike, and downloading posts
 ### -md, --metadata
 
 ```
-skips downloading files to disk
+This feature skips the downloading of files to the disk, 
+primarily designed for adding metadata to the database.
 ```
 
 ### -mt,--mediatype
@@ -309,8 +308,8 @@ Possible choices: Videos,Audio,Images
 ```
 
 ```
-overwrite the mediatype filter from config
 
+Override the mediatype filter specified in the configuration.
 ```
 
 ```
@@ -322,10 +321,8 @@ Default: None
 
 
 ```
-Filter Files larger then the given size
-
-Can accept humanize strings such as 
-"10gb"
+Filter files larger than the specified size. 
+This filter accepts human-readable strings like "10GB".
 
 ```
 
@@ -335,14 +332,13 @@ Default: None
 
 ### -sm,--size-min
 
-
+```
+Filter files smaller than the specified size. 
+This filter accepts human-readable strings like "10GB".
 
 ```
-Filter Files smaller then the given size
 
-Can accept humanize strings such as 
-"10gb"
-
+```
 ```
 
 ```
@@ -353,7 +349,7 @@ Default: None
 
 ### filters
 
-Filters out usernames based on selected parameters\
+Apply filters to usernames based on the chosen parameters.\
 
 
 \-at, --account-type
@@ -363,8 +359,9 @@ Possible choices: paid, free
 ```
 
 ```
-Filter Free or paid accounts paid and free correspond to your original price 
-and not the renewal price
+
+Filter accounts based on their original pricing, distinguishing between free and paid accounts. 
+Please note that "paid" and "free" relate to the original price rather than the renewal price.
 ```
 
 #### -rw, --renewal
@@ -374,7 +371,7 @@ Possible choices: active, disabled
 ```
 
 ```
-Filter by whether renewal is on or off for account
+Filter accounts depending on their renewal status, either turned on or off.
 ```
 
 #### -ss, --sub-status
@@ -384,24 +381,19 @@ Possible choices: active, expired
 ```
 
 ```
-Filter by whether or not your subscription has expired or not
+Filter based on the expiration status of your subscription.
 ```
 
 #### -ul, --user-list
 
 ```
-Filter by userlist(s)
+Filter by userlists:
 
-Default List is given the name
-"ofscraper.main"
+The default list is named "ofscraper.main." 
+Other built-in lists include "ofscraper.active" and "ofscraper.disabled."
 
-Other built-ins
-"ofscraper.active"
-"ofscraper.disabled"
-
-Default List is scrape if no argment is passed
-Default List will not be automatically scraped if argment is passed
-
+If no argument is provided, the default list will be "scrape." 
+If an argument is passed, the default list won't be automatically scraped.
 ```
 
 ```
@@ -411,14 +403,10 @@ Default: []
 #### -bl, --black-list
 
 ```
-exclude all models in given userlist(s)
+Exclude all models listed in the provided userlists:
 
-Default List is given the name
-"ofscraper.main"
-
-Other built-ins
-"ofscraper.active"
-"ofscraper.disabled"
+The default list is named "ofscraper.main." 
+Other built-in lists include "ofscraper.active" and "ofscraper.disabled."
 ```
 
 ```
@@ -436,7 +424,7 @@ Possible choices: Name, Subscribed, Expiring, Price
 ```
 
 ```
-What to sort the model list by
+Specify the sorting criteria for the model list
 ```
 
 ```
@@ -446,7 +434,7 @@ Default: Name
 #### -ds, --desc
 
 ```
-Sort the model list in descending order
+Arrange the model list in descending order
 ```
 
 ```

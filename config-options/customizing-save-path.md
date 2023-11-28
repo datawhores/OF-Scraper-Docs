@@ -118,7 +118,8 @@ Please open an issue if further assistance is required.
 {my_id} = The identification number 
 for the  authorized account
 {label} = The label assigned to the post, if available
-{download_type}= Indication of whether it's protected or normal, determined by the necessity for decryption
+{download_type}= Indication of whether it's protected or normal, 
+determined by the necessity for decryption
 
 ```
 
@@ -151,50 +152,45 @@ The file's name segment in the saved file\
 {text} = The text within the media. Truncation of file names has been tested to fit within OS limits, 
 still it's advisable to establish a text length limit.
 {date} = The date when the post was created.
-{model_id}= unique id number for model
+{model_id}= Unique identification number for model
 
 
-{ext} = The media's file extension
-{profile} = the current active profile
-{my_username}=the username for the authorized account
-{my_id} = the id for the authorized account
-{label} = label of post if present otherwise empty ""
-{download_type}= Protected or Normal based on need for decryption
+{ext} = The file extension of the media
+{profile} = The currently active profile
+{my_username}=The authorized account's username
+{my_id} = The identification number 
+for the  authorized account
+{label} =  The label assigned to the post, if available
+{download_type}= Indication of whether it's protected or normal, 
+determined by the necessity for decryption
+Warning
 ```
 
-#### <mark style="color:red;">**Warning**</mark>
-
 ```
-When setting up filename make sure you have a unique element 
-text,media_id,post_id,filename  are all unique element
-
-Without this filenames will conflict
+When configuring filenames, ensure a unique element such as text, media ID, post ID, or filename to avoid conflicts. 
+These elements are unique to prevent filename conflicts.
 ```
 
 ### date (optional)
 
 \
-The date syntax varies and doesn't utilize bracket notation; instead, it follows the Arrow implementation.
+The date syntax doesn't use bracket notation; it adheres to the Arrow implementation.&#x20;
 
-For more details, refer to the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens).&#x20;
-
-If you require further assistance, consider opening an issue in the repository for support
+For more information, check the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens). If you need additional help, feel free to open an issue in the repository for support.
 
 ### textlength
 
-By default, it includes the maximum number of words
+As a default, it is the maximum number of words. You can switch this to the maximum number of letters by using the '--letter-count' argument.&#x20;
 
-&#x20;You have the option to switch this to the maximum number of letters using the '--letter-count' argument
-
-Keep in mind, specifying '0' equals to no limit.
+Remember, specifying '0' equates to no limit.
 
 ## Remapping Responsetype
 
-This functionality lets you group downloads using the 'responsetype' placeholder. It also allows combining different download types into a single folder or directing downloads to separate folders based on their 'responsetype'
+This feature enables you to group downloads using the 'responsetype' placeholder. It allows combining various download types into a single folder or segregating downloads into separate folders based on their 'responsetype.'
 
-For instance, you have the option to consolidate all 'stories' and 'highlights,' or categorize 'purchased' items and 'messages' within a designated folder named 'Premium.' Another possibility is to organize 'timeline posts' into a distinct folder titled 'posts.'
+For example, you can merge 'stories' and 'highlights' into one folder or categorize 'purchased' items and 'messages' into a folder named 'Premium.' Another option is to organize 'timeline posts' into a separate folder labeled 'posts.'
 
-The initial value represents the response type it's mapped to, which shouldn't be altered. The second value determines what the 'responsetype' should be remapped to
+The initial value indicates the mapped response type, which should remain unchanged. The second value determines the remapped 'responsetype.'
 
 #### Example
 
@@ -222,4 +218,4 @@ highlight -> maps to stories  -> files save to "{model_username}/Stories/{mediat
 profile -> maps to archived  -> files save to "{model_username}/Profile/{mediatype}/"
 ```
 
-The default settings here are designed to maximize compatibility with Digitalcriminal's script
+These default settings are crafted to ensure maximum compatibility with Digitalcriminal's script.

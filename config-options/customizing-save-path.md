@@ -96,27 +96,29 @@ This is the root of all saved files
 The  relative directory path within the save location where files are stored
 
 ```
-{date}=The post's creation date, see date section for formatting
-open issue if you need help
+{date}=
+The creation date of the post, refer to the 'date' section for formatting guidelines. 
+Please open an issue if further assistance is required.
 
 {responsetype}=Posts,Messages,Paid,etc
 
 {mediatype}=Images,Audios,Videos
 
-{value}=Value of the content. Paid or Free.
+{value}=The content's value: Whether it's categorized as Paid or Free.
 
-{model_id}= unique id number for model
+{model_id}= Unique identification number for model
 
 {first_letter}= first letter of model's username
 
 {sitename} = Onlyfans
 
 {model_username} = The model's username
-{profile} = the current active profile
-{my_username}=the username for the authorized account
-{my_id} = the id for the authorized account
-{label} = label of post if present
-{download_type}= Protected or Normal based on need for decryption
+{profile} = The currently active profile
+{my_username}=The authorized account's username
+{my_id} = The identification number 
+for the  authorized account.
+{label} = The label assigned to the post, if available
+{download_type}= Indication of whether it's protected or normal, determined by the necessity for decryption
 
 ```
 

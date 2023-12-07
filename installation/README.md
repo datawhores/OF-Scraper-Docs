@@ -57,15 +57,30 @@ Otherwise, If you prefer to proceed using pipx, you can follow along with the gu
 #### Setting Python Version
 
 \
-pipx utilizes your default Python version. If you need to ensure a specific Python version, consider using pyenv: [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv).\
-\
+pipx utilizes your default Python version. If you need to ensure a specific Python version, consider using \
+one of the following
 
+1. **pyenv**
+
+{% embed url="https://github.com/pyenv/pyenv" %}
 
 #### Install python with pyenv
 
-pyenv install {python version}
+{% embed url="https://realpython.com/lessons/pyenv-install-python/" %}
 
-##
+***
+
+2. **miniconda**
+
+{% embed url="https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html" %}
+
+
+
+**Install python with miniconda**
+
+{% embed url="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html" %}
+
+
 
 ## Install
 

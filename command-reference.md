@@ -345,7 +345,7 @@ Default: None
 Apply filters to usernames based on the chosen parameters.\
 
 
-\-at, --account-type
+#### -at, --account-type
 
 ```
 Possible choices: paid, free
@@ -355,6 +355,20 @@ Possible choices: paid, free
 
 Filter accounts based on their original pricing, distinguishing between free and paid accounts. 
 Please note that "paid" and "free" relate to the original price rather than the renewal price.
+```
+
+
+
+#### -at, --account-renewal
+
+```
+Possible choices: paid, free
+```
+
+```
+
+Filter accounts based on their future price distinguishing between free and paid accounts. 
+Please note that "paid" and "free" relate to renewal price.
 ```
 
 #### -rw, --renewal

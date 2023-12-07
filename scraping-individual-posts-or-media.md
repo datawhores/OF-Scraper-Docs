@@ -35,7 +35,9 @@ To grasp this better, checking out the **`get_info`** function in **`manual.py`*
 
 **1. Run a content scraper mode**
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/content-check-modes" %}
+{% content-ref url="content-check-modes.md" %}
+[content-check-modes.md](content-check-modes.md)
+{% endcontent-ref %}
 
 **2. Use the mouse to toggle the checkmark of the row you want to download**\
 _Note you can also toggle with  ";" or "',"_&#x20;

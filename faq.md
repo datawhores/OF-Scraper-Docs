@@ -6,8 +6,10 @@ Certain models delete content, which restricts OF-Scraper from accessing this sp
 
 ## 2<mark style="color:blue;">.  Number of users doesn't match account number</mark>
 
-[https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312](https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312)\
-\
+
+
+{% embed url="https://github.com/datawhores/OF-Scraper/issues/224#issuecomment-1757367312" %}
+
 Every time you scroll down, the API requests 10 names, but frequently, fewer than 10 names are returned
 
 ### Example
@@ -182,7 +184,7 @@ This issue appears to only affect Linux systems
 
 Obtain the GPL non-shared release version.
 
-[https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases)
+{% embed url="https://github.com/BtbN/FFmpeg-Builds/releases" %}
 
 ### Some Info
 

@@ -134,11 +134,11 @@ install python the manual way\
 
 {% embed url="https://arpitrana.medium.com/installing-miniconda-on-mac-osx-ac4557a715f7" %}
 
-{% embed url="https://docs.conda.io/en/latest/miniconda.html" %}
+{% embed url="https://docs.conda.io/en/latest/miniconda.html" fullWidth="false" %}
 a more automatic installer
 {% endembed %}
 
-### step 4
+step 4
 
 To confirm that pip is installed, return to the terminal and type
 

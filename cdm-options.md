@@ -9,7 +9,12 @@ This method is recommended due to its reliability and independence from potentia
 
 #### Setup
 
-* Follow this guide: [https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio?s=f22ce643aaaca3496c59a76a2a78c567](https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio?s=f22ce643aaaca3496c59a76a2a78c567)
+* Follow this guide:&#x20;
+
+{% embed url="https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio?s=f22ce643aaaca3496c59a76a2a78c567" %}
+Guide
+{% endembed %}
+
 *   In the end you should have two files\
     \- private key file
 

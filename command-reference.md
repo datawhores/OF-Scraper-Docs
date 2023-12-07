@@ -84,7 +84,7 @@ Default: NORMAL
 ofscraper  [global args] [main program args]
 ```
 
-### General Arguments for scraper
+### General Scraper Args
 
 #### -u, --username
 
@@ -136,7 +136,7 @@ Possible choices: like, unlike
 <pre><code><strong>Execute a like or unlike action on each post
 </strong></code></pre>
 
-### Post
+### Post Filters
 
 What type of post to scrape
 
@@ -292,13 +292,6 @@ This functionality applies to actions like liking, unliking, and downloading pos
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
 
-### -md, --metadata
-
-```
-This feature skips the downloading of files to the disk, 
-primarily designed for adding metadata to the database.
-```
-
 ### -mt,--mediatype
 
 
@@ -347,7 +340,7 @@ Default: None
 
 ###
 
-### filters
+### Account filters
 
 Apply filters to usernames based on the chosen parameters.\
 
@@ -441,6 +434,8 @@ Arrange the model list in descending order
 Default: False
 ```
 
+###
+
 ### Advanced
 
 Advanced Args
@@ -529,6 +524,13 @@ it's utilized for signing requests
 
 ```
 default: false
+```
+
+### -md, --metadata
+
+```
+This feature skips the downloading of files to the disk, 
+primarily designed for adding metadata to the database.
 ```
 
 ## post\_check

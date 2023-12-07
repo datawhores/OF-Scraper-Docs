@@ -60,7 +60,9 @@ client-id:...??client_id.bin
 ### CDRM
 
 \
-This is the initial automated option provided by [https://cdrm-project.com/](https://cdrm-project.com/).&#x20;
+This is the initial automated option provided by&#x20;
+
+{% embed url="https://cdrm-project.com" %}
 
 If you're unable to access the site, it's likely down, and you'll need to choose an alternative.
 
@@ -89,7 +91,11 @@ you could also pass --key-mode arg
 
 This is the secondary automatic option&#x20;
 
-provided by [http://172.106.17.134:8080/](http://172.106.17.134:8080/). If you're unable to access the site, it's likely down, and you'll need to choose an alternative setup.
+provided by
+
+{% embed url="http://172.106.17.134:8080/" %}
+
+If you're unable to access the site, it's likely down, and you'll need to choose an alternative setup.
 
 #### Changing via config manually
 
@@ -116,7 +122,10 @@ you could also pass the key-mode arg
 
 This is the third automatic option
 
-provided by [https://keysdb.net/login?next=/](https://keysdb.net/login?next=/)\
+provided by&#x20;
+
+{% embed url="https://keysdb.net/login?next=/" %}
+
 If you can not access the site most likely the site is down, and you must select a alternative
 
 #### Setup

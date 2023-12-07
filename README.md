@@ -1,9 +1,17 @@
 # Welcome
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/requirements" %}
+{% content-ref url="requirements.md" %}
+[requirements.md](requirements.md)
+{% endcontent-ref %}
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/installation" %}
+{% content-ref url="installation/" %}
+[installation](installation/)
+{% endcontent-ref %}
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/getting-started" %}
+{% content-ref url="getting-started.md" %}
+[getting-started.md](getting-started.md)
+{% endcontent-ref %}
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/faq" %}
+{% content-ref url="faq.md" %}
+[faq.md](faq.md)
+{% endcontent-ref %}

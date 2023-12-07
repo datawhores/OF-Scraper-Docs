@@ -20,11 +20,9 @@ You can provide a comma-separated list indicating the models you wish to scrape
 
 The following settings can be dynamically modified if using prompts.
 
-```
----account-type,--sub-status and renewal
-```
-
-{% embed url="https://of-scraper.gitbook.io/of-scraper/using-prompts" %}
+{% content-ref url="../using-prompts/" %}
+[using-prompts](../using-prompts/)
+{% endcontent-ref %}
 
 Furthermore, this adjustment doesn't alter the retrieval of usernames; it solely impacts the subset of usernames that are displayed\
 \

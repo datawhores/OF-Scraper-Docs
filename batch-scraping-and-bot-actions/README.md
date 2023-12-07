@@ -12,11 +12,17 @@ This enables you to choose arguments using the prompt menus.
 ofscraper
 ```
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts" %}
+{% content-ref url="selecting-posts.md" %}
+[selecting-posts.md](selecting-posts.md)
+{% endcontent-ref %}
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/model-selection-sorting" %}
+{% content-ref url="model-selection-sorting.md" %}
+[model-selection-sorting.md](model-selection-sorting.md)
+{% endcontent-ref %}
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/liking-post" %}
+{% content-ref url="liking-unliking-post.md" %}
+[liking-unliking-post.md](liking-unliking-post.md)
+{% endcontent-ref %}
 
 ##
 
@@ -75,4 +81,6 @@ ofscraper --original
 
 ### Output Options
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/controlling-output" %}
+{% content-ref url="../controlling-output.md" %}
+[controlling-output.md](../controlling-output.md)
+{% endcontent-ref %}

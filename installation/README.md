@@ -4,7 +4,7 @@ No Install Run
 
 The OF-Scraper repository contains comprehensive binaries enabling you to run OF-Scraper without requiring additional installations on your computer.
 
-The zip file operates straight away, but with the exe, it needs to unpack into a temporary folder, which might cause the script to start a bit slower.
+The zip file operates straight away, but with the .exe, it needs to unpack into a temporary folder, which might cause the script to start a bit slower.
 
 
 
@@ -14,13 +14,17 @@ Windows binaries, in particular, can have distinct issues due to their use of sp
 
 {% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/installation/release-info" %}
+{% content-ref url="release-info.md" %}
+[release-info.md](release-info.md)
+{% endcontent-ref %}
 
 ## Before Starting
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/installation/pre-install-guide" %}
+{% content-ref url="pre-install-guide.md" %}
+[pre-install-guide.md](pre-install-guide.md)
+{% endcontent-ref %}
 
 ##
 

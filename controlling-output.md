@@ -67,6 +67,8 @@ Providing a scraping action and usernames should largely disable most,
 
 **LOW**
 
+Removed in 3.4.5
+
 ```
 
 It disables all progress bars and displays essential program status while running. 

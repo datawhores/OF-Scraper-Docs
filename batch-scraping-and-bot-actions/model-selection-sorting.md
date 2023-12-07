@@ -108,16 +108,19 @@ ofscraper --sort name
 #### sort by account price
 
 * The main data source for the 'price' field is the current subscription cost.
-* If the current subscription price isn't available, the 'lowest promo price' retrieved from the API is returned instead.
-* If the lowest promotional price isn't available, the regular membership price is retrieved instead
-*   If none of the above is available, the value returned will be zero.
-
-
+* If current subscription price is not available then the regular price of the account is used&#x20;
+* If none of the above is available, the value returned will be zero.
 
 ```
 ofscraper --sort price
 
 ```
+
+#### sort by account promo-price
+
+* The main data source for the 'price' field is the promotional price on the account.
+* If no promotional price is not  availble then the regular price of the account is used&#x20;
+* If none of the above is available, the value returned will be zero.
 
 ### desc option
 

@@ -116,7 +116,9 @@ You can use these placeholders
 
 For more detailed information regarding the transition from DigitialCriminal's script
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/migrating-from-digitalcriminals-script" %}
+{% content-ref url="../migrating-from-digitalcriminals-script.md" %}
+[migrating-from-digitalcriminals-script.md](../migrating-from-digitalcriminals-script.md)
+{% endcontent-ref %}
 
 Essentially, you'll need to adjust this setting to align with your previous metadata locations.
 
@@ -213,8 +215,12 @@ and include the --discord argument when executing the script.
 
 Further details about these settings are available here
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/customizing-save-path" %}
+{% content-ref url="customizing-save-path.md" %}
+[customizing-save-path.md](customizing-save-path.md)
+{% endcontent-ref %}
 
 ## Key Options
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/key-options" %}
+{% content-ref url="key-option.md" %}
+[key-option.md](key-option.md)
+{% endcontent-ref %}

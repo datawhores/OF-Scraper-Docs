@@ -1,6 +1,8 @@
 # Migrating from Digitalcriminal's script
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/config-options/setting-metadata-path" %}
+{% content-ref url="config-options/setting-metadata-path.md" %}
+[setting-metadata-path.md](config-options/setting-metadata-path.md)
+{% endcontent-ref %}
 
 ## Example
 

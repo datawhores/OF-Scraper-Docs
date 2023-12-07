@@ -15,7 +15,6 @@ Please note, Discord logs will solely contain the log message, whereas other log
 #### LEVELS
 
 * OFF
-* STATS
 * LOW
 * NORMAL
 * DEBUG
@@ -67,7 +66,7 @@ Providing a scraping action and usernames should largely disable most,
 
 **LOW**
 
-Removed in 3.4.5
+Removed in 3.5
 
 ```
 

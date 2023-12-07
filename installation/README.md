@@ -30,11 +30,7 @@ While you can install it using pip, it's recommended to use pipx. This method pl
 
 into its own virtual environment, ensuring the program operates without interference from other installations.
 
-
-
-{% embed url="https://pypa.github.io/pipx/" %}
-
-
+{% embed url="https://pipx.pypa.io/stable/" %}
 
 ***
 

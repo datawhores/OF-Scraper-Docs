@@ -340,7 +340,7 @@ Default: None
 
 ###
 
-### Account filters
+### account filters
 
 Apply filters to usernames based on the chosen parameters.\
 
@@ -349,11 +349,15 @@ Apply filters to usernames based on the chosen parameters.\
 
 ***
 
-#### Pricing filters
+#### pricing filters
 
 {% content-ref url="batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
 [price-filtering-sort.md](batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
 {% endcontent-ref %}
+
+```
+Filter accounts based on the pricing 
+```
 
 #### -cp, --current-price
 
@@ -378,6 +382,26 @@ Possible choices: paid, free
 ```
 Possible choices: paid, free
 ```
+
+***
+
+#### promo filters
+
+**--promo**
+
+```
+Possible choices: yes,no
+```
+
+<pre><code><strong>Filter accounts based on the presence of claimable promotions
+</strong></code></pre>
+
+**--all-promo**
+
+<pre><code><strong>Filter accounts based on the presence of any promotions
+</strong></code></pre>
+
+
 
 ***
 

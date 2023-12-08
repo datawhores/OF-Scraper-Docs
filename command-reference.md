@@ -11,7 +11,7 @@ Overview
 ### -v, --version
 
 ```
-Display the program's version number and then exi
+Display the program's version number and then exit
 ```
 
 ```
@@ -439,16 +439,19 @@ Options on how to sort list
 #### -st, --sort
 
 ```
-Possible choices: Name, Subscribed, Expiring, Price
-```
+Possible choices: name, subscribed, expired,current-price,promo-price
+regular-price,renew-pric
 
 ```
-Specify the sorting criteria for the model list
-```
+
+<pre><code><strong>Specify the sorting criteria for the model list
+</strong></code></pre>
 
 ```
 Default: Name
 ```
+
+Note: If account is set to renew then expired is the same as renewal date
 
 #### -ds, --desc
 

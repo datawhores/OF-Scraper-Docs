@@ -345,31 +345,43 @@ Default: None
 Apply filters to usernames based on the chosen parameters.\
 
 
-#### -at, --account-type
+####
+
+***
+
+#### Pricing filters
+
+{% content-ref url="batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
+[price-filtering-sort.md](batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
+{% endcontent-ref %}
+
+#### -cp, --current-price
 
 ```
 Possible choices: paid, free
 ```
 
-```
-
-Filter accounts based on their original pricing, distinguishing between free and paid accounts. 
-Please note that "paid" and "free" relate to the original price rather than the renewal price.
-```
-
-
-
-#### -at, --account-renewal
+_--_ **rp, --renew-price**
 
 ```
 Possible choices: paid, free
 ```
 
+_--_ **pp, --promo-price**
+
+```
+Possible choices: paid, free
 ```
 
-Filter accounts based on their future price distinguishing between free and paid accounts. 
-Please note that "paid" and "free" relate to renewal price.
+**-- gp, --regular-price**
+
 ```
+Possible choices: paid, free
+```
+
+***
+
+#### Other filters
 
 #### -rw, --renewal
 

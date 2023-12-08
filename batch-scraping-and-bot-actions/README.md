@@ -16,8 +16,8 @@ ofscraper
 [selecting-posts.md](selecting-posts.md)
 {% endcontent-ref %}
 
-{% content-ref url="model-selection-sorting.md" %}
-[model-selection-sorting.md](model-selection-sorting.md)
+{% content-ref url="model-selection-sorting/" %}
+[model-selection-sorting](model-selection-sorting/)
 {% endcontent-ref %}
 
 {% content-ref url="liking-unliking-post.md" %}

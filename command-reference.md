@@ -456,11 +456,15 @@ Other built-in lists include "ofscraper.active" and "ofscraper.disabled."
 Default: []
 ```
 
-### sort
 
-Options on how to sort list
+
+
 
 #### -st, --sort
+
+```
+Controls the order of the model selection list and the scraping order
+```
 
 ```
 Possible choices: name, subscribed, expired,current-price,promo-price

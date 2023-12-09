@@ -1,6 +1,14 @@
 # Model Filtering/Sorting
 
-## Selecting Specific models from Commandline
+## Filter/Sort List By Price
+
+
+
+{% content-ref url="price-filtering-sort.md" %}
+[price-filtering-sort.md](price-filtering-sort.md)
+{% endcontent-ref %}
+
+## Selecting Specific models from command-line
 
 You can provide a comma-separated list indicating the models you wish to scrape
 
@@ -16,15 +24,7 @@ You can provide a comma-separated list indicating the models you wish to scrape
 
 'ALL' is influenced by filters, and it  is case-sensitive.
 
-###
 
-## Filter/Sort List By Price
-
-{% content-ref url="price-filtering-sort.md" %}
-[price-filtering-sort.md](price-filtering-sort.md)
-{% endcontent-ref %}
-
-###
 
 ## Filtering username list
 
@@ -103,6 +103,8 @@ ofscraper  --regular-price paid
 ## Sorting username list
 
 The default setting is to sort alphabetically by name in ascending order
+
+Note: Sorting effects the order of scraping, and not just the order that they appear in the prompt menu
 
 ### sort by account expiring date
 

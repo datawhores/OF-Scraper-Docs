@@ -170,7 +170,7 @@ Default:None
 #### -eo, --excluded-posts
 
 ```
-Possible choices: highlights,all,archived,messages,timeline,pinned,stories,purchased,profile,skip,labels
+Possible choices: highlights,archived,messages,timeline,pinned,stories,purchased,profile,skip,labels
 ```
 
 ```

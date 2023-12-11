@@ -65,6 +65,20 @@ Further details about these settings are available here
 [customizing-save-path.md](file-output-options/customizing-save-path.md)
 {% endcontent-ref %}
 
+
+
+{% content-ref url="file-output-options/" %}
+[file-output-options](file-output-options/)
+{% endcontent-ref %}
+
+## Media Filtering
+
+
+
+{% content-ref url="media-filtering-options.md" %}
+[media-filtering-options.md](media-filtering-options.md)
+{% endcontent-ref %}
+
 ## Key Options
 
 {% content-ref url="key-option.md" %}

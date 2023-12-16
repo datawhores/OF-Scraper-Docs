@@ -155,7 +155,7 @@ ofscraper --sort price --desc
 
 ```
 
-### Retrieving specific list
+## Retrieving specific list
 
 This option enables switching from the primary list of OnlyFans accounts to a previously designated collection of accounts.
 
@@ -169,7 +169,7 @@ You have the ability to merge multiple lists
 ofscraper --userlist "tiktok" --userlist "tiktok2"
 ```
 
-### Blocking list of Names
+## Blocking list of Names
 
 Collections offer the functionality to block a list of names
 

@@ -275,7 +275,9 @@ model
 
 ### story check mode
 
-It collects stories and highlights using the provided username. Note that stories are temporary content
+It collects stories and highlights using the provided username
+
+> stories are temporary content and may change frequently
 
 1. you must add the --username or --file argument
 2. You can combine the previous args

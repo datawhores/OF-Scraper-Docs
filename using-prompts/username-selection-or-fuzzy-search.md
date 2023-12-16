@@ -11,21 +11,19 @@ However, the challenge lies in determining which models are being selected.
 For all models
 
 ```
-ctrl- R
+Ctrl+R
 ```
 
 For a single model you can hit
 
 ```
-home+right
+END  |  HOME | PAGEUP | PAGEDOWN 
 ```
 
-```
-pageDown+right
-```
+For all Models
 
 ```
- shift+Right
+Ctrl+A
 ```
 
 ## Sorting/Filtering List
@@ -33,7 +31,7 @@ pageDown+right
 You'll be able to adjust the filters which controls the appearance of models on the list and how they're sorted
 
 ```
-ctrl-z 
+Alt+x or Ctrl+B
 ```
 
 ## Searching the list
@@ -68,24 +66,13 @@ To remove a model, either change the filter to an empty string or input a filter
 
 You can use the previously mentioned keys to toggle between selecting and unselecting models.
 
-## Toggles
+## More Controls
 
-For all models
+These controls may change, and there may be additional keys not shown here
 
-```
-ctrl- R
-```
-
-For a single model you can hit
+Use one of the keys below during the model selection for up to date keys
 
 ```
-home+right
+ALT+V | CTRL+V
 ```
 
-```
-pageDown+right
-```
-
-```
- shift+Right
-```

@@ -6,6 +6,8 @@ description: Setting up authorization
 
 ## Example
 
+An example of what an auth file should typically look like
+
 ```
 {
     "auth": {

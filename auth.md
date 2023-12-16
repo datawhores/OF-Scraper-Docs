@@ -9,7 +9,7 @@ description: Setting up authorization
 ```
 {
     "auth": {
-        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "app-token": "33d57ade8c02dbc5a333db99ff9ae26a",
         "x-bc": "fncx03r1ygvh26ezq4pe830l49xtj1a146e1x2av",
         "auth_id": "400000",

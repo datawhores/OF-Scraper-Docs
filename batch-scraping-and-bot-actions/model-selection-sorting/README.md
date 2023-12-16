@@ -177,4 +177,4 @@ Collections offer the functionality to block a list of names
 ofscraper --blacklist "tiktok" 
 ```
 
-Please note that this takes precedence over the '--userlist' option and also 'ALL' parameter
+> Please note that this takes precedence over the '--userlist' option and also 'ALL' parameter

@@ -43,9 +43,9 @@ to restrict by letter count pass `--letter-count` argument
 
 This character will replace all spaces within the filename.
 
-&#x20;Note: This change applies exclusively to the filename and doesn't affect other path components like parent directories.
-
 It should be employed in conjunction with the text placeholder.
+
+> &#x20;This change applies exclusively to the filename and doesn't affect other path components like parent directories.
 
 ## appendlog
 

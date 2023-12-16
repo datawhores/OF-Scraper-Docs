@@ -4,7 +4,7 @@
 
 In most cases, there's no need to modify this setup. Profiles are organized into directories within the config location, with the value being derived from the directory name. Each directory can correspond to a distinct authentication file.&#x20;
 
-Note: all profiles will share the same configuration.
+> &#x20;all profiles will share the same configuration.
 
 
 
@@ -12,7 +12,7 @@ Note: all profiles will share the same configuration.
 
 Add public avatar to log outputs
 
-Note: This effects any log level, other then prompt&#x20;
+> This effects any log level, other then prompt&#x20;
 
 
 

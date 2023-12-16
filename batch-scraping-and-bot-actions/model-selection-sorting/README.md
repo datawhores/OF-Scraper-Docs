@@ -108,7 +108,9 @@ ofscraper  --regular-price paid
 
 The default setting is to sort alphabetically by name in ascending order
 
-Note: Sorting effects the order of scraping, and not just the order that they appear in the prompt menu
+
+
+> Sorting effects the order of scraping, and not just the order that they appear in the prompt menu
 
 ### sort by account expiring date
 

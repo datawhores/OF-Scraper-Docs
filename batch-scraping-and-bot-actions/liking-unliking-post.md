@@ -14,7 +14,7 @@
 
 estimated to be around 1000 per day
 
-## Self limit in program
+## Limit in program
 
 Each like requests will have a delay&#x20;
 

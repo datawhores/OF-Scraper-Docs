@@ -10,7 +10,7 @@ An example of what an auth file should typically look like
 
 > app-token will always be the same value
 
-> Other values are randomized, but maintain the same length and adhere to the field's alphanumeric rules.
+> Other values are randomized, but try maintain the same length and adhere to the field's alphanumeric rules.
 
 ```
 {

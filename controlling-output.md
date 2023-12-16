@@ -10,7 +10,7 @@ description: various options for output
 
 The output goes to the Discord channel.
 
-Please note, Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.
+> Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.
 
 #### LEVELS
 

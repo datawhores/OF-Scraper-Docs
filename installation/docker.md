@@ -2,7 +2,7 @@
 
 ## Volumes
 
-Note: Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.&#x20;
+> Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.&#x20;
 
 If you opt for the autodownload feature when installing mp4decrpy or ffmpeg, the binaries will be stored in /root/.config/ofscraper/bin within the Docker image.
 
@@ -29,7 +29,7 @@ The Docker file was updated to enhance host permissions support. If you're using
 docker run  -it --rm --name=ofscraper -v anypath:/root/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main {args}
 ```
 
-You can determine if the command has already passed 'ofscraper' in the entrypoint by checking for this sequence: 'ofscraper' (options include: 'post\_check', 'msg\_check', 'paid\_check', 'story\_check', 'manual').
+> You can determine if the command has already passed 'ofscraper' in the entrypoint by checking for this sequence: 'ofscraper' (options include: 'post\_check', 'msg\_check', 'paid\_check', 'story\_check', 'manual').
 
 ## Images
 

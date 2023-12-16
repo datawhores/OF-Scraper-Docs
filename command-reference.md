@@ -479,7 +479,7 @@ regular-price,renew-pric
 Default: Name
 ```
 
-Note: If account is set to renew then expired is the same as renewal date
+> If account is set to renew then expired is the same as renewal date
 
 #### -ds, --desc
 

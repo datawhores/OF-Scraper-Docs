@@ -26,6 +26,8 @@ You can provide a comma-separated list indicating the models you wish to scrape
 
 
 
+##
+
 ## Filtering username list
 
 The following settings can be dynamically modified if using prompts.
@@ -35,8 +37,10 @@ The following settings can be dynamically modified if using prompts.
 {% endcontent-ref %}
 
 Furthermore, this adjustment doesn't alter the retrieval of usernames; it solely impacts the subset of usernames that are displayed\
-\
-If you wish to retrieve specific usernames, set up a collection on OnlyFans, then utilize the '--userlist' or '--blacklist' arguments accordingly
+
+
+> \
+> If you wish to retrieve specific usernames, set up a collection on OnlyFans, then utilize the '--userlist' or '--blacklist' arguments accordingly
 
 
 

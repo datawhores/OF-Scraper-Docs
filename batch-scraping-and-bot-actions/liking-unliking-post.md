@@ -10,7 +10,7 @@
  ofscraper --action unlike
 ```
 
-## Onlyfans Rate Limit
+## Onlyfans rate limit
 
 estimated to be around 1000 per day
 

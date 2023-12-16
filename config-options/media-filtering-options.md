@@ -1,4 +1,4 @@
-# Media Filtering Optiona
+# Media Filtering Options
 
 ## filter
 
@@ -12,10 +12,10 @@ Options are Images,Audios,Videos case insensitive
 
 Controls the maximum allowable file size for downloads
 
-Note: This is in bytes
+> This is in bytes
 
 ## file\_size\_min
 
 Controls the minimum allowable file size for downloads
 
-Note: This is in bytes
+> This is in bytes

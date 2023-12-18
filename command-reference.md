@@ -28,8 +28,8 @@ ofscraper  [global args][Logging] [main program args]
 [post-filter-args.md](command-reference/post-filter-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/account-filter-args.md" %}
-[account-filter-args.md](command-reference/account-filter-args.md)
+{% content-ref url="command-reference/account-filtering-args.md" %}
+[account-filtering-args.md](command-reference/account-filtering-args.md)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/account-sorting-args.md" %}

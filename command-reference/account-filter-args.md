@@ -2,10 +2,8 @@
 
 ## account filters
 
-Apply filters to usernames based on the chosen parameters.\
+Apply filters to the accounts list\
 
-
-####
 
 ***
 
@@ -87,7 +85,7 @@ Filter accounts to ones without
 any claimable promo price
 ```
 
-#### Subscription Type
+### Subscription Type
 
 **-fo, --free-trail-only**
 
@@ -157,3 +155,5 @@ Other built-in lists include "ofscraper.active" and "ofscraper.disabled."
 ```
 Default: []
 ```
+
+### Advanced User Filters

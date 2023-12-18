@@ -24,8 +24,8 @@ ofscraper  [global args][Logging] [main program args]
 [general-scraper-args.md](command-reference/general-scraper-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/post-filters-args.md" %}
-[post-filters-args.md](command-reference/post-filters-args.md)
+{% content-ref url="command-reference/post-filter-args.md" %}
+[post-filter-args.md](command-reference/post-filter-args.md)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/account-filter-args.md" %}

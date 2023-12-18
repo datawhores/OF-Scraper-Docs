@@ -40,34 +40,18 @@ ofscraper  [global args][Logging] [main program args]
 [advanced-args.md](batch-scraping-and-bot-actions/advanced-args.md)
 {% endcontent-ref %}
 
-###
+
 
 ## Other Modes
 
+{% content-ref url="command-reference/content-check-mode-args.md" %}
+[content-check-mode-args.md](command-reference/content-check-mode-args.md)
+{% endcontent-ref %}
 
-
-
-
-{% content-ref url="content-check-modes.md" %}
-[content-check-modes.md](content-check-modes.md)
+{% content-ref url="command-reference/manual-mode-args.md" %}
+[manual-mode-args.md](command-reference/manual-mode-args.md)
 {% endcontent-ref %}
 
 ###
 
-###
-
-## Manual
-
-Retrieve content manually using either a URL or a post ID
-
-### -f, --file
-
-```
-File containing a list of links or post IDs separated by lines
-```
-
-### -u, --url
-
-```
-url(s) to download
-```
+##

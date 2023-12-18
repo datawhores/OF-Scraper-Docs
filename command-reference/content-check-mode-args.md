@@ -1,4 +1,4 @@
-# Content check-mode args
+# Content Check Mode Args
 
 ## post\_check
 

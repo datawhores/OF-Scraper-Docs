@@ -26,8 +26,6 @@ You can provide a comma-separated list indicating the models you wish to scrape
 
 
 
-##
-
 ## Filtering username list
 
 The following settings can be dynamically modified if using prompts.

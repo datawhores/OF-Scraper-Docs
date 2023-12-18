@@ -4,55 +4,15 @@ description: These page is based on the ofscraper -h output
 
 # Command Reference
 
-Overview
+
+
+{% content-ref url="command-reference/global-args.md" %}
+[global-args.md](command-reference/global-args.md)
+{% endcontent-ref %}
 
 ##
 
-### Logging
-
-Arguments for output controls
-
-#### -l, --log
-
-```
-Possible choices: OFF, STATS, LOW, NORMAL, DEBUG
-```
-
-```
-Establish the log file level
-```
-
-```
-Default: OFF
-```
-
-### -dc, --discord
-
-```
-Possible choices: OFF, STATS, LOW, NORMAL, DEBUG
-```
-
-```
-Adjust the Discord log level
-```
-
-```
-Default: OFF
-```
-
-### -p, --output
-
-```
-Possible choices: PROMPT, STATS, LOW, NORMAL, DEBUG
-```
-
-```
-Adjust the log level for console output
-```
-
-```
-Default: NORMAL
-```
+###
 
 ## Main Program
 
@@ -327,8 +287,8 @@ Apply filters to usernames based on the chosen parameters.\
 
 #### pricing filters
 
-{% content-ref url="../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
-[price-filtering-sort.md](../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
+{% content-ref url="batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
+[price-filtering-sort.md](batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
 {% endcontent-ref %}
 
 ```

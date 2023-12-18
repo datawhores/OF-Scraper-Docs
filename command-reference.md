@@ -4,470 +4,49 @@ description: These page is based on the ofscraper -h output
 
 # Command Reference
 
+## Syntax
 
+```
+ofscraper  [global args][Logging] [main program args]
+```
 
 {% content-ref url="command-reference/global-args.md" %}
 [global-args.md](command-reference/global-args.md)
 {% endcontent-ref %}
 
-##
-
-###
-
-## Main Program
-
-```
-ofscraper  [global args] [main program args]
-```
-
-### General Scraper Args
-
-#### -u, --username
-
-```
-Choose the usernames to process, separated by commas (e.g., name, name2). 
-Use ALL (case-sensitive) to include all users.
-```
-
-#### -eu, --excluded-username
-
-```
-Specify the usernames to exclude (e.g., name, name2). 
-This takes precedence over the '--username' option.
-```
-
-#### -d, --daemon
-
-```
-Execute the script in the background. Set the value for the minimum duration between script runs. 
-Overdue runs will commence immediately after the previous run finishes.
-```
-
-#### -g, --original
-
-```
-Do not truncate lengthy paths
-```
-
-```
-Default: False
-```
-
-#### -c, --letter-count
-
-```
-intrepret config ‘textlength’ as max length by letter
-```
-
-```
-Default: False
-```
-
-#### -a, --action
-
-```
-Possible choices: like, unlike
-```
-
-<pre><code><strong>Execute a like or unlike action on each post
-</strong></code></pre>
-
-### Post Filters
-
-What type of post to scrape
-
-#### -e, --dupe
-
-```
-Override the duplicate check and re-download all files.
-```
-
-```
-Default: False
-```
-
-#### -o, --posts
-
-```
-Possible choices: highlights,all,archived,messages,
-timeline,pinned,stories,purchased,profile,skip,labels
-```
-
-```
-Download content from a specific model
-```
-
-```
-Default:None
-```
-
-
-
-#### -eo, --excluded-posts
-
-```
-Possible choices: highlights,archived,messages,timeline,pinned,stories,purchased,profile,skip,labels
-```
-
-```
-Exclude certain posts from download
-has preference over --post
-```
-
-```
-
-Omit specific posts from the download process
-Has priority over the '--post' option.
-```
-
-#### -sk, --skip-timed
-
-```
-Skipped temporary post
-commonly used for promotions
-```
-
-#### -ms, --mass-skip
-
-```
-Filter downloads to exclusively include downloads labeled as mass messages.
-```
-
-#### -mm, --mass-msg
-
-<pre><code><strong>Exclude any downloads marked as mass messages
-</strong></code></pre>
-
-#### -ok, --only-timed
-
-```
-Download only temporary posts,, mostly used for promo
-```
-
-#### -ft, --filter
-
-```
-Filter posts using a provided regex pattern. 
-Please note that including any uppercase characters will make the search case-sensitive. 
-Posts will be included if they pass the filter test.
-```
-
-```
-Default: “.*”
-```
-
-#### -nf, --neg-filter
-
-```
-Use a regex pattern to filter posts by text. 
-Note that including uppercase characters will make the search case-sensitive. 
-Posts passing the filter test will be excluded.
-```
-
-```
-Default: None
-```
-
-####
-
-#### -dt, --download type
-
-```
-Possible choices: protected,normal
-```
-
-```python
-Specify the download type:
-
-None: Both types
-Protected: Files requiring mp4decrypt
-Normal: Files not needing mp4decrypt
-
-```
-
-```
-Default: None
-```
-
-####
-
-#### -sp, --scrape-paid
-
-<pre><code><strong>Scrape the entire paid page for content. 
-</strong>This process can take a substantial amount of time.
-</code></pre>
-
-```
-Default: False
-```
-
-#### -lb,--label
-
-```
-Scrape specific labelss
-```
-
-```
-Default: None
-```
-
-#### -be, --before
-
-```
-Process posts on or before a specific date. 
-The general syntax is Month/Day/Year. 
-This functionality works for actions like liking, unliking, and downloading posts
-```
-
-#### -af, --after
-
-```
-Process posts on or after a specified date in the format Month/Day/Year. 
-This functionality applies to actions like liking, unliking, and downloading posts.
-```
-
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
-
-### -mt,--mediatype
-
-
-
-```
-Possible choices: Videos,Audio,Images
-```
-
-```
-
-Override the mediatype filter specified in the configuration file
-```
-
-```
-Default: None
-```
-
-### -sx,--size-max
-
-
-
-```
-Filter files larger than the specified size. 
-This filter accepts human-readable strings like "10GB".
-
-```
-
-```
-Default: None
-```
-
-### -sm,--size-min
-
-```
-Filter files smaller than the specified size. 
-This filter accepts human-readable strings like "10GB".
-
-```
-
-```
-```
-
-```
-Default: None
-```
-
-###
-
-### account filters
-
-Apply filters to usernames based on the chosen parameters.\
-
-
-####
-
-***
-
-#### pricing filters
-
-{% content-ref url="batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
-[price-filtering-sort.md](batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
+{% content-ref url="command-reference/logging.md" %}
+[logging.md](command-reference/logging.md)
 {% endcontent-ref %}
 
-```
-Filter accounts based on the pricing 
-```
+## Main Program Args
 
-#### -cp, --current-price
+{% content-ref url="command-reference/general-scraper-args.md" %}
+[general-scraper-args.md](command-reference/general-scraper-args.md)
+{% endcontent-ref %}
 
-```
-Possible choices: paid, free
-```
+{% content-ref url="command-reference/post-filters.md" %}
+[post-filters.md](command-reference/post-filters.md)
+{% endcontent-ref %}
 
-_--_ **rp, --renew-price**
+{% content-ref url="command-reference/account-filters.md" %}
+[account-filters.md](command-reference/account-filters.md)
+{% endcontent-ref %}
 
-```
-Possible choices: paid, free
-```
+###
 
-_--_ **pp, --promo-price**
+###
 
-```
-Possible choices: paid, free
-```
+###
 
-**-- gp, --regular-price**
+###
 
-```
-Possible choices: paid, free
-```
+###
 
-***
-
-#### Account Flags
-
-**-lo, --last-seen-only**
-
-```
-Filter accounts to ones where last seen is visible
-```
-
-**-ls, --last-seen-skip**
-
-```
-Filter accounts to ones where last seen is hidden
-```
-
-**-po, --promo-only**
-
-```
-Filter accounts to ones with any 
-claimable promo price
-```
-
-**-ps, --promo-skip**
-
-```
-Filter accounts to ones without
-any claimable promo price
-```
-
-**-ao, --all-promo-only**
-
-```
-Filter accounts to ones with any 
-claimable promo price
-```
-
-**-as, --all-promo-skip**
-
-```
-Filter accounts to ones without
-any claimable promo price
-```
-
-#### Subscription Type
-
-**-fo, --free-trail-only**
-
-```
-Filter accounts to only those 
-currently in a free trial (normally paid)
-```
-
-**-fs, --free-trail-skip**
-
-```
-Filter accounts to only those 
-currently not in a free trial (normally paid)
-```
-
-**-ts, --active-subscriptions**
-
-```
-Filter accounts to those with non-expired status
-```
-
-**-es, --expired-subscription**
-
-```
-Filter accounts to those with expired status
-```
-
-**-ro, --renew-on**
-
-```
-Filter accounts to those with the renew flag on
-```
-
-**-rf, --r**xpired-subscription**enew-off**
-
-```
-Filter accounts to those with the renew flag on
-```
-
-#### List Filters
-
-#### -ul, --user-list
-
-```
-Filter by userlists:
-
-The default list is named "ofscraper.main." 
-Other built-in lists include "ofscraper.active" and "ofscraper.disabled."
-
-If no argument is provided, the default list will be "scrape." 
-If an argument is passed, the default list won't be automatically scraped.
-```
-
-```
-Default: []
-```
-
-#### -bl, --black-list
-
-```
-Exclude all models listed in the provided userlists:
-
-The default list is named "ofscraper.main." 
-Other built-in lists include "ofscraper.active" and "ofscraper.disabled."
-```
-
-```
-Default: []
-```
+###
 
 
 
-## sorting
-
-### -st, --sort
-
-```
-Controls the order of the model selection list and the scraping order
-```
-
-```
-Possible choices: name, subscribed, expired,current-price,promo-price
-regular-price,renew-pric
-
-```
-
-<pre><code><strong>Specify the sorting criteria for the model list
-</strong></code></pre>
-
-```
-Default: Name
-```
-
-> If account is set to renew then expired is the same as renewal date
-
-### -ds, --desc
-
-```
-Arrange the model list in descending order
-```
-
-```
-Default: False
-```
+##
 
 ###
 

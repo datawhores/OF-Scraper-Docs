@@ -104,7 +104,11 @@ ofscraper  --regular-price paid
 [price-filtering-sort.md](price-filtering-sort.md)
 {% endcontent-ref %}
 
-### advanced filtering
+### Advanced filtering
+
+{% content-ref url="../../command-reference/account-filter-args.md" %}
+[account-filter-args.md](../../command-reference/account-filter-args.md)
+{% endcontent-ref %}
 
 ##
 

@@ -6,31 +6,7 @@ description: These page is based on the ofscraper -h output
 
 Overview
 
-## Global Args
-
-### -v, --version
-
-```
-Display the program's version number and then exit
-```
-
-```
-Default: “2.4.5+main.8f998cd”
-```
-
-### -cg, --config
-
-```
-Modify the location of the configuration folder or file
-```
-
-### -r, --profile
-
-```
-
-Alter the location of the profile directory, 
-which houses the authentication information
-```
+##
 
 ### Logging
 
@@ -351,8 +327,8 @@ Apply filters to usernames based on the chosen parameters.\
 
 #### pricing filters
 
-{% content-ref url="batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
-[price-filtering-sort.md](batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
+{% content-ref url="../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
+[price-filtering-sort.md](../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
 {% endcontent-ref %}
 
 ```

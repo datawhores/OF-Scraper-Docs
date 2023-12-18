@@ -1,4 +1,4 @@
-# Account Filter Args
+# Account Filtering Args
 
 ## account filters
 
@@ -157,3 +157,61 @@ Default: []
 ```
 
 ### Advanced User Filters
+
+#### -ppn, --promo-price-min
+
+```
+Filter accounts to those where the lowest promo price matches 
+or falls above the provided value
+```
+
+#### -gpm, --promo-price-max
+
+```
+Filter accounts to those where the lowest promo price matches 
+or falls below the provided value
+```
+
+#### -gpn, --regular-price-min
+
+```
+Filter accounts to those where the regular price matches 
+or falls above the provided value
+```
+
+#### -gpm, --regular-price-max
+
+```
+Filter accounts to those where the regular price matches 
+or falls below the provided value
+```
+
+#### -cpn, --current-price-min
+
+```
+Filter accounts to those where the current price matches 
+or falls above the provided value
+```
+
+#### -cpm, --current-price-max
+
+```
+Filter accounts to those where the curren price matches 
+or falls below the provided value
+```
+
+
+
+#### -rpn, --renewal-price-min
+
+```
+Filter accounts to those where the renewal price matches 
+or falls above the provided value
+```
+
+#### -rpm, --renewal-price-max
+
+```
+Filter accounts to those where the renewal price matches 
+or falls below the provided value
+```

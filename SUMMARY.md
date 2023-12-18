@@ -35,7 +35,7 @@
   * [Logging](command-reference/logging.md)
   * [General Scraper Args](command-reference/general-scraper-args.md)
   * [Post Filter Args](command-reference/post-filter-args.md)
-  * [Account Filtering Args](command-reference/account-filtering-args.md)
+  * [Account Filtering Args](command-reference/account-filter-args.md)
   * [Account Sorting Args](command-reference/account-sorting-args.md)
   * [Advanced Args](command-reference/advanced-args.md)
   * [Content Check Mode Args](command-reference/content-check-mode-args.md)

@@ -104,6 +104,10 @@ ofscraper  --regular-price paid
 [price-filtering-sort.md](price-filtering-sort.md)
 {% endcontent-ref %}
 
+### advanced filtering
+
+##
+
 ## Sorting username list
 
 The default setting is to sort alphabetically by name in ascending order

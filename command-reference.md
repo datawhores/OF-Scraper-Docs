@@ -385,47 +385,89 @@ Possible choices: paid, free
 
 ***
 
-#### promo filters
+#### Account Flags
 
-**--promo**
-
-```
-Possible choices: yes,no
-```
-
-<pre><code><strong>Filter accounts based on the presence of claimable promotions
-</strong></code></pre>
-
-**--all-promo**
-
-<pre><code><strong>Filter accounts based on the presence of any promotions
-</strong></code></pre>
-
-
-
-***
-
-#### Other filters
-
-#### -rw, --renewal
+**-lo, --last-seen-only**
 
 ```
-Possible choices: active, disabled
+Filter accounts to ones where last seen is visible
 ```
 
-```
-Filter accounts depending on their renewal status, either turned on or off.
-```
-
-#### -ss, --sub-status
+**-ls, --last-seen-skip**
 
 ```
-Possible choices: active, expired
+Filter accounts to ones where last seen is hidden
 ```
 
+**-po, --promo-only**
+
 ```
-Filter based on the expiration status of your subscription.
+Filter accounts to ones with any 
+claimable promo price
 ```
+
+**-ps, --promo-skip**
+
+```
+Filter accounts to ones without
+any claimable promo price
+```
+
+**-ao, --all-promo-only**
+
+```
+Filter accounts to ones with any 
+claimable promo price
+```
+
+**-as, --all-promo-skip**
+
+```
+Filter accounts to ones without
+any claimable promo price
+```
+
+#### Subscription Type
+
+**-fo, --free-trail-only**
+
+```
+Filter accounts to only those 
+currently in a free trial (normally paid)
+```
+
+**-fs, --free-trail-skip**
+
+```
+Filter accounts to only those 
+currently not in a free trial (normally paid)
+```
+
+**-ts, --active-subscriptions**
+
+```
+Filter accounts to those with non-expired status
+```
+
+**-es, --expired-subscription**
+
+```
+Filter accounts to those with expired status
+```
+
+**-ro, --renew-on**
+
+```
+Filter accounts to those with the renew flag on
+```
+
+**-rf, --r**xpired-subscription**enew-off**
+
+```
+Filter accounts to those with the renew flag on
+```
+
+#### List Filters
 
 #### -ul, --user-list
 
@@ -458,9 +500,9 @@ Default: []
 
 
 
+## sorting
 
-
-#### -st, --sort
+### -st, --sort
 
 ```
 Controls the order of the model selection list and the scraping order
@@ -481,7 +523,7 @@ Default: Name
 
 > If account is set to renew then expired is the same as renewal date
 
-#### -ds, --desc
+### -ds, --desc
 
 ```
 Arrange the model list in descending order

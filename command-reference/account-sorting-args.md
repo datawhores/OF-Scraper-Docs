@@ -10,8 +10,7 @@ Controls the order of the model selection list and the scraping order
 
 ```
 Possible choices: name, subscribed, expired,current-price,promo-price
-regular-price,renew-pric
-
+regular-price,renew-price,last-seen
 ```
 
 <pre><code><strong>Specify the sorting criteria for the model list

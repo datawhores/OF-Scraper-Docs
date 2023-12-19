@@ -200,8 +200,6 @@ Filter accounts to those where the curren price matches
 or falls below the provided value
 ```
 
-
-
 #### -rpn, --renewal-price-min
 
 ```
@@ -214,4 +212,54 @@ or falls above the provided value
 ```
 Filter accounts to those where the renewal price matches 
 or falls below the provided value
+```
+
+#### -lsa,--last-seen-after
+
+```
+Filter accounts by last seen being at 
+or after the given date
+```
+
+#### -lsb,--last-seen-before
+
+```
+Filter accounts by last seen being at 
+or before the given date
+```
+
+#### -ea,--expire-after
+
+```
+Filter accounts by expiration/renewal being at 
+or after the given date
+```
+
+#### -eb ,--expire-before
+
+```
+Filter accounts by expiration/renewal being at 
+or before the given date
+```
+
+
+
+#### -sa,--subcribed-after
+
+```
+Filter accounts by sub date being at 
+or after the given date
+
+Note: The most accurate data point for 
+expired accounts is expired date
+```
+
+#### -sb ,--subscribed-before
+
+```
+Filter accounts by sub date being at 
+or before the given date
+
+Note: The most accurate data point for 
+expired accounts is expired date
 ```

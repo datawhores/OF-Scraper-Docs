@@ -19,6 +19,7 @@
   * [Key options](config-options/key-option.md)
   * [Advanced config options](config-options/advanced-config-options.md)
   * [Migrating From Digitalcriminal's script](config-options/migrating-from-digitalcriminals-script.md)
+  * [Config Location](config-options/config-location.md)
 * [Using Prompts](using-prompts/README.md)
   * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)

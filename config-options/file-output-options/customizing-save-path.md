@@ -2,7 +2,7 @@
 
 You can adjust the file save path by editing the configuration file.
 
-## Config Path
+##
 
 ### Windows
 

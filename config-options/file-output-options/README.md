@@ -1,5 +1,9 @@
 # File  Output Options
 
+{% content-ref url="customizing-save-path.md" %}
+[customizing-save-path.md](customizing-save-path.md)
+{% endcontent-ref %}
+
 ## save\_location
 
 root save folder
@@ -12,7 +16,13 @@ format for directory
 
 format for files
 
+***
+
 ## metadata
+
+{% content-ref url="setting-metadata-path.md" %}
+[setting-metadata-path.md](setting-metadata-path.md)
+{% endcontent-ref %}
 
 Controls where metadata is saved
 
@@ -30,6 +40,8 @@ You can use these placeholders
 {profile} = current profile 
 
 ```
+
+
 
 
 

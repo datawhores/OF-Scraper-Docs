@@ -6,8 +6,8 @@ The default Content Decryption Module (CDM) used for decrypting content.&#x20;
 
 Certain CDMs might need additional configuration.
 
-{% content-ref url="../cdm-options.md" %}
-[cdm-options.md](../cdm-options.md)
+{% content-ref url="../cdm-options/" %}
+[cdm-options](../cdm-options/)
 {% endcontent-ref %}
 
 The following command can overwrite this setting

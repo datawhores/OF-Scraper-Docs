@@ -2,6 +2,10 @@
 
 ## sorting
 
+{% hint style="info" %}
+If account is set to renew then expired is the same as renewal date
+{% endhint %}
+
 ### -st, --sort
 
 ```
@@ -19,8 +23,6 @@ regular-price,renew-price,last-seen
 ```
 Default: Name
 ```
-
-> If account is set to renew then expired is the same as renewal date
 
 ### -ds, --desc
 

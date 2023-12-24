@@ -20,9 +20,9 @@ Controls the maximum allowable file size for downloads
 
 ## file\_size\_min
 
-Controls the minimum allowable file size for downloads
-
 {% hint style="info" %}
 in bytes
 {% endhint %}
+
+Controls the minimum allowable file size for downloads
 

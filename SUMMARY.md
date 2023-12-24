@@ -48,4 +48,4 @@
 * [Testing](testing.md)
 * [Request Change to Doc](request-change-to-doc.md)
 * [CDM options](cdm-options/README.md)
-  * [Manual CDM issues](cdm-options/manual-cdm-issues.md)
+  * [CDM issues](cdm-options/cdm-issues.md)

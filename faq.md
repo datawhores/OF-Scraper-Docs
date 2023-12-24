@@ -195,8 +195,8 @@ Obtain the GPL non-shared release version.
 
 ## 15. <mark style="color:blue;">CDM Issues</mark>
 
-{% content-ref url="cdm-options/manual-cdm-issues.md" %}
-[manual-cdm-issues.md](cdm-options/manual-cdm-issues.md)
+{% content-ref url="cdm-options/cdm-issues.md" %}
+[cdm-issues.md](cdm-options/cdm-issues.md)
 {% endcontent-ref %}
 
 

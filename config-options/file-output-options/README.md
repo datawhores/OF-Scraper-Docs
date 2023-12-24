@@ -1,4 +1,4 @@
-# File  Output Options
+# File Output Options
 
 {% content-ref url="customizing-save-path.md" %}
 [customizing-save-path.md](customizing-save-path.md)
@@ -53,11 +53,15 @@ to restrict by letter count pass `--letter-count` argument
 
 ## space-replacer
 
+{% hint style="info" %}
+&#x20;This change applies exclusively to the filename and doesn't affect other path components like parent directories.
+{% endhint %}
+
 This character will replace all spaces within the filename.
 
 It should be employed in conjunction with the text placeholder.
 
-> &#x20;This change applies exclusively to the filename and doesn't affect other path components like parent directories.
+
 
 ## appendlog
 

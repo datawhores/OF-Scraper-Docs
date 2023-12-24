@@ -2,7 +2,11 @@
 
 ## Volumes
 
-> Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.
+
+
+{% hint style="info" %}
+Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.
+{% endhint %}
 
 ```
 If you opt for the auto download feature when installing mp4decrypt or 

@@ -8,9 +8,13 @@ description: various options for output
 
 ### Discord
 
-The output goes to the Discord channel.
 
-> Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.
+
+{% hint style="info" %}
+Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.
+{% endhint %}
+
+The output goes to the Discord channel
 
 #### LEVELS
 

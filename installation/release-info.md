@@ -2,7 +2,13 @@
 
 ## Release types
 
+
+
 [2023.11.25\_939507\_downloadt\_f6052f8\_package](https://github.com/datawhores/OF-Scraper/releases/tag/f6052f8)
+
+
+
+
 
 ### .\*\_package
 
@@ -20,7 +26,11 @@ These are meant to be stable releases
 
 ## Files
 
-### .zip
+### Example
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### \*.zip
 
 You can unzip these files, and the resulting folder can be used to run the script by utilizing the file starting with 'ofscraper\_' in your terminal program.&#x20;
 

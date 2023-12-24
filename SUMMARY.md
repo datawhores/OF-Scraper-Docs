@@ -43,7 +43,7 @@
   * [Manual Mode Args](command-reference/manual-mode-args.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Content Check Modes](content-check-modes.md)
-* [Controlling Output](controlling-output.md)
+* [Controlling Output/Logs](controlling-output.md)
 * [Migrating from Digitalcriminal's script](migrating-from-digitalcriminals-script.md)
 * [Testing](testing.md)
 * [Request Change to Doc](request-change-to-doc.md)

@@ -2,17 +2,25 @@
 
 ## main\_profile
 
+{% hint style="info" %}
+&#x20;all profiles will share the same configuration, unless overridden with --config
+{% endhint %}
+
 In most cases, there's no need to modify this setup. Profiles are organized into directories within the config location, with the value being derived from the directory name. Each directory can correspond to a distinct authentication file.&#x20;
 
-> &#x20;all profiles will share the same configuration.
+>
 
 
 
 ## **Avatar**
 
+{% hint style="info" %}
+This effects any log level, other then prompt&#x20;
+{% endhint %}
+
 Add public avatar to log outputs
 
-> This effects any log level, other then prompt&#x20;
+
 
 
 

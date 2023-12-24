@@ -8,9 +8,13 @@ description: Setting up authorization
 
 An example of what an auth file should typically look like
 
-> app-token will always be the same value
+{% hint style="info" %}
+app-token will always be the same value
+{% endhint %}
 
-> Other values are randomized, but try maintain the same length and adhere to the field's alphanumeric rules.
+{% hint style="info" %}
+Other values are randomized, but try maintain the same length and adhere to the field's alphanumeric rules.
+{% endhint %}
 
 ```
 {

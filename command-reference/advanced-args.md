@@ -63,12 +63,17 @@ The main thread is also utilized if downloads cannot fill the download-sems.
 default: None
 ```
 
-#### -pc,--part-cleanup
+#### -ar,--no-auto-resume
+
+{% hint style="info" %}
+This replaces \
+part-cleanup
+{% endhint %}
 
 ```
+cleanup part files on program exit
 
-Override the tempfile clean setting in the configuration
-file, eliminating the ability to resume downloads.
+This includes forced exit
 ```
 
 ```

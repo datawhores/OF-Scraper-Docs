@@ -1,35 +1,5 @@
 # Customizing save path
 
-You can adjust the file save path by editing the configuration file.
-
-##
-
-### Windows
-
-I'm not someone who uses Windows on a daily basis, but it should be
-
-```
-C:/Users/username/.config/ofscraper/config.json
-```
-
-### Linux
-
-```
-/home/username/.config/ofscraper/config.json
-```
-
-or
-
-```
-/root/.config/ofscaper/config.json
-```
-
-where username is your login name
-
-### Change config location
-
-This can also be changed with the --config option
-
 ## Editing Save path
 
 ```
@@ -171,14 +141,14 @@ When configuring filenames, ensure a unique element such as text, media ID, post
 These elements are unique to prevent filename conflicts.
 ```
 
-### date (optional)
+#### date (optional)
 
 \
 The date syntax doesn't use bracket notation; it adheres to the Arrow implementation.&#x20;
 
 For more information, check the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens). If you need additional help, feel free to open an issue in the repository for support.
 
-### textlength
+#### textlength
 
 As a default, it is the maximum number of words. You can switch this to the maximum number of letters by using the '--letter-count' argument.&#x20;
 

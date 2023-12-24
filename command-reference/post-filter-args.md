@@ -1,4 +1,4 @@
-# Post Filters Args
+# Post Filter Args
 
 ### Post Filters
 
@@ -193,9 +193,6 @@ Default: None
 Filter files smaller than the specified size. 
 This filter accepts human-readable strings like "10GB".
 
-```
-
-```
 ```
 
 ```

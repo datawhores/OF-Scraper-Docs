@@ -8,11 +8,13 @@
 Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.
 {% endhint %}
 
+{% hint style="info" %}
 ```
 If you opt for the auto download feature when installing mp4decrypt or 
 ffmpeg, the binaries will be stored in 
 /root/.config/ofscraper/bin within the Docker image
 ```
+{% endhint %}
 
 | host    | docker                            | use          | required |
 | ------- | --------------------------------- | ------------ | -------- |

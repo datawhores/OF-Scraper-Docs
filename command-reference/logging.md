@@ -1,8 +1,8 @@
+---
+description: Arguments for output controls
+---
+
 # Logging
-
-### Logging
-
-Arguments for output controls
 
 #### -l, --log
 

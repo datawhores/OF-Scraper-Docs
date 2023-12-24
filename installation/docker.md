@@ -17,6 +17,27 @@ If you opt for the autodownload feature when installing mp4decrpy or ffmpeg, the
 docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main ofscraper {args}
 ```
 
+### Docker Compose
+
+Notes: make sure to install ffmpeg and mp4decrypt to your local system and add to the volumes in the compose file.
+
+```
+version: "3"
+services:
+    of-scraper:
+        stdin_open: true
+        tty: true
+        container_name: ofscraper
+        volumes:
+            - /usr/bin/ffmpeg:/usr/bin/ffmpeg
+            - /usr/local/bin/mp4decrypt:/usr/local/bin/mp4decrypt
+            - ./config/:/home/ofscraper/.config/
+        image: ghcr.io/datawhores/of-scraper:main
+        command: ofscraper
+```
+
+To run the scraper manually use: `docker exec ofscraper ofscraper {args}`
+
 #### Older Versions
 
 \

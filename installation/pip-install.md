@@ -1,6 +1,8 @@
 # PIP Install
 
-pipx is the preferred method, although you can also install OF-Scraper using pip.
+{% hint style="info" %}
+pipx is the preferred method, although you can also install OF-Scraper using pip
+{% endhint %}
 
 ## Installation
 

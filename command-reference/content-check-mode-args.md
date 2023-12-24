@@ -1,7 +1,5 @@
 # Content Check Mode Args
 
-
-
 {% hint style="info" %}
 &#x20;cached information is stored for 24 hours
 {% endhint %}
@@ -40,9 +38,7 @@ Default: False
 
 ## msg\_check
 
-Display a generated table displaying data regarding model messages. Accept multiple URLs through command-line input or a file.&#x20;
-
-Information retrieved will be cached for 24 hours
+Display a generated table displaying data regarding model messages. Accept multiple URLs through command-line input or a file
 
 ```
 ofscraper msg_check [global args] [msg_check args]
@@ -74,7 +70,7 @@ Default: False
 
 Display a generated table featuring information on purchased content from models.&#x20;
 
-Allows multiple usernames to be entered via command-line input or a file. Retain cached data for 24 hours.
+Allows multiple usernames to be entered via command-line input or a file
 
 ```
 ofscraper paid_check [global args] [paid_check args]
@@ -107,8 +103,6 @@ Default: False
 Display a generated table of data with information about highlights and stories
 
 Multiple usernames can be passed via command-line or file
-
-Cache lasts for 24 hours
 
 ```
 ofscraper story_check  [global args] [story_check args]

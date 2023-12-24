@@ -129,11 +129,11 @@ If set to False, each run will generate a new log. If set to True, logs will be 
 
 ##
 
+## partfileclean
+
 {% hint style="info" %}
 Deprechated in 3.6
 {% endhint %}
-
-## partfileclean
 
 If you set this to false, the script will attempt to automatically resume .part files.&#x20;
 

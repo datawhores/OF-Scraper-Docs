@@ -1,15 +1,16 @@
+---
+description: Apply filters to the accounts list
+---
+
 # Account Filtering Args
 
-## account filters
+
 
 {% hint style="info" %}
 If account is set to renew then expired is the same as renewal date
 {% endhint %}
 
-Apply filters to the accounts list\
 
-
-***
 
 ### pricing filters
 

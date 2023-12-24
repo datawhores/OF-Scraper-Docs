@@ -115,12 +115,6 @@ Both aio and httpx can handle downloads and requests. You'd only need to switch 
 
 Historically, this has mostly been an issue for Mac users, and even then, only a small group among them.
 
-## partfileclean
-
-If you set this to false, the script will attempt to automatically resume .part files.&#x20;
-
-You might find your folder filled with .part files in case numerous downloads fail.
-
 ## downloadbars
 
 whether to show download progress bars or not
@@ -130,4 +124,18 @@ Disabling these can improve performance
 ## appendlog
 
 If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
+
+
+
+##
+
+{% hint style="info" %}
+Deprechated in 3.6
+{% endhint %}
+
+## partfileclean
+
+If you set this to false, the script will attempt to automatically resume .part files.&#x20;
+
+You might find your folder filled with .part files in case numerous downloads fail.
 

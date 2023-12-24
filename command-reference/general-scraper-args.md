@@ -1,7 +1,5 @@
 # General Scraper Args
 
-## General Scraper Args
-
 ### -u, --username
 
 ```

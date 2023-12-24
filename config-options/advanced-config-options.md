@@ -129,13 +129,11 @@ If set to False, each run will generate a new log. If set to True, logs will be 
 
 ##
 
-## partfileclean
+## auto\_resume
 
 {% hint style="info" %}
-Deprechated in 3.6
+replaces partfileclean
 {% endhint %}
 
-If you set this to false, the script will attempt to automatically resume .part files.&#x20;
-
-You might find your folder filled with .part files in case numerous downloads fail.
+If you set this to false, the script will  delete .part files, and will not be able to auto resume
 

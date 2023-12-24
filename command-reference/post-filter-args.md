@@ -1,8 +1,8 @@
+---
+description: What type of post to scrape
+---
+
 # Post Filter Args
-
-### Post Filters
-
-What type of post to scrape
 
 ### -e, --dupe
 

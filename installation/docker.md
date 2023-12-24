@@ -29,7 +29,9 @@ docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.i
 
 ## Docker Compose
 
-Notes: make sure to install ffmpeg and mp4decrypt to your local system and add to the volumes in the compose file.
+{% hint style="info" %}
+make sure to install ffmpeg and mp4decrypt to your local system and add to the volumes in the compose file.
+{% endhint %}
 
 ```
 version: "3"

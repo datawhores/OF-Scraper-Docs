@@ -1,10 +1,16 @@
 # Content Check Mode Args
 
+
+
+{% hint style="info" %}
+&#x20;cached information is stored for 24 hours
+{% endhint %}
+
 ## post\_check
 
 Display a generated table of data showcasing model posts. Accept multiple URLs through command-line input or a file.
 
-&#x20;The cached information will be stored for 24 hours.
+
 
 ```
 ofscraper post_check [global args] [post_check args]

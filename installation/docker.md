@@ -2,22 +2,26 @@
 
 ## Volumes
 
-> Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.&#x20;
+> Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.
 
-If you opt for the autodownload feature when installing mp4decrpy or ffmpeg, the binaries will be stored in /root/.config/ofscraper/bin within the Docker image.
+```
+If you opt for the auto download feature when installing mp4decrypt or 
+ffmpeg, the binaries will be stored in 
+/root/.config/ofscraper/bin within the Docker image
+```
 
 | host    | docker                            | use          | required |
 | ------- | --------------------------------- | ------------ | -------- |
 | anypath | /home/ofscraper/.config/ofscraper | store config | True     |
 | anypath | anypath                           | data storage | False    |
 
-### Docker Run
+## Docker Run
 
 ```
 docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main ofscraper {args}
 ```
 
-### Docker Compose
+## Docker Compose
 
 Notes: make sure to install ffmpeg and mp4decrypt to your local system and add to the volumes in the compose file.
 
@@ -43,8 +47,7 @@ To run the scraper manually use: `docker exec ofscraper ofscraper {args}`
 \
 The Docker file was updated to enhance host permissions support. If you're using an older version, you'll need to adjust your Docker run or compose file.
 
-&#x20;For versions equal to or older than this commit: [https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)\
-
+For versions equal to or older than this commit: [https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)\\
 
 ```
 docker run  -it --rm --name=ofscraper -v anypath:/root/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main {args}

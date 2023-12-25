@@ -13,7 +13,7 @@ Default: False
 #### -nc, --no-cache
 
 ```
-disable cache
+meant for disabling cache when scraping posts
 ```
 
 ```

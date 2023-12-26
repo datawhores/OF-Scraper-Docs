@@ -21,6 +21,10 @@ Best used with    --active-subscription
 
 ## _Renewal Price_
 
+{% hint style="info" %}
+Best used with    --active-subscription
+{% endhint %}
+
 1. Primary Source is the lowest claimable promotional subscription price.
 2. If no "claimable" promotions are available, use the regular subscription price.
 3. If none of the above methods provide a valid price, then 0 is used as a fallback

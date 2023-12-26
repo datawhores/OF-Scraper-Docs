@@ -36,6 +36,10 @@ Best used with    --active-subscription
 
 ## Promo Price
 
+{% hint style="info" %}
+Best used with  --promo-only  or --all-promo-only
+{% endhint %}
+
 1. Primary Source is the lowest promotional subscription price.
 2. If no promotions are available, use the regular subscription price.
 3. If none of the above methods provide a valid price, then 0 is used as a fallback

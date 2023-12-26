@@ -1,5 +1,9 @@
 # Price Filtering/Sort
 
+{% hint style="info" %}
+Failbacks are to utilized to enable easy sorting of list
+{% endhint %}
+
 ## Current Price
 
 1. If there is an active subscription and its subscription price is available, use that price.

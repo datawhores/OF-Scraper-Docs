@@ -1,10 +1,18 @@
 # Price Filtering/Sort
 
 {% hint style="info" %}
-Failbacks are to utilized to enable easy sorting of list
+Fallbacks are to utilized to enable easy sorting of list
+{% endhint %}
+
+{% hint style="info" %}
+Fallbacks can be eliminated with proper filtering
 {% endhint %}
 
 ## Current Price
+
+{% hint style="info" %}
+Best used with    --active-subscription
+{% endhint %}
 
 1. If there is an active subscription and its subscription price is available, use that price.
 2. If there is no active subscription or the subscription price is not available, check for active promotions with a "claimable" tag. Use the lowest subscription price among these promotions.

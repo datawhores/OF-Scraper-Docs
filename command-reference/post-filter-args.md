@@ -98,23 +98,16 @@ Default: None
 
 ####
 
-### -dt, --download type
-
-```
-Possible choices: protected,normal
-```
+### -to,--protected-only
 
 ```python
-Specify the download type:
-
-None: Both types
-Protected: Files requiring mp4decrypt
-Normal: Files not needing mp4decrypt
-
+Restrict downloads to content that specifically requires decryption
 ```
 
+### -no,--normal-only
+
 ```
-Default: None
+Restrict downloads to content that specifically does not require decryption
 ```
 
 ####

@@ -111,7 +111,7 @@ pipx install git+https://github.com/datawhores/OF-Scraper.git
 #### specific version
 
 ```
-pipx install ofscraper==version
+pipx install ofscraper==version --force
 ```
 
 where x is the version you want to install

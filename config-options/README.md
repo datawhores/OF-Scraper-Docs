@@ -28,7 +28,7 @@
                 "Videos"
             ],
             "auto_resume": false,
-            "system_free_min": 0,
+            "system_free_min": 0
         },
         "binary_options": {
             "mp4decrypt": "/root/.config/ofscraper/bin/mp4decrypt",

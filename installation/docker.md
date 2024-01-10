@@ -9,12 +9,10 @@
 {% endhint %}
 
 {% hint style="info" %}
-```
-If you opt for the auto download feature when installing mp4decrypt or 
-ffmpeg, the binaries will be stored in 
-/root/.config/ofscraper/bin within the Docker image
-```
+**If you opt for the auto download feature when installing mp4decrypt or ffmpeg, the binaries will be stored in /root/.config/ofscraper/bin within the Docker image**
 {% endhint %}
+
+
 
 | host    | docker                            | use          | required |
 | ------- | --------------------------------- | ------------ | -------- |
@@ -30,7 +28,7 @@ docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.i
 ## Docker Compose
 
 {% hint style="info" %}
-make sure to install ffmpeg and mp4decrypt to your local system and add to the volumes in the compose file.
+**make sure to install ffmpeg and mp4decrypt to your local system and add to the volumes in the compose file.**
 {% endhint %}
 
 ```

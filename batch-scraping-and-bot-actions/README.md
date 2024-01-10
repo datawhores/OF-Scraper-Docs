@@ -30,34 +30,48 @@ ofscraper
 
 You can combine these actions together
 
-* posts
 * likes or unlike (only 1 because liking and unliking all posts doesn't make sense)
+* combine the previous with download
 
 This command will download all wall posts for the selected model and simultaneously like all the posts
 
 ```
- ofscraper --posts all --action like
+ ofscraper --posts all --action like,download
 ```
 
 ## Bypass all prompts
 
-Selecting at least one scraping method and providing a username will bypass all prompt
+{% hint style="info" %}
+You must pick timeline,pinned, or archived to bypass the like area prompt when doing action&#x20;
+
+like or unlike
+{% endhint %}
+
+Selecting at least one scraping method and providing a username will bypass all prompts
 
 ```
- ofscraper --posts all --username ALL
+ ofscraper --posts all --username ALL --action like,download
 ```
 
 ## Running command in the background
 
 For daemon mode to function, you must select at least one scraping method
 
+{% hint style="info" %}
+&#x20;In daemon mode, if the --username argument isn't provided, it will prompt you to pick a username only once
+{% endhint %}
+
+{% hint style="info" %}
+In daemon mode, if the --post argument isn't provided, it will prompt you to pick post only once
+{% endhint %}
+
 ```
- ofscraper --daemon 10 --posts all
+ ofscraper --daemon 10 --posts all --action like,download
 ```
 
 The script will operate at least every 10 minutes. If a run extends beyond 10 minutes, the subsequent run begins immediately after the prior one concludes.
 
-&#x20;In daemon mode, if the --username argument isn't provided, it will prompt you to pick a username. This step is a one-time requirement as your settings are retained for each loop in the daemon.
+
 
 ## Modifications to Filename
 

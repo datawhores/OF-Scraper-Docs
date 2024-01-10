@@ -42,9 +42,9 @@ This command will download all wall posts for the selected model and simultaneou
 ## Bypass all prompts
 
 {% hint style="info" %}
-You must pick timeline,pinned, or archived to bypass the like area prompt when doing action&#x20;
+**You must pick timeline,pinned, or archived to bypass the like area prompt when doing action**&#x20;
 
-like or unlike
+**like or unlike**
 {% endhint %}
 
 Selecting at least one scraping method and providing a username will bypass all prompts
@@ -58,11 +58,11 @@ Selecting at least one scraping method and providing a username will bypass all 
 For daemon mode to function, you must select at least one scraping method
 
 {% hint style="info" %}
-&#x20;In daemon mode, if the --username argument isn't provided, it will prompt you to pick a username only once
+&#x20;**In daemon mode, if the --username argument isn't provided, it will prompt you to pick a username only once**
 {% endhint %}
 
 {% hint style="info" %}
-In daemon mode, if the --post argument isn't provided, it will prompt you to pick post only once
+**In daemon mode, if the --post or --scrape-paid argument isn't provided, it will prompt you to  them only once**
 {% endhint %}
 
 ```

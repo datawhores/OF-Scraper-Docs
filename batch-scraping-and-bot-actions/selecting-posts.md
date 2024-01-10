@@ -5,13 +5,13 @@
 A comma-separated list indicating the posts from which you wish to download content.
 
 ```
- ofscraper --posts highlights,timeline
+ ofscraper --action download --posts highlights,timeline
 ```
 
 multiple calls
 
 ```
- ofscraper --posts highlights --posts timeline
+ ofscraper --action download --posts highlights --posts timeline
 ```
 
 Duplicates will be removed
@@ -33,7 +33,7 @@ Duplicates will be removed
 By default, content is stored in a database to prevent duplicate downloads. If you wish to download all available content for a specific model, include the '--dupe' argument.
 
 ```
-ofscraper --dupe
+ofscraper --action download --dupe
 ```
 
 ### Filter Post by Date
@@ -43,7 +43,7 @@ ofscraper --dupe
 Filters  posts on or before the specified date. It functions for downloading, liking, and unliking posts.
 
 ```
-ofscraper --before date
+ofscraper --action download --before date X
 ```
 
 #### After
@@ -51,7 +51,7 @@ ofscraper --before date
 Filter  posts on or after the specified date. It functions for downloading, liking, and unliking posts.
 
 ```
-ofscraper --after date
+ofscraper --action download --after date X
 ```
 
 **Valid Inputs**
@@ -80,7 +80,7 @@ You can enhance granularity by including a comma. When utilizing debuggers, the 
 skip all timed post
 
 ```
-ofscraper --skip-timed
+ofscraper --action download --skip-timed
 ```
 
 ### Filtering by text content
@@ -93,7 +93,7 @@ This will include only post that match the provided regex patter
 
 ```
 
-ofscraper --filter 
+ofscraper --action download --filter X
 ```
 
 #### Neg Filter:&#x20;
@@ -101,7 +101,7 @@ ofscraper --filter
 This will exclude any posts that match the provided regex pattern.
 
 ```
-ofscraper --negfilter 
+ofscraper --action download --negfilter X
 ```
 
 ### Search entire paid page
@@ -109,11 +109,11 @@ ofscraper --negfilter
 This option is designed to manage situations like when a model account has been deleted
 
 ```
-ofscraper --scrape-paid
+ofscraper --action download --scrape-paid
 ```
 
 To exclusively scrape the paid page and skip other prompts
 
 ```
-ofscraper --scrape-paid --post None
+ofscraper --scrape-paid
 ```

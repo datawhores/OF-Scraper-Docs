@@ -26,7 +26,7 @@ An example of what an auth file should typically look like
 
 
 
-## General
+## Auto methods
 
 You have various options for fetching authentication info. If possible, I'd suggest going for the cookie helper option—it demands the least effort once it's set up.
 
@@ -54,14 +54,17 @@ For more details, check out the manual section below.
 
 You won't need to worry about extracting any cookie information with this choice
 
-## Manual
+## Manual methods
+
+{% hint style="info" %}
+**You can also manually edit auth information in script**
+{% endhint %}
 
 With this option, you'll need to manually input all the required information
 
 ```json
 {
     "auth": {
-        "app-token": "",
         "sess": "",
         "auth_id": "",
         "auth_uniq_": "",

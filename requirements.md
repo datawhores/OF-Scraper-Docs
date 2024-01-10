@@ -4,35 +4,15 @@ description: Requirements for pip or pipx installations
 
 # Requirements
 
-**Recommend Version: python 3.11**
+{% hint style="info" %}
+**python 3.11 is compatible with most version**
+{% endhint %}
 
+{% hint style="info" %}
+**python <=3.10 is compatible with some older version**
+{% endhint %}
 
-
-## OF-Scraper <=2.64
-
-```
-Python <4
-```
-
-&#x20;  &#x20;
-
-## OF-Scraper >=2.65 & OF-Scraper <=3.4.2
-
-&#x20;     &#x20;
-
-```
-Python >=3.10.11
-Python <3.12
-```
-
-&#x20;
-
-## OF-Scraper >=3.4.3&#x20;
-
-```
-Python >=3.10.11
-Python <3.13
-```
-
-
+{% hint style="info" %}
+**python >=3.13 is compatible with 3.7+**
+{% endhint %}
 

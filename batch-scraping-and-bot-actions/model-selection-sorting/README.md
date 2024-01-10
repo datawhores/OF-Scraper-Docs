@@ -59,7 +59,7 @@ This will limit the program to exclusively interact with and display free accoun
 This demonstrates scraping messages from subscriptions that have expired
 
 ```
-ofscraper --sub-status expired --posts messages --username ALLf
+ofscraper --sub-status expired --posts messages --username ALL --action download
 ```
 
 ### Restrict by renewal status

@@ -1,17 +1,17 @@
 # Price Filtering/Sort
 
 {% hint style="info" %}
-Fallbacks are to utilized to enable easy sorting of list
+**Fallbacks are to utilized to enable easy sorting of list**
 {% endhint %}
 
 {% hint style="info" %}
-Fallbacks can be eliminated with proper filtering
+**Fallbacks can be eliminated with proper filtering**
 {% endhint %}
 
 ## Current Price
 
 {% hint style="info" %}
-Best used with    --active-subscription
+**Best used with    --active-subscription**
 {% endhint %}
 
 1. If there is an active subscription and its subscription price is available, use that price.
@@ -22,7 +22,7 @@ Best used with    --active-subscription
 ## _Renewal Price_
 
 {% hint style="info" %}
-Best used with    --active-subscription
+**Best used with    --active-subscription**
 {% endhint %}
 
 1. Primary Source is the lowest claimable promotional subscription price.
@@ -37,7 +37,7 @@ Best used with    --active-subscription
 ## Promo Price
 
 {% hint style="info" %}
-Best used with  --promo-only  or --all-promo-only
+**Best used with  --promo-only  or --all-promo-only**
 {% endhint %}
 
 1. Primary Source is the lowest promotional subscription price.

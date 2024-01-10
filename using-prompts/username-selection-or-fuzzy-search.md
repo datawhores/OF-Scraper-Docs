@@ -1,9 +1,7 @@
 # Username selection or Fuzzy Search
 
-
-
 {% hint style="info" %}
-Fuzzy search is built to mimic fzf
+**Fuzzy search is built to mimic fzf**
 {% endhint %}
 
 Ofscraper applies a fuzzy search technique to simplify managing selected models. This approximate search aims to find strong matches for the string you input.

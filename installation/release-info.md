@@ -1,5 +1,11 @@
 # Release Info
 
+## Latest Pip Version
+
+
+
+<figure><img src="https://badge.fury.io/py/ofscraper.svg" alt=""><figcaption></figcaption></figure>
+
 ## Release types
 
 

@@ -5,7 +5,7 @@
 
 
 {% hint style="info" %}
-Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.
+**Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.**
 {% endhint %}
 
 {% hint style="info" %}

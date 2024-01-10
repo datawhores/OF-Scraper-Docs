@@ -77,9 +77,9 @@ profile location=/home/test/.config/ofscraper/test_profile
 
 ### no cache
 
-It bypasses the cache when fetching posts, primarily for testing purposes.
+bypass all cache usage&#x20;
 
-
+useful for testing
 
 ```
 ofscraper --no-cache

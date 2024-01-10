@@ -2,8 +2,7 @@
 
 ## Example Config
 
-````
-```json
+```
 {
     "config": {
         "main_profile": "main_profile",
@@ -69,7 +68,6 @@
     }
 }
 ```
-````
 
 ###
 

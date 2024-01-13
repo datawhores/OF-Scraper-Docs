@@ -12,8 +12,8 @@ Good resources if you want an easy way to install python or to manage multiple v
 
 **Recommended python3.11**
 
-#### Windows:
-
+{% tabs %}
+{% tab title="Window Install" %}
 **stable**
 
 ```
@@ -37,6 +37,10 @@ py -3 -m pip install ofscraper==x
 ```
 
 where 'x' represents the version you intend to install
+{% endtab %}
+
+{% tab title="Linux/Mac Install" %}
+
 
 #### macOS/Linux
 
@@ -79,3 +83,11 @@ or
 ```
 python3 -m pip install ofscraper==latest version number
 ```
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
+####

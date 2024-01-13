@@ -89,12 +89,6 @@ Installing Python via miniconda
 
 ## Install
 
-### Video
-
-Watch this video for a quick overview of the install and run process
-
-{% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
-
 
 
 {% tabs %}
@@ -183,7 +177,11 @@ pipx install ofscraper==x --force
 {% endtab %}
 {% endtabs %}
 
-###
+### Video
+
+Watch this video for a quick overview of the install and run process
+
+{% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 
 ###
 

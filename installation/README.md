@@ -97,8 +97,6 @@ Watch this video for a quick overview of the install and run process
 
 
 
-###
-
 {% tabs %}
 {% tab title="Windows Install" %}
 #### stable

@@ -132,7 +132,7 @@ Example: pipx install ofscraper --python $(where python3.11)
 ```
 {% endtab %}
 
-{% tab title="Linux/Mac" %}
+{% tab title="Linux/Mac Install" %}
 
 
 ### macOS/Linux

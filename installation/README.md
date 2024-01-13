@@ -28,7 +28,7 @@ The guide assumes you have your terminal program open and have already installed
 
 {% embed url="https://pipx.pypa.io/stable/" %}
 
-2. **Options 2 pip**
+2. **Option 2 pip**
 
 {% content-ref url="pip-install.md" %}
 [pip-install.md](pip-install.md)

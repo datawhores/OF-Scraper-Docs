@@ -14,7 +14,7 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Intro
+## Getting Package Manager
 
 {% hint style="info" %}
 **Pipx puts binaries in there own virtualenv, leading to less issues**
@@ -23,10 +23,6 @@ The guide assumes you have your terminal program open and have already installed
 While you can install it using pip, it's recommended to use pipx
 
 {% embed url="https://pipx.pypa.io/stable/" %}
-
-{% content-ref url="release-info.md" %}
-[release-info.md](release-info.md)
-{% endcontent-ref %}
 
 ***
 

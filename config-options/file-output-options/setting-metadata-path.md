@@ -46,4 +46,9 @@ Adjust the metadata section in the config.json file by inserting the appropriate
 option
 {my_username}=The authorized account's username
 {my_id} = The identification number assigned to the authorized account
+
+{current_price}= Free if current price is 0 dollars else paid
+{regular_price}=Free if current regular price is 0 dollars else paid
+{promo_price}= Free if promo price is 0 dollars else paid
+{renewal_price}= Free if renewal price is 0 dollars else paid
 ```

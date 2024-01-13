@@ -6,7 +6,7 @@
 [managing-multiple-python-versions.md](managing-multiple-python-versions.md)
 {% endcontent-ref %}
 
-Good resources if you want an easy way to install python or to manage multiple version
+**Good resources if you want an easy way to install python or to manage multiple versio**n
 
 ## Installation
 

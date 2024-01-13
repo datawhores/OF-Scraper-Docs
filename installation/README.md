@@ -52,5 +52,5 @@ The guide assumes you have your terminal program open and have already installed
 ## Video
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
-
-A video showing the install process
+**A video showing the install process**
+{% endembed %}

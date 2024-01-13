@@ -14,7 +14,7 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Choosing a Package Manager
+## Install via package manager
 
 {% hint style="info" %}
 **Pipx is recommend puts binaries in there own virtualenv, leading to less issues**\
@@ -33,7 +33,15 @@ The guide assumes you have your terminal program open and have already installed
 [pip-install.md](pip-install.md)
 {% endcontent-ref %}
 
-### No install Method
+## Install via Docker
+
+{% content-ref url="docker.md" %}
+[docker.md](docker.md)
+{% endcontent-ref %}
+
+
+
+## Compiled Binaries \[No Install]
 
 {% content-ref url="binary-releases.md" %}
 [binary-releases.md](binary-releases.md)
@@ -41,7 +49,7 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-### Video
+## Video
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 

@@ -4,23 +4,6 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
-{% hint style="info" %}
-**Check out the binaries below if you want to run without installing**
-{% endhint %}
-
-{% hint style="info" %}
-**However, pip/pipx are the recommended as they will have better performance**\
-**and provide easier path to updates**
-{% endhint %}
-
-
-
-{% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
-
-{% content-ref url="release-info.md" %}
-[release-info.md](release-info.md)
-{% endcontent-ref %}
-
 ## Before Starting
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
@@ -29,7 +12,7 @@ The guide assumes you have your terminal program open and have already installed
 [pre-install-guide.md](pre-install-guide.md)
 {% endcontent-ref %}
 
-##
+
 
 ## Intro
 
@@ -40,6 +23,10 @@ The guide assumes you have your terminal program open and have already installed
 While you can install it using pip, it's recommended to use pipx
 
 {% embed url="https://pipx.pypa.io/stable/" %}
+
+{% content-ref url="release-info.md" %}
+[release-info.md](release-info.md)
+{% endcontent-ref %}
 
 ***
 
@@ -55,9 +42,7 @@ While you can install it using pip, it's recommended to use pipx
 
 
 
-## Preparing Pipx
-
-#### Setting Python&#x20;
+## Managing Multiple Python Versions
 
 {% hint style="info" %}
 **Both of these optional tools allow for managing multiple versions of python**
@@ -183,6 +168,19 @@ Watch this video for a quick overview of the install and run process
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 
-###
+## Binary Releases
 
-###
+{% hint style="info" %}
+**Check out the binaries below if you want to run without installing**
+{% endhint %}
+
+{% hint style="info" %}
+**However, pip/pipx are the recommended as they will have better performance**\
+**and provide easier path to updates**
+{% endhint %}
+
+{% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
+
+{% content-ref url="release-info.md" %}
+[release-info.md](release-info.md)
+{% endcontent-ref %}

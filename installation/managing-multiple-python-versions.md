@@ -27,5 +27,3 @@ Getting Miniconda
 {% embed url="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html" %}
 Installing Python via miniconda
 {% endembed %}
-
-d

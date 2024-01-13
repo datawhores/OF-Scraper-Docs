@@ -4,8 +4,6 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
-##
-
 ## Before Starting
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
@@ -17,6 +15,10 @@ The guide assumes you have your terminal program open and have already installed
 
 
 ## Choosing a Package Manager
+
+{% hint style="info" %}
+**Pipx is recommend puts binaries in there own virtualenv, leading to less issues**
+{% endhint %}
 
 ### **Option 1: PIPX Install**
 

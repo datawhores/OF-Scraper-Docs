@@ -1,11 +1,5 @@
 # PIPX Install
 
-d
-
-{% hint style="info" %}
-**Pipx is recommend puts binaries in there own virtualenv, leading to less issues**
-{% endhint %}
-
 1. **Option 1 pipx**&#x20;
 
 {% embed url="https://pipx.pypa.io/stable/" %}

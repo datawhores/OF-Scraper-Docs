@@ -5,7 +5,7 @@
 
 
 {% hint style="info" %}
-**Binaries are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.**
+**Binaries for mp4decrypt and ffmpeg are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.**
 {% endhint %}
 
 {% hint style="info" %}

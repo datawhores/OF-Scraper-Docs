@@ -13,6 +13,6 @@ description: Requirements for pip or pipx installations
 {% endhint %}
 
 {% hint style="info" %}
-**python >=3.13 is compatible with 3.7+**
+**python >=3.13 is compatible with 3.7 and beyond**
 {% endhint %}
 

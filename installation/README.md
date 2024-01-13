@@ -1,16 +1,19 @@
+---
+description: Getting OF-Scraper onto you system
+---
+
 # Install
 
-No Install Run
+{% hint style="info" %}
+**Check out the binaries below if you want to run without installing**
+{% endhint %}
 
-The OF-Scraper repository contains comprehensive binaries enabling you to run OF-Scraper without requiring additional installations on your computer.
+{% hint style="info" %}
+**However, pip/pipx are the recommended as they will have better performance**\
+**and provide easier path to updates**
+{% endhint %}
 
-The zip file operates straight away, but with the .exe, it needs to unpack into a temporary folder, which might cause the script to start a bit slower.
 
-
-
-**Warning**
-
-Windows binaries, in particular, can have distinct issues due to their use of spawning versus forking processes. If you encounter problems with the script, they might be resolved by opting for a proper installation.
 
 {% embed url="https://github.com/datawhores/OF-Scraper/releases" %}
 
@@ -30,9 +33,11 @@ The guide assumes you have your terminal program open and have already installed
 
 ## Intro
 
-While you can install it using pip, it's recommended to use pipx. This method places OF-scraper&#x20;
+{% hint style="info" %}
+**Pipx puts binaries in there own virtualenv, leading to less issues**
+{% endhint %}
 
-into its own virtual environment, ensuring the program operates without interference from other installations.
+While you can install it using pip, it's recommended to use pipx
 
 {% embed url="https://pipx.pypa.io/stable/" %}
 
@@ -46,39 +51,39 @@ into its own virtual environment, ensuring the program operates without interfer
 
 </details>
 
-
-
 ***
 
-Otherwise, If you prefer to proceed using pipx, you can follow along with the guide
+
 
 ## Preparing Pipx
 
-#### Setting Python Version
+#### Setting Python&#x20;
 
-\
-pipx utilizes your default Python version. If you need to ensure a specific Python version, consider using \
-one of the following
+{% hint style="info" %}
+**Both of these optional tools allow for managing multiple versions of python**
+{% endhint %}
 
-1. **pyenv**
+#### 1. pyenv
 
 {% embed url="https://github.com/pyenv/pyenv" %}
-
-#### Install python with pyenv
+Getting pyenv
+{% endembed %}
 
 {% embed url="https://realpython.com/lessons/pyenv-install-python/" %}
+Installing Python via pyenv
+{% endembed %}
 
 ***
 
 2. **miniconda**
 
 {% embed url="https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html" %}
-
-
-
-**Install python with miniconda**
+Getting Miniconda
+{% endembed %}
 
 {% embed url="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html" %}
+Installing Python via miniconda
+{% endembed %}
 
 
 
@@ -92,10 +97,10 @@ Watch this video for a quick overview of the install and run process
 
 
 
-### Windows:
+###
 
-####
-
+{% tabs %}
+{% tab title="Windows Install" %}
 #### stable
 
 ```
@@ -125,6 +130,10 @@ Append --python $(where {python version})
 ```
 Example: pipx install ofscraper --python $(where python3.11)
 ```
+{% endtab %}
+
+{% tab title="Linux/Mac" %}
+
 
 ### macOS/Linux
 
@@ -173,3 +182,11 @@ or
 ```
 pipx install ofscraper==x --force
 ```
+{% endtab %}
+{% endtabs %}
+
+###
+
+###
+
+###

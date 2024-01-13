@@ -1,9 +1,5 @@
 # PIP Install
 
-{% hint style="info" %}
-**pipx is the preferred method, although you can also install OF-Scraper using pip**
-{% endhint %}
-
 ## Installing Python
 
 {% content-ref url="managing-multiple-python-versions.md" %}
@@ -14,7 +10,7 @@ Good resources if you want an easy way to install python or to manage multiple v
 
 ## Installation
 
-**Recommended python3.9 or python3.10**
+**Recommended python3.11**
 
 #### Windows:
 

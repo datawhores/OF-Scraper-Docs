@@ -18,13 +18,13 @@ The guide assumes you have your terminal program open and have already installed
 
 ## Choosing a Package Manager
 
-### **Option 1: Pipx Install**
+### **Option 1: PIPX Install**
 
 {% content-ref url="pipx-install.md" %}
 [pipx-install.md](pipx-install.md)
 {% endcontent-ref %}
 
-### **Option 2: Pip install** 
+### **Option 2: PIP install**
 
 {% content-ref url="pip-install.md" %}
 [pip-install.md](pip-install.md)

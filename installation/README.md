@@ -17,7 +17,8 @@ The guide assumes you have your terminal program open and have already installed
 ## Choosing a Package Manager
 
 {% hint style="info" %}
-**Pipx is recommend puts binaries in there own virtualenv, leading to less issues**
+**Pipx is recommend puts binaries in there own virtualenv, leading to less issues**\
+**It' can also be used to manage updates**
 {% endhint %}
 
 ### **Option 1: PIPX Install**
@@ -32,9 +33,16 @@ The guide assumes you have your terminal program open and have already installed
 [pip-install.md](pip-install.md)
 {% endcontent-ref %}
 
-### Video
+### No install Method
 
-Watch this video fif you need additional help with installation
+{% content-ref url="binary-releases.md" %}
+[binary-releases.md](binary-releases.md)
+{% endcontent-ref %}
+
+
+
+### Video
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 
+A video showing the install process

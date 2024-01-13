@@ -38,6 +38,13 @@ You can use these placeholders
 {model_id}= unique id number for model
 {configpath}= parent dir of config.json
 {profile} = current profile 
+{current_price}= Free or Paid based on model current price
+{regular_price}= Free or Paid based on model regular price
+{promo_price}= Free or Paid based on model promo price
+{regular_price}= Free or Paid based on model regular price
+{renewal_price}= Free or Paid based on model renewal price
+
+
 
 ```
 

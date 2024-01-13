@@ -4,6 +4,8 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
+##
+
 ## Before Starting
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
@@ -16,23 +18,21 @@ The guide assumes you have your terminal program open and have already installed
 
 ## Getting Package Manager
 
+
+
 {% hint style="info" %}
-**Pipx puts binaries in there own virtualenv, leading to less issues**
+**Pipx is recommend puts binaries in there own virtualenv, leading to less issues**
 {% endhint %}
 
-While you can install it using pip, it's recommended to use pipx
+1. **Option 1 pipx**&#x20;
 
 {% embed url="https://pipx.pypa.io/stable/" %}
 
-***
+2. **Options 2 pip**
 
-<details>
-
-<summary>Still want to install with pip</summary>
-
-[https://of-scraper.gitbook.io/of-scraper/installation/pip-install](https://of-scraper.gitbook.io/of-scraper/installation/pip-install)
-
-</details>
+{% content-ref url="pip-install.md" %}
+[pip-install.md](pip-install.md)
+{% endcontent-ref %}
 
 ***
 

@@ -36,5 +36,3 @@ Watch this video fif you need additional help with installation
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 
-f
-

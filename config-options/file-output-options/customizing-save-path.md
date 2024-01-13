@@ -91,6 +91,12 @@ for the  authorized account
 {download_type}= Indication of whether it's protected or normal, 
 determined by the necessity for decryption
 
+
+{current_price}= Free if current price is 0 dollars else paid
+{regular_price}=Free if current regular price is 0 dollars else paid
+{promo_price}= Free if promo price is 0 dollars else paid
+{renewal_price}= Free if renewal price is 0 dollars else paid
+
 ```
 
 ### Filename
@@ -131,9 +137,12 @@ still it's advisable to establish a text length limit.
 {my_id} = The identification number 
 for the  authorized account
 {label} =  The label assigned to the post, if available
-{download_type}= Indication of whether it's protected or normal, 
-determined by the necessity for decryption
-Warning
+{download_type}= Protected if decryption required otherwhise normal
+
+{current_price}= Free if current price is 0 dollars else paid
+{regular_price}=Free if current regular price is 0 dollars else paid
+{promo_price}= Free if promo price is 0 dollars else paid
+{renewal_price}= Free if renewal price is 0 dollars else paid
 ```
 
 ```

@@ -4,9 +4,13 @@
 **pipx is the preferred method, although you can also install OF-Scraper using pip**
 {% endhint %}
 
-## Getting Python
+## Installing Python
 
+{% content-ref url="managing-multiple-python-versions.md" %}
+[managing-multiple-python-versions.md](managing-multiple-python-versions.md)
+{% endcontent-ref %}
 
+Good resources if you want an easy way to install python or to manage multiple version
 
 ## Installation
 

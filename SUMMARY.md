@@ -7,6 +7,7 @@
   * [Pre-Install Guide](installation/pre-install-guide.md)
   * [Release Info](installation/release-info.md)
   * [Docker](installation/docker.md)
+  * [Managing Multiple Python Versions](installation/managing-multiple-python-versions.md)
 * [Getting Started](getting-started.md)
 * [FAQ/Common Issues](faq.md)
 * [Config Options](config-options/README.md)

@@ -4,6 +4,10 @@
 **pipx is the preferred method, although you can also install OF-Scraper using pip**
 {% endhint %}
 
+## Getting Python
+
+
+
 ## Installation
 
 **Recommended python3.9 or python3.10**

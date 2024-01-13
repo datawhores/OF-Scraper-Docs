@@ -16,7 +16,7 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Getting Package Manager
+## Choosing a Package Manager
 
 
 
@@ -38,37 +38,15 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Managing Multiple Python Versions
+## Installing Python
 
-{% hint style="info" %}
-**Both of these optional tools allow for managing multiple versions of python**
-{% endhint %}
+{% content-ref url="managing-multiple-python-versions.md" %}
+[managing-multiple-python-versions.md](managing-multiple-python-versions.md)
+{% endcontent-ref %}
 
-#### 1. pyenv
+Good resources if you want an easy way to install python or to manage multiple version
 
-{% embed url="https://github.com/pyenv/pyenv" %}
-Getting pyenv
-{% endembed %}
-
-{% embed url="https://realpython.com/lessons/pyenv-install-python/" %}
-Installing Python via pyenv
-{% endembed %}
-
-***
-
-2. **miniconda**
-
-{% embed url="https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html" %}
-Getting Miniconda
-{% endembed %}
-
-{% embed url="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html" %}
-Installing Python via miniconda
-{% endembed %}
-
-
-
-## Install
+## Installing OF-Scraper
 
 
 

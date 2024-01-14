@@ -14,10 +14,9 @@ max=10
 
 ### Caveats
 
-\
-It's important to note that if the thread count exceeds 0 but the number of downloads for a model doesn't surpass the download semaphore, only the main thread will handle the downloading process. Additionally, the maximum number of usable threads is determined by your system, irrespective of the configuration file settings.
-
-This is linked to the handling of unused threads on Windows and Linux. However, on Mac, the operating system lacks this specific OS API, so the maximum is established as the total number of threads on the system
+* It's important to note that if the thread count exceeds 0 but the number of downloads for a model doesn't surpass a minimum per thread, only the main thread will handle the downloading process.
+* Additionally, the maximum number of usable threads is determined by your system, irrespective of the configuration file settings.
+  * This is linked to the handling of unused threads on Windows and Linux. However, on Mac, the operating system lacks this specific OS API, so the maximum is established as the total number of threads on the system
 
 
 
@@ -53,9 +52,15 @@ Any Python code that produces a string as its output should work just fine in th
 
 Before, 'custom' was transformed into a dictionary using Python's built-in JSON library.&#x20;
 
-While this approach remains an option, OF-Scraper now supports scripting within the 'custom' block, allowing for the inclusion of small scripts directly.
+While this approach remains an option, OF-Scraper now supports scripting within the 'custom' block, allowing for the inclusion of small scripts directly.\
 
 
+### How it works
+
+{% hint style="info" %}
+**Use exec if you need to save a variable**\
+**the keys should be executed in order**
+{% endhint %}
 
 ````
 ```python
@@ -68,20 +73,15 @@ While this approach remains an option, OF-Scraper now supports scripting within 
 ```
 ````
 
-\
-This allows for accessing the customized value by using
+Each value in dictionary is ran through eval, meaning each value should be a statement that equals some value
 
-
+You can access the calculated value via
 
 ```
 custom.get(key)
 ```
 
-During filename creation
-
-
-
-For example&#x20;
+### Example
 
 ```
 code-execution:true
@@ -92,6 +92,14 @@ custom={"mymodel","'replace'.lower()"}
 It's crucial to note that when working with strings, the inner quotes hold significance because 'eval' interprets what's inside the quotes as code.&#x20;
 
 Therefore, maintaining the inner quotes is vital for accurate interpretation by 'eval'.
+
+### Changing const
+
+You can change must const with the custom dict as well
+
+{% content-ref url="changing-const.md" %}
+[changing-const.md](changing-const.md)
+{% endcontent-ref %}
 
 ## dynamic-mode-default
 

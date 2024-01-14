@@ -10,7 +10,7 @@ I'm not someone who uses Windows on a daily basis, but it should be
 C:/Users/username/.config/ofscraper/config.json
 ```
 
-#### Linux
+#### Linux or Mac
 
 {% hint style="info" %}
 **If running with sudo or root** \

@@ -80,9 +80,29 @@
 
 </details>
 
-Each file will be saved to `/home/James/Data/ofscraper/{model_username}/{responsetype}/{mediatype}/{filename}.{ext}`
+Each file will be saved to&#x20;
+
+
+
+```
+//home/James/Data/ofscraper/{model_username}/{responsetype}/
+{mediatype}/{filename}.{ext}
+```
 
 The placeholders described below will substitute the {} values
+
+## Placeholders
+
+In the example above&#x20;
+
+```
+/home/James/Data/ofscraper/{model_username}/{responsetype}/
+{mediatype}/{filename}.{ext}
+```
+
+The information in brakets is substituted with info from the download, current user, current profile,etc
+
+
 
 ## save\_location
 

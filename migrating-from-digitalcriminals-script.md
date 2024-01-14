@@ -109,13 +109,13 @@ This is based on common settings from DC script
 
 </details>
 
-#### save\_location
+### save\_location
 
 ```
  "save_location": "/Onlyfans",
 ```
 
-#### dir format
+### dir format
 
 ```
  "dir_format": "{model_username}/{responsetype}/{value}/{mediatype}/"
@@ -129,7 +129,7 @@ Means a full path like
 1. /Onlyfans is the save\_location
 2. /modelA/Messages/Free/Images/ is the dir\_format
 
-#### metadata
+### metadata
 
 <pre><code>"metadata": "<a data-footnote-ref href="#user-content-fn-3">{save_location}</a>/{model_username}/Metadata"
 </code></pre>

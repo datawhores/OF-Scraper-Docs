@@ -12,7 +12,7 @@ Stable versions are hosted on various platform including pypi
 
 ## Good Pages for Newcomers
 
-The following pages provide the basics on how to get started
+### Installation&#x20;
 
 {% content-ref url="requirements.md" %}
 [requirements.md](requirements.md)
@@ -21,6 +21,8 @@ The following pages provide the basics on how to get started
 {% content-ref url="installation/" %}
 [installation](installation/)
 {% endcontent-ref %}
+
+### After Install
 
 {% content-ref url="getting-started.md" %}
 [getting-started.md](getting-started.md)

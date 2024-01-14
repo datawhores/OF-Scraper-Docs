@@ -25,3 +25,13 @@ ofscraper
 {% content-ref url="using-prompts/" %}
 [using-prompts](using-prompts/)
 {% endcontent-ref %}
+
+**For More Automations/Advanced Use**
+
+{% content-ref url="batch-scraping-and-bot-actions/" %}
+[batch-scraping-and-bot-actions](batch-scraping-and-bot-actions/)
+{% endcontent-ref %}
+
+{% content-ref url="command-reference.md" %}
+[command-reference.md](command-reference.md)
+{% endcontent-ref %}

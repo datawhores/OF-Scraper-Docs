@@ -15,7 +15,7 @@
         "metadata": "{configpath}/{profile}/.data/{model_username}_{model_id}",
         "discord": "",
         "file_options": {
-            "save_location": "//home/james/Data/ofscraper",
+            "save_location": "/home/james/Data/ofscraper",
             "dir_format": "/{model_username}/{responsetype}/{mediatype}/",
             "file_format": "{filename}.{ext}",
             "textlength": 0,
@@ -84,7 +84,7 @@
 
 </details>
 
-Each file will be saved to `/root/Data/ofscraper/{model_username}/{responsetype}/{mediatype}/{filename}.{ext}`
+Each file will be saved to `/home/James/Data/ofscraper/{model_username}/{responsetype}/{mediatype}/{filename}.{ext}`
 
 The placeholders described below will substitute the {} values
 

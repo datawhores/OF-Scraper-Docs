@@ -207,7 +207,9 @@ for the  authorized account
 \
 The date syntax doesn't use bracket notation; it adheres to the Arrow implementation.&#x20;
 
-For more information, check the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens). If you need additional help, feel free to open an issue in the repository for support.
+For more information, check the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens).&#x20;
+
+If you need additional help, feel free to open an issue in the repository for support.
 
 ## textlength&#x20;
 

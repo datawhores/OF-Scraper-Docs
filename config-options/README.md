@@ -82,7 +82,7 @@
 
 ## Config settings for save locations
 
-Customize the final file path for downloads
+**Customize the final file path for downloads**
 
 {% content-ref url="file-output-options/customizing-save-path.md" %}
 [customizing-save-path.md](file-output-options/customizing-save-path.md)
@@ -94,7 +94,7 @@ Customize the final file path for downloads
 
 ## Media Filtering
 
-Customize which files are downloaded
+**Customize which files are downloaded**
 
 {% content-ref url="media-filtering-options.md" %}
 [media-filtering-options.md](media-filtering-options.md)
@@ -102,7 +102,7 @@ Customize which files are downloaded
 
 ## Key Options
 
-These settings are required for some files
+**These settings are required for some files**
 
 {% content-ref url="key-option.md" %}
 [key-option.md](key-option.md)

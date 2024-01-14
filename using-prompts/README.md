@@ -41,10 +41,12 @@ Your prior choices will be available, allowing you the chance to edit them conve
 
 ## Edit auth.json
 
+{% hint style="info" %}
+&#x20;**if the authentication fails, the authentication menu will pop up, prompting you to enter new settings**
+{% endhint %}
+
 ![image](https://user-images.githubusercontent.com/67020411/230735133-9bc6c48f-daed-40be-841c-0d84c3eb2bca.png)
 
 Typically this is not a setting that needs to be access manually
 
 However, you have the option to directly modify the authentication JSON using this method.
-
-Just a heads-up: if the authentication fails, the authentication menu will pop up, prompting you to enter new settings

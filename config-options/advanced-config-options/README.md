@@ -160,3 +160,9 @@ If you set this to false, the script will  delete .part files, and will not be a
 ## sanitize\_text
 
 If set to true,  text content will be sanitized before to database insertion into database
+
+## system\_free\_min
+
+Minimum Available space required to run script
+
+Program will crash if below

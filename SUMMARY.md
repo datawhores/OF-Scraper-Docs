@@ -23,6 +23,7 @@
   * [Key options](config-options/key-option.md)
   * [Advanced config options](config-options/advanced-config-options/README.md)
     * [Changing Const](config-options/advanced-config-options/changing-const.md)
+  * [Performance Options](config-options/performance-options.md)
 * [Using Prompts](using-prompts/README.md)
   * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Migrating from Digitalcriminal's script](migrating-from-digitalcriminals-script.md)

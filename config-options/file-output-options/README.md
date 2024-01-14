@@ -1,20 +1,24 @@
 # File Output Options
 
+## Save Path Options
+
 {% content-ref url="customizing-save-path.md" %}
 [customizing-save-path.md](customizing-save-path.md)
 {% endcontent-ref %}
 
-## save\_location
+### save\_location
 
 root save folder
 
-## dir\_format
+### dir\_format
 
 format for directory
 
-## file\_format
+### file\_format
 
-format for files
+format for files\
+\
+
 
 ***
 

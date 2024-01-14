@@ -2,16 +2,14 @@
 description: various options for output
 ---
 
-# Controlling Output
+# Controlling Output/Logs
 
 ## Output Streams
 
 ### Discord
 
-
-
 {% hint style="info" %}
-Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.
+**Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.**
 {% endhint %}
 
 The output goes to the Discord channel

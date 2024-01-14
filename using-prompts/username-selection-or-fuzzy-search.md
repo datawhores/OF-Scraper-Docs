@@ -35,7 +35,7 @@ Ctrl+A
 You'll be able to adjust the filters which controls the appearance of models on the list and how they're sorted
 
 ```
-Alt+x or Ctrl+B
+Alt+X or Ctrl+B
 ```
 
 ## Searching the list

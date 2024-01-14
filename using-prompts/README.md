@@ -1,4 +1,10 @@
+---
+description: Simplest way to run OF-Scraper
+---
+
 # Using Prompts
+
+Running the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
 
 ## Getting to the menu
 

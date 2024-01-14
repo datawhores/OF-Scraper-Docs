@@ -80,13 +80,6 @@
 
 </details>
 
-```
-```
-
-###
-
-
-
 ## Config settings for save locations
 
 Further details about these settings are available here

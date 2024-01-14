@@ -1,3 +1,7 @@
+---
+description: Required Binaries for protected downloads
+---
+
 # Binaries Options
 
 ## mp4decrypt

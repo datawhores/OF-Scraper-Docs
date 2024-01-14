@@ -69,9 +69,6 @@ You can change most const  values with the custom dict as well
 
 ## dynamic-mode-default
 
-\
-
-
 * This is utilized to sign a request, essential for its authorization. Without this, the request would lack proper authorization and fail.
 * Generally, the options remain mostly identical. However, in rare instances, modifying these options might resolve certain issues with authentication
 
@@ -89,15 +86,11 @@ You can change most const  values with the custom dict as well
 
 The script uses DiskCache, which has different options like SQLite and JSON.&#x20;
 
-For most folks, SQLite works fine, but if you're on a network drive, its performance might not be great. That's when switching to JSON could be a smart move, according to the author\
-\
-
+For most folks, SQLite works fine, but if you're on a network drive, its performance might not be great. That's when switching to JSON could be a smart move, according to the author
 
 ## appendlog
 
 If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
-
-
 
 ## sanitize\_text
 

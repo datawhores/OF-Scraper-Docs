@@ -1,9 +1,5 @@
 # Customizing save path
 
-## Editing Save path
-
-
-
 <details>
 
 <summary>Example Config</summary>
@@ -88,11 +84,11 @@ Each file will be saved to `/home/James/Data/ofscraper/{model_username}/{respons
 
 The placeholders described below will substitute the {} values
 
-### save\_location
+## save\_location
 
 This is the root of all saved files
 
-### dir\_path
+## dir\_path
 
 The  relative directory path within the save location where files are stored
 
@@ -124,18 +120,22 @@ determined by the necessity for decryption
 
 
 {current_price}= Free if current price is 0 dollars else paid
-{regular_price}=Free if current regular price is 0 dollars else paid
+{regular_price}=Free if regular price is 0 dollars else paid
 {promo_price}= Free if promo price is 0 dollars else paid
 {renewal_price}= Free if renewal price is 0 dollars else paid
 
 ```
 
-### Filename
+## Filename
 
-The file's name segment in the saved file\
+The file's name segment in the saved file
 
-
-
+{% hint style="info" %}
+```
+When configuring filenames, ensure a unique element 
+such as text, media ID, post ID, or filename to avoid naming conflicts
+```
+{% endhint %}
 
 ```
 {sitename} = Onlyfans
@@ -171,30 +171,27 @@ for the  authorized account
 {download_type}= Protected if decryption required otherwhise normal
 
 {current_price}= Free if current price is 0 dollars else paid
-{regular_price}=Free if current regular price is 0 dollars else paid
+{regular_price}=Free if regular price is 0 dollars else paid
 {promo_price}= Free if promo price is 0 dollars else paid
 {renewal_price}= Free if renewal price is 0 dollars else paid
 ```
 
-```
-When configuring filenames, ensure a unique element such as text, media ID, post ID, or filename to avoid conflicts. 
-These elements are unique to prevent filename conflicts.
-```
 
-#### date (optional)
+
+## date&#x20;
 
 \
 The date syntax doesn't use bracket notation; it adheres to the Arrow implementation.&#x20;
 
 For more information, check the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens). If you need additional help, feel free to open an issue in the repository for support.
 
-#### textlength
+## textlength&#x20;
 
 As a default, it is the maximum number of words. You can switch this to the maximum number of letters by using the '--letter-count' argument.&#x20;
 
 Remember, specifying '0' equates to no limit.
 
-## Remapping responsetype
+## Remapping responsetype&#x20;
 
 This feature enables you to group downloads using the 'responsetype' placeholder. It allows combining various download types into a single folder or segregating downloads into separate folders based on their 'responsetype.'
 

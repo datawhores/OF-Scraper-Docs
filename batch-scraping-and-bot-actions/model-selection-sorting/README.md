@@ -30,8 +30,8 @@ You can provide a comma-separated list indicating the models you wish to scrape
 
 The following settings can be dynamically modified if using prompts.
 
-{% content-ref url="../../using-prompts/" %}
-[using-prompts](../../using-prompts/)
+{% content-ref url="../../config-options/using-prompts/" %}
+[using-prompts](../../config-options/using-prompts/)
 {% endcontent-ref %}
 
 Furthermore, this adjustment doesn't alter the retrieval of usernames; it solely impacts the subset of usernames that are displayed\

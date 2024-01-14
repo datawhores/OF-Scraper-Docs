@@ -1,8 +1,22 @@
 # Migrating from Digitalcriminal's script
 
+## Steps
+
+## Set Medatadata&#x20;
+
 {% content-ref url="config-options/file-output-options/setting-metadata-path.md" %}
 [setting-metadata-path.md](config-options/file-output-options/setting-metadata-path.md)
 {% endcontent-ref %}
+
+## Set save path
+
+
+
+{% content-ref url="config-options/file-output-options/" %}
+[file-output-options](config-options/file-output-options/)
+{% endcontent-ref %}
+
+##
 
 ## Example
 

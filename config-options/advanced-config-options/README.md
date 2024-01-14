@@ -133,9 +133,9 @@ For most folks, SQLite works fine, but if you're on a network drive, its perform
 ## backend
 
 \
-Both aio and httpx can handle downloads and requests. You'd only need to switch if your system doesn't work smoothly with aio.&#x20;
+Both aio and httpx can handle downloads and requests. Normally aio is faster,so switching is only required if your having issues&#x20;
 
-Historically, this has mostly been an issue for Mac users, and even then, only a small group among them.
+Historically, this has mostly been the case Mac users, and even then, only a small group among them.
 
 ## downloadbars
 

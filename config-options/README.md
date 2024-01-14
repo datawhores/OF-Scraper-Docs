@@ -13,7 +13,7 @@
         "metadata": "{configpath}/{profile}/.data/{model_username}_{model_id}",
         "discord": "",
         "file_options": {
-            "save_location": "//home/james/Data/ofscraper",
+            "save_location": "/home/james/Data/ofscraper",
             "dir_format": "/{model_username}/{responsetype}/{mediatype}/",
             "file_format": "{filename}.{ext}",
             "textlength": 0,

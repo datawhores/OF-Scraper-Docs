@@ -22,6 +22,6 @@ ofscraper
 
 **For information about the prompt/menu system**
 
-{% content-ref url="config-options/using-prompts/" %}
-[using-prompts](config-options/using-prompts/)
+{% content-ref url="using-prompts/" %}
+[using-prompts](using-prompts/)
 {% endcontent-ref %}

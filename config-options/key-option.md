@@ -1,3 +1,7 @@
+---
+description: Options required for protected downloads
+---
+
 # Key options
 
 ## key-mode-default

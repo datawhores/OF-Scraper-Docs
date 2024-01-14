@@ -93,19 +93,6 @@ For most folks, SQLite works fine, but if you're on a network drive, its perform
 \
 
 
-## backend
-
-\
-Both aio and httpx can handle downloads and requests. Normally aio is faster,so switching is only required if your having issues&#x20;
-
-Historically, this has mostly been the case Mac users, and even then, only a small group among them.
-
-## downloadbars
-
-whether to show download progress bars or not
-
-Disabling these can improve performance
-
 ## appendlog
 
 If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.

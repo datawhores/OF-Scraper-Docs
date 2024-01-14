@@ -24,25 +24,25 @@ format for files\
 
 ## metadata
 
+database files
+
 {% content-ref url="setting-metadata-path.md" %}
 [setting-metadata-path.md](setting-metadata-path.md)
 {% endcontent-ref %}
 
-Controls where metadata is saved
-
-You can use these placeholders
 
 
+***
 
+## Other Settings
 
-
-## textlength
+### textlength
 
 Sets a cap on the text placeholder to a certain number of words, with 0 indicating an unrestricted text length
 
 to restrict by letter count pass `--letter-count` argument
 
-## space-replacer
+### space-replacer
 
 {% hint style="info" %}
 &#x20;This change applies exclusively to the filename and doesn't affect other path components like parent directories.
@@ -54,11 +54,7 @@ It should be employed in conjunction with the text placeholder.
 
 
 
-## appendlog
-
-If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
-
-## responsetype
+### responsetype
 
 This setting solely remaps values for the {responsetype} placeholder
 

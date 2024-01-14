@@ -8,6 +8,16 @@
 
 **Good resources if you want an easy way to install python or to manage multiple version**
 
+## Getting PIPX
+
+
+
+{% hint style="info" %}
+
+{% endhint %}
+
+{% embed url="https://github.com/pypa/pipx" %}
+
 ## Installing OF-Scraper
 
 

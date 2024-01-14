@@ -4,6 +4,10 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
+Stable versions are hosted on various platform including Pypi,Docker, and GitHub
+
+<figure><img src="https://badge.fury.io/py/ofscraper.svg" alt=""><figcaption><p>Latest Version</p></figcaption></figure>
+
 ## Before Starting
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide

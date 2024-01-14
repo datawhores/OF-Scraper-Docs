@@ -45,7 +45,7 @@ to restrict by letter count pass `--letter-count` argument
 ### space-replacer
 
 {% hint style="info" %}
-&#x20;This change applies exclusively to the filename and doesn't affect other path components like parent directories.
+&#x20;**This change applies exclusively to the filename and doesn't affect other path components like parent directories.**
 {% endhint %}
 
 This character will replace all spaces within the filename.

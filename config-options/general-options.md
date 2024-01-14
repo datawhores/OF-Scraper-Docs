@@ -27,6 +27,3 @@ You'll need to add the URL provided in the setup
 and include the --discord argument when executing the script
 ```
 
-## appendlog
-
-If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.

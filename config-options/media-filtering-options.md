@@ -1,3 +1,7 @@
+---
+description: Settings control which media is downloaded
+---
+
 # Media Filtering Options
 
 ## filter

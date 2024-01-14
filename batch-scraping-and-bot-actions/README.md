@@ -28,6 +28,10 @@ ofscraper
 
 ## Performing multiple actions
 
+{% hint style="info" %}
+**--post is a short hand used for all actions unless an --like-area or --download-area command is passed**
+{% endhint %}
+
 You can combine these actions together
 
 * likes or unlike (only 1 because liking and unliking all posts doesn't make sense)
@@ -39,6 +43,27 @@ This command will download all wall posts for the selected model and simultaneou
  ofscraper --posts all --action like,download
 ```
 
+
+
+### Selecting different areas
+
+You can use&#x20;
+
+* like-area specifically for like/unlike action
+* download-area specifically for the download action
+
+This command will download all post, but only like pinned
+
+```
+ ofscraper --download-area all --like-area pinned --action like,download
+```
+
+or&#x20;
+
+```
+ ofscraper --posts all --like-area pinned --action like,download
+```
+
 ## Bypass all prompts
 
 {% hint style="info" %}
@@ -47,11 +72,17 @@ This command will download all wall posts for the selected model and simultaneou
 **like or unlike**
 {% endhint %}
 
-Selecting at least one scraping method and providing a username will bypass all prompts
+To bypass prompts
+
+* Select at least one scraping method
+* Provide a username(s)
+* Providing the areas to scan
 
 ```
  ofscraper --posts all --username ALL --action like,download
 ```
+
+## or
 
 ## Running command in the background
 

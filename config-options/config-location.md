@@ -12,17 +12,14 @@ C:/Users/username/.config/ofscraper/config.json
 
 #### Linux
 
+{% hint style="info" %}
+**If running with sudo or root** \
+**Then the file will be located in /root/.config/ofscaper/config.json**
+{% endhint %}
+
 ```
 /home/username/.config/ofscraper/config.json
 ```
-
-or
-
-```
-/root/.config/ofscaper/config.json
-```
-
-where username is your login name
 
 #### Change config location
 

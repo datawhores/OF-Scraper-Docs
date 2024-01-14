@@ -29,37 +29,6 @@
 
 This is based on common settings from DC script
 
-#### save\_location
-
-```
- "save_location": "/Onlyfans",
-```
-
-#### dir format
-
-```
- "dir_format": "{model_username}/{responsetype}/{value}/{mediatype}/"
-```
-
-Means a full path like
-
-<pre class="language-markup"><code class="lang-markup"> "/<a data-footnote-ref href="#user-content-fn-1">Onlyfans/</a><a data-footnote-ref href="#user-content-fn-2">modelA/Messages/Free/Images/</a>"
-</code></pre>
-
-1. /Onlyfans is the save\_location
-2. /modelA/Messages/Free/Images/ is the dir\_format
-
-#### metadata
-
-<pre><code>"metadata": "<a data-footnote-ref href="#user-content-fn-3">{save_location}</a>/{model_username}/Metadata"
-</code></pre>
-
-This refers to a directory path designated for storing 'user\_data.db'.
-
-```
-"OnlyFans/ModelA/Metadata"
-```
-
 <details>
 
 <summary>Example Digitalcriminals Config</summary>
@@ -139,6 +108,37 @@ This refers to a directory path designated for storing 'user\_data.db'.
 ```
 
 </details>
+
+#### save\_location
+
+```
+ "save_location": "/Onlyfans",
+```
+
+#### dir format
+
+```
+ "dir_format": "{model_username}/{responsetype}/{value}/{mediatype}/"
+```
+
+Means a full path like
+
+<pre class="language-markup"><code class="lang-markup"> "/<a data-footnote-ref href="#user-content-fn-1">Onlyfans/</a><a data-footnote-ref href="#user-content-fn-2">modelA/Messages/Free/Images/</a>"
+</code></pre>
+
+1. /Onlyfans is the save\_location
+2. /modelA/Messages/Free/Images/ is the dir\_format
+
+#### metadata
+
+<pre><code>"metadata": "<a data-footnote-ref href="#user-content-fn-3">{save_location}</a>/{model_username}/Metadata"
+</code></pre>
+
+This refers to a directory path designated for storing 'user\_data.db'.
+
+```
+"OnlyFans/ModelA/Metadata"
+```
 
 [^1]: save\_location
 

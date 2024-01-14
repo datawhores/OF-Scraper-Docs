@@ -26,18 +26,6 @@ format for files\
 
 ***
 
-## metadata
-
-database files
-
-{% content-ref url="setting-metadata-path.md" %}
-[setting-metadata-path.md](setting-metadata-path.md)
-{% endcontent-ref %}
-
-
-
-***
-
 ## Other Settings
 
 ### textlength
@@ -92,4 +80,15 @@ highlight -> maps to stories  -> files save to "{model_username}/Stories/{mediat
 profile -> maps to archived  -> files save to "{model_username}/Profile/{mediatype}/"
 ```
 
-##
+## metadata
+
+{% content-ref url="setting-metadata-path.md" %}
+[setting-metadata-path.md](setting-metadata-path.md)
+{% endcontent-ref %}
+
+Metadata is mainly used for&#x20;
+
+* dupe check
+* To speed up scanning of profiles
+
+It can also be shared with other programs via the .db files created

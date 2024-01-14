@@ -10,10 +10,9 @@
 
 ## Getting PIPX
 
-
-
 {% hint style="info" %}
-
+**Installing PIPX with PIP is recommended** \
+**This way you can control which python it uses**&#x20;
 {% endhint %}
 
 {% embed url="https://github.com/pypa/pipx" %}

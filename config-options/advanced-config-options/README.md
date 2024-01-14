@@ -99,14 +99,6 @@ If set to False, each run will generate a new log. If set to True, logs will be 
 
 
 
-## auto\_resume
-
-{% hint style="info" %}
-replaces partfileclean
-{% endhint %}
-
-If you set this to false, the script will  delete .part files, and will not be able to auto resume
-
 ## sanitize\_text
 
 If set to true,  text content will be sanitized before to database insertion into database

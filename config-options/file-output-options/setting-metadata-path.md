@@ -6,27 +6,9 @@ Using your existing metadata files from DIGITALCRIMINALS' script enables immedia
 
 ## Config File Location
 
-### Windows
-
-I don't often work on Windows, but the location should generally be.
-
-```
-C:/Users/username/.config/ofscraper/config.json
-```
-
-### Linux
-
-```
-/home/username/.config/ofscraper/config.json
-```
-
-or
-
-```
-/root/.config/ofscaper/config.json
-```
-
-Replace "username" with your login name
+{% content-ref url="../config-location.md" %}
+[config-location.md](../config-location.md)
+{% endcontent-ref %}
 
 ## Changing metadata location
 

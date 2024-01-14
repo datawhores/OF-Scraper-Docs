@@ -1,5 +1,9 @@
 # Customizing save path
 
+## Basics
+
+### Example
+
 <details>
 
 <summary>Example Config</summary>
@@ -91,7 +95,7 @@ Each file will be saved to&#x20;
 
 The placeholders described below will substitute the {} values
 
-## Placeholders
+### Placeholders
 
 In the example above&#x20;
 

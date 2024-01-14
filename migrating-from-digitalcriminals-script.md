@@ -4,13 +4,20 @@
 
 ## Set Medatadata&#x20;
 
+{% hint style="info" %}
+**Your previous files are compatible so only the path needs to match**
+{% endhint %}
+
 {% content-ref url="config-options/file-output-options/setting-metadata-path.md" %}
 [setting-metadata-path.md](config-options/file-output-options/setting-metadata-path.md)
 {% endcontent-ref %}
 
 ## Set save path
 
-
+{% hint style="info" %}
+**Most settings should be transferable**\
+**Including the defaults**
+{% endhint %}
 
 {% content-ref url="config-options/file-output-options/" %}
 [file-output-options](config-options/file-output-options/)

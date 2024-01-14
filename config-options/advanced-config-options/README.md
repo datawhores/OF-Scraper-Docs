@@ -15,8 +15,11 @@ max=10
 ### Caveats
 
 * It's important to note that if the thread count exceeds 0 but the number of downloads for a model doesn't surpass a minimum per thread, only the main thread will handle the downloading process.
-* Additionally, the maximum number of usable threads is determined by your system, irrespective of the configuration file settings.
-  * This is linked to the handling of unused threads on Windows and Linux. However, on Mac, the operating system lacks this specific OS API, so the maximum is established as the total number of threads on the system
+*   Additionally, the maximum number of usable threads is determined by your system, irrespective of the configuration file settings.
+
+
+
+    * This is linked to the handling of unused threads on Windows and Linux. However, on Mac, the operating system lacks this specific OS API, so the maximum is established as the total number of threads on the system
 
 
 
@@ -104,17 +107,28 @@ You can change most const  values with the custom dict as well
 ## dynamic-mode-default
 
 \
-This is utilized to sign a request, essential for its authorization. Without this, the request would lack proper authorization and fail.
-
-Generally, the options remain mostly identical. However, in rare instances, modifying these options might resolve certain issues.
 
 
+* This is utilized to sign a request, essential for its authorization. Without this, the request would lack proper authorization and fail.
+* Generally, the options remain mostly identical. However, in rare instances, modifying these options might resolve certain issues with authentication
 
 ## cache-mode
 
+{% hint style="info" %}
+**You can use** \
+**--no-cache**&#x20;
+
+\
+**If your having major issues with cache**
+
+**Just make sure to set --after manually**
+{% endhint %}
+
 The script uses DiskCache, which has different options like SQLite and JSON.&#x20;
 
-For most folks, SQLite works fine, but if you're on a network drive, its performance might not be great. That's when switching to JSON could be a smart move, according to the author.
+For most folks, SQLite works fine, but if you're on a network drive, its performance might not be great. That's when switching to JSON could be a smart move, according to the author\
+\
+
 
 ## backend
 

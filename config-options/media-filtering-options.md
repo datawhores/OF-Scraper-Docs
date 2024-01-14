@@ -15,7 +15,7 @@ Options are Images,Audios,Videos case insensitive
 ## file\_size\_limit
 
 {% hint style="info" %}
-in bytes
+**in bytes**
 {% endhint %}
 
 Controls the maximum allowable file size for downloads

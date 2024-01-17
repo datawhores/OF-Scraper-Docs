@@ -53,7 +53,11 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Video
+## Video Install Tutorial
+
+{% hint style="info" %}
+**A quick high level tutorial of the install process**
+{% endhint %}
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}
 **A video showing the install process**

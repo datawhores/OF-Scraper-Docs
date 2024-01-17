@@ -21,8 +21,8 @@ The guide assumes you have your terminal program open and have already installed
 ## Install via package manager
 
 {% hint style="info" %}
-**Pipx is recommend puts binaries in there own virtualenv, leading to less issues**\
-**It' can also be used to manage updates**
+**Pipx is recommend because it puts binaries in there own virtualenv, leading to less issues**\
+**It can also be used to manage updates**
 {% endhint %}
 
 ### **Option 1: PIPX Install**

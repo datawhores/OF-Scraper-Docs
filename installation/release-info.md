@@ -6,13 +6,7 @@
 
 <figure><img src="https://badge.fury.io/py/ofscraper.svg" alt=""><figcaption></figcaption></figure>
 
-## Release types
-
-
-
-[2023.11.25\_939507\_downloadt\_f6052f8\_package](https://github.com/datawhores/OF-Scraper/releases/tag/f6052f8)
-
-
+## <mark style="color:blue;">Release types</mark>
 
 
 
@@ -30,7 +24,7 @@ These are meant to be stable releases
 
 ##
 
-## Files
+## <mark style="color:blue;">Release Files</mark>
 
 ### Example
 

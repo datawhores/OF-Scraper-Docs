@@ -14,41 +14,66 @@ Override the duplicate check and re-download all files.
 Default: False
 ```
 
+
+
+{% hint style="info" %}
+**Exclude post by appending a hypthen(-)**
+{% endhint %}
+
 ### -o, --posts
 
 ```
 Possible choices: highlights,all,archived,messages,
-timeline,pinned,stories,purchased,profile,skip,labels
+timeline,pinned,stories,purchased,profile,labels
 ```
 
 ```
-Download content from a specific model
+Perform action on certain content 
+Can be used for like, unlike, and download
 ```
 
 ```
 Default:None
 ```
 
+### -la, --like-area
 
-
-### -eo, --excluded-posts
-
-```
-Possible choices: highlights,archived,messages,timeline,pinned,stories,purchased,profile,skip,labels
-```
+{% hint style="info" %}
+**This will overide --posts for --action like or unlike**
+{% endhint %}
 
 ```
-Exclude certain posts from download
-has preference over --post
+Possible choices: all,archived,timeline,pinned,stories,labels
 ```
 
 ```
-
-Omit specific posts from the download process
-Has priority over the '--post' option.
+Perform like/unlike action on certain content
 ```
 
-### -sk, --skip-timed
+```
+Default:None
+```
+
+### -da, --download-area
+
+{% hint style="info" %}
+**This will overide --posts for --action download**
+{% endhint %}
+
+```
+Possible choices: highlights,all,archived,messages,
+timeline,pinned,stories,purchased,profile,labels
+```
+
+```
+Perform download action on certain content
+```
+
+```
+Default:None
+```
+
+### --sk, --skip-timed
 
 ```
 Skipped temporary post

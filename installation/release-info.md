@@ -6,23 +6,28 @@
 
 <figure><img src="https://badge.fury.io/py/ofscraper.svg" alt=""><figcaption></figcaption></figure>
 
-## <mark style="color:blue;">Release types</mark>
+## Release types
 
+<details>
 
-
-### .\*\_package
+<summary>.*_package</summary>
 
 These are releases derived from commits, essentially versions that occur between numbered releases. They can be more current, but might also contain unresolved issues.
 
 ![](<../.gitbook/assets/image (1) (2) (1).png>)
 
-### numbered i.e X.X.X
+</details>
 
-These are meant to be stable releases
+<details>
 
-![](<../.gitbook/assets/image (2) (2).png>)
+<summary>numbered i.e X.X.X</summary>
 
-##
+These are meant to be stable releases\
+![](<../.gitbook/assets/image (13).png>)
+
+</details>
+
+###
 
 ## <mark style="color:blue;">Release Files</mark>
 

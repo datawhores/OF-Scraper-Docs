@@ -66,7 +66,7 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Video Install Tutorial
+## Install Video Tutorial
 
 {% hint style="info" %}
 **A quick high level tutorial of the install process**

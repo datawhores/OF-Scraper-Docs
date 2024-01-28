@@ -53,7 +53,7 @@ Two configs within the same folder can share
 
 This relies on your configuration settings. If two configurations share identical metadata settings, duplicates won't exist between those configurations.
 
-### multiple profile
+### multiple profile auth
 
 Authentication for various accounts is managed via profiles. You can modify the default profile either through the configuration or by using the '--profile' argument.
 

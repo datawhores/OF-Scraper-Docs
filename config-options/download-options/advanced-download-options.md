@@ -1,3 +1,7 @@
+---
+description: Options that have an effect on the download experience
+---
+
 # Advanced Download Options
 
 ## backend

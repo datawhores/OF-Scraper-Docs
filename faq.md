@@ -128,6 +128,11 @@ This could imply that the content you're attempting to scrape is no longer avail
 
 If a request fails, OF-Scraper will pause and make several retry attempts. Frequent retries could extend the duration of certain runs.
 
+{% hint style="info" %}
+**Version 3.7 has a built in timelimit on requests to prevent them for being stuck forever**\
+**However you can change the const value to adjust these values to your need**
+{% endhint %}
+
 ## 12. <mark style="color:blue;">429 Response</mark>
 
 * This error may stem from excessive requests, particularly when auto-liking/unliking.&#x20;

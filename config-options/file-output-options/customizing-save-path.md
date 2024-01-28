@@ -86,8 +86,6 @@
 
 Each file will be saved to&#x20;
 
-
-
 ```
 //home/James/Data/ofscraper/{model_username}/{responsetype}/
 {mediatype}/{filename}.{ext}
@@ -117,8 +115,7 @@ This is the root of all saved files
 The  relative directory path within the save location where files are stored
 
 ```
-{date}=
-The creation date of the post, refer to the 'date' section for formatting guidelines. 
+{date}= The creation date of the post, refer to the 'date' section for formatting guidelines. 
 Please open an issue if further assistance is required.
 
 {responsetype}=Posts,Messages,Paid,etc

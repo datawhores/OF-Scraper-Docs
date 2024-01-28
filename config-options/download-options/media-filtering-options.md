@@ -23,7 +23,7 @@ Controls the maximum allowable file size for downloads
 ## file\_size\_min
 
 {% hint style="info" %}
-in bytes
+**in bytes**
 {% endhint %}
 
 Controls the minimum allowable file size for downloads

@@ -24,7 +24,7 @@
 
 {% tabs %}
 {% tab title="Window Install" %}
-**stable**
+**Stable Install**
 
 ```
 py -3 -m pip install ofscraper
@@ -32,7 +32,7 @@ py -3 -m pip install ofscraper
 
 or
 
-**development**
+**Development verison**
 
 ```
 py -3 -m pip install git+https://github.com/datawhores/OF-Scraper.git 
@@ -40,19 +40,38 @@ py -3 -m pip install git+https://github.com/datawhores/OF-Scraper.git
 
 or
 
-**specific version**
+**Specific version of script**
 
 ```
 py -3 -m pip install ofscraper==x
 ```
 
-where 'x' represents the version you intend to install
+where 'x' represents the version you intend to install\
+
+
+#### Upgrade
+
+Not uninstalling has caused problems for users before
+
+```
+py -3 -m pip uninstall ofscraper
+```
+
+Next, run one of the installation commands listed below
+
+```
+py -3 -m pip install ofscraper --upgrade
+```
+
+or
+
+```
+py -3 -m pip install ofscraper==latest version number
+```
 {% endtab %}
 
 {% tab title="Linux/Mac Install" %}
 
-
-#### macOS/Linux
 
 ```
 python3 -m pip install ofscraper
@@ -73,6 +92,8 @@ python3 -m pip install ofscraper==x
 ```
 
 where 'x' represents the version you intend to install
+
+####
 
 #### Upgrade
 

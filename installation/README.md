@@ -4,7 +4,7 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
-Stable versions are hosted on various platform including Pypi,Docker, and GitHub
+#### Stable versions are hosted on various platform including PYPI,Docker, and GitHub
 
 <figure><img src="https://badge.fury.io/py/ofscraper.svg" alt=""><figcaption><p>Latest Version</p></figcaption></figure>
 
@@ -18,11 +18,16 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Install via package manager
+## Install via a package manager
 
 {% hint style="info" %}
-**Pipx is recommend because it puts binaries in there own virtualenv, leading to less issues**\
-**It can also be used to manage updates**
+**pipx is recommended for its virtual environment management capabilities.**
+
+**It serves as an abstraction layer over pip, placing installed scripts within isolated virtual environments. This approach is highly recommended for script installation as it offers several advantages:**
+
+* **Prevents conflicts:** By isolating scripts and their dependencies within virtual environments, pipx effectively eliminates conflicts with other Python packages or system-wide installations.
+* **Enhances organization:** Each script resides in its own distinct virtual environment, promoting better organization and clarity in project management.
+* **Simplifies updates:** pipx streamlines the process of updating scripts, ensuring you always have access to the latest versions and features
 {% endhint %}
 
 ### **Option 1: PIPX Install**

@@ -8,8 +8,8 @@
 **Your previous files are compatible so only the path needs to match**
 {% endhint %}
 
-{% content-ref url="config-options/file-output-options/setting-metadata-path.md" %}
-[setting-metadata-path.md](config-options/file-output-options/setting-metadata-path.md)
+{% content-ref url="config-options/setting-metadata-path.md" %}
+[setting-metadata-path.md](config-options/setting-metadata-path.md)
 {% endcontent-ref %}
 
 ## Set save path

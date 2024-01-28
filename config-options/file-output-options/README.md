@@ -62,42 +62,14 @@ These options also effect the final file name
 
 ### responsetype
 
-This setting solely remaps values for the {responsetype} placeholder
-
-Empty values or "" will default to the program's preset values
-
-#### Example
-
-This configures the response map to consolidate messages and paid content into a unified folder.
-
-```
-"timeline": "Posts",
-"message": "Premium",
-"archived": "Archived",
-"paid": "Premium",
-"stories": "Stories",
-"highlights": "Stories",
- "profile": "Profile"
-```
-
-```
-dir_format": "{model_username}/{responsetype}/{mediatype}/"
-```
-
-```
-timeline -> maps to posts -> files save to "{model_username}/Posts/{mediatype}/"
-messages -> maps to premium -> files save to "{model_username}/Premium/{mediatype}/"
-archived -> maps to archived -> files save to "{model_username}/Archived/{mediatype}/"
-paid -> maps to premium -> files save to "{model_username}/Premium/{mediatype}/"
-stories -> maps to stories -> files save to "{model_username}/Stories/{mediatype}/"
-highlight -> maps to stories  -> files save to "{model_username}/Stories/{mediatype}/"
-profile -> maps to archived  -> files save to "{model_username}/Profile/{mediatype}/"
-```
+{% content-ref url="remapping-responsetype.md" %}
+[remapping-responsetype.md](remapping-responsetype.md)
+{% endcontent-ref %}
 
 ## metadata
 
-{% content-ref url="setting-metadata-path.md" %}
-[setting-metadata-path.md](setting-metadata-path.md)
+{% content-ref url="../setting-metadata-path.md" %}
+[setting-metadata-path.md](../setting-metadata-path.md)
 {% endcontent-ref %}
 
 Metadata is mainly used for&#x20;

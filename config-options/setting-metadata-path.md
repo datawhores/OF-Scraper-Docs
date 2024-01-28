@@ -6,8 +6,8 @@ Using your existing metadata files from DIGITALCRIMINALS' script enables immedia
 
 ## Config File Location
 
-{% content-ref url="../config-location.md" %}
-[config-location.md](../config-location.md)
+{% content-ref url="config-location.md" %}
+[config-location.md](config-location.md)
 {% endcontent-ref %}
 
 ## Changing metadata location

@@ -6,7 +6,7 @@ The count of threads or workers designated for downloading
 
 ```
 min=0
-max=10
+max=determined by speed test
 ```
 
 0 threads: This is a special setting indicating that you want to use the main program thread for downloading as well\

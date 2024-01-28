@@ -4,7 +4,7 @@
 **Fuzzy search is built to mimic fzf**
 {% endhint %}
 
-OF-Scraoer applies a fuzzy search technique to simplify managing selected models. This approximate search aims to find strong matches for the string you input.
+OF-Scraper applies a fuzzy search technique to simplify managing selected models. This approximate search aims to find strong matches for the string you input.
 
 However, the challenge lies in determining which models are being selected.
 

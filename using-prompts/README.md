@@ -28,6 +28,17 @@ Basically, any command lacking the --action command will automatically go to thi
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
+## Action Menu
+
+{% hint style="info" %}
+**New in 3.7 all possible scraping combinations can be done via this menu**
+{% endhint %}
+
+use this menu to perform scraping actions or combination\
+
+
+<figure><img src="../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
+
 ##
 
 ## Profile Menu

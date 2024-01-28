@@ -4,13 +4,9 @@ description: Apply filters to the accounts list
 
 # Account Filtering Args
 
-
-
 {% hint style="info" %}
 If account is set to renew then expired is the same as renewal date
 {% endhint %}
-
-
 
 ### pricing filters
 
@@ -124,7 +120,7 @@ Filter accounts to those with expired status
 Filter accounts to those with the renew flag on
 ```
 
-**-rf, --r**xpired-subscription**enew-off**
+**-rf, --renew-off**
 
 ```
 Filter accounts to those with the renew flag on

@@ -73,7 +73,7 @@ Perform download action on certain content
 Default:None
 ```
 
-### --sk, --skip-timed
+### -sk, --skip-timed
 
 ```
 Skipped temporary post

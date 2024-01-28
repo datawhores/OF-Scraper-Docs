@@ -52,6 +52,14 @@ The guide assumes you have your terminal program open and have already installed
 
 ## Compiled Binaries \[No Install]
 
+{% hint style="info" %}
+**A pyinstaller based binary is an executable file that contains your Python script and all the necessary dependencies to run it on different operating systems. Pyinstaller analyzes the script and bundles it with the Python interpreter, libraries, modules, and other resources into a single file or folder**
+{% endhint %}
+
+{% hint style="info" %}
+**Support for issues specific to how pyinstaller operates may be limited**
+{% endhint %}
+
 {% content-ref url="binary-releases.md" %}
 [binary-releases.md](binary-releases.md)
 {% endcontent-ref %}

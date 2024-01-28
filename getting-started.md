@@ -8,6 +8,11 @@ The easiest way to run the script is
 ofscraper
 ```
 
+This will allow you to to many actions without needed to pass any args
+
+***
+
+\
 **For help on authorization**
 
 {% content-ref url="auth.md" %}

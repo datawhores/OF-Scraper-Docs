@@ -23,31 +23,37 @@ These are releases derived from commits, essentially versions that occur between
 <summary>numbered i.e X.X.X</summary>
 
 These are meant to be stable releases\
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 </details>
 
-###
 
-## <mark style="color:blue;">Release Files</mark>
+
+## Release Files
 
 ### Example
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-### \*.zip
+###
+
+<details>
+
+<summary>*.zip</summary>
 
 You can unzip these files, and the resulting folder can be used to run the script by utilizing the file starting with 'ofscraper\_' in your terminal program.&#x20;
 
-The distinction from other releases is that startup might be slightly faster with a zip or directory since a temporary folder isn't generated each time the script begins.
+The distinction from other releases is that startup might be slightly faster with a zip or directory since a temporary folder isn't generated each time the script begins.\
+\
+**Example**
 
-![](<../.gitbook/assets/image (12).png>)
+![](../.gitbook/assets/image.png)
 
-#### Example
+![](<../.gitbook/assets/image (1).png>)
 
-![](<../.gitbook/assets/image (1) (2).png>)
 
-###
+
+</details>
 
 
 

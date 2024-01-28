@@ -9,14 +9,14 @@
 **Good resources if you want an easy way to install python or want to use manage multiple python version**
 
 {% hint style="info" %}
-**Tip: Use the --python command to change the default python interpreter used for pipx**
+**Tip: You can use the --python command to change the default python interpreter used for pipx**
 {% endhint %}
 
 ## Getting PIPX
 
 {% hint style="info" %}
 **Installing PIPX with PIP is recommended** \
-**This way you can control which python it uses**&#x20;
+**This way you can control which python it is install with**
 {% endhint %}
 
 {% embed url="https://github.com/pypa/pipx" %}

@@ -2,11 +2,19 @@
 
 ## Installing Python
 
+**Good resources if you want an easy way to install python or want to use manage multiple python version**
+
 {% content-ref url="managing-multiple-python-versions.md" %}
 [managing-multiple-python-versions.md](managing-multiple-python-versions.md)
 {% endcontent-ref %}
 
-**Good resources if you want an easy way to install python or want to use manage multiple python version**
+***
+
+**Alternatively you can just follow the pre-install guides**
+
+{% content-ref url="pre-install-guide/" %}
+[pre-install-guide](pre-install-guide/)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 **Tip: You can use the --python command to change the default python interpreter used for pipx**

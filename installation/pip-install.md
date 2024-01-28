@@ -2,11 +2,21 @@
 
 ## Installing Python
 
+**Good resources if you want an easy way to install python or to manage multiple versio**n
+
 {% content-ref url="managing-multiple-python-versions.md" %}
 [managing-multiple-python-versions.md](managing-multiple-python-versions.md)
 {% endcontent-ref %}
 
-**Good resources if you want an easy way to install python or to manage multiple versio**n
+***
+
+**Alternatively you can just follow the pre-install guides**
+
+{% content-ref url="pre-install-guide/" %}
+[pre-install-guide](pre-install-guide/)
+{% endcontent-ref %}
+
+
 
 ## Installation
 

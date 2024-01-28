@@ -20,8 +20,6 @@ Options are Images,Audios,Videos case insensitive
 
 Controls the maximum allowable file size for downloads
 
-
-
 ## file\_size\_min
 
 {% hint style="info" %}

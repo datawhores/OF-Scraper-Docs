@@ -96,8 +96,8 @@
 
 **Customize which files are downloaded**
 
-{% content-ref url="download-options/media-filtering-options/" %}
-[media-filtering-options](download-options/media-filtering-options/)
+{% content-ref url="media-filtering-options.md" %}
+[media-filtering-options.md](media-filtering-options.md)
 {% endcontent-ref %}
 
 ## Key Options

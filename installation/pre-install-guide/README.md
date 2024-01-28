@@ -17,3 +17,13 @@ description: Guides for preparing your machine
 {% content-ref url="mac.md" %}
 [mac.md](mac.md)
 {% endcontent-ref %}
+
+## Alternatively&#x20;
+
+You can also use this guide for other ways to install python
+
+{% content-ref url="../managing-multiple-python-versions.md" %}
+[managing-multiple-python-versions.md](../managing-multiple-python-versions.md)
+{% endcontent-ref %}
+
+##

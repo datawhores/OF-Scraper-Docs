@@ -30,6 +30,19 @@ For all Models
 Ctrl+A
 ```
 
+## Getting Model Detail
+
+only a limited amount of data can be shown be shown at a time \
+As the prompt menu does not work well when the data goes past a single
+
+***
+
+To view all model detail&#x20;
+
+```
+Alt+D
+```
+
 ## Sorting/Filtering List
 
 You'll be able to adjust the filters which controls the appearance of models on the list and how they're sorted

@@ -26,7 +26,7 @@ ofscraper
 
 ##
 
-## Performing multiple actions
+## Performing action(s)
 
 {% hint style="info" %}
 **--post is a short hand used for all actions unless an --like-area or --download-area command is passed**
@@ -43,7 +43,11 @@ This command will download all wall posts for the selected model and simultaneou
  ofscraper --posts all --action like,download
 ```
 
+This command will only download
 
+```
+ofscraper --posts all --action download
+```
 
 ### Selecting different areas
 

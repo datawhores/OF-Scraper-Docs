@@ -37,6 +37,12 @@
 
 {% tabs %}
 {% tab title="Windows Install" %}
+##
+
+
+
+
+
 **Stable install**
 
 ```
@@ -67,7 +73,7 @@ Append --python $(where {python version}
 Example: pipx install ofscraper --python $(where python3.11)
 ```
 
-#### Upgrade
+## Upgrade
 
 Not uninstalling has caused problems for users before
 

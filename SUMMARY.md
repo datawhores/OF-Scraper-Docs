@@ -27,7 +27,7 @@
     * [Advanced Download Options](config-options/download-options/advanced-download-options.md)
   * [Setting metadata path](config-options/setting-metadata-path.md)
   * [Binaries Options](config-options/binaries-options.md)
-  * [Key options](config-options/key-option.md)
+  * [CDM Options](config-options/key-option.md)
   * [Performance Options](config-options/performance-options.md)
   * [Advanced config options](config-options/advanced-config-options/README.md)
     * [Changing Const](config-options/advanced-config-options/changing-const.md)

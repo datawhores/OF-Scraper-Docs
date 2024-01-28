@@ -37,7 +37,7 @@
 
 {% tabs %}
 {% tab title="Windows Install" %}
-stable
+**Stable install**
 
 ```
 pipx install ofscraper
@@ -49,7 +49,7 @@ pipx install ofscraper
 pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
-#### specific version
+#### Specific version of script
 
 ```
 pipx install ofscraper==version --force
@@ -60,32 +60,46 @@ where x is the version you want to install
 #### Specific version of python
 
 ```
-Append --python $(where {python version})
+Append --python $(where {python version}
 ```
 
 ```
 Example: pipx install ofscraper --python $(where python3.11)
 ```
+
+#### Upgrade
+
+Not uninstalling has caused problems for users before
+
+```
+ pipx upgrade ofscraper
+```
+
+or
+
+```
+pipx install ofscraper==x --force
+```
+
+```
+Append --python $(where {python version}
+```
 {% endtab %}
 
 {% tab title="Linux/Mac Install" %}
-
-
-### macOS/Linux
+**Stable Install**
 
 ```
 pipx install ofscraper
 ```
 
-#### development
-
-
+#### Development version
 
 ```
 pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
-#### specific version
+#### Specific version of script
 
 ```
 pipx install ofscraper==x --force
@@ -95,8 +109,6 @@ where x is the version you want to install
 
 #### Specific version of python
 
-
-
 ```
 Append --python $(which {python version})
 ```
@@ -105,16 +117,12 @@ Append --python $(which {python version})
 Example: pipx install ofscraper --python $(which python3.11)
 ```
 
-### Upgrade
+#### Upgrading
 
 Not uninstalling has caused problems for users before
 
 ```
- pipx uninstall ofscraper
-```
-
-```
-pipx install ofscraper
+ pipx upgrade ofscraper
 ```
 
 or
@@ -122,11 +130,11 @@ or
 ```
 pipx install ofscraper==x --force
 ```
+
+```
+Append --python $(where {python version}
+```
 {% endtab %}
 {% endtabs %}
 
 ###
-
-```
-pipx install ofscraper
-```

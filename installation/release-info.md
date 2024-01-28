@@ -26,7 +26,7 @@ These are releases derived from commits, essentially versions that occur between
 
 <summary>numbered i.e X.X.X</summary>
 
-These are meant to be stable releases\
+These are meant to be stable releases and mark the commit used to make these releases\
 ![](<../.gitbook/assets/image (13) (1).png>)
 
 </details>

@@ -44,8 +44,10 @@ Default: False
 ### -a, --action
 
 ```
-Possible choices: like, unlike
+Possible choices: like, unlike,download
 ```
 
-<pre><code><strong>Execute a like or unlike action on each post
+<pre><code><strong>Download media from a post
+</strong>and/or 
+<strong>Execute a like or unlike action on each post
 </strong></code></pre>

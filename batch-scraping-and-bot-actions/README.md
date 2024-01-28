@@ -86,7 +86,7 @@ To bypass prompts
  ofscraper --posts all --username ALL --action like,download
 ```
 
-## or
+
 
 ## Running command in the background
 

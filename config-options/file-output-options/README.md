@@ -20,13 +20,7 @@ format for directory
 
 ### file\_format
 
-format for files\
-\
-
-
-***
-
-## Other Settings
+format for files
 
 ### textlength
 
@@ -52,6 +46,19 @@ Whether to count text based on words on letters
 
 * If set to true text that is calculated to be over system limit will be shorted
 * Files whose paths are over the limit may still fail
+
+### date&#x20;
+
+\
+The date syntax doesn't use bracket notation; it adheres to the Arrow implementation.&#x20;
+
+For more information, check the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens).&#x20;
+
+If you need additional help, feel free to open an issue in the repository for support.
+
+## Other Related Options
+
+These options also effect the final file name
 
 ### responsetype
 

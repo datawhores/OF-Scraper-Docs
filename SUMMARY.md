@@ -33,6 +33,7 @@
     * [Changing Const](config-options/advanced-config-options/changing-const.md)
 * [Migrating from Digitalcriminal's script](migrating-from-digitalcriminals-script.md)
 * [Using Prompts](using-prompts/README.md)
+  * [Old Menu](using-prompts/old-menu.md)
 * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Auth](auth.md)
 * [Controlling Output/Logs](controlling-output.md)

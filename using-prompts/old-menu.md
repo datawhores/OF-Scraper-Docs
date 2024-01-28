@@ -1,14 +1,14 @@
 ---
-description: Simplest way to run OF-Scraper
+description: For the menu before 3.7
 ---
 
-# Using Prompts
+# Old Menu
 
 Running the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
 
 ## Getting to the main menu
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+![image](https://user-images.githubusercontent.com/67020411/230734717-e85b02ee-2e66-467a-abe0-2f479c1e6671.png)
 
 The simplest method is to execute this command
 
@@ -16,21 +16,7 @@ The simplest method is to execute this command
 ofscraper
 ```
 
-Basically, any command lacking the --action command will automatically go to this menu\
-
-
-***
-
-{% hint style="info" %}
-**Some options may open a new menu with a** \
-**Go to main menu options**
-{% endhint %}
-
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-
-
-##
+Basically, any command lacking a scraping option will trigger the menu display
 
 ## Edit Profile
 

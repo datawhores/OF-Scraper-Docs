@@ -111,7 +111,7 @@ whether to show download progress bars or not
 
 Disabling these can improve performance
 
-### temp\_dir
+## temp\_dir
 
 {% hint style="info" %}
 **If not set the the final download directory is used to hold temp files**
@@ -120,7 +120,7 @@ Disabling these can improve performance
 This overrides the temporary directory used during download\
 
 
-### infinite\_loop\_action\_mode
+## infinite\_loop\_action\_mode
 
 {% hint style="info" %}
 **You can disable the prompt for continuing the script with any arguments by setting the const value**\

@@ -79,7 +79,7 @@ You can enhance granularity by including a comma. When utilizing debuggers, the 
 1 year ago, 1 month ago
 ```
 
-### Filtering Timed Post
+### Filtering Timed Post (Promotional)
 
 skip all timed post
 

@@ -6,7 +6,11 @@
 [managing-multiple-python-versions.md](managing-multiple-python-versions.md)
 {% endcontent-ref %}
 
-**Good resources if you want an easy way to install python or to manage multiple version**
+**Good resources if you want an easy way to install python or want to use manage multiple python version**
+
+{% hint style="info" %}
+**Tip: Use the --python command to change the default python interpreter used for pipx**
+{% endhint %}
 
 ## Getting PIPX
 
@@ -19,11 +23,13 @@
 
 ## Installing OF-Scraper
 
-
+{% hint style="info" %}
+**Tip: Use the --verbose command to get more details about the install process**
+{% endhint %}
 
 {% tabs %}
 {% tab title="Windows Install" %}
-#### stable
+stable
 
 ```
 pipx install ofscraper

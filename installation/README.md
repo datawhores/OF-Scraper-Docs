@@ -12,8 +12,8 @@ Stable versions are hosted on various platform including Pypi,Docker, and GitHub
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
 
-{% content-ref url="pre-install-guide.md" %}
-[pre-install-guide.md](pre-install-guide.md)
+{% content-ref url="pre-install-guide/" %}
+[pre-install-guide](pre-install-guide/)
 {% endcontent-ref %}
 
 

@@ -66,7 +66,12 @@ These options also effect the final file name
 [remapping-responsetype.md](remapping-responsetype.md)
 {% endcontent-ref %}
 
+***
+
 ## metadata
+
+used for dupe check and as a cache\
+It can also be used to access data about posts
 
 {% content-ref url="../setting-metadata-path.md" %}
 [setting-metadata-path.md](../setting-metadata-path.md)

@@ -28,6 +28,10 @@ Duplicates will be removed
 * pinned
 * all (adding this option means scraping highlights,timeline,archived,stories,pinned,purchased and messages)
 
+### remove post type
+
+You can add remove a post type by prepending the type with a hyphen (-). This will override any other preferences non hyphen preference including all
+
 ### Bypass dupe check
 
 By default, content is stored in a database to prevent duplicate downloads. If you wish to download all available content for a specific model, include the '--dupe' argument.

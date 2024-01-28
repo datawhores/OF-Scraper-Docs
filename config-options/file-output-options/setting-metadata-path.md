@@ -2,7 +2,7 @@
 
 In the config.json file, you can modify the default metadata location or adjust where the script searches for database files
 
-Using your existing metadata files from DIGITALCRIMINALS' script enables immediate utilization for dupe checks, with any new files added subsequently being appended to the existing ones
+Using your existing metadata files from DIGITALCRIMINALS' script enables immediate utilization of the dupe checker, with any new files added subsequently being appended to the existing ones
 
 ## Config File Location
 

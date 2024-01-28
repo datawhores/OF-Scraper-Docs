@@ -110,7 +110,11 @@ Example: pipx install ofscraper --python $(which python3.11)
 Not uninstalling has caused problems for users before
 
 ```
- pipx upgrade ofscraper
+ pipx uninstall ofscraper
+```
+
+```
+pipx install ofscraper
 ```
 
 or
@@ -122,3 +126,7 @@ pipx install ofscraper==x --force
 {% endtabs %}
 
 ###
+
+```
+pipx install ofscraper
+```

@@ -24,6 +24,8 @@
 
 {% tabs %}
 {% tab title="Window Install" %}
+## **Install**
+
 **Stable Install**
 
 ```
@@ -49,7 +51,7 @@ py -3 -m pip install ofscraper==x
 where 'x' represents the version you intend to install\
 
 
-#### Upgrade
+## Upgrade
 
 Not uninstalling has caused problems for users before
 
@@ -71,7 +73,7 @@ py -3 -m pip install ofscraper==latest version number
 {% endtab %}
 
 {% tab title="Linux/Mac Install" %}
-
+## Install
 
 ```
 python3 -m pip install ofscraper
@@ -93,9 +95,7 @@ python3 -m pip install ofscraper==x
 
 where 'x' represents the version you intend to install
 
-####
-
-#### Upgrade
+## Upgrade
 
 Not uninstalling has caused problems for users before
 

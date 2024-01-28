@@ -12,3 +12,13 @@ Historically, this has mostly been the case Mac users, and even then, only a sma
 whether to show download progress bars or not
 
 Disabling these can improve performance
+
+
+
+## temp\_dir
+
+{% hint style="info" %}
+**If not set the the final download directory is used to hold temp files**
+{% endhint %}
+
+This overrides the temporary directory used during download

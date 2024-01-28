@@ -37,11 +37,7 @@
 
 {% tabs %}
 {% tab title="Windows Install" %}
-##
-
-
-
-
+## **Install**
 
 **Stable install**
 

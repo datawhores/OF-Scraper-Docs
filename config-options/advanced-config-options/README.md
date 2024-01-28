@@ -14,7 +14,7 @@ eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
 
 Any Python code that produces a string as its output should work just fine in this context.
 
-## custom
+## custom\_values
 
 Before, 'custom' was transformed into a dictionary using Python's built-in JSON library.&#x20;
 
@@ -84,9 +84,18 @@ You can change most const  values with the custom dict as well
 **Just make sure to set --after manually**
 {% endhint %}
 
+{% hint style="info" %}
+**Options**\
+**JSON**\
+**SQLITE**\
+**None (to disable)**
+{% endhint %}
+
 The script uses DiskCache, which has different options like SQLite and JSON.&#x20;
 
 For most folks, SQLite works fine, but if you're on a network drive, its performance might not be great. That's when switching to JSON could be a smart move, according to the author
+
+{% embed url="https://grantjenks.com/docs/diskcache/tutorial.html#caveats" %}
 
 ## appendlog
 
@@ -96,8 +105,28 @@ If set to False, each run will generate a new log. If set to True, logs will be 
 
 If set to true,  text content will be sanitized before to database insertion into database
 
-## system\_free\_min
+## downloadbars
 
-Minimum Available space required to run script
+whether to show download progress bars or not
 
-Program will crash if below
+Disabling these can improve performance
+
+### temp\_dir
+
+{% hint style="info" %}
+**If not set the the final download directory is used to hold temp files**
+{% endhint %}
+
+This overrides the temporary directory used during download\
+
+
+### infinite\_loop\_action\_mode
+
+{% hint style="info" %}
+**You can disable the prompt for continuing the script with any arguments by setting the const value**\
+\
+**CONTINUE\_BOOL = False**
+{% endhint %}
+
+Sets the script to run in a infinite loop even when \
+\--action is used

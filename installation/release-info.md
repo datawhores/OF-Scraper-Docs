@@ -51,9 +51,9 @@ The distinction from other releases is that startup might be slightly faster wit
 \
 **Example**
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (5).png>)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 
 

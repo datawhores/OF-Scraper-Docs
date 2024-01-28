@@ -4,11 +4,11 @@ description: Simplest way to run OF-Scraper
 
 # Using Prompts
 
-Running the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
+unning the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
 
 ## Getting to the main menu
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The simplest method is to execute this command
 
@@ -26,15 +26,13 @@ Basically, any command lacking the --action command will automatically go to thi
 **Go to main menu options**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ##
 
-## Edit Profile
+## Profile Menu
 
-![image](https://user-images.githubusercontent.com/67020411/230734759-b16a49da-0b61-44fc-9013-be0b0ac56419.png)
+<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Use this option to
 
@@ -47,7 +45,13 @@ Each profile corresponds to a single account. So, if you aim to have multiple ac
 
 ## Edit config.json
 
-![image](https://user-images.githubusercontent.com/67020411/230734909-5ad9c464-4984-4594-a0de-676344b84697.png)
+<div align="center" data-full-width="false">
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 To bypass the hassle of finding the config file's location, utilize this to modify settings directly from within the script.&#x20;
 
@@ -59,7 +63,7 @@ Your prior choices will be available, allowing you the chance to edit them conve
 &#x20;**if the authentication fails, the authentication menu will pop up, prompting you to enter new settings**
 {% endhint %}
 
-![image](https://user-images.githubusercontent.com/67020411/230735133-9bc6c48f-daed-40be-841c-0d84c3eb2bca.png)
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="560"><figcaption></figcaption></figure>
 
 Typically this is not a setting that needs to be access manually
 

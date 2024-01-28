@@ -197,7 +197,7 @@ for the  authorized account
 {renewal_price}= Free if renewal price is 0 dollars else paid
 ```
 
-## Response\_type Placeholder
+## response\_type placeholder
 
 {% content-ref url="remapping-responsetype.md" %}
 [remapping-responsetype.md](remapping-responsetype.md)

@@ -58,5 +58,5 @@
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Testing](testing.md)
 * [Request Change to Doc](request-change-to-doc.md)
-* [CDM options](cdm-options/README.md)
+* [CDM Setup](cdm-options/README.md)
   * [CDM issues](cdm-options/cdm-issues.md)

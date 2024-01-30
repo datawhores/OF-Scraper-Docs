@@ -130,3 +130,47 @@ This overrides the temporary directory used during download\
 
 Sets the script to run in a infinite loop even when \
 \--action is used
+
+## disable\_after\_check
+
+{% hint style="info" %}
+**If set to true then every scan will be either the earliest post marked as not downloaded or latest posts**
+{% endhint %}
+
+{% hint style="info" %}
+**If set to false, then at least one full scan most be done on a subsequent scan following --after use**
+{% endhint %}
+
+Whether the script should mark the next scan as a full scan with --after usage
+
+
+
+***
+
+{% hint style="info" %}
+**ofscraper.main or main are the default built in key words for a list combining active and expired list**
+{% endhint %}
+
+{% hint style="info" %}
+**ofscraper.active or active are  the default built in key words for active list**
+{% endhint %}
+
+{% hint style="info" %}
+**ofscraperd.expired or expired are the default built in key words for expired list**
+{% endhint %}
+
+## default\_user\_list
+
+{% hint style="info" %}
+**If blank then ofscraper.main is used as setting**
+{% endhint %}
+
+changes the default user list used during username scan
+
+## default\_black\_list
+
+{% hint style="info" %}
+**If  blank then the black list option is disabled**
+{% endhint %}
+
+changes the black list used during username scan

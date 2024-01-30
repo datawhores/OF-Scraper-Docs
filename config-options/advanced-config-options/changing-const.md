@@ -15,7 +15,7 @@
 
 ## Limitations
 
-* If you change **OFSCRAPER\_RESERVED\_LIST** you will need to provide the new list manually with --user-list
+* If you change any **OFSCRAPER\_\*\_LIST value** you will need to provide the new list manually with --user-list or change **default\_user\_list**
 * changes in **KEY\_OPTIONS** are not accepted in args
 * **configFile** and **configPath** are not changable
 

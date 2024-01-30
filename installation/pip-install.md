@@ -32,8 +32,6 @@
 py -3 -m pip install ofscraper
 ```
 
-or
-
 **Development verison**
 
 ```
@@ -41,6 +39,9 @@ py -3 -m pip install git+https://github.com/datawhores/OF-Scraper.git
 ```
 
 or
+
+<pre><code><strong>py -3 -m pip install ofscraper --pre
+</strong></code></pre>
 
 **Specific version of script**
 
@@ -75,11 +76,13 @@ py -3 -m pip install ofscraper==latest version number
 {% tab title="Linux/Mac Install" %}
 ## Install
 
+**Stable Install**
+
 ```
 python3 -m pip install ofscraper
 ```
 
-or
+**Development version**
 
 ```
 python3 -m pip install git+https://github.com/datawhores/OF-Scraper.git 
@@ -87,7 +90,11 @@ python3 -m pip install git+https://github.com/datawhores/OF-Scraper.git
 
 or
 
-**specific version**
+```
+python3 -m pip install ofscraper --pre
+```
+
+**Specific version of script**
 
 ```
 python3 -m pip install ofscraper==x

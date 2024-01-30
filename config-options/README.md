@@ -6,8 +6,7 @@
 
 
 
-```json
-{
+<pre class="language-json"><code class="lang-json">{
     "config": {
         "main_profile": "main_profile",
         "metadata": "{configpath}/{profile}/.data/{model_username}_{model_id}",
@@ -55,14 +54,13 @@
             "downloadbars": false,
             "cache-mode": "sqlite",
             "appendlog": false,
-            "custom_values": {"MAXFILE_SEMAPHORE":10,"SHOW_AVATAR":false,
-            "import":"exec('import ofscraper.filters.models.selector as selector23')",
-            "list":"exec('modelObjs=C)')",
-            "model_price":"'fallback' if len(modelObjs)==0 else 'Paid' if modelObjs[0].final_current_price>0 else 'Free'"
-        },
+            "custom_values": {},
             "sanitize_text": false,
             "avatar": true,
-            "temp_dir": null
+            "temp_dir": null,           
+<strong>            "disable_after_check": false,
+</strong>            "default_user_list": "main",
+            "default_black_list": ""
         },
         "responsetype": {
             "timeline": "Posts",
@@ -76,7 +74,7 @@
         }
     }
 }
-```
+</code></pre>
 
 </details>
 

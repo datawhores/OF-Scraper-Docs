@@ -4,11 +4,21 @@ description: Code base at time of specific releases
 
 # Release Info
 
-## Latest Pip Version
+## Version Info
+
+{% hint style="info" %}
+#### Stable versions are hosted on various platform including PYPI,Docker, and GitHub
+{% endhint %}
+
+{% hint style="info" %}
+**Go to** [**https://pypi.org/project/ofscraper/#history**](https://pypi.org/project/ofscraper/#history) **for latest Dev release**
+{% endhint %}
+
+[![drawing](https://img.shields.io/pypi/v/ofscraper.svg?color=dark\_green\&label=Stable-Release)](https://pypi.org/project/ofscraper/)
+
+[![drawing](https://img.shields.io/badge/Pre--Release-v3.70.dev-dark\_green.svg)](https://pypi.org/project/ofscraper/3.7.0.dev0/)
 
 
-
-<figure><img src="https://badge.fury.io/py/ofscraper.svg" alt=""><figcaption></figcaption></figure>
 
 ## Release types
 

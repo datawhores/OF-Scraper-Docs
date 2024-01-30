@@ -4,9 +4,15 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
+{% hint style="info" %}
 #### Stable versions are hosted on various platform including PYPI,Docker, and GitHub
+{% endhint %}
 
-<figure><img src="https://badge.fury.io/py/ofscraper.svg" alt=""><figcaption><p>Latest Version</p></figcaption></figure>
+## Version Info
+
+[![drawing](https://img.shields.io/pypi/v/ofscraper.svg?color=dark\_green\&label=Stable-Release)](https://pypi.org/project/ofscraper/)
+
+[![drawing](https://img.shields.io/badge/Pre--Release-v3.70.dev-dark\_green.svg)](https://pypi.org/project/ofscraper/3.7.0.dev0/)
 
 ## Before Starting
 

@@ -51,6 +51,12 @@ pipx install ofscraper
 pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
+or
+
+```
+pipx install ofscraper --verbose --pip-args=--pre
+```
+
 #### Specific version of script
 
 ```
@@ -100,6 +106,11 @@ pipx install ofscraper
 ```
 pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
+
+#### or
+
+<pre><code><strong>pipx install ofscraper --verbose --pip-args=--pre
+</strong></code></pre>
 
 #### Specific version of script
 

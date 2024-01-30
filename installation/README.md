@@ -4,6 +4,8 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
+## Version Info
+
 {% hint style="info" %}
 #### Stable versions are hosted on various platform including PYPI,Docker, and GitHub
 {% endhint %}
@@ -11,8 +13,6 @@ description: Getting OF-Scraper onto you system
 {% hint style="info" %}
 **Go to** [**https://pypi.org/project/ofscraper/#history**](https://pypi.org/project/ofscraper/#history) **for latest Dev release**
 {% endhint %}
-
-## Version Info
 
 [![drawing](https://img.shields.io/pypi/v/ofscraper.svg?color=dark\_green\&label=Stable-Release)](https://pypi.org/project/ofscraper/)
 

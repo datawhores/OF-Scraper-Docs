@@ -1,6 +1,23 @@
 # Customizing save path
 
+##
+
 ## Basics
+
+### windows path warning
+
+{% hint style="info" %}
+<mark style="color:red;">**\ should be escaped or replaced with a \\\ or /**</mark>
+{% endhint %}
+
+{% hint style="info" %}
+<mark style="color:red;">**Not doing this could lead to an error**</mark>
+{% endhint %}
+
+<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:\\\Users\\\John.config\\\ofscraper\\\bin\\\ffmpeg.exe</mark>](#user-content-fn-1)[^1]
+
+<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:/Users/John.config/ofscraper/bin/ffmpeg.exe</mark>](#user-content-fn-2)[^2]\
+
 
 ### Example
 
@@ -202,3 +219,7 @@ for the  authorized account
 {% content-ref url="remapping-responsetype.md" %}
 [remapping-responsetype.md](remapping-responsetype.md)
 {% endcontent-ref %}
+
+[^1]: 
+
+[^2]: 

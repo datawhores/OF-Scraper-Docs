@@ -1,4 +1,4 @@
-# CDM options
+# CDM Setup
 
 To handle encrypted content, you'll require a CDM (Content Decryption Module). Indicators for this are the utilization of 'tempvideo' and 'tempaudio'.\
 
@@ -82,7 +82,8 @@ you could also pass --key-mode arg
 
 #### Changing via the prompt menu
 
-* Navigate to the "Edit Advanced Config Settings" section
+* Navigate to the "Edit Config Settings" section
+* Navigate to the "Edit Advanced Options" section
 * When prompted to choose the key-mode, opt for "cdrm".
 
 
@@ -113,7 +114,8 @@ you could also pass the key-mode arg
 
 #### Changing via the prompt menu
 
-* Navigate to the "Edit Advanced Config Settings" section
+* Navigate to the "Edit Config Settings" section
+* Navigate to the "Edit Advanced Options" section
 * When prompted to choose the key-mode, opt for "cdrm2"
 
 
@@ -160,8 +162,7 @@ You must also have the keydb\_api setup in the config for this option
 
 #### Changing via the prompt menu
 
-
-
-* Navigate to the "Edit Advanced Config Settings" section
+* Navigate to the "Edit Config Settings" section
+* Navigate to the "Edit Advanced Options" section
 * When prompted to choose the key-mode, opt for "keydb".
 * Enter your keydb API key when prompted.

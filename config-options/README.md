@@ -1,8 +1,5 @@
 # Config Options
 
-\
-
-
 <details>
 
 <summary>Example Config</summary>

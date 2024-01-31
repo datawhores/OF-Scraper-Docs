@@ -85,12 +85,6 @@
 
 **Customize the final file path for downloads**
 
-
-
-{% hint style="info" %}
-Winndows Users:&#x20;
-{% endhint %}
-
 {% content-ref url="file-output-options/customizing-save-path.md" %}
 [customizing-save-path.md](file-output-options/customizing-save-path.md)
 {% endcontent-ref %}

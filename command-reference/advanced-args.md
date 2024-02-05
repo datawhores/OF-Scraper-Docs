@@ -110,3 +110,10 @@ When --username arg is provided searches each username as a seperate request
 When --username arg is provided searches entire list based on the currently enabled 
 config settings for userlist or --user-list arg
 ```
+
+**-up, --update-profile**
+
+```
+gets up to date profile info, rather then using cache
+Note: Profile cache is saved  for about a day
+```

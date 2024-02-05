@@ -1,6 +1,6 @@
 # Advanced Args
 
-#### -uf, --users-first
+### -uf, --users-first
 
 ```
 Prioritize downloading posts by scraping all users at once instead of one at a time
@@ -10,7 +10,7 @@ Prioritize downloading posts by scraping all users at once instead of one at a t
 Default: False
 ```
 
-#### -nc, --no-cache
+### -nc, --no-cache
 
 ```
 meant for disabling cache when scraping posts
@@ -20,7 +20,7 @@ meant for disabling cache when scraping posts
 Default: False
 ```
 
-#### -k, --key-mode
+### -k, --key-mode
 
 ```
 Override the key mode in the configuration file
@@ -30,7 +30,7 @@ Override the key mode in the configuration file
 default: auto
 ```
 
-#### -db, --download-bars&#x20;
+### -db, --download-bars&#x20;
 
 ```
 Override the download-bars setting in the configuration file
@@ -40,7 +40,7 @@ Override the download-bars setting in the configuration file
 default: None
 ```
 
-#### -sd, --download-sems
+### -sd, --download-sems
 
 ```
 Override the download-sems setting in the configuration file
@@ -50,7 +50,7 @@ Override the download-sems setting in the configuration file
 default: None
 ```
 
-#### -sd, --download-threads
+### -sd, --download-threads
 
 ```
 Override the download-threads setting in the configuration file
@@ -63,7 +63,7 @@ The main thread is also utilized if downloads cannot fill the download-sems.
 default: None
 ```
 
-#### -ar,--no-auto-resume
+### -ar,--no-auto-resume
 
 {% hint style="info" %}
 This replaces \
@@ -80,7 +80,7 @@ This includes forced exit
 default: false
 ```
 
-#### -dr,--dynamic-rules
+### -dr,--dynamic-rules
 
 ```
 Override the dynamic-rules setting in the configuration file; 
@@ -98,20 +98,20 @@ This feature skips the downloading of files to the disk,
 primarily designed for adding metadata to the database
 ```
 
-**-fi, --force-individual**
+### **-fi, --force-individual**
 
 ```
 When --username arg is provided searches each username as a seperate request
 ```
 
-**-fl, --force-list**
+### **-fl, --force-list**
 
 ```
 When --username arg is provided searches entire list based on the currently enabled 
 config settings for userlist or --user-list arg
 ```
 
-**-up, --update-profile**
+### **-up, --update-profile**
 
 ```
 gets up to date profile info, rather then using cache

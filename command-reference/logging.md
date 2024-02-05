@@ -4,7 +4,7 @@ description: Arguments for output controls
 
 # Logging
 
-#### -l, --log
+### -l, --log
 
 ```
 Possible choices: OFF, STATS, LOW, NORMAL, DEBUG

@@ -95,5 +95,18 @@ default: false
 
 ```
 This feature skips the downloading of files to the disk, 
-primarily designed for adding metadata to the database.
+primarily designed for adding metadata to the database
+```
+
+**-fi, --force-individual**
+
+```
+When --username arg is provided searches each username as a seperate request
+```
+
+**-fl, --force-list**
+
+```
+When --username arg is provided searches entire list based on the currently enabled 
+config settings for userlist or --user-list arg
 ```

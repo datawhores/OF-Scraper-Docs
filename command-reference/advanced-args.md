@@ -91,7 +91,7 @@ it's utilized for signing requests
 default: false
 ```
 
-### -md, --metadata
+#### -md, --metadata
 
 ```
 This feature skips the downloading of files to the disk, 

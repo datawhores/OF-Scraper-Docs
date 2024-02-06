@@ -93,12 +93,20 @@ default: false
 
 ### -md, --metadata
 
+{% hint style="info" %}
+**progress bar marks download as skipped if they are missing from system**
+{% endhint %}
+
 ```
 This feature skips the downloading of files to the disk, 
 primarily designed for adding metadata to the database
 ```
 
 ### -mc, --metadata-complete
+
+{% hint style="info" %}
+**progress bar marks every download based on mediatype**
+{% endhint %}
 
 ```
 This feature skips the downloading of files to the disk, 

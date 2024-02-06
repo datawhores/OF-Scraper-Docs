@@ -1,6 +1,9 @@
 # Customizing save path
 
-##
+{% hint style="info" %}
+**If you want to move files use** \
+**--metadata or --metadata-complete after updating the config**
+{% endhint %}
 
 ## Basics
 

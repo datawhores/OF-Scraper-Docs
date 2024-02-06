@@ -91,11 +91,20 @@ it's utilized for signing requests
 default: false
 ```
 
-#### -md, --metadata
+### -md, --metadata
 
 ```
 This feature skips the downloading of files to the disk, 
 primarily designed for adding metadata to the database
+```
+
+### -mc, --metadata-complete
+
+```
+This feature skips the downloading of files to the disk, 
+primarily designed for adding metadata to the database
+
+Additionally marks each media as downloaded
 ```
 
 ### **-fi, --force-individual**

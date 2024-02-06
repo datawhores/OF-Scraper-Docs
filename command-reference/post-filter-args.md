@@ -17,7 +17,7 @@ Default: False
 
 
 {% hint style="info" %}
-**Exclude post by appending a hypthen(-)**
+**Exclude \[--posts or --like-area or --download-area]  by appending a hypthen(-)**
 {% endhint %}
 
 ### -o, --posts

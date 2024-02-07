@@ -94,14 +94,6 @@ You can use the following software if windows does not provide an easy way to do
 
 
 
-{% hint style="info" %}
-####
-
-
-{% endhint %}
-
-{% embed url="https://pathcopycopy.github.io/" %}
-
 ## 7. <mark style="color:blue;">ofscraper not found</mark>
 
 This generally means that you need to update your PATH

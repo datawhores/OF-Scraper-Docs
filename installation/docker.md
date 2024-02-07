@@ -12,7 +12,9 @@
 **If you opt for the auto download feature when installing mp4decrypt or ffmpeg, the binaries will be stored in /root/.config/ofscraper/bin within the Docker image**
 {% endhint %}
 
-
+{% content-ref url="../config-options/binaries-options.md" %}
+[binaries-options.md](../config-options/binaries-options.md)
+{% endcontent-ref %}
 
 | host    | docker                            | use          | required |
 | ------- | --------------------------------- | ------------ | -------- |

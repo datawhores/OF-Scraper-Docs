@@ -2,14 +2,12 @@
 
 ## Volumes
 
-
-
 {% hint style="info" %}
-**Binaries for mp4decrypt and ffmpeg are no longer stored in GitHub. You'll need to utilize one of the mounts for storing binaries.**
+**If you opt for the auto download feature when installing mp4decrypt or ffmpeg, the binaries will be stored in /root/.config/ofscraper/bin within the Docker image**
 {% endhint %}
 
 {% hint style="info" %}
-**If you opt for the auto download feature when installing mp4decrypt or ffmpeg, the binaries will be stored in /root/.config/ofscraper/bin within the Docker image**
+**manually downloading binaries please mount the linux based binaries**
 {% endhint %}
 
 {% content-ref url="../config-options/binaries-options.md" %}

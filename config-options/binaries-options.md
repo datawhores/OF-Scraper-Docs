@@ -6,19 +6,11 @@ description: Required Binaries for protected downloads
 
 ## mp4decrypt
 
-<details>
-
-<summary>Info</summary>
+{% hint style="info" %}
+**Only 'mp4decrypt' or 'mp4decrypt.exe' are required**
+{% endhint %}
 
 Decryption is necessary for specific content. Utilize this to establish the path for 'mp4decrypt' on your system.
-
-Please note, it's not available through pip and must be obtained separately.
-
-You'll only require 'mp4decrypt' or 'mp4decrypt.exe'
-
-other files can be deleted.
-
-</details>
 
 ### Releases/Download Source
 

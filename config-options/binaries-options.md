@@ -4,7 +4,11 @@ description: Required Binaries for protected downloads
 
 # Binaries Options
 
-mp4decrypt
+## mp4decrypt
+
+<details>
+
+<summary>Info</summary>
 
 Decryption is necessary for specific content. Utilize this to establish the path for 'mp4decrypt' on your system.
 
@@ -14,7 +18,7 @@ You'll only require 'mp4decrypt' or 'mp4decrypt.exe'
 
 other files can be deleted.
 
-
+</details>
 
 ### Releases/Download Source
 

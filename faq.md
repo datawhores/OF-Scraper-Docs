@@ -74,43 +74,31 @@ The mentioned programs below are necessary for downloading content, and they are
 
 #### Binaries
 
-_These are the binaries used specifically during the automatic download process_
+{% hint style="info" %}
+**If manually downloading simply provide OF-Scraper with the full path to the program in the configuration file**
+{% endhint %}
 
-**FFmpeg**
+{% content-ref url="config-options/binaries-options.md" %}
+[binaries-options.md](config-options/binaries-options.md)
+{% endcontent-ref %}
 
-***
+<details>
 
-**Windows:** [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases) -> ffmpeg-master-latest-win64-gpl.zip
+<summary>Copying path on windows<br></summary>
 
-**Linux:** [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases) -> shared version
+You can use the following software if windows does not provide an easy way to do this
 
-**Mac:**  [**https://evermeet.cx/ffmpeg/get/zip**](https://evermeet.cx/ffmpeg/get/zip) -> downloads latest snapshot zip
+[https://pathcopycopy.github.io/](https://pathcopycopy.github.io/)
 
-***
+</details>
 
-**Mp4decrypt**
 
-***
 
-**Window:**  [<mark style="color:blue;">https://www.bok.net/Bento4/binaries</mark> ](https://www.bok.net/Bento4/binaries)-> Bento4-SDK-1-6-0-640.x86\_64-microsoft-win32.zip
+{% hint style="info" %}
+####
 
-**Linux:**  [https://www.bok.net/Bento4/binaries](https://www.bok.net/Bento4/binaries) -> Bento4-SDK-1-6-0-640.x86\_64-unknown-linux.zip
 
-**Mac :** [https://www.bok.net/Bento4/binaries](https://www.bok.net/Bento4/binaries) -> Bento4-SDK-1-6-0-640.universal-apple-macosx.zip
-
-***
-
-#### More info
-
-#### what to do after downloading
-
-Simply provide OF-Scraper with the path to the program in the configuration file
-
-**Note:** Ensure to input the complete path
-
-#### Copying path on windows
-
-You can utilize the tool below if Windows lacks an easy method to acquire the full path.
+{% endhint %}
 
 {% embed url="https://pathcopycopy.github.io/" %}
 

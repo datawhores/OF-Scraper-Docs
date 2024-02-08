@@ -94,12 +94,14 @@ default: false
 ### -md, --metadata
 
 {% hint style="info" %}
-**progress bar marks download as skipped if they are missing from system**
+**progress bar marks download all downloads as skipped, as download status is not change**
 {% endhint %}
 
 ```
 This feature skips the downloading of files to the disk, 
 primarily designed for adding metadata to the database
+
+Does not change download status
 ```
 
 ### -mc, --metadata-complete
@@ -113,6 +115,19 @@ This feature skips the downloading of files to the disk,
 primarily designed for adding metadata to the database
 
 Additionally marks each media as downloaded
+```
+
+### -mu, --metadata-update
+
+{% hint style="info" %}
+**progress bar marks downloads without files as skipped**
+{% endhint %}
+
+```
+This feature skips the downloading of files to the disk, 
+primarily designed for adding metadata to the database
+
+Marks every download based on presence on file system
 ```
 
 ### **-fi, --force-individual**

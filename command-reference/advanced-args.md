@@ -94,7 +94,11 @@ default: false
 ### -md, --metadata
 
 {% hint style="info" %}
-**progress bar marks download all downloads as skipped, as download status is not change**
+**progress bar  shows  all downloads as skipped**
+{% endhint %}
+
+{% hint style="info" %}
+**No change to download field for media entries in database**
 {% endhint %}
 
 ```
@@ -107,7 +111,11 @@ Does not change download status
 ### -mc, --metadata-complete
 
 {% hint style="info" %}
-**progress bar marks every download based on mediatype**
+**progress bar shows all download mediatypes**
+{% endhint %}
+
+{% hint style="info" %}
+**Marks all media entries in database as downloaded by setting the "download" field to True**
 {% endhint %}
 
 ```
@@ -121,9 +129,16 @@ Additionally marks each media as downloaded
 
 {% hint style="info" %}
 **progress bar marks downloads without files as skipped**
+
+**progress bar marks downloads with files as based on mediatype**
+{% endhint %}
+
+{% hint style="info" %}
+**Media entries in the database will have their "download" field flagged as False upon verification that the corresponding files are missing**
 {% endhint %}
 
 ```
+
 This feature skips the downloading of files to the disk, 
 primarily designed for adding metadata to the database
 

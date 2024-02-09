@@ -17,8 +17,8 @@ This takes precedence over the '--username' option.
 ### -d, --daemon
 
 ```
-Execute the script in the background. Set the value for the minimum duration between script runs. 
-Overdue runs will commence immediately after the previous run finishes.
+Execute the script in the background
+Set the value for the time between runs
 ```
 
 ### -g, --original

@@ -91,6 +91,14 @@ it's utilized for signing requests
 default: false
 ```
 
+
+
+***
+
+{% hint style="info" %}
+**without --dupe media will be filter to only those that are set as not downloaded in the database**
+{% endhint %}
+
 ### -md, --metadata
 
 {% hint style="info" %}
@@ -144,6 +152,10 @@ primarily designed for adding metadata to the database
 
 Marks every download based on presence on file system
 ```
+
+
+
+***
 
 ### **-fi, --force-individual**
 

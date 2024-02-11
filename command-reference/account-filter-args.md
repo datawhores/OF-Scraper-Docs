@@ -86,6 +86,10 @@ Filter accounts to ones without
 any claimable promo price
 ```
 
+
+
+***
+
 ## Subscription Type
 
 ### **-fo, --free-trail-only**
@@ -123,8 +127,12 @@ Filter accounts to those with the renew flag on
 ### **-rf, --renew-off**
 
 ```
-Filter accounts to those with the renew flag on
+Filter accounts to those with the renew flag off
 ```
+
+
+
+***
 
 ## List Filters
 
@@ -156,6 +164,10 @@ Other built-in lists include "ofscraper.active" and "ofscraper.disabled."
 ```
 Default: []
 ```
+
+
+
+***
 
 ## Advanced User Filters
 

@@ -4,10 +4,6 @@ description: Apply filters to the accounts list
 
 # Account Filtering Args
 
-{% hint style="info" %}
-If account is set to renew then expired is the same as renewal date
-{% endhint %}
-
 ## pricing filters
 
 {% content-ref url="../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
@@ -241,7 +237,13 @@ Filter accounts by last seen being at
 or before the given date
 ```
 
+
+
 ### -ea,--expire-after
+
+{% hint style="info" %}
+**If account is set to renew then expired is the same as renewal date**
+{% endhint %}
 
 ```
 Filter accounts by expiration/renewal being at 
@@ -249,6 +251,10 @@ or after the given date
 ```
 
 ### -eb ,--expire-before
+
+{% hint style="info" %}
+**If account is set to renew then expired is the same as renewal date**
+{% endhint %}
 
 ```
 Filter accounts by expiration/renewal being at 

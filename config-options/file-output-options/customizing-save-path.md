@@ -87,15 +87,6 @@
 
 </details>
 
-Each file will be saved to&#x20;
-
-```
-//home/James/Data/ofscraper/{model_username}/{responsetype}/
-{mediatype}/{filename}.{ext}
-```
-
-The placeholders described below will substitute the {} values
-
 <details>
 
 <summary>windows path warning</summary>
@@ -113,7 +104,14 @@ The placeholders described below will substitute the {} values
 
 </details>
 
+The placeholders described below will substitute the {} values
 
+Each file will be saved to&#x20;
+
+```
+//home/James/Data/ofscraper/{model_username}/{responsetype}/
+{mediatype}/{filename}.{ext}
+```
 
 ***
 

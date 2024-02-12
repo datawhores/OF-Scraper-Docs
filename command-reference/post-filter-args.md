@@ -2,7 +2,7 @@
 description: What type of post to scrape
 ---
 
-# Post Filter Args
+# Post Args
 
 ### -e, --dupe
 
@@ -73,6 +73,8 @@ Perform download action on certain content
 Default:None
 ```
 
+***
+
 ### -sk, --skip-timed
 
 ```
@@ -96,6 +98,8 @@ Filter downloads to exclusively include downloads labeled as mass messages.
 ```
 Download only temporary posts,, mostly used for promo
 ```
+
+***
 
 ### -ft, --filter
 
@@ -215,4 +219,46 @@ This filter accepts human-readable strings like "10GB".
 
 ```
 Default: None
+```
+
+***
+
+{% hint style="info" %}
+**`--min-quality and --max-quality(optional)` flags to set a quality range for downloads, stopping at the lowest available resolution**
+{% endhint %}
+
+{% hint style="info" %}
+**It is assumed that quality selection is only available for paid content**
+{% endhint %}
+
+{% hint style="info" %}
+**Warning: --max-quality should be equal or higher then --min-quality or source will always be returned**&#x20;
+{% endhint %}
+
+### -mn,--min-quality
+
+```
+set the lowest allowed quality 
+```
+
+```
+Possible Choices: source,240,720
+```
+
+```
+Default: source
+```
+
+### -mx,--max-quality
+
+```
+set the highest allowed quality 
+```
+
+```
+Possible Choices: source,240,720
+```
+
+```
+Default: source
 ```

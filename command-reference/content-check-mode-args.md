@@ -1,7 +1,7 @@
 # Content Check Mode Args
 
 {% hint style="info" %}
-&#x20;cached information is stored for 24 hours
+&#x20;**cached information is stored for 24 hours**
 {% endhint %}
 
 ## post\_check

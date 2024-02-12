@@ -89,18 +89,23 @@
 
 <details>
 
-<summary>windows path warning</summary>
+<summary><mark style="color:red;">Windows path warning</mark></summary>
 
+<mark style="color:red;">**`\ should be escaped or replaced with a \\ or /`**</mark>
 
+<mark style="color:red;">**`Not doing this could lead to an error`**</mark>
 
-<mark style="color:red;">**\ should be escaped or replaced with a \\\ or /**</mark>
+<mark style="color:red;">**`Examples:`**</mark>
 
-<mark style="color:red;">**Not doing this could lead to an error**</mark>
+```
+C:\Users\John.config\ofscraper\bin\ffmpeg.exe => 
+C:\\Users\\John.config\\ofscraper\\bin\\ffmpeg.exe
+```
 
-<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:\\\Users\\\John.config\\\ofscraper\\\bin\\\ffmpeg.exe</mark>](#user-content-fn-1)[^1]
-
-<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:/Users/John.config/ofscraper/bin/ffmpeg.exe</mark>](#user-content-fn-2)[^2]\
-
+```
+C:\Users\John.config\ofscraper\bin\ffmpeg.exe => 
+C:/Users/John.config/ofscraper/bin/ffmpeg.exe
+```
 
 </details>
 
@@ -205,7 +210,3 @@ You can use these placeholders
 {% content-ref url="remapping-responsetype.md" %}
 [remapping-responsetype.md](remapping-responsetype.md)
 {% endcontent-ref %}
-
-[^1]: 
-
-[^2]: 

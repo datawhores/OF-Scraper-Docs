@@ -223,22 +223,17 @@ Default: None
 
 ***
 
-{% hint style="info" %}
-**`--min-quality and --max-quality(optional)` flags to set a quality range for downloads, stopping at the lowest available resolution**
-{% endhint %}
+### -q,-quality
 
 {% hint style="info" %}
 **It is assumed that quality selection is only available for paid content**
 {% endhint %}
 
-{% hint style="info" %}
-**Warning: --max-quality should be equal or higher then --min-quality or source will always be returned**&#x20;
-{% endhint %}
-
-### -mn,--min-quality
-
 ```
-set the lowest allowed quality 
+The --quality flag determines the minimum acceptable quality, 
+with the actual choice falling back to the 
+lowest available option within --quality to "source"
+
 ```
 
 ```
@@ -249,16 +244,3 @@ Possible Choices: source,240,720
 Default: source
 ```
 
-### -mx,--max-quality
-
-```
-set the highest allowed quality 
-```
-
-```
-Possible Choices: source,240,720
-```
-
-```
-Default: source
-```

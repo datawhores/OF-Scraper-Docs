@@ -63,8 +63,8 @@ Therefore, maintaining the inner quotes is vital for accurate interpretation by 
 
 You can change most const  values with the custom dict as well
 
-{% content-ref url="changing-const.md" %}
-[changing-const.md](changing-const.md)
+{% content-ref url="changing-const-value.md" %}
+[changing-const-value.md](changing-const-value.md)
 {% endcontent-ref %}
 
 ## dynamic-mode-default

@@ -5,24 +5,7 @@
 **--metadata or --metadata-complete after updating the config**
 {% endhint %}
 
-## Basics
-
-### windows path warning
-
-{% hint style="info" %}
-<mark style="color:red;">**\ should be escaped or replaced with a \\\ or /**</mark>
-{% endhint %}
-
-{% hint style="info" %}
-<mark style="color:red;">**Not doing this could lead to an error**</mark>
-{% endhint %}
-
-<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:\\\Users\\\John.config\\\ofscraper\\\bin\\\ffmpeg.exe</mark>](#user-content-fn-1)[^1]
-
-<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:/Users/John.config/ofscraper/bin/ffmpeg.exe</mark>](#user-content-fn-2)[^2]\
-
-
-### Example
+## Example
 
 <details>
 
@@ -113,19 +96,39 @@ Each file will be saved to&#x20;
 
 The placeholders described below will substitute the {} values
 
-## save\_location
+<details>
 
-This is the root of all saved files
+<summary>windows path warning</summary>
 
-## dir\_path
 
-The  relative directory path within the save location where files are stored
+
+<mark style="color:red;">**\ should be escaped or replaced with a \\\ or /**</mark>
+
+<mark style="color:red;">**Not doing this could lead to an error**</mark>
+
+<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:\\\Users\\\John.config\\\ofscraper\\\bin\\\ffmpeg.exe</mark>](#user-content-fn-1)[^1]
+
+<mark style="color:red;">**Example:**</mark> <mark style="color:blue;">C:\Users\John.config\ofscraper\bin\ffmpeg.exe =></mark> [<mark style="color:blue;">C:/Users/John.config/ofscraper/bin/ffmpeg.exe</mark>](#user-content-fn-2)[^2]\
+
+
+</details>
+
+
+
+***
+
+## dir\_path and filename
+
+{% hint style="info" %}
+**Placeholders are generally the same between options here**
+{% endhint %}
 
 ```
-{date}= The creation date of the post, refer to the 'date' section for formatting guidelines. 
-Please open an issue if further assistance is required.
 
 {responsetype}=Posts,Messages,Paid,etc
+
+{filename} = the filename, videos wills include the quality i.e source,720
+{only_filename}= the filename,videos will not include quality
 
 {mediatype}=Images,Audios,Videos
 
@@ -136,6 +139,8 @@ Please open an issue if further assistance is required.
 {first_letter}= first letter of model's username
 
 {sitename} = Onlyfans
+{text} = The text within the media. Truncation of file names has been tested to fit within OS limits, 
+still it's advisable to establish a text length limit.
 
 {model_username} = The model's username
 {profile} = The currently active profile
@@ -146,63 +151,56 @@ for the  authorized account
 {download_type}= Indication of whether it's protected or normal, 
 determined by the necessity for decryption
 
-
 {current_price}= Free if current price is 0 dollars else paid
 {regular_price}=Free if regular price is 0 dollars else paid
 {promo_price}= Free if promo price is 0 dollars else paid
 {renewal_price}= Free if renewal price is 0 dollars else paid
-
+{args}= the passed arguments namespace, keys can be access with the dot (.) syntax
+{config}= the config arguments dictionary, keys can be access with the [] syntax
 ```
 
-## Filename
+### dir\_path
+
+The  relative directory path within the save location where files are stored
+
+{% hint style="info" %}
+**No unique placeholders**
+{% endhint %}
+
+
+
+### filename
 
 The file's name segment in the saved file
 
 {% hint style="info" %}
-```
-When configuring filenames, ensure a unique element 
-such as text, media ID, post ID, or filename to avoid naming conflicts
-```
+**When configuring filenames, ensure a unique element such as text, media ID, post ID, or filename to avoid naming conflict**
 {% endhint %}
+
+```
+{ext} = The file extension of the media
+```
+
+### metadata
+
+Controls where metadata is saved
+
+You can use these placeholders
 
 ```
 {sitename} = Onlyfans
 
 {first_letter} = first letter of model's username
 
-{post_id} = The posts' ID
+{model_username} = The model's username.
 
-{media_id} = The media's ID
+{model_id}= unique id number for model
+{configpath}= parent dir of config.json
+{profile} = current profile 
 
-{model_username} = The model's username
-
-{responsetype} = Posts,Messages,Paid,etc
-
-{mediatype} = Images,Audios,Videos,etc
-
-{filename} = The media's filename
-
-{value} = The content's value: Whether it's categorized as Paid or Free
-
-{text} = The text within the media. Truncation of file names has been tested to fit within OS limits, 
-still it's advisable to establish a text length limit.
-{date} = The date when the post was created.
-{model_id}= Unique identification number for model
-
-
-{ext} = The file extension of the media
-{profile} = The currently active profile
-{my_username}=The authorized account's username
-{my_id} = The identification number 
-for the  authorized account
-{label} =  The label assigned to the post, if available
-{download_type}= Protected if decryption required otherwhise normal
-
-{current_price}= Free if current price is 0 dollars else paid
-{regular_price}=Free if regular price is 0 dollars else paid
-{promo_price}= Free if promo price is 0 dollars else paid
-{renewal_price}= Free if renewal price is 0 dollars else paid
 ```
+
+
 
 ## response\_type placeholder
 

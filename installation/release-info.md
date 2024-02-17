@@ -20,6 +20,8 @@ description: Code base at time of specific releases
 
 
 
+***
+
 ## Release types
 
 <details>
@@ -43,13 +45,13 @@ These are meant to be stable releases and mark the commit used to make these rel
 
 
 
+***
+
 ## Release Files
 
 ### Example
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-
-###
 
 <details>
 

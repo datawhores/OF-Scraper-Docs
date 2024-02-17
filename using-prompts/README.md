@@ -6,6 +6,10 @@ description: Simplest way to run OF-Scraper
 
 unning the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
 
+
+
+***
+
 ## Getting to the main menu
 
 <figure><img src="../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -28,6 +32,8 @@ Basically, any command lacking the --action command will automatically go to thi
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
+***
+
 ## Action Menu
 
 {% hint style="info" %}
@@ -39,7 +45,7 @@ use this menu to perform scraping actions or combination\
 
 <figure><img src="../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
 
-##
+***
 
 ## Profile Menu
 
@@ -54,6 +60,8 @@ Use this option to
 
 Each profile corresponds to a single account. So, if you aim to have multiple accounts, you'll require multiple profiles
 
+***
+
 ## Edit config.json
 
 <div align="center" data-full-width="false">
@@ -67,6 +75,10 @@ Each profile corresponds to a single account. So, if you aim to have multiple ac
 To bypass the hassle of finding the config file's location, utilize this to modify settings directly from within the script.&#x20;
 
 Your prior choices will be available, allowing you the chance to edit them conveniently.
+
+
+
+***
 
 ## Edit auth.json
 

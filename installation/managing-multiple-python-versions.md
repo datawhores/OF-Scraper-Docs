@@ -1,6 +1,6 @@
 # Managing Multiple Python Versions
 
-##
+***
 
 {% hint style="info" %}
 **Both of these optional tools allow for managing multiple versions of python**

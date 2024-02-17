@@ -52,9 +52,15 @@ Whether to count text based on words on letters
 \
 The date syntax doesn't use bracket notation; it adheres to the Arrow implementation.&#x20;
 
-For more information, check the documentation at [https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens](https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens).&#x20;
+For more information, check the documentation at&#x20;
+
+{% embed url="https://arrow.readthedocs.io/en/latest/guide.html#supported-tokens" %}
 
 If you need additional help, feel free to open an issue in the repository for support.
+
+
+
+***
 
 ## Other Related Options
 

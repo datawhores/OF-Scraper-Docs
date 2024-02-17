@@ -183,7 +183,9 @@ The file's name segment in the saved file
 {ext} = The file extension of the media
 ```
 
-### metadata
+***
+
+## metadata
 
 Controls where metadata is saved
 
@@ -202,7 +204,7 @@ You can use these placeholders
 
 ```
 
-
+***
 
 ## response\_type placeholder
 

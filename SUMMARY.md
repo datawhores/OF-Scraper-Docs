@@ -20,7 +20,7 @@
   * [General Options](config-options/general-options.md)
   * [File Output Options](config-options/file-output-options/README.md)
     * [Placeholders](config-options/file-output-options/customizing-save-path.md)
-    * [Remapping responsetype](config-options/file-output-options/remapping-responsetype.md)
+    * [Responsetype Placeholders](config-options/file-output-options/remapping-responsetype.md)
   * [Download Options](config-options/download-options.md)
     * [Download Toggles](config-options/download-options/download-toggles.md)
     * [Media Filtering Options](config-options/download-options/media-filtering-options.md)

@@ -14,6 +14,10 @@ eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
 
 Any Python code that produces a string as its output should work just fine in this context.
 
+
+
+***
+
 ## custom\_values
 
 Before, 'custom' was transformed into a dictionary using Python's built-in JSON library.&#x20;
@@ -67,10 +71,18 @@ You can change most const  values with the custom dict as well
 [changing-const.md](changing-const.md)
 {% endcontent-ref %}
 
+
+
+***
+
 ## dynamic-mode-default
 
 * This is utilized to sign a request, essential for its authorization. Without this, the request would lack proper authorization and fail.
 * Generally, the options remain mostly identical. However, in rare instances, modifying these options might resolve certain issues with authentication
+
+
+
+***
 
 ## cache-mode
 
@@ -97,19 +109,33 @@ For most folks, SQLite works fine, but if you're on a network drive, its perform
 
 {% embed url="https://grantjenks.com/docs/diskcache/tutorial.html#caveats" %}
 
+***
+
 ## appendlog
 
 If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
 
+
+
+***
+
 ## sanitize\_text
 
 If set to true,  text content will be sanitized before to database insertion into database
+
+
+
+***
 
 ## downloadbars
 
 whether to show download progress bars or not
 
 Disabling these can improve performance
+
+
+
+***
 
 ## temp\_dir
 
@@ -119,6 +145,8 @@ Disabling these can improve performance
 
 This overrides the temporary directory used during download\
 
+
+***
 
 ## infinite\_loop\_action\_mode
 
@@ -130,6 +158,8 @@ This overrides the temporary directory used during download\
 
 Sets the script to run in a infinite loop even when \
 \--action is used
+
+***
 
 ## disable\_after\_check
 
@@ -166,6 +196,8 @@ Whether the script should mark the next scan as a full scan with --after usage
 {% endhint %}
 
 changes the default user list used during username scan
+
+***
 
 ## default\_black\_list
 

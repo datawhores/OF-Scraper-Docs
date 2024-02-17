@@ -15,6 +15,10 @@
 * In most cases, there's no need to modify this setup. Profiles are organized into directories within the config location, with the value being derived from the profile name.&#x20;
 * Each directory can correspond to a distinct authentication file
 
+
+
+***
+
 ## discord
 
 ```

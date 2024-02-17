@@ -17,7 +17,10 @@ Default: False
 
 
 {% hint style="info" %}
-**Exclude \[--posts or --like-area or --download-area]  by appending a hypthen(-)**
+**Exclude a option from \[--posts or --like-area or --download-area]  by appending a hypthen(-)**\
+\
+**Example --download-area all,-labels** \
+**excludes labels from all**
 {% endhint %}
 
 ### -o, --posts

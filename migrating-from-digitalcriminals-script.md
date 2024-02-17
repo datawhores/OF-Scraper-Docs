@@ -2,6 +2,8 @@
 
 ## Steps
 
+***
+
 ## Set Medatadata&#x20;
 
 {% hint style="info" %}
@@ -11,6 +13,10 @@
 {% content-ref url="config-options/setting-metadata-path.md" %}
 [setting-metadata-path.md](config-options/setting-metadata-path.md)
 {% endcontent-ref %}
+
+
+
+***
 
 ## Set save path
 

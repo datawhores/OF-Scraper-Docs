@@ -223,11 +223,7 @@ Default: None
 
 ***
 
-### -q,-quality
-
-{% hint style="info" %}
-**It is assumed that quality selection is only available for paid content**
-{% endhint %}
+### -q,--quality
 
 ```
 The --quality flag determines the minimum acceptable quality, 
@@ -244,3 +240,16 @@ Possible Choices: source,240,720
 Default: source
 ```
 
+### -it,--item-sort
+
+<pre><code><strong>Change the order of items/posts before executing action
+</strong><strong>Default sorting for action is used if None
+</strong><strong>
+</strong><strong>Default is by date always for likes/unlikes
+</strong>Default for normaldownloader is by date
+Default for batchdownloader is shuffled
+</code></pre>
+
+```
+Default: None
+```

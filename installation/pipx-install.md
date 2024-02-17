@@ -37,27 +37,31 @@
 
 {% tabs %}
 {% tab title="Windows Install" %}
-## **Install**
+##
 
-**Stable install**
+##
+
+### **Stable install**
 
 ```
 pipx install ofscraper
 ```
 
-#### development
+### Development
 
-```
-pipx install git+https://github.com/datawhores/OF-Scraper.git 
-```
-
-or
+#### Pre-release
 
 ```
 pipx install ofscraper --pip-args=--pre
 ```
 
-#### Specific version of script
+#### Development
+
+```
+pipx install git+https://github.com/datawhores/OF-Scraper.git 
+```
+
+### Specific version of script
 
 ```
 pipx install ofscraper==version --force
@@ -65,7 +69,7 @@ pipx install ofscraper==version --force
 
 where x is the version you want to install
 
-#### Specific version of python
+### Specific version of python
 
 ```
 Append --python $(where {python version}
@@ -95,7 +99,9 @@ Append --python $(where {python version}
 {% endtab %}
 
 {% tab title="Linux/Mac Install" %}
-**Stable Install**
+## **Install**
+
+### **Stable Install**
 
 ```
 pipx install ofscraper
@@ -112,7 +118,7 @@ pipx install ofscraper
 pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
-#### Specific version of script
+### Specific version of script
 
 ```
 pipx install ofscraper==x --force
@@ -120,7 +126,7 @@ pipx install ofscraper==x --force
 
 where x is the version you want to install
 
-#### Specific version of python
+### Specific version of python
 
 ```
 Append --python $(which {python version})
@@ -130,7 +136,7 @@ Append --python $(which {python version})
 Example: pipx install ofscraper --python $(which python3.11)
 ```
 
-#### Upgrading
+## Upgrading
 
 Not uninstalling has caused problems for users before
 

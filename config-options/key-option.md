@@ -2,7 +2,7 @@
 description: Options required for protected downloads
 ---
 
-# Key options
+# CDM Options
 
 ## key-mode-default
 
@@ -20,15 +20,19 @@ The following command can overwrite this setting
 --key-mode 
 ```
 
-
+***
 
 ## private-key
 
 Utilized for manual cdm
 
+***
+
 ## client-id
 
 Utilized for manual cdm
+
+***
 
 ## keydb\_api
 

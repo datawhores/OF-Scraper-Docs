@@ -4,6 +4,8 @@ description: Guides for preparing your machine
 
 # Pre-Install Guides
 
+***
+
 ## Guides
 
 {% content-ref url="linux.md" %}
@@ -18,6 +20,10 @@ description: Guides for preparing your machine
 [mac.md](mac.md)
 {% endcontent-ref %}
 
+
+
+***
+
 ## Alternatively&#x20;
 
 You can also use this guide for other ways to install python
@@ -25,5 +31,3 @@ You can also use this guide for other ways to install python
 {% content-ref url="../managing-multiple-python-versions.md" %}
 [managing-multiple-python-versions.md](../managing-multiple-python-versions.md)
 {% endcontent-ref %}
-
-##

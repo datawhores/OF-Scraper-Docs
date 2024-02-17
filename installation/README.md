@@ -18,6 +18,10 @@ description: Getting OF-Scraper onto you system
 
 [![drawing](https://img.shields.io/badge/Pre--Release-v3.70.dev-dark\_green.svg)](https://pypi.org/project/ofscraper/3.7.0.dev0/)
 
+##
+
+***
+
 ## Before Starting
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
@@ -27,6 +31,8 @@ The guide assumes you have your terminal program open and have already installed
 {% endcontent-ref %}
 
 
+
+***
 
 ## Install via a package manager
 
@@ -76,7 +82,11 @@ The guide assumes you have your terminal program open and have already installed
 
 
 
-## Install Video Tutorial
+
+
+***
+
+## Basic Install/Tutorial
 
 {% hint style="info" %}
 **A quick high level tutorial of the install process**

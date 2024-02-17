@@ -12,6 +12,8 @@ for issues related to cdm usage
 
 Certain models delete content, which restricts OF-Scraper from accessing this specific content.
 
+***
+
 ## 2<mark style="color:blue;">.  Number of users doesn't match account number</mark>
 
 
@@ -34,19 +36,21 @@ The count here can be significantly impacted by expired subscriptions.
 
 For instance, an account may indicate it has 400 subscribers, but as OnlyFans iterates through each offset \[0, 10, 20, 30,...390], some offsets won't return 10 numbers, ultimately reducing the final count.
 
-
+***
 
 ## 3. <mark style="color:blue;">Missing Models</mark>
 
 Before creating an issue, ensure that you're using the latest version available.
 
-
+***
 
 ## 4. <mark style="color:blue;">Lots of tempvideo or tempaudio files</mark>
 
 Ensure your CDM (Content Decryption Module) is set up correctly
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/cdm-options" %}
+
+***
 
 ## 5. <mark style="color:blue;">Something is not working</mark>
 
@@ -63,6 +67,8 @@ ofscraper --log debug
 ```
 
 Send the logs to a Discord channel or create a GitHub issue
+
+***
 
 ## 6. <mark style="color:blue;">MP4Decrypt and FFMPEG</mark>
 
@@ -92,25 +98,31 @@ You can use the following software if windows does not provide an easy way to do
 
 </details>
 
-
+***
 
 ## 7. <mark style="color:blue;">ofscraper not found</mark>
 
 This generally means that you need to update your PATH
 
+***
+
 ## 8. <mark style="color:blue;">Can this download locked content</mark>
 
 Yes.....if it was unlocked before.
+
+***
 
 ## 9. <mark style="color:blue;">Status Down</mark>
 
 This usually indicates that your authentication information is incorrect, or you've been signed out from OnlyFans
 
+***
+
 ## 10. <mark style="color:blue;">404 Response</mark>
 
 This could imply that the content you're attempting to scrape is no longer available. It might also signal that the model has deleted her account, making it inaccessible on the platform.
 
-
+***
 
 ## 11. <mark style="color:blue;">Request taking a long time</mark>
 
@@ -121,12 +133,14 @@ If a request fails, OF-Scraper will pause and make several retry attempts. Frequ
 **However you can change the const value to adjust these values to your need**
 {% endhint %}
 
+***
+
 ## 12. <mark style="color:blue;">429 Response</mark>
 
 * This error may stem from excessive requests, particularly when auto-liking/unliking.&#x20;
 * The maximum appears to be 1000 per day.
 
-
+***
 
 ## 13. <mark style="color:blue;">409 Response</mark>
 
@@ -136,6 +150,8 @@ You might observe cases where content is unavailable on the OnlyFans site, often
 VPN users might experience this based on the VPN server they're connected to. Consequently, this also affects the API and OF-Scraper's ability to scrape content.
 
 The most effective solution would be to switch VPN servers or allow some time for the situation to reset.
+
+***
 
 ## 14. <mark style="color:blue;">Scrape entire paid page or --scape-paid should I do it</mark>
 
@@ -161,7 +177,7 @@ I'd also recommend using it during your initial scan.
 
 If you're conducting frequent scans, such as one per day, it's alright to turn it off for most scans
 
-
+***
 
 ## 15. <mark style="color:blue;">FFmpeg  shared library not found Error</mark>
 
@@ -184,9 +200,9 @@ Obtain the GPL non-shared release version.
 * [https://superuser.com/questions/1712179/which-version-of-ffmpeg-is-the-latest](https://superuser.com/questions/1712179/which-version-of-ffmpeg-is-the-latest)
 * using the version in your Linux Repo may not work
 
+***
 
-
-## 15. <mark style="color:blue;">CDM Issues</mark>
+## 16. <mark style="color:blue;">CDM Issues</mark>
 
 {% content-ref url="cdm-options/cdm-issues.md" %}
 [cdm-issues.md](cdm-options/cdm-issues.md)

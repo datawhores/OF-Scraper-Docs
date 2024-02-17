@@ -1,4 +1,4 @@
-# Download Toggl
+# Download Toggles
 
 ## auto\_resume
 
@@ -9,6 +9,8 @@
 If you set this to false, the script will  delete .part files, and will not be able to auto resume
 
 
+
+***
 
 ## system\_free\_min
 

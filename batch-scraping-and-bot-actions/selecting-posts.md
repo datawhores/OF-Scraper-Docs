@@ -32,6 +32,10 @@ Duplicates will be removed
 
 You can add remove a post type by prepending the type with a hyphen (-). This will override any other preferences non hyphen preference including all
 
+
+
+***
+
 ### Bypass dupe check
 
 By default, content is stored in a database to prevent duplicate downloads. If you wish to download all available content for a specific model, include the '--dupe' argument.
@@ -39,6 +43,10 @@ By default, content is stored in a database to prevent duplicate downloads. If y
 ```
 ofscraper --action download --dupe
 ```
+
+
+
+***
 
 ### Filter Post by Date
 
@@ -79,6 +87,10 @@ You can enhance granularity by including a comma. When utilizing debuggers, the 
 1 year ago, 1 month ago
 ```
 
+
+
+***
+
 ### Filtering Timed Post (Promotional)
 
 skip all timed post
@@ -107,6 +119,10 @@ This will exclude any posts that match the provided regex pattern.
 ```
 ofscraper --action download --negfilter X
 ```
+
+
+
+***
 
 ### Search entire paid page
 

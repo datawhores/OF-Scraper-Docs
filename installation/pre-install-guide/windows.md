@@ -4,6 +4,8 @@ description: Guide on how to prepare a Windows machine
 
 # Windows
 
+***
+
 ## Other Guides
 
 {% embed url="https://bunkrr.su/v/scraper-l3eS0Abl.mkv" %}

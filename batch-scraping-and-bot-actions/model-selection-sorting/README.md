@@ -1,5 +1,9 @@
 # Model Filtering/Sorting
 
+
+
+***
+
 ## Filter/Sort List By Price
 
 
@@ -7,6 +11,10 @@
 {% content-ref url="price-filtering-sort.md" %}
 [price-filtering-sort.md](price-filtering-sort.md)
 {% endcontent-ref %}
+
+
+
+***
 
 ## Selecting Specific models from command-line
 
@@ -25,6 +33,10 @@ You can provide a comma-separated list indicating the models you wish to scrape
 'ALL' is influenced by filters, and it  is case-sensitive.
 
 
+
+
+
+***
 
 ## Filtering username list
 
@@ -70,6 +82,10 @@ You can utilize this option to exclusively scrape active accounts, considering t
 ofscraper  --renewal disabled --username ALL
 ```
 
+
+
+***
+
 ### Combining filters
 
 Filters are commonly employed to scrape accounts that are scheduled for expiration.
@@ -102,13 +118,19 @@ ofscraper  --regular-price paid
 [price-filtering-sort.md](price-filtering-sort.md)
 {% endcontent-ref %}
 
+
+
+***
+
 ### Advanced filtering
 
 {% content-ref url="../../command-reference/account-filter-args.md" %}
 [account-filter-args.md](../../command-reference/account-filter-args.md)
 {% endcontent-ref %}
 
-##
+
+
+***
 
 ## Sorting username list
 
@@ -160,6 +182,10 @@ Utilizing this changes the sorting to descending order.
 ofscraper --sort price --desc
 
 ```
+
+
+
+***
 
 ## Retrieving specific list
 

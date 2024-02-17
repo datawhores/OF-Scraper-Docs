@@ -4,6 +4,10 @@ description: Options for automation
 
 # Batch Scraping and Bot Actions
 
+
+
+***
+
 ## Basic Run
 
 This enables you to choose arguments using the prompt menus.
@@ -24,7 +28,9 @@ ofscraper
 [liking-unliking-post.md](liking-unliking-post.md)
 {% endcontent-ref %}
 
-##
+
+
+***
 
 ## Performing action(s)
 
@@ -68,6 +74,10 @@ or&#x20;
  ofscraper --posts all --like-area pinned --action like,download
 ```
 
+
+
+***
+
 ## Bypass all prompts
 
 {% hint style="info" %}
@@ -87,6 +97,10 @@ To bypass prompts
 ```
 
 
+
+
+
+***
 
 ## Running command in the background
 
@@ -108,6 +122,10 @@ The script will operate at least every 10 minutes. If a run extends beyond 10 mi
 
 
 
+
+
+***
+
 ## Modifications to Filename
 
 ### Toggle letter count for textlength
@@ -127,6 +145,8 @@ ofscraper --original
 ```
 
 
+
+***
 
 ### Output Options
 

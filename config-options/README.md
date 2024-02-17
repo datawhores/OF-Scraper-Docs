@@ -82,10 +82,6 @@
 
 **Customize the final file path for downloads**
 
-{% content-ref url="file-output-options/customizing-save-path.md" %}
-[customizing-save-path.md](file-output-options/customizing-save-path.md)
-{% endcontent-ref %}
-
 {% content-ref url="file-output-options/" %}
 [file-output-options](file-output-options/)
 {% endcontent-ref %}

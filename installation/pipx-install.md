@@ -101,16 +101,16 @@ Append --python $(where {python version}
 pipx install ofscraper
 ```
 
+#### pre-release
+
+<pre><code><strong>pipx install ofscraper --pip-args=--pre
+</strong></code></pre>
+
 #### Development version
 
 ```
 pipx install git+https://github.com/datawhores/OF-Scraper.git 
 ```
-
-#### or
-
-<pre><code><strong>pipx install ofscraper --pip-args=--pre
-</strong></code></pre>
 
 #### Specific version of script
 

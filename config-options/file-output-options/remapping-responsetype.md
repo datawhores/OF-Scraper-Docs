@@ -1,8 +1,12 @@
-# Remapping responsetype
+# Responsetype Placeholders
 
-This feature enables you to group downloads using the 'responsetype' placeholder. It allows combining various download types into a single folder or segregating downloads into separate folders based on their 'responsetype.'
+This feature enables you to group downloads using the 'responsetype' placeholder.
 
-For example, you can merge 'stories' and 'highlights' into one folder or categorize 'purchased' items and 'messages' into a folder named 'Premium.' Another option is to organize 'timeline posts' into a separate folder labeled 'posts.'
+It allows combining various response types into a single folder or segregating downloads into separate folders based on their 'responsetype.'
+
+For example, you can merge 'stories' and 'highlights' into one folder or categorize 'purchased' items and 'messages' into a folder named 'Premium.'
+
+&#x20;Another option is to organize 'timeline posts' into a separate folder labeled 'posts.'
 
 The initial value indicates the mapped response type, which should remain unchanged. The second value determines the remapped 'responsetype.'
 

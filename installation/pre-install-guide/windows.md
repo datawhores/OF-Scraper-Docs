@@ -24,6 +24,10 @@ Start by opening your terminal program
 
 {% embed url="https://i.ibb.co/809sCyT/03j4-Skzpd-Viq-NKl1b-WPp-Ql-X-2.webp" %}
 
+
+
+***
+
 ### Step 2
 
 Verify if Python is installed on your system
@@ -45,6 +49,8 @@ You should get an output between 3.10.12 to the latest version of 3.12. If not, 
 **Everything Okay**
 
 Move to step 4
+
+***
 
 ### Step 3 \[Optional Maybe]
 
@@ -72,7 +78,7 @@ If 'py -3' doesn't work, you'll need to install Python
 
 Return to step 2 and retry the process
 
-
+***
 
 ### step 4
 
@@ -89,7 +95,11 @@ pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
 
 ```
 
-### &#x20;step 5
+&#x20;
+
+***
+
+### step 5
 
 From now on, all actions related to OF-Scraper will take place in the terminal program. Enter any commands you see within the terminal
 

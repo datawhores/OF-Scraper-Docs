@@ -1,5 +1,7 @@
 # Getting Started
 
+***
+
 ## Running Script
 
 The easiest way to run the script is
@@ -31,7 +33,7 @@ This will present a menu, that will allow many actions to be performed without a
 [using-prompts](using-prompts/)
 {% endcontent-ref %}
 
-**For More Automations/Advanced Use**
+**For More Automation/Advanced Use**
 
 {% content-ref url="batch-scraping-and-bot-actions/" %}
 [batch-scraping-and-bot-actions](batch-scraping-and-bot-actions/)

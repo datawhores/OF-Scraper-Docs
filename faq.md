@@ -1,13 +1,5 @@
 # FAQ/Common Issues
 
-## See
-
-{% content-ref url="cdm-options/cdm-issues.md" %}
-[cdm-issues.md](cdm-options/cdm-issues.md)
-{% endcontent-ref %}
-
-for issues related to cdm usage
-
 ## 1. <mark style="color:blue;">Missing Post</mark>
 
 Certain models delete content, which restricts OF-Scraper from accessing this specific content.

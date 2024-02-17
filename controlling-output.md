@@ -4,6 +4,8 @@ description: various options for output
 
 # Controlling Output/Logs
 
+***
+
 ## Output Streams
 
 ### Discord
@@ -22,6 +24,10 @@ The output goes to the Discord channel
 * DEBUG
 * TRACE
 
+
+
+***
+
 ### Output
 
 output to the console
@@ -34,6 +40,8 @@ output to the console
 * DEBUG
 * TRACE
 
+***
+
 ### Log
 
 output to logfile within the config folder
@@ -44,7 +52,9 @@ output to logfile within the config folder
 * DEBUG
 * TRACE
 
-## Output LEVEL
+***
+
+## Output LEVELS DETAILS
 
 With the 1.9 release, you gain increased control over the output level.
 

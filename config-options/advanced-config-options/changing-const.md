@@ -1,5 +1,7 @@
 # Changing Const Value
 
+***
+
 {% hint style="info" %}
 **New in version 3.7**
 {% endhint %}

@@ -20,6 +20,10 @@
 **Tip: You can use the --python command to change the default python interpreter used for pipx**
 {% endhint %}
 
+
+
+***
+
 ## Getting PIPX
 
 {% hint style="info" %}
@@ -28,6 +32,8 @@
 {% endhint %}
 
 {% embed url="https://github.com/pypa/pipx" %}
+
+***
 
 ## Installing OF-Scraper
 
@@ -107,7 +113,7 @@ Append --python $(where {python version}
 pipx install ofscraper
 ```
 
-#### pre-release
+#### Pre-release
 
 <pre><code><strong>pipx install ofscraper --pip-args=--pre
 </strong></code></pre>

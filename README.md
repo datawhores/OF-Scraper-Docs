@@ -12,6 +12,10 @@ OF-Scraper is a command-line tool that lets you download media from OnlyFans and
 [installation](installation/)
 {% endcontent-ref %}
 
+
+
+***
+
 ## After Install
 
 {% content-ref url="getting-started.md" %}

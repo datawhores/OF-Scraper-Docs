@@ -113,6 +113,8 @@ Append --python $(where {python version}
 pipx install ofscraper
 ```
 
+### Development
+
 #### Pre-release
 
 <pre><code><strong>pipx install ofscraper --pip-args=--pre

@@ -1,5 +1,7 @@
 # PIP Install
 
+***
+
 ## Installing Python
 
 **Good resources if you want an easy way to install python or to manage multiple versio**n

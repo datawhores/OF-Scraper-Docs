@@ -1,6 +1,7 @@
 # Mac
 
 ### Step 1
+==========
 
 Start by opening your terminal program
 

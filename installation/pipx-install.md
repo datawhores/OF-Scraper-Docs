@@ -1,5 +1,7 @@
 # PIPX Install
 
+***
+
 ## Installing Python
 
 **Good resources if you want an easy way to install python or want to use manage multiple python version**
@@ -43,9 +45,7 @@
 
 {% tabs %}
 {% tab title="Windows Install" %}
-##
-
-##
+## Install
 
 ### **Stable install**
 

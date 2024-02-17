@@ -8,7 +8,7 @@ OF-Scraper applies a fuzzy search technique to simplify managing selected models
 
 However, the challenge lies in determining which models are being selected.
 
-
+***
 
 ## Selecting a model
 
@@ -30,6 +30,10 @@ For all Models
 Ctrl+A
 ```
 
+
+
+***
+
 ## Getting Model Detail
 
 only a limited amount of data can be shown be shown at a time \
@@ -43,6 +47,10 @@ To view all model detail&#x20;
 Alt+D
 ```
 
+
+
+***
+
 ## Sorting/Filtering List
 
 You'll be able to adjust the filters which controls the appearance of models on the list and how they're sorted
@@ -50,6 +58,10 @@ You'll be able to adjust the filters which controls the appearance of models on 
 ```
 Alt+X or Ctrl+B
 ```
+
+
+
+***
 
 ## Searching the list
 
@@ -77,11 +89,17 @@ In the second image, although my previously chosen options aren't visible, they'
 
 As shown by the number in parentheses, denoting the count of selected options (3).
 
+
+
+***
+
 ## Unselecting
 
 To remove a model, either change the filter to an empty string or input a filter that displays the specific model you wish to remove. Y
 
 You can use the previously mentioned keys to toggle between selecting and unselecting models.
+
+***
 
 ## More Controls
 

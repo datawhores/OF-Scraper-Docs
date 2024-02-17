@@ -16,7 +16,7 @@
 [pre-install-guide](pre-install-guide/)
 {% endcontent-ref %}
 
-
+***
 
 ## Installation
 
@@ -32,18 +32,22 @@
 py -3 -m pip install ofscraper
 ```
 
-**Development verison**
+### Development
+
+
+
+**Pre-release**
+
+<pre><code><strong>py -3 -m pip install ofscraper --pre
+</strong></code></pre>
+
+**Development version**
 
 ```
 py -3 -m pip install git+https://github.com/datawhores/OF-Scraper.git 
 ```
 
-or
-
-<pre><code><strong>py -3 -m pip install ofscraper --pre
-</strong></code></pre>
-
-**Specific version of script**
+### **Specific version of script**
 
 ```
 py -3 -m pip install ofscraper==x
@@ -76,25 +80,27 @@ py -3 -m pip install ofscraper==latest version number
 {% tab title="Linux/Mac Install" %}
 ## Install
 
-**Stable Install**
+### **Stable Install**
 
 ```
 python3 -m pip install ofscraper
 ```
 
-**Development version**
+### Development
 
-```
-python3 -m pip install git+https://github.com/datawhores/OF-Scraper.git 
-```
-
-or
+#### Pre-release
 
 ```
 python3 -m pip install ofscraper --pre
 ```
 
-**Specific version of script**
+#### **Development version**
+
+```
+python3 -m pip install git+https://github.com/datawhores/OF-Scraper.git 
+```
+
+### **Specific version of script**
 
 ```
 python3 -m pip install ofscraper==x

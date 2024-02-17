@@ -19,11 +19,19 @@
 | anypath | /home/ofscraper/.config/ofscraper | store config | True     |
 | anypath | anypath                           | data storage | False    |
 
+
+
+***
+
 ## Docker Run
 
 ```
 docker run  -it --rm --name=ofscraper -v anypath:/home/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main ofscraper {args}
 ```
+
+
+
+***
 
 ## Docker Compose
 
@@ -50,6 +58,8 @@ To run the scraper manually use: `docker exec ofscraper ofscraper {args}`
 
 
 
+***
+
 ## Images
 
 {% embed url="https://hub.docker.com/r/datawhores/of-scraper" %}
@@ -70,9 +80,13 @@ Images on ghcr.io
 ### Older Versions
 
 \
-The Docker file was updated to enhance host permissions support. If you're using an older version, you'll need to adjust your Docker run or compose file.
+The Docker file was updated to enhance host permissions support.&#x20;
 
-For versions equal to or older than this commit: [https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a](https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a)\\
+If you're using an older version, you'll need to adjust your Docker run or compose file.
+
+For versions equal to or older than this commit:
+
+{% embed url="https://github.com/datawhores/OF-Scraper/commit/b06e9caefe8f3e62fedb399af6719c919ef19d2a" %}
 
 ```
 docker run  -it --rm --name=ofscraper -v anypath:/root/ofscraper/.config/ ghcr.io/datawhores/of-scraper:main {args}

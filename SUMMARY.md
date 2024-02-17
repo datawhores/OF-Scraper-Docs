@@ -19,7 +19,7 @@
   * [Config Location](config-options/config-location.md)
   * [General Options](config-options/general-options.md)
   * [File Output Options](config-options/file-output-options/README.md)
-    * [Customizing save path](config-options/file-output-options/customizing-save-path.md)
+    * [Placeholders](config-options/file-output-options/customizing-save-path.md)
     * [Remapping responsetype](config-options/file-output-options/remapping-responsetype.md)
   * [Download Options](config-options/download-options.md)
     * [Download Toggles](config-options/download-options/download-toggles.md)

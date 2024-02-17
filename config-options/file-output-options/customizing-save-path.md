@@ -1,4 +1,4 @@
-# Customizing save path
+# Placeholders
 
 {% hint style="info" %}
 **If you want to move files use** \
@@ -99,7 +99,6 @@
 
 ```
 C:\Users\John.config\ofscraper\bin\ffmpeg.exe => 
-C:\\Users\\John.config\\ofscraper\\bin\\ffmpeg.exe
 ```
 
 ```

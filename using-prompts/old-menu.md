@@ -6,6 +6,10 @@ description: For the menu before 3.7
 
 Running the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
 
+
+
+***
+
 ## Getting to the main menu
 
 ![image](https://user-images.githubusercontent.com/67020411/230734717-e85b02ee-2e66-467a-abe0-2f479c1e6671.png)
@@ -17,6 +21,8 @@ ofscraper
 ```
 
 Basically, any command lacking a scraping option will trigger the menu display
+
+***
 
 ## Edit Profile
 
@@ -31,6 +37,10 @@ Use this option to
 
 Each profile corresponds to a single account. So, if you aim to have multiple accounts, you'll require multiple profiles
 
+
+
+***
+
 ## Edit config.json
 
 ![image](https://user-images.githubusercontent.com/67020411/230734909-5ad9c464-4984-4594-a0de-676344b84697.png)
@@ -38,6 +48,10 @@ Each profile corresponds to a single account. So, if you aim to have multiple ac
 To bypass the hassle of finding the config file's location, utilize this to modify settings directly from within the script.&#x20;
 
 Your prior choices will be available, allowing you the chance to edit them conveniently.
+
+
+
+***
 
 ## Edit auth.json
 

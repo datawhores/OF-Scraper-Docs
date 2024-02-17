@@ -161,7 +161,7 @@ Sets the script to run in a infinite loop even when \
 
 ***
 
-## disable\_after\_check
+## disable\_auto\_after
 
 {% hint style="info" %}
 **If set to true then every scan will be either the earliest post marked as not downloaded or latest posts**
@@ -195,7 +195,7 @@ Whether the script should mark the next scan as a full scan with --after usage
 **If blank then ofscraper.main is used as setting**
 {% endhint %}
 
-changes the default user list used during username scan
+The default user list used during username scan
 
 ***
 
@@ -205,4 +205,4 @@ changes the default user list used during username scan
 **If  blank then the black list option is disabled**
 {% endhint %}
 
-changes the black list used during username scan
+The default black list used during username scan

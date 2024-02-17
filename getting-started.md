@@ -8,7 +8,7 @@ The easiest way to run the script is
 ofscraper
 ```
 
-This will allow you to to many actions without needed to pass any args
+This will present a menu, that will allow many actions to be performed without any arguments
 
 ***
 

@@ -4,6 +4,8 @@ description: Setting up authorization
 
 # Auth
 
+***
+
 ## Example
 
 {% hint style="info" %}
@@ -25,6 +27,8 @@ An example of what an auth file should typically look like
 ```
 
 
+
+***
 
 ## Auto methods
 
@@ -53,6 +57,10 @@ You'll still need to manually locate and provide the x-bc header and the User-Ag
 For more details, check out the manual section below.
 
 You won't need to worry about extracting any cookie information with this choice
+
+
+
+***
 
 ## Manual methods
 

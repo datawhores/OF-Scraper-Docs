@@ -1,7 +1,5 @@
 # Migrating from Digitalcriminal's script
 
-## Steps
-
 ***
 
 ## Set Medatadata&#x20;

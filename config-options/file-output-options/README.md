@@ -14,27 +14,19 @@ description: Settings for File Names
 
 root save folder
 
-***
-
 ### dir\_format
 
 format for directory
 
-***
-
 ### file\_format
 
 format for files
-
-***
 
 ### textlength
 
 Sets a cap on the text placeholder to a certain number of words, with 0 indicating an unrestricted text length
 
 to restrict by letter count pass `--letter-count` argument
-
-***
 
 ### space-replacer
 
@@ -46,20 +38,14 @@ This character will replace all spaces within the filename.
 
 It should be employed in conjunction with the text placeholder
 
-***
-
 ### text\_type\_default
 
 Whether to count text based on words on letters
-
-***
 
 ### truncation\_default
 
 * If set to true text that is calculated to be over system limit will be shorted
 * Files whose paths are over the limit may still fail
-
-***
 
 ### date&#x20;
 

@@ -11,8 +11,6 @@ Use ALL (case-sensitive) to include all users.
 
 
 
-***
-
 ### -eu, --excluded-username
 
 ```
@@ -22,8 +20,6 @@ This takes precedence over the '--username' option.
 
 
 
-***
-
 ### -d, --daemon
 
 ```
@@ -32,8 +28,6 @@ Set the value for the time between runs
 ```
 
 
-
-***
 
 ### -g, --original
 
@@ -47,8 +41,6 @@ Default: False
 
 
 
-***
-
 ### -c, --letter-count
 
 ```
@@ -60,8 +52,6 @@ Default: False
 ```
 
 
-
-***
 
 ### -a, --action
 

@@ -18,6 +18,10 @@ Establish the log file level
 Default: OFF
 ```
 
+
+
+***
+
 ### -dc, --discord
 
 ```
@@ -31,6 +35,10 @@ Adjust the Discord log level
 ```
 Default: OFF
 ```
+
+
+
+***
 
 ### -p, --output
 

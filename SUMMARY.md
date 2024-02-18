@@ -43,7 +43,7 @@
     * [Price Filtering/Sort](batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
   * [Advanced Args](batch-scraping-and-bot-actions/advanced-args.md)
   * [Liking/Unliking Post](batch-scraping-and-bot-actions/liking-unliking-post.md)
-  * [Deleted Models](batch-scraping-and-bot-actions/deleted-models.md)
+  * [Purchases From Deleted Models](batch-scraping-and-bot-actions/deleted-models.md)
   * [Scripting tips](batch-scraping-and-bot-actions/scripting-tips.md)
 * [Command Reference](command-reference.md)
   * [Global Args](command-reference/global-args.md)

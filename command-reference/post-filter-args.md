@@ -4,6 +4,8 @@ description: What type of post to scrape
 
 # Post Args
 
+***
+
 ### -e, --dupe
 
 ```
@@ -23,6 +25,10 @@ Default: False
 **excludes labels from all**
 {% endhint %}
 
+
+
+***
+
 ### -o, --posts
 
 ```
@@ -38,6 +44,10 @@ Can be used for like, unlike, and download
 ```
 Default:None
 ```
+
+
+
+***
 
 ### -la, --like-area
 
@@ -56,6 +66,10 @@ Perform like/unlike action on certain content
 ```
 Default:None
 ```
+
+
+
+***
 
 ### -da, --download-area
 
@@ -90,6 +104,10 @@ commonly used for promotions
 ```
 Filter downloads to exclusively include downloads labeled as mass messages.
 ```
+
+
+
+***
 
 ### -mm, --mass-msg
 
@@ -130,6 +148,8 @@ Default: None
 
 ####
 
+***
+
 ### -to,--protected-only
 
 ```python
@@ -142,7 +162,9 @@ Restrict downloads to content that specifically requires decryption
 Restrict downloads to content that specifically does not require decryption
 ```
 
-####
+
+
+***
 
 ### -sp, --scrape-paid
 
@@ -154,6 +176,10 @@ Restrict downloads to content that specifically does not require decryption
 Default: False
 ```
 
+
+
+***
+
 ### -lb,--label
 
 ```
@@ -163,6 +189,8 @@ Scrape specific labelss
 ```
 Default: None
 ```
+
+***
 
 ### -be, --before
 
@@ -181,6 +209,8 @@ This functionality applies to actions like liking, unliking, and downloading pos
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
 
+***
+
 ### -mt,--mediatype
 
 
@@ -197,6 +227,10 @@ Override the mediatype filter specified in the configuration file
 ```
 Default: None
 ```
+
+
+
+***
 
 ### -sx,--size-max
 
@@ -242,6 +276,10 @@ Possible Choices: source,240,720
 ```
 Default: source
 ```
+
+
+
+***
 
 ### -it,--item-sort
 

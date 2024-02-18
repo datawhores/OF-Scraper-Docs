@@ -16,6 +16,10 @@ Alternatively
 ofscraper manual --url postid
 ```
 
+
+
+***
+
 ## Scraping content from purchase page
 
 **1. Click '...' and copy link to message**
@@ -26,10 +30,18 @@ ofscraper manual --url postid
 ofscraper manual --url copied_link
 ```
 
+
+
+***
+
 ## Advanced
 
 \
 To grasp this better, checking out the **`get_info`** function in **`manual.py`** is the ideal way as it accepts a wider range of URLs.
+
+
+
+***
 
 ## Scraping Individual Media
 

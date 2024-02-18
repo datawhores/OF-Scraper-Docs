@@ -4,8 +4,6 @@ description: Arguments for output controls
 
 # Logging
 
-***
-
 ### -l, --log
 
 ```
@@ -22,8 +20,6 @@ Default: OFF
 
 
 
-***
-
 ### -dc, --discord
 
 ```
@@ -39,8 +35,6 @@ Default: OFF
 ```
 
 
-
-***
 
 ### -p, --output
 

@@ -1,8 +1,12 @@
 # Account Sorting Args
 
 {% hint style="info" %}
-If account is set to renew then expired is the same as renewal date
+**If account is set to renew then expired is the same as renewal date**
 {% endhint %}
+
+
+
+***
 
 ### -st, --sort
 

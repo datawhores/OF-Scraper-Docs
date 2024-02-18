@@ -4,6 +4,8 @@ description: These page is based on the ofscraper -h output
 
 # Command Reference
 
+***
+
 ## Syntax
 
 ```
@@ -17,6 +19,8 @@ ofscraper  [global args][Logging] [main program args]
 {% content-ref url="command-reference/logging.md" %}
 [logging.md](command-reference/logging.md)
 {% endcontent-ref %}
+
+***
 
 ## Main Program Args
 
@@ -41,6 +45,8 @@ ofscraper  [global args][Logging] [main program args]
 {% endcontent-ref %}
 
 
+
+***
 
 ## Other Modes
 

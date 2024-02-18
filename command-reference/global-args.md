@@ -12,11 +12,19 @@ Display the program's version number and then exit
 Default: “2.4.5+main.8f998cd”
 ```
 
+
+
+***
+
 ### -cg, --config
 
 ```
 Modify the location of the configuration folder or file
 ```
+
+
+
+***
 
 ### -r, --profile
 

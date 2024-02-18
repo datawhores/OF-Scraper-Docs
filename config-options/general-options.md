@@ -1,5 +1,7 @@
 # General Options
 
+***
+
 ## main\_profile
 
 {% hint style="info" %}

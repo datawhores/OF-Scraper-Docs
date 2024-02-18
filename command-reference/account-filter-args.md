@@ -4,6 +4,8 @@ description: Apply filters to the accounts list
 
 # Account Filtering Args
 
+***
+
 ## pricing filters
 
 {% content-ref url="../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}

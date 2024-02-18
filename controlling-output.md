@@ -6,7 +6,7 @@ description: various options for output
 
 ***
 
-## Output Streams
+## Log Streams
 
 ### Discord
 
@@ -48,7 +48,7 @@ output to logfile within the config folder
 
 ***
 
-## Output LEVELS DETAILS
+## Log levels details
 
 With the 1.9 release, you gain increased control over the output level.
 

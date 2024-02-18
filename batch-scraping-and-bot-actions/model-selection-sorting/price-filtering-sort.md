@@ -35,8 +35,6 @@
 2. If no "claimable" promotions are available, use the regular subscription price.
 3. If none of the above methods provide a valid price, then 0 is used as a fallback
 
-##
-
 ***
 
 ## Regular Price

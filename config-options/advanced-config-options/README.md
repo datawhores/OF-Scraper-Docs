@@ -115,17 +115,9 @@ For most folks, SQLite works fine, but if you're on a network drive, its perform
 
 If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
 
-
-
-***
-
 ## sanitize\_text
 
 If set to true,  text content will be sanitized before to database insertion into database
-
-
-
-***
 
 ## downloadbars
 
@@ -145,8 +137,6 @@ Disabling these can improve performance
 
 This overrides the temporary directory used during download\
 
-
-***
 
 ## infinite\_loop\_action\_mode
 
@@ -186,7 +176,7 @@ Whether the script should mark the next scan as a full scan with --after usage
 {% endhint %}
 
 {% hint style="info" %}
-**ofscraperd.expired or expired are the default built in key words for expired list**
+**ofscraper.expired or expired are the default built in key words for expired list**
 {% endhint %}
 
 ## default\_user\_list
@@ -196,8 +186,6 @@ Whether the script should mark the next scan as a full scan with --after usage
 {% endhint %}
 
 The default user list used during username scan
-
-***
 
 ## default\_black\_list
 

@@ -26,13 +26,9 @@ The following command can overwrite this setting
 
 Utilized for manual cdm
 
-***
-
 ## client-id
 
 Utilized for manual cdm
-
-***
 
 ## keydb\_api
 

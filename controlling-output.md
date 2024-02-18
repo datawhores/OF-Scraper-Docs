@@ -24,10 +24,6 @@ The output goes to the Discord channel
 * DEBUG
 * TRACE
 
-
-
-***
-
 ### Output
 
 output to the console
@@ -39,8 +35,6 @@ output to the console
 * NORMAL
 * DEBUG
 * TRACE
-
-***
 
 ### Log
 

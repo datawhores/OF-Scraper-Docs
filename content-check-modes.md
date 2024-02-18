@@ -22,6 +22,10 @@ It utilizes caching to expedite processes.&#x20;
 
 The cache is established either during regular scraping or when running in content check mode, persisting for a day before the program updates with fresh data. Additionally, you can employ '--force' to fetch the most recent information.
 
+
+
+***
+
 ## Sorting the table
 
 Click the column labels on the top ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/14ca5b89-c9c1-44bc-936e-db4683f81823)
@@ -29,6 +33,10 @@ Click the column labels on the top ![image](https://github.com/datawhores/OF-Scr
 * First click will be desc
 * second click will be asc
 * Alternates after
+
+
+
+***
 
 ## Filtering the table
 
@@ -59,9 +67,13 @@ only cell matching videos will appear
 
 Furthermore, the forum will also refresh. This cycle continues until you press the reset button.
 
+###
+
 ### Reset the table
 
 Click on the reset button. Keep in mind, the program saves the current table information in memory, so it won't fetch new data until you restart it
+
+###
 
 ### Table Columns
 
@@ -123,9 +135,13 @@ Media ID = id for the media
 Text = Text that came with the post
 ```
 
+###
+
 ### Example filter by all content with the text dog
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/6f03fbe1-2ad9-4296-9b95-7a4cad874e36)
+
+###
 
 ### Additional info about text filter
 
@@ -145,7 +161,13 @@ This will prompt the search to specifically match text that is exactly "dog," ra
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/010b2d9a-a841-4b96-85c2-220a1fbecafc)
 
-## Args
+
+
+***
+
+## cmdline arguments
+
+###
 
 ### Post Check Mode
 
@@ -196,6 +218,8 @@ model
 11131313
 ```
 
+###
+
 ### Message Check Mode
 
 To avoid redundancy, the "check mode" is equivalent to "post\_check," differing only in the accepted types of posts.&#x20;
@@ -227,6 +251,8 @@ model
 ```
 11131313
 ```
+
+###
 
 ### Paid Check Mode
 
@@ -273,7 +299,9 @@ model
 11131313
 ```
 
-### story check mode
+###
+
+### Story Check Mode
 
 It collects stories and highlights using the provided username
 
@@ -297,6 +325,8 @@ It collects stories and highlights using the provided username
 #### File
 
 Should contain usernames line separated
+
+###
 
 ### Getting latest content
 

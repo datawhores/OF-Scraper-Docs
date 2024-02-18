@@ -51,7 +51,7 @@ a more automatic installer
 
 ***
 
-### step 4
+### Step 4
 
 To confirm that pip is installed, return to the terminal and type
 
@@ -70,6 +70,6 @@ pip 23.0.1 from /home/john/.local/lib/python3.10/site-packages/pip (python 3.10)
 
 ***
 
-### step 5
+### Step 5
 
 From now on, all actions related to OF-Scraper will take place in the terminal program. Enter any commands you see within the terminal.

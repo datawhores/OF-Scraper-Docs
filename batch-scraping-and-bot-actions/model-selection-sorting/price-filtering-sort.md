@@ -8,6 +8,8 @@
 **Fallbacks can be eliminated with proper filtering**
 {% endhint %}
 
+***
+
 ## Current Price
 
 {% hint style="info" %}
@@ -19,6 +21,10 @@
 3. If no "claimable" promotions are available, use the regular subscription price.
 4. If none of the above methods provide a valid price, then 0 is used as a fallback
 
+
+
+***
+
 ## _Renewal Price_
 
 {% hint style="info" %}
@@ -29,10 +35,18 @@
 2. If no "claimable" promotions are available, use the regular subscription price.
 3. If none of the above methods provide a valid price, then 0 is used as a fallback
 
+##
+
+***
+
 ## Regular Price
 
 1. Primary Source is the regular subscription price.
 2. If that is not available then, then 0 is used as a fallback
+
+
+
+***
 
 ## Promo Price
 

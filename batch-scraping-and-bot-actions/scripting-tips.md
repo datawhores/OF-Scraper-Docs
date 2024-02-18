@@ -1,5 +1,7 @@
 # Scripting tips
 
+***
+
 ## Windows
 
 ### creating shortcut

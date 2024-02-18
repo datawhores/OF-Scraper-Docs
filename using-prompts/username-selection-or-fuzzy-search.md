@@ -39,9 +39,7 @@ Ctrl+A
 only a limited amount of data can be shown be shown at a time \
 As the prompt menu does not work well when the data goes past a single
 
-***
-
-To view all model detail&#x20;
+To view all details for a model
 
 ```
 Alt+D

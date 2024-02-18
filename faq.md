@@ -204,3 +204,20 @@ Obtain the GPL non-shared release version.
 
 
 
+## 17. <mark style="color:blue;">Trouble login in</mark>
+
+{% content-ref url="auth.md" %}
+[auth.md](auth.md)
+{% endcontent-ref %}
+
+```
+check formatting of auth file
+```
+
+{% content-ref url="config-options/advanced-config-options/" %}
+[advanced-config-options](config-options/advanced-config-options/)
+{% endcontent-ref %}
+
+```
+change dynamic mode default
+```

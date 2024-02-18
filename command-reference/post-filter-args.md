@@ -4,8 +4,6 @@ description: What type of post to scrape
 
 # Post Args
 
-***
-
 ### -e, --dupe
 
 ```
@@ -27,8 +25,6 @@ Default: False
 
 
 
-***
-
 ### -o, --posts
 
 ```
@@ -46,8 +42,6 @@ Default:None
 ```
 
 
-
-***
 
 ### -la, --like-area
 
@@ -69,8 +63,6 @@ Default:None
 
 
 
-***
-
 ### -da, --download-area
 
 {% hint style="info" %}
@@ -90,8 +82,6 @@ Perform download action on certain content
 Default:None
 ```
 
-***
-
 ### -sk, --skip-timed
 
 ```
@@ -107,8 +97,6 @@ Filter downloads to exclusively include downloads labeled as mass messages.
 
 
 
-***
-
 ### -mm, --mass-msg
 
 <pre><code><strong>Exclude any downloads marked as mass messages
@@ -119,8 +107,6 @@ Filter downloads to exclusively include downloads labeled as mass messages.
 ```
 Download only temporary posts,, mostly used for promo
 ```
-
-***
 
 ### -ft, --filter
 
@@ -148,8 +134,6 @@ Default: None
 
 ####
 
-***
-
 ### -to,--protected-only
 
 ```python
@@ -164,8 +148,6 @@ Restrict downloads to content that specifically does not require decryption
 
 
 
-***
-
 ### -sp, --scrape-paid
 
 <pre><code><strong>Scrape the entire paid page for content. 
@@ -178,8 +160,6 @@ Default: False
 
 
 
-***
-
 ### -lb,--label
 
 ```
@@ -189,8 +169,6 @@ Scrape specific labelss
 ```
 Default: None
 ```
-
-***
 
 ### -be, --before
 
@@ -208,8 +186,6 @@ This functionality applies to actions like liking, unliking, and downloading pos
 ```
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
-
-***
 
 ### -mt,--mediatype
 
@@ -229,8 +205,6 @@ Default: None
 ```
 
 
-
-***
 
 ### -sx,--size-max
 
@@ -258,8 +232,6 @@ This filter accepts human-readable strings like "10GB".
 Default: None
 ```
 
-***
-
 ### -q,--quality
 
 ```
@@ -278,8 +250,6 @@ Default: source
 ```
 
 
-
-***
 
 ### -it,--item-sort
 

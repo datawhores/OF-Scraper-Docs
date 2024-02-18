@@ -99,7 +99,7 @@ Skipped temporary post
 commonly used for promotions
 ```
 
-#### -ms, --mass-skip
+### -ms, --mass-skip
 
 ```
 Filter downloads to exclusively include downloads labeled as mass messages.

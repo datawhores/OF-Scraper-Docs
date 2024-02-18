@@ -4,6 +4,10 @@ description: What type of post to scrape
 
 # Post Args
 
+
+
+***
+
 ### -e, --dupe
 
 ```

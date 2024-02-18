@@ -1,6 +1,6 @@
 # Global Args
 
-## Global Args
+***
 
 ### -v, --version
 

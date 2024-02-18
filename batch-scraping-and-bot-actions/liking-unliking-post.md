@@ -1,5 +1,7 @@
 # Liking/Unliking Post
 
+***
+
 ## Liking/Unliking content
 
 ```
@@ -10,11 +12,17 @@
  ofscraper --action unlike
 ```
 
-## Onlyfans rate limit
+
+
+***
+
+## Limits
+
+### Onlyfans rate limit
 
 estimated to be around 1000 per day
 
-## Limit in program
+### Limit in program
 
 Each like/unlike requests will have a delay&#x20;
 

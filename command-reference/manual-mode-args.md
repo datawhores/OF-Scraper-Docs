@@ -1,8 +1,10 @@
 # Manual Mode Args
 
-## Manual
-
 Retrieve content manually using either a URL or a post ID
+
+
+
+***
 
 ### -f, --file
 

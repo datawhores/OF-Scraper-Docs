@@ -4,6 +4,10 @@ description: Arguments for output controls
 
 # Logging
 
+
+
+***
+
 ### -l, --log
 
 ```

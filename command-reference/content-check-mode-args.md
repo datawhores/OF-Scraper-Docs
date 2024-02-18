@@ -4,6 +4,10 @@
 &#x20;**cached information is stored for 24 hours**
 {% endhint %}
 
+
+
+***
+
 ## post\_check
 
 Display a generated table of data showcasing model posts. Accept multiple URLs through command-line input or a file.
@@ -36,6 +40,10 @@ Force the API to retrieve updated information on posts
 Default: False
 ```
 
+
+
+***
+
 ## msg\_check
 
 Display a generated table displaying data regarding model messages. Accept multiple URLs through command-line input or a file
@@ -65,6 +73,10 @@ Force the API to retrieve updated information on messages
 ```
 Default: False
 ```
+
+
+
+***
 
 ## paid\_check
 
@@ -97,6 +109,10 @@ Force the API to retrieve updated information on paid content
 ```
 Default: False
 ```
+
+
+
+***
 
 ## story\_check
 

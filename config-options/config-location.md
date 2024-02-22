@@ -25,6 +25,10 @@ C:/Users/username/.config/ofscraper/config.json
 
 This can also be changed with the --config option
 
+{% content-ref url="../batch-scraping-and-bot-actions/advanced-args.md" %}
+[advanced-args.md](../batch-scraping-and-bot-actions/advanced-args.md)
+{% endcontent-ref %}
+
 ###
 
 \

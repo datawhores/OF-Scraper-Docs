@@ -93,7 +93,7 @@ As shown by the number in parentheses, denoting the count of selected options (3
 
 ## Unselecting
 
-To remove a model, either change the filter to an empty string or input a filter that displays the specific model you wish to remove. Y
+To remove a model, either change the filter to an empty string or input a filter that displays the specific model you wish to remove.&#x20;
 
 You can use the previously mentioned keys to toggle between selecting and unselecting models.
 

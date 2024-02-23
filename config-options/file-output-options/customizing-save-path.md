@@ -5,6 +5,27 @@
 **--metadata or --metadata-complete after updating the config**
 {% endhint %}
 
+<details>
+
+<summary><mark style="color:red;">Windows path warning</mark></summary>
+
+<mark style="color:red;">**`\ should be escaped or replaced with a \\ or /`**</mark>
+
+<mark style="color:red;">**`Not doing this could lead to an error`**</mark>
+
+<mark style="color:red;">**`Examples:`**</mark>
+
+```
+C:\Users\John.config\ofscraper\bin\ffmpeg.exe => 
+```
+
+```
+C:\Users\John.config\ofscraper\bin\ffmpeg.exe => 
+C:/Users/John.config/ofscraper/bin/ffmpeg.exe
+```
+
+</details>
+
 ## Example
 
 <details>
@@ -60,11 +81,7 @@
             "downloadbars": false,
             "cache-mode": "sqlite",
             "appendlog": false,
-            "custom_values": {"MAXFILE_SEMAPHORE":10,"SHOW_AVATAR":false,
-            "import":"exec('import ofscraper.filters.models.selector as selector23')",
-            "list":"exec('modelObjs=C)')",
-            "model_price":"'fallback' if len(modelObjs)==0 else 'Paid' if modelObjs[0].final_current_price>0 else 'Free'"
-        },
+            "custom_values":null
             "sanitize_text": false,
             "avatar": true,
             "temp_dir": null
@@ -84,27 +101,6 @@
 ```
 
 
-
-</details>
-
-<details>
-
-<summary><mark style="color:red;">Windows path warning</mark></summary>
-
-<mark style="color:red;">**`\ should be escaped or replaced with a \\ or /`**</mark>
-
-<mark style="color:red;">**`Not doing this could lead to an error`**</mark>
-
-<mark style="color:red;">**`Examples:`**</mark>
-
-```
-C:\Users\John.config\ofscraper\bin\ffmpeg.exe => 
-```
-
-```
-C:\Users\John.config\ofscraper\bin\ffmpeg.exe => 
-C:/Users/John.config/ofscraper/bin/ffmpeg.exe
-```
 
 </details>
 

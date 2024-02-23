@@ -58,7 +58,7 @@
             "sanitize_text": false,
             "avatar": true,
             "temp_dir": null,           
-<strong>            "disable_after_check": false,
+<strong>            "disable_auto_after": false,
 </strong>            "default_user_list": "main",
             "default_black_list": ""
         },

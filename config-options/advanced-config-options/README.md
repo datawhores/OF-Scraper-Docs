@@ -167,6 +167,21 @@ Whether the script should mark the next scan as a full scan with --after usage
 
 ***
 
+## remove\_hash\_match
+
+{% hint style="info" %}
+**Set value to None to disable calculating hash, False will calculate but not remove file**
+{% endhint %}
+
+{% hint style="info" %}
+**hashes are 128 bit and matched with file sizes to ensure uniqueness**
+{% endhint %}
+
+remove files with matching hashes leaving only one on file-system\
+
+
+***
+
 {% hint style="info" %}
 **ofscraper.main or main are the default built in key words for a list combining active and expired list**
 {% endhint %}

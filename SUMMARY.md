@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Recipes](README.md)
+* [Welcome](<README (1).md>)
 * [Requirements](requirements.md)
 * [Install](installation/README.md)
   * [Pre-Install Guides](installation/pre-install-guide/README.md)
@@ -31,7 +32,6 @@
   * [Performance Options](config-options/performance-options.md)
   * [Advanced config options](config-options/advanced-config-options/README.md)
     * [Changing Const Value](config-options/advanced-config-options/changing-const.md)
-* [Migrating from Digitalcriminal's script](migrating-from-digitalcriminals-script.md)
 * [Using Prompts](using-prompts/README.md)
   * [Old Menu](using-prompts/old-menu.md)
 * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
@@ -55,6 +55,7 @@
   * [Advanced Args](command-reference/advanced-args.md)
   * [Content Check Mode Args](command-reference/content-check-mode-args.md)
   * [Manual Mode Args](command-reference/manual-mode-args.md)
+  * [Migrating from Digitalcriminal's script](command-reference/migrating-from-digitalcriminals-script.md)
 * [Content Check Modes](content-check-modes.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Testing](testing.md)

@@ -177,7 +177,10 @@ Whether the script should mark the next scan as a full scan with --after usage
 **hashes are 128 bit and matched with file sizes to ensure uniqueness**
 {% endhint %}
 
-remove files with matching hashes leaving only one on file-system\
+
+
+If at least two files with identical hashes exist on the system, remove duplicate files identified by those hashes, keeping only one copy on the file system
+
 
 
 ***

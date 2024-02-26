@@ -17,9 +17,17 @@ Recommended run&#x20;
 ofscraper --metadata-update
 ```
 
-* add additional args if needed
+* add additional args if needed for example --after 2000
 
 2. Download normally
+
+## With dupe
+
+```
+ofscraper --dupe
+```
+
+* This will redownload all files from scan regardless of if the file exists on the system
 
 
 

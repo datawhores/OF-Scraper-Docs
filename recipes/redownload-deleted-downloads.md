@@ -1,10 +1,6 @@
 # Redownload Deleted Downloads
 
-## With metadata
-
-{% hint style="info" %}
-**Recommended**
-{% endhint %}
+## With metadata (recommended)
 
 {% hint style="info" %}
 **use the same (--posts or --download-area) and --usernames for both steps**
@@ -24,4 +20,6 @@ ofscraper --metadata-update
 * add additional args if needed
 
 2. Download normally
+
+
 

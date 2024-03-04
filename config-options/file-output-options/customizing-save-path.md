@@ -169,6 +169,8 @@ with the dot (.) syntax
 with the [] syntax
 {modelObj} = model data class via class folder, properties can be access 
 via the dot (.) syntax
+{configPath} = path to current config directory
+
 ```
 
 ### dir\_path
@@ -197,22 +199,11 @@ The file's name segment in the saved file
 
 ## metadata
 
-Controls where metadata is saved
+Controls where metadata is save
 
-You can use these placeholders
-
-```
-{sitename} = Onlyfans
-
-{first_letter} = first letter of model's username
-
-{model_username} = The model's username.
-
-{model_id}= unique id number for model
-{configpath}= parent dir of config.json
-{profile} = current profile 
-
-```
+{% content-ref url="../setting-metadata-path.md" %}
+[setting-metadata-path.md](../setting-metadata-path.md)
+{% endcontent-ref %}
 
 ***
 

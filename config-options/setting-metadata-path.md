@@ -26,7 +26,7 @@ Adjust the metadata section in the config.json file by inserting the appropriate
 {model_username} = The model's username.
 
 {model_id}= Unique identification number for model
-{configpath}= The directory containing the config.json file
+{config_path}= The directory containing the config.json file
 {profile} =The currently active profile
 {save_location} = This option retrieves the parsed path specified in the 'save_location' 
 option

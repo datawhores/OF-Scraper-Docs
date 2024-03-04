@@ -1,6 +1,6 @@
 # Placeholders
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **If you want to move files use** \
 **--metadata or --metadata-complete after updating the config**
 {% endhint %}

@@ -5,7 +5,7 @@
 ## Set Medatadata&#x20;
 
 {% hint style="info" %}
-**Your previous files are compatible so only the path needs to match**
+**Your previous metadata files are compatible so only the path needs to match**
 {% endhint %}
 
 {% content-ref url="config-options/setting-metadata-path.md" %}

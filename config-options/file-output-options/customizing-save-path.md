@@ -1,8 +1,8 @@
 # Placeholders
 
 {% hint style="warning" %}
-**If you want to move files use** \
-**--metadata or --metadata-complete after updating the config**
+**If you want to recheck files**\
+**--metadata-update after updating the config**
 {% endhint %}
 
 <details>

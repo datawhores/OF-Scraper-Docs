@@ -1,10 +1,10 @@
 # Price Filtering/Sort
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Fallbacks are to utilized to enable easy sorting of list**
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Fallbacks can be eliminated with proper filtering**
 {% endhint %}
 

@@ -117,6 +117,12 @@ Each file will be saved to&#x20;
 
 ## dir\_path and filename
 
+
+
+{% hint style="info" %}
+**You may use placeholders without any underscores (\_)**
+{% endhint %}
+
 {% hint style="info" %}
 **Placeholders are generally the same between options here**
 {% endhint %}
@@ -169,9 +175,7 @@ via the dot (.) syntax
 
 ### dir\_path
 
-Th
-
-e  relative directory path within the save location where files are stored
+The  relative directory path within the save location where files are stored
 
 {% hint style="info" %}
 **No unique placeholders**
@@ -184,7 +188,7 @@ e  relative directory path within the save location where files are stored
 The file's name segment in the saved file
 
 {% hint style="info" %}
-**When configuring filenames, ensure a unique element such as text, media ID, post ID, or filename to avoid naming conflict**
+**When configuring filenames, ensure a unique element such as text, media ID, post ID, or filename is added to avoid naming conflict**
 {% endhint %}
 
 ```

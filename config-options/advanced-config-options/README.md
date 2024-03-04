@@ -170,7 +170,7 @@ Whether the script should mark the next scan as a full scan with --after usage
 ## remove\_hash\_match
 
 {% hint style="info" %}
-**Set value to None to disable calculating hash, False will calculate but not remove file**
+**Set value to None to disable calculating hash, False will calculate but not remove files**
 {% endhint %}
 
 {% hint style="info" %}

@@ -115,16 +115,14 @@ Each file will be saved to&#x20;
 
 ***
 
+{% hint style="info" %}
+**Placeholders are generally the same between options here**
+{% endhint %}
+
 ## dir\_path and filename
-
-
 
 {% hint style="info" %}
 **You may use placeholders without any underscores (\_)**
-{% endhint %}
-
-{% hint style="info" %}
-**Placeholders are generally the same between options here**
 {% endhint %}
 
 ```

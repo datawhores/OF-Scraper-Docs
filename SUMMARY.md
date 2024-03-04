@@ -60,6 +60,6 @@
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Username selection or Fuzzy Search](using-prompts/username-selection-or-fuzzy-search.md)
 * [Testing](testing.md)
-* [Request Change to Doc](request-change-to-doc.md)
 * [CDM Setup](cdm-options/README.md)
   * [CDM issues](cdm-options/cdm-issues.md)
+* [Request Change to Doc](request-change-to-doc.md)

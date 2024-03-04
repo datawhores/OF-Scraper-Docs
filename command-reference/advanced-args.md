@@ -69,9 +69,9 @@ default: None
 
 ### -ar,--no-auto-resume
 
-{% hint style="info" %}
-This replaces \
-part-cleanup
+{% hint style="warning" %}
+**This replaces** \
+**part-cleanup**
 {% endhint %}
 
 ```
@@ -99,7 +99,7 @@ default: false
 
 ***
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **without --dupe media will be filter to only those that are set as not downloaded in the database**
 {% endhint %}
 

@@ -109,7 +109,7 @@ The placeholders described below will substitute the {} values
 Each file will be saved to&#x20;
 
 ```
-//home/James/Data/ofscraper/{model_username}/{responsetype}/
+/home/James/Data/ofscraper/{model_username}/{responsetype}/
 {mediatype}/{filename}.{ext}
 ```
 
@@ -123,12 +123,16 @@ Each file will be saved to&#x20;
 
 ```
 
-{responsetype}=Posts,Messages,Paid,etc
+{response_type}=Posts,Messages,Paid,etc
+{post_id}= ID of post
+{media_id} =ID of media
 
-{filename} = the filename, videos wills include the quality i.e source,720
-{only_filename}= the filename,videos will not include quality
+{file_name} = the filename, videos wills include the quality i.e source,720
+{only_file_name}= the filename,videos will not include quality
+{original_filename}= filename as sent by onlyfans, may or may not include source
 
-{mediatype}=Images,Audios,Videos
+{media_type}=Images,Audios,Videos
+{quality} = quality of the media, none videos will always be source
 
 {value}=The content's value: Whether it's categorized as Paid or Free.
 
@@ -136,11 +140,13 @@ Each file will be saved to&#x20;
 
 {first_letter}= first letter of model's username
 
-{sitename} = Onlyfans
+{site_name} = Onlyfans
 {text} = The text within the media. Truncation of file names has been tested to fit within OS limits, 
 still it's advisable to establish a text length limit.
+{date}= The date of the post, outputed in the config date format
 
 {model_username} = The model's username
+{username} = The model's username
 {profile} = The currently active profile
 {my_username}=The authorized account's username
 {my_id} = The identification number 
@@ -153,13 +159,19 @@ determined by the necessity for decryption
 {regular_price}=Free if regular price is 0 dollars else paid
 {promo_price}= Free if promo price is 0 dollars else paid
 {renewal_price}= Free if renewal price is 0 dollars else paid
-{args}= the passed arguments namespace, keys can be access with the dot (.) syntax
-{config}= the config arguments dictionary, keys can be access with the [] syntax
+{args}= the passed arguments namespace, keys can be access 
+with the dot (.) syntax
+{config}= the config arguments dictionary, keys can be access 
+with the [] syntax
+{modelObj} = model data class via class folder, properties can be access 
+via the dot (.) syntax
 ```
 
 ### dir\_path
 
-The  relative directory path within the save location where files are stored
+Th
+
+e  relative directory path within the save location where files are stored
 
 {% hint style="info" %}
 **No unique placeholders**

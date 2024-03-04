@@ -4,7 +4,7 @@ description: Simplest way to run OF-Scraper
 
 # Using Prompts
 
-unning the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
+Running the prompt menu allows you to to utilize the program while passing minimal arguments&#x20;
 
 
 

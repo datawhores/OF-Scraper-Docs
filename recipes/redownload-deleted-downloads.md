@@ -2,7 +2,7 @@
 
 ## With metadata (recommended)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **make sure to use the same exact settings for both steps to make sure the same posts are being effected**
 {% endhint %}
 

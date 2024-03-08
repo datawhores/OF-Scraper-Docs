@@ -22,7 +22,7 @@ Filter accounts based on the pricing
 Possible choices: paid, free
 ```
 
-### _--_ **rp, --renew-price**
+### _--_ **rp, --**renewal-price
 
 ```
 Possible choices: paid, free

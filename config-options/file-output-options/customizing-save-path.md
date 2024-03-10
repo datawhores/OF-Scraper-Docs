@@ -200,7 +200,11 @@ The file's name segment in the saved file
 
 ***
 
-## TextFile Placeholders
+## Text Placeholders
+
+{% hint style="info" %}
+**Text mediatype will most likely need a overwrite to work properly**
+{% endhint %}
 
 Text files are based on posts and have access to all the same placeholders as other media **except for**
 

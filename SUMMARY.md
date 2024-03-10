@@ -32,7 +32,7 @@
   * [Performance Options](config-options/performance-options.md)
   * [Advanced config options](config-options/advanced-config-options/README.md)
     * [Changing Const Value](config-options/advanced-config-options/changing-const.md)
-    * [Mediatype overwrites](config-options/advanced-config-options/mediatype-overwrites.md)
+    * [Mediatype overwrites](config-options/mediatype-overwrites.md)
 * [Using Prompts](using-prompts/README.md)
   * [Old Menu](using-prompts/old-menu.md)
 * [Auth](auth.md)

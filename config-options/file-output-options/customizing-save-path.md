@@ -208,20 +208,19 @@ The file's name segment in the saved file
 
 Text files are based on posts and have access to all the same placeholders as other media **except for**
 
-* any filename related placeholders
-* media\_id&#x20;
-* media\_type
-* quality
-* download type
-
-
+<pre><code><strong>- any filename related placeholders
+</strong>- media_id 
+- media_type
+- quality
+<strong>- download type
+</strong></code></pre>
 
 {% content-ref url="../../batch-scraping-and-bot-actions/downloading-text-files.md" %}
 [downloading-text-files.md](../../batch-scraping-and-bot-actions/downloading-text-files.md)
 {% endcontent-ref %}
 
-{% content-ref url="../advanced-config-options/mediatype-overwrites.md" %}
-[mediatype-overwrites.md](../advanced-config-options/mediatype-overwrites.md)
+{% content-ref url="../mediatype-overwrites.md" %}
+[mediatype-overwrites.md](../mediatype-overwrites.md)
 {% endcontent-ref %}
 
 ***

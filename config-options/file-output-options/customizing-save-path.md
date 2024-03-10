@@ -193,7 +193,28 @@ The file's name segment in the saved file
 
 ```
 {ext} = The file extension of the media
+
 ```
+
+
+
+***
+
+## TextFile Placeholders
+
+Text files are based on posts and have access to all the same placeholders as other media **except for**
+
+* any filename related placeholders
+* media\_id&#x20;
+* media\_type
+* quality
+* download type
+
+{% content-ref url="../../batch-scraping-and-bot-actions/downloading-text-files.md" %}
+[downloading-text-files.md](../../batch-scraping-and-bot-actions/downloading-text-files.md)
+{% endcontent-ref %}
+
+
 
 ***
 

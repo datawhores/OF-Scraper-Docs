@@ -45,6 +45,7 @@
   * [Liking/Unliking Post](batch-scraping-and-bot-actions/liking-unliking-post.md)
   * [Purchases From Deleted Models](batch-scraping-and-bot-actions/deleted-models.md)
   * [Scripting tips](batch-scraping-and-bot-actions/scripting-tips.md)
+  * [Downloading Text Files](batch-scraping-and-bot-actions/downloading-text-files.md)
 * [Recipes](recipes/README.md)
   * [Redownload Deleted Downloads](recipes/redownload-deleted-downloads.md)
 * [Command Reference](command-reference.md)

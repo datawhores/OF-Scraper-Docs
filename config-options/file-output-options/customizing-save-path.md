@@ -206,14 +206,19 @@ The file's name segment in the saved file
 **Text mediatype will most likely need a overwrite to work properly**
 {% endhint %}
 
-Text files are based on posts and have access to all the same placeholders as other media **except for**
+Text files are based on posts and have access to all the same placeholders as other media **except**&#x20;
 
-<pre><code><strong>- any filename related placeholders
-</strong>- media_id 
-- media_type
-- quality
+<pre><code>- media_id 
 <strong>- download type
 </strong></code></pre>
+
+Some placeholders will be changed
+
+<pre><code>- filename is replace with text
+<strong>- quality will always be Source
+</strong>- media_type will always be "Text"
+
+</code></pre>
 
 {% content-ref url="../../batch-scraping-and-bot-actions/downloading-text-files.md" %}
 [downloading-text-files.md](../../batch-scraping-and-bot-actions/downloading-text-files.md)

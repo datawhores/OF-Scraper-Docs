@@ -1,2 +1,0 @@
-# mediatype overwrites
-

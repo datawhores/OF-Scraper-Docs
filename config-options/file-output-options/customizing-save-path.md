@@ -220,8 +220,8 @@ Text files are based on posts and have access to all the same placeholders as ot
 [downloading-text-files.md](../../batch-scraping-and-bot-actions/downloading-text-files.md)
 {% endcontent-ref %}
 
-{% content-ref url="../mediatype-overwrites.md" %}
-[mediatype-overwrites.md](../mediatype-overwrites.md)
+{% content-ref url="../advanced-config-options/mediatype-overwrites.md" %}
+[mediatype-overwrites.md](../advanced-config-options/mediatype-overwrites.md)
 {% endcontent-ref %}
 
 ***

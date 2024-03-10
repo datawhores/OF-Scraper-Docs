@@ -210,11 +210,15 @@ Text files are based on posts and have access to all the same placeholders as ot
 * quality
 * download type
 
+
+
 {% content-ref url="../../batch-scraping-and-bot-actions/downloading-text-files.md" %}
 [downloading-text-files.md](../../batch-scraping-and-bot-actions/downloading-text-files.md)
 {% endcontent-ref %}
 
-
+{% content-ref url="../mediatype-overwrites.md" %}
+[mediatype-overwrites.md](../mediatype-overwrites.md)
+{% endcontent-ref %}
 
 ***
 

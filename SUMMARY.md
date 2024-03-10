@@ -30,7 +30,7 @@
   * [Binaries Options](config-options/binaries-options.md)
   * [CDM Options](config-options/key-option.md)
   * [Performance Options](config-options/performance-options.md)
-  * [mediatype overwrites](config-options/mediatype-overwrites.md)
+  * [Mediatype overwrites](config-options/mediatype-overwrites.md)
   * [Advanced config options](config-options/advanced-config-options/README.md)
     * [Changing Const Value](config-options/advanced-config-options/changing-const.md)
 * [Using Prompts](using-prompts/README.md)

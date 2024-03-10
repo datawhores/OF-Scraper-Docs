@@ -6,10 +6,10 @@
 
 1. **Download Text only**
 
-* **Set the mediatype to only text via the --mediatypes arg or config file**
-* **This will work in download and manual,content check mode as well, It will not work in like/unlike mode**
+* Set the mediatype to only text via the --mediatypes arg or config file
+* This will work in download and manual,content check mode as well, It will not work in like/unlike mode
 
 2. **Download Text with other media**
 
-* **Set the mediatype to include text via the --mediatypes arg or config file**
-* **Again This will work in download and manual,content check mode as well, It will not work in like/unlike mode**
+* Set the mediatype to include text via the --mediatypes arg or config file
+* Again This will work in download and manual,content check mode as well, It will not work in like/unlike mode

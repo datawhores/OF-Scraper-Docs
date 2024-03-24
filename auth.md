@@ -94,11 +94,11 @@ _**If you've already used DIGITALCRIMINAL's OnlyFans script, you can simply copy
 
 Go to your [notification area](https://onlyfans.com/my/notifications) on OnlyFans. Once you're there, open your browser's developer tools. If you don't know how to do that, consult the following chart:
 
-| Operating System |    Keys    |
-| :--------------: | :--------: |
-|       macOS      |   altcmdi  |
-|      Windows     | ctrlshifti |
-|       Linux      | ctrlshifti |
+| Operating System |      Keys     |
+| :--------------: | :-----------: |
+|       macOS      | cmd + opt + I |
+|      Windows     |  ctrl+shift+I |
+|       Linux      |  ctrl+shift+I |
 
 Once you have your browser's developer tools open, your screen should look like the following:
 

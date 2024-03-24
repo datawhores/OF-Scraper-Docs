@@ -24,9 +24,11 @@ The output goes to the Discord channel
 * DEBUG
 * TRACE
 
+***
+
 ### Output
 
-output to the console
+**output to the console**
 
 #### LEVELS
 
@@ -36,15 +38,21 @@ output to the console
 * DEBUG
 * TRACE
 
+***
+
 ### Log
 
-output to logfile within the config folder
+**output to logfile within the config folder**
 
 * OFF
 * LOW
 * NORMAL
 * DEBUG
 * TRACE
+
+Deprecated
+
+* STAT
 
 ***
 
@@ -72,8 +80,6 @@ Providing a scraping action and usernames should largely disable most,
 
 **LOW**
 
-Removed in 3.5
-
 ```
 
 It disables all progress bars and displays essential program status while running. 
@@ -81,6 +87,10 @@ It also includes avatars and applies to all output destinations.
 ```
 
 **STATS**
+
+{% hint style="info" %}
+**Removed in 3.5**
+{% endhint %}
 
 ```
 

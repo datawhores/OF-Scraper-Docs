@@ -23,13 +23,13 @@ ofscraper --metadata-update
 
 * If any files are missing now they will be redownloaded
 
-## With dupe
+## Force all downloads
 
 ```
-ofscraper --dupe
+ofscraper --force-all
 ```
 
-* This will redownload all files from scan regardless of if the file exists on the system
+this will force all downloads to be processed
 
 
 

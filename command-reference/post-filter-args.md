@@ -8,10 +8,10 @@ description: What type of post to scrape
 
 ***
 
-### -e, --dupe
+### -e, --force-all
 
 ```
-Override the duplicate check and re-download all files.
+Downloads all files regardless of whether the id is in the database
 ```
 
 ```
@@ -19,6 +19,16 @@ Default: False
 ```
 
 
+
+### -eq, --force-model-unique
+
+```
+Downloads all files only if the id is not present for the current model
+```
+
+```
+Default: False
+```
 
 {% hint style="info" %}
 **Exclude a option from \[--posts or --like-area or --download-area]  by appending a hypthen(-)**\

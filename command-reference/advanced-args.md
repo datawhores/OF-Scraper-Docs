@@ -100,7 +100,7 @@ default: false
 ***
 
 {% hint style="warning" %}
-**without --dupe media will be filter to only those that are set as not downloaded in the database**
+**without --force-all or --force-model-unique media will be filter to only those that are set as not downloaded in the database**
 {% endhint %}
 
 ### -md, --metadata

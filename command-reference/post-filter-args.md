@@ -10,6 +10,10 @@ description: What type of post to scrape
 
 ### -e, --force-all
 
+{% hint style="info" %}
+**In previous verisons this was called --dupe**
+{% endhint %}
+
 ```
 Downloads all files regardless of whether the id is in the database
 ```

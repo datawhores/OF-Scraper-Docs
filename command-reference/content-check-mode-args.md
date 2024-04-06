@@ -1,4 +1,8 @@
-# Content Check Mode Args
+---
+description: Options for content check subcommands
+---
+
+# Content Check Modes Options
 
 {% hint style="info" %}
 &#x20;**cached information is stored for 24 hours**

@@ -1,10 +1,8 @@
 ---
-description: Options for automation
+description: Automate liking & downloading OnlyFans posts
 ---
 
-# Batch Scraping and Bot Actions
-
-
+# Basic Automations
 
 ***
 

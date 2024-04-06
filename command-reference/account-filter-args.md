@@ -8,8 +8,8 @@ description: Apply filters to the accounts list
 
 ## pricing filters
 
-{% content-ref url="../request-change-to-doc/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
-[price-filtering-sort.md](../request-change-to-doc/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
+{% content-ref url="../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
+[price-filtering-sort.md](../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
 {% endcontent-ref %}
 
 ```

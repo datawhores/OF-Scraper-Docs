@@ -35,8 +35,8 @@ This will present a menu, that will allow many actions to be performed without a
 
 **For More Automation/Advanced Use**
 
-{% content-ref url="../request-change-to-doc/batch-scraping-and-bot-actions/" %}
-[batch-scraping-and-bot-actions](../request-change-to-doc/batch-scraping-and-bot-actions/)
+{% content-ref url="../using-the-scraper/batch-scraping-and-bot-actions/" %}
+[batch-scraping-and-bot-actions](../using-the-scraper/batch-scraping-and-bot-actions/)
 {% endcontent-ref %}
 
 {% content-ref url="../command-reference.md" %}

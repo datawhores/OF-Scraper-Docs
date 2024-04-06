@@ -220,8 +220,8 @@ Some placeholders will be changed
 
 </code></pre>
 
-{% content-ref url="../../../request-change-to-doc/batch-scraping-and-bot-actions/downloading-text-files.md" %}
-[downloading-text-files.md](../../../request-change-to-doc/batch-scraping-and-bot-actions/downloading-text-files.md)
+{% content-ref url="../../../using-the-scraper/batch-scraping-and-bot-actions/downloading-text-files.md" %}
+[downloading-text-files.md](../../../using-the-scraper/batch-scraping-and-bot-actions/downloading-text-files.md)
 {% endcontent-ref %}
 
 {% content-ref url="../advanced-config-options/mediatype-overwrites.md" %}

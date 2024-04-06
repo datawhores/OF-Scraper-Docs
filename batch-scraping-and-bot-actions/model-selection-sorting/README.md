@@ -1,7 +1,5 @@
 # Model Filtering/Sorting
 
-
-
 ***
 
 ## Filter/Sort List By Price
@@ -124,8 +122,8 @@ ofscraper  --regular-price paid
 
 ### Advanced filtering
 
-{% content-ref url="../../command-reference/account-filter-args.md" %}
-[account-filter-args.md](../../command-reference/account-filter-args.md)
+{% content-ref url="../../command-reference/account-filter-args/" %}
+[account-filter-args](../../command-reference/account-filter-args/)
 {% endcontent-ref %}
 
 

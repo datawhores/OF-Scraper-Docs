@@ -1,8 +1,10 @@
 ---
-description: What type of post to scrape
+description: >-
+  Define what posts to target (areas, filters) and actions to perform (like,
+  unlike, download). Filter by type, date, label, size, and media type
 ---
 
-# Post Args
+# Content Options
 
 
 

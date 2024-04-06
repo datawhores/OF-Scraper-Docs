@@ -51,7 +51,7 @@
   * [Redownload Deleted Downloads](recipes/redownload-deleted-downloads.md)
 * [Command Reference](command-reference.md)
   * [Program Options](command-reference/global-args.md)
-  * [Logging](command-reference/logging.md)
+  * [Logging Options](command-reference/logging.md)
   * [General Scraper Args](command-reference/general-scraper-args.md)
   * [Content Options](command-reference/post-filter-args.md)
   * [Account Filtering Args](command-reference/account-filter-args.md)

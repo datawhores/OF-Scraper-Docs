@@ -1,8 +1,8 @@
 ---
-description: Arguments for output controls
+description: Control the method of log output with verbosity levels
 ---
 
-# Logging
+# Logging Options
 
 
 

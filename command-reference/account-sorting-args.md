@@ -1,7 +1,7 @@
 ---
 description: >-
-  Define the order in which models are processed for actions like liking posts,
-  downloading content, or data gathering.
+  Define the order in which models are displayed and processed for actions like
+  liking posts, downloading content, or data gathering.
 ---
 
 # Model Sorting & Processing Options
@@ -17,7 +17,7 @@ description: >-
 ### -st, --sort
 
 ```
-Controls the order of the model selection list and the scraping order
+Controls the order of the model selection list and the processing order
 ```
 
 ```

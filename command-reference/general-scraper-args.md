@@ -2,7 +2,7 @@
 description: Control automated actions (like/unlike/download) and background execution
 ---
 
-# General Scraper Args
+# Automation Options
 
 ***
 
@@ -11,30 +11,6 @@ description: Control automated actions (like/unlike/download) and background exe
 ```
 Execute the script in the background
 Set the value for the time between runs
-```
-
-
-
-### -g, --original
-
-```
-Do not truncate lengthy paths
-```
-
-```
-Default: False
-```
-
-
-
-### -c, --letter-count
-
-```
-intrepret config ‘textlength’ as max length by letter
-```
-
-```
-Default: False
 ```
 
 

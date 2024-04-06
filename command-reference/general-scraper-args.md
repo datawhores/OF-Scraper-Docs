@@ -1,24 +1,10 @@
+---
+description: Control automated actions (like/unlike/download) and background execution
+---
+
 # General Scraper Args
 
 ***
-
-### -u, --username
-
-```
-Choose the usernames to process, separated by commas (e.g., name, name2). 
-Use ALL (case-sensitive) to include all users.
-```
-
-
-
-### -eu, --excluded-username
-
-```
-Specify the usernames to exclude (e.g., name, name2). 
-This takes precedence over the '--username' option.
-```
-
-
 
 ### -d, --daemon
 

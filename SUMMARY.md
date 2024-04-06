@@ -49,6 +49,7 @@
   * [Enable label scan](batch-scraping-and-bot-actions/enable-label-scan.md)
 * [Recipes](recipes/README.md)
   * [Redownload Deleted Downloads](recipes/redownload-deleted-downloads.md)
+* [Username Options](username-options.md)
 * [Command Reference](command-reference.md)
   * [Program Options](command-reference/global-args.md)
   * [Logging Options](command-reference/logging.md)

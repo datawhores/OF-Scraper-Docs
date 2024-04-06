@@ -6,16 +6,6 @@ description: Advanced control of program behavior
 
 ***
 
-### -uf, --users-first
-
-```
-Prioritize downloading posts by scraping all users at once instead of one at a time
-```
-
-```
-Default: False
-```
-
 ### -nc, --no-cache
 
 ```

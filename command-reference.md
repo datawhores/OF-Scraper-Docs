@@ -12,12 +12,12 @@ description: These page is based on the ofscraper -h output
 ofscraper  [global args][Logging] [main program args]
 ```
 
-{% content-ref url="command-reference/global-args.md" %}
-[global-args.md](command-reference/global-args.md)
+{% content-ref url="command-reference/global-options/global-args.md" %}
+[global-args.md](command-reference/global-options/global-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/logging.md" %}
-[logging.md](command-reference/logging.md)
+{% content-ref url="command-reference/global-options/logging.md" %}
+[logging.md](command-reference/global-options/logging.md)
 {% endcontent-ref %}
 
 ***

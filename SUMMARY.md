@@ -53,7 +53,7 @@
   * [Program Options](command-reference/global-args.md)
   * [Logging Options](command-reference/logging.md)
   * [Automation Options](command-reference/general-scraper-args.md)
-  * [User Selection Option](command-reference/user-selection-option.md)
+  * [User Selection Options](command-reference/user-selection-options.md)
   * [Content Options](command-reference/post-filter-args.md)
   * [Account Filtering Args](command-reference/account-filter-args.md)
   * [Account Sorting Args](command-reference/account-sorting-args.md)

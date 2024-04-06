@@ -1,4 +1,8 @@
-# Global Args
+---
+description: Control the application's behavior with these settings
+---
+
+# Program Options
 
 ***
 

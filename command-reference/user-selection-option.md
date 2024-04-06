@@ -2,7 +2,7 @@
 description: Specify users for scraping  with usernames, userlists, or blacklists
 ---
 
-# User Selection Option
+# User Selection Options
 
 ### -u, --username
 

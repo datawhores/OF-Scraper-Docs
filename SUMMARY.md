@@ -57,7 +57,7 @@
   * [User Selection Options](command-reference/user-selection-option.md)
   * [User List Filter Options](command-reference/account-filter-args.md)
     * [Advanced User Filters](command-reference/account-filter-args/advanced-user-filters.md)
-  * [Model Sorting Options](command-reference/account-sorting-args.md)
+  * [Model Sorting & Processing Options](command-reference/account-sorting-args.md)
   * [Advanced Program Args](command-reference/advanced-args.md)
   * [Content Check Mode Args](command-reference/content-check-mode-args.md)
   * [Manual Mode Args](command-reference/manual-mode-args.md)

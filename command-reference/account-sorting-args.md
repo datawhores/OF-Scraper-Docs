@@ -1,4 +1,10 @@
-# Model Sorting Options
+---
+description: >-
+  Define the order in which models are processed for actions like liking posts,
+  downloading content, or data gathering.
+---
+
+# Model Sorting & Processing Options
 
 {% hint style="info" %}
 **If model is set to renew then expired is the same as renewal date**

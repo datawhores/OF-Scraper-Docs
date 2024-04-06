@@ -76,8 +76,8 @@ The mentioned programs below are necessary for downloading content, and they are
 **If manually downloading simply provide OF-Scraper with the full path to the program in the configuration file**
 {% endhint %}
 
-{% content-ref url="config-options/binaries-options.md" %}
-[binaries-options.md](config-options/binaries-options.md)
+{% content-ref url="getting-started/config-options/binaries-options.md" %}
+[binaries-options.md](getting-started/config-options/binaries-options.md)
 {% endcontent-ref %}
 
 <details>
@@ -206,16 +206,16 @@ Obtain the GPL non-shared release version.
 
 ## 17. <mark style="color:blue;">Trouble login in</mark>
 
-{% content-ref url="auth.md" %}
-[auth.md](auth.md)
+{% content-ref url="getting-started/auth.md" %}
+[auth.md](getting-started/auth.md)
 {% endcontent-ref %}
 
 ```
 check formatting of auth file
 ```
 
-{% content-ref url="config-options/advanced-config-options/" %}
-[advanced-config-options](config-options/advanced-config-options/)
+{% content-ref url="getting-started/config-options/advanced-config-options/" %}
+[advanced-config-options](getting-started/config-options/advanced-config-options/)
 {% endcontent-ref %}
 
 ```

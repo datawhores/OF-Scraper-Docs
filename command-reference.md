@@ -40,8 +40,8 @@ ofscraper  [global args][Logging] [main program args]
 [account-sorting-args.md](command-reference/account-sorting-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="batch-scraping-and-bot-actions/advanced-args.md" %}
-[advanced-args.md](batch-scraping-and-bot-actions/advanced-args.md)
+{% content-ref url="request-change-to-doc/batch-scraping-and-bot-actions/advanced-args.md" %}
+[advanced-args.md](request-change-to-doc/batch-scraping-and-bot-actions/advanced-args.md)
 {% endcontent-ref %}
 
 

@@ -12,7 +12,7 @@ Running the prompt menu allows you to to utilize the program while passing minim
 
 ## Getting to the main menu
 
-<figure><img src="../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The simplest method is to execute this command
 
@@ -30,7 +30,7 @@ Basically, any command lacking the --action command will automatically go to thi
 **Go to main menu options**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -43,13 +43,13 @@ Basically, any command lacking the --action command will automatically go to thi
 use this menu to perform scraping actions or combination\
 
 
-<figure><img src="../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
 ## Profile Menu
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Use this option to
 
@@ -66,11 +66,11 @@ Each profile corresponds to a single account. So, if you aim to have multiple ac
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 To bypass the hassle of finding the config file's location, utilize this to modify settings directly from within the script.&#x20;
 
@@ -86,7 +86,7 @@ Your prior choices will be available, allowing you the chance to edit them conve
 &#x20;**if the authentication fails, the authentication menu will pop up, prompting you to enter new settings**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="560"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="560"><figcaption></figcaption></figure>
 
 Typically this is not a setting that needs to be access manually
 

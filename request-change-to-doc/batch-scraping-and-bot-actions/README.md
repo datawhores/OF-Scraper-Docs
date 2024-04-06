@@ -2,7 +2,7 @@
 description: Automate liking & downloading OnlyFans posts
 ---
 
-# Basic Automations
+# Basic Automation with command-line
 
 ***
 
@@ -148,6 +148,6 @@ ofscraper --original
 
 ### Output Options
 
-{% content-ref url="../controlling-output.md" %}
-[controlling-output.md](../controlling-output.md)
+{% content-ref url="../../getting-started/controlling-output.md" %}
+[controlling-output.md](../../getting-started/controlling-output.md)
 {% endcontent-ref %}

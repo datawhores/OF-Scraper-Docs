@@ -12,8 +12,8 @@
 **If manually downloading binaries please mount the linux based binaries**
 {% endhint %}
 
-{% content-ref url="../config-options/binaries-options.md" %}
-[binaries-options.md](../config-options/binaries-options.md)
+{% content-ref url="../getting-started/config-options/binaries-options.md" %}
+[binaries-options.md](../getting-started/config-options/binaries-options.md)
 {% endcontent-ref %}
 
 | host    | docker                            | use          | required |

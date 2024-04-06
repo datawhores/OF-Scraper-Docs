@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started and Settings
 
 ***
 
@@ -29,16 +29,16 @@ This will present a menu, that will allow many actions to be performed without a
 
 **For information about the prompt/menu system**
 
-{% content-ref url="using-prompts/" %}
-[using-prompts](using-prompts/)
+{% content-ref url="../using-the-scraper/using-prompts/" %}
+[using-prompts](../using-the-scraper/using-prompts/)
 {% endcontent-ref %}
 
 **For More Automation/Advanced Use**
 
-{% content-ref url="batch-scraping-and-bot-actions/" %}
-[batch-scraping-and-bot-actions](batch-scraping-and-bot-actions/)
+{% content-ref url="../request-change-to-doc/batch-scraping-and-bot-actions/" %}
+[batch-scraping-and-bot-actions](../request-change-to-doc/batch-scraping-and-bot-actions/)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference.md" %}
-[command-reference.md](command-reference.md)
+{% content-ref url="../command-reference.md" %}
+[command-reference.md](../command-reference.md)
 {% endcontent-ref %}

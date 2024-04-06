@@ -8,8 +8,8 @@
 **Your previous metadata files are compatible so only the path needs to match**
 {% endhint %}
 
-{% content-ref url="config-options/setting-metadata-path.md" %}
-[setting-metadata-path.md](config-options/setting-metadata-path.md)
+{% content-ref url="getting-started/config-options/setting-metadata-path.md" %}
+[setting-metadata-path.md](getting-started/config-options/setting-metadata-path.md)
 {% endcontent-ref %}
 
 
@@ -23,8 +23,8 @@
 **Including the defaults**
 {% endhint %}
 
-{% content-ref url="config-options/file-output-options/" %}
-[file-output-options](config-options/file-output-options/)
+{% content-ref url="getting-started/config-options/file-output-options/" %}
+[file-output-options](getting-started/config-options/file-output-options/)
 {% endcontent-ref %}
 
 ##

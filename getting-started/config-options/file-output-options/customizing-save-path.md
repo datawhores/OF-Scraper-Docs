@@ -220,12 +220,12 @@ Some placeholders will be changed
 
 </code></pre>
 
-{% content-ref url="../../batch-scraping-and-bot-actions/downloading-text-files.md" %}
-[downloading-text-files.md](../../batch-scraping-and-bot-actions/downloading-text-files.md)
+{% content-ref url="../../../request-change-to-doc/batch-scraping-and-bot-actions/downloading-text-files.md" %}
+[downloading-text-files.md](../../../request-change-to-doc/batch-scraping-and-bot-actions/downloading-text-files.md)
 {% endcontent-ref %}
 
-{% content-ref url="../mediatype-overwrites.md" %}
-[mediatype-overwrites.md](../mediatype-overwrites.md)
+{% content-ref url="../advanced-config-options/mediatype-overwrites.md" %}
+[mediatype-overwrites.md](../advanced-config-options/mediatype-overwrites.md)
 {% endcontent-ref %}
 
 ***

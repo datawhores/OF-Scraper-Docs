@@ -1,6 +1,8 @@
-# Advanced Args
+---
+description: Advanced control of program behavior
+---
 
-
+# Advanced Program Options
 
 ***
 
@@ -160,19 +162,6 @@ Marks every download based on presence on file system
 
 
 ***
-
-### **-fi, --force-individual**
-
-```
-When --username arg is provided searches each username as a seperate request
-```
-
-### **-fl, --force-list**
-
-```
-When --username arg is provided searches entire list based on the currently enabled 
-config settings for userlist or --user-list arg
-```
 
 ### **-up, --update-profile**
 

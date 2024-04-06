@@ -60,7 +60,7 @@
   * [User List Filter Options](command-reference/account-filter-args.md)
     * [Advanced User Filters](command-reference/account-filter-args/advanced-user-filters.md)
   * [Model Sorting & Processing Options](command-reference/account-sorting-args.md)
-  * [Advanced Program Args](command-reference/advanced-args.md)
+  * [Advanced Program Options](command-reference/advanced-args.md)
   * [Content Check Modes Options](command-reference/content-check-mode-args.md)
   * [Manual Mode Args](command-reference/manual-mode-args.md)
   * [Migrating from Digitalcriminal's script](migrating-from-digitalcriminals-script.md)

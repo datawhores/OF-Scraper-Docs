@@ -37,7 +37,7 @@
   * [Old Menu](using-prompts/old-menu.md)
 * [Auth](auth.md)
 * [Controlling Output/Logs](controlling-output.md)
-* [Batch Scraping and Bot Actions](batch-scraping-and-bot-actions/README.md)
+* [Automate Actions](batch-scraping-and-bot-actions/README.md)
   * [Selecting Posts](batch-scraping-and-bot-actions/selecting-posts.md)
   * [Model Filtering/Sorting](batch-scraping-and-bot-actions/model-selection-sorting/README.md)
     * [Price Filtering/Sort](batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)

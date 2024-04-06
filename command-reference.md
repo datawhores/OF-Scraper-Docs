@@ -50,12 +50,12 @@ ofscraper  [global args][Logging] [main program args]
 
 ## Other Modes
 
-{% content-ref url="command-reference/content-check-mode-args.md" %}
-[content-check-mode-args.md](command-reference/content-check-mode-args.md)
+{% content-ref url="command-reference/commands-for-other-modes/content-check-mode-args.md" %}
+[content-check-mode-args.md](command-reference/commands-for-other-modes/content-check-mode-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/manual-mode-args.md" %}
-[manual-mode-args.md](command-reference/manual-mode-args.md)
+{% content-ref url="command-reference/commands-for-other-modes/manual-mode-args.md" %}
+[manual-mode-args.md](command-reference/commands-for-other-modes/manual-mode-args.md)
 {% endcontent-ref %}
 
 ###

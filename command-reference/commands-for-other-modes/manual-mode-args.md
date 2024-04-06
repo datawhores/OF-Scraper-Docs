@@ -1,10 +1,8 @@
-# Manual Mode Args
+---
+description: Manually download media by providing a list of urls or ID
+---
 
-Retrieve content manually using either a URL or a post ID
-
-
-
-***
+# Manual Mode Options
 
 ### -f, --file
 

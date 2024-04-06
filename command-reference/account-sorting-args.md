@@ -1,7 +1,7 @@
-# Account Sorting Args
+# Model Sorting Options
 
 {% hint style="info" %}
-**If account is set to renew then expired is the same as renewal date**
+**If model is set to renew then expired is the same as renewal date**
 {% endhint %}
 
 

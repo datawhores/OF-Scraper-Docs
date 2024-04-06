@@ -8,8 +8,8 @@ description: Apply filters to the accounts list
 
 ## pricing filters
 
-{% content-ref url="../../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
-[price-filtering-sort.md](../../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
+{% content-ref url="../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
+[price-filtering-sort.md](../batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
 {% endcontent-ref %}
 
 ```
@@ -127,9 +127,3 @@ Filter accounts to those with the renew flag on
 ```
 Filter accounts to those with the renew flag off
 ```
-
-
-
-***
-
-***

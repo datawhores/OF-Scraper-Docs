@@ -122,8 +122,8 @@ ofscraper  --regular-price paid
 
 ### Advanced filtering
 
-{% content-ref url="../../command-reference/account-filter-args/" %}
-[account-filter-args](../../command-reference/account-filter-args/)
+{% content-ref url="../../command-reference/account-filter-args.md" %}
+[account-filter-args.md](../../command-reference/account-filter-args.md)
 {% endcontent-ref %}
 
 

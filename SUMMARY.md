@@ -50,7 +50,7 @@
 * [Recipes](recipes/README.md)
   * [Redownload Deleted Downloads](recipes/redownload-deleted-downloads.md)
 * [Command Reference](command-reference.md)
-  * [Global Args](command-reference/global-args.md)
+  * [Program Options](command-reference/global-args.md)
   * [Logging](command-reference/logging.md)
   * [General Scraper Args](command-reference/general-scraper-args.md)
   * [Post Args](command-reference/post-filter-args.md)

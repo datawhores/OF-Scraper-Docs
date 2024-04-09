@@ -50,6 +50,10 @@ ofscraper --action download --force-all
 
 ### Filter Post by Date
 
+{% hint style="info" %}
+**x should be a valid date**
+{% endhint %}
+
 #### Before
 
 Filters  posts on or before the specified date. It functions for downloading, liking, and unliking posts.

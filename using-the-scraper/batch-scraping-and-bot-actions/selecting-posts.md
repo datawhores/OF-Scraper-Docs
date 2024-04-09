@@ -55,7 +55,7 @@ ofscraper --action download --force-all
 Filters  posts on or before the specified date. It functions for downloading, liking, and unliking posts.
 
 ```
-ofscraper --action download --before date X
+ofscraper --action download --before X
 ```
 
 #### After
@@ -63,10 +63,14 @@ ofscraper --action download --before date X
 Filter  posts on or after the specified date. It functions for downloading, liking, and unliking posts.
 
 ```
-ofscraper --action download --after date X
+ofscraper --action download --after X
 ```
 
 **Valid Inputs**
+
+{% hint style="info" %}
+**Read arrow documentation/repo for all valid inputs**
+{% endhint %}
 
 `YYYY-MM-DD, YYYY-M-DD, YYYY-M-D, YYYY/MM/DD, YYYY/M/DD, YYYY/M/D, YYYY.MM.DD, YYYY.M.DD, YYYY.M.D, YYYYMMDD, YYYY-DDDD, YYYYDDDD, YYYY-MM, YYYY/MM, YYYY.MM, YYYY`
 

@@ -11,13 +11,29 @@ Photos
 
 The following can be changed
 
-```
-- system_free_min
-- auto_resume
-- file_size_min
-- file_size_limit
-- temp_dir
+<pre><code>- system-free-min
+- auto-resume
+- file-size-min
+- file-size-limit
+- temp-dir
 - responsetype
-- remove_hash_match
-```
+- remove-hash-match
+- dirformat
+- fileformat
+- textlength
+<strong>- date
+</strong>- space-replacer
+- text-type-default
+- truncation-default
+- hash
+</code></pre>
 
+## Example
+
+```
+{"overwrites":
+{"photos":{fileformat:"file format specific to photos"}
+{"audios":"",
+{"text":""
+}
+```

@@ -10,7 +10,7 @@ description: Advanced control of program behavior
 
 ```
 Disables read/writing to cache
-Additional disableds reading post data from api(s), during scan
+Additionally disableds reading post data from api(s), during scan
 ```
 
 ```

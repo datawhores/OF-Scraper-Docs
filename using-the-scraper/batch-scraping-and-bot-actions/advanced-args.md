@@ -87,9 +87,7 @@ profile location=/home/test/.config/ofscraper/test_profile
 
 ### no cache
 
-bypass all cache usage&#x20;
-
-useful for testing
+Disables all caching mechanisms and removes retrieval of past data. As a result, synchronous processing is enforced for APIs to ensure each request is completed before the next one begins, since processing multiple API requests concurrently relies on past data.
 
 ```
 ofscraper --no-cache

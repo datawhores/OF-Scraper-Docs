@@ -9,7 +9,8 @@ description: Advanced control of program behavior
 ### -nc, --no-cache
 
 ```
-meant for disabling cache when scraping posts
+Disables read/writing to cache
+Additional disableds reading post data from api(s), during scan
 ```
 
 ```

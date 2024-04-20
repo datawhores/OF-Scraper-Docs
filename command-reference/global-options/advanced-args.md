@@ -160,3 +160,13 @@ Marks every download based on presence on file system
 gets up to date profile info, rather then using cache
 Note: Profile cache is saved  for about a day
 ```
+
+### **-ds, --download-script**
+
+```
+runs a script post model download via subprocess
+addional args sent include username, model_id, media json ,and post json
+
+Note: jsons are based on the original api responses
+additional data will be added for ease of use
+```

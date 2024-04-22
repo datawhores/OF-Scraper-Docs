@@ -9,7 +9,18 @@
 ## Where are they
 
 * Const values are in the ofscraper/const folder&#x20;
-* We try to organize them by usage
+* We try to organize them by usage\
+  \
+
+
+## What can be changed
+
+* timeouts for requests
+* number of tries for requests
+* proxy support
+* flags for certain process
+* urls used by the program
+* and much more
 
 
 

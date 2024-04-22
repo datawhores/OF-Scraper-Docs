@@ -50,6 +50,7 @@
     * [Downloading Text Files](using-the-scraper/batch-scraping-and-bot-actions/downloading-text-files.md)
     * [Enable label scan](using-the-scraper/batch-scraping-and-bot-actions/enable-label-scan.md)
   * [Recipes](using-the-scraper/recipes/README.md)
+    * [Adding Proxy](using-the-scraper/recipes/adding-proxy.md)
     * [Redownload Deleted Downloads](using-the-scraper/recipes/redownload-deleted-downloads.md)
 * [FAQ/Common Issues](faq.md)
 * [Command Reference](command-reference.md)

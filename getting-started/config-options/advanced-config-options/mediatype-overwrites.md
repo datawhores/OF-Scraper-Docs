@@ -3,28 +3,28 @@
 Overwrites allow you to overwrite certain settings based on the 4 mediatypes
 
 ```
-Text
-Videos
-Audios
-Photos 
+text
+videos
+audios
+images
 ```
 
 The following can be changed
 
-<pre><code>- system-free-min
+<pre><code>- system_free_min
 - auto-resume
-- file-size-min
-- file-size-limit
-- temp-dir
+- file_size_min
+- file_size_limit
+- temp_dir
 - responsetype
-- remove-hash-match
-- dirformat
-- fileformat
+- remove_hash_match
+- dir_format
+- file_format
 - textlength
 <strong>- date
-</strong>- space-replacer
-- text-type-default
-- truncation-default
+</strong>- space_replacer
+- text_type_default
+- truncation_default
 - hash
 </code></pre>
 

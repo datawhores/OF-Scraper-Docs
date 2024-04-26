@@ -85,10 +85,26 @@ profile location=/home/test/.config/ofscraper/test_profile
 
 ***
 
-### no cache
+### --no-cache
 
-Disables all caching mechanisms and removes retrieval of past data. As a result, synchronous processing is enforced for APIs to ensure each request is completed before the next one begins, since processing multiple API requests concurrently relies on past data.
+Disables all caching mechanisms and removes retrieval of past data for all data
+
+As a result, synchronous processing is enforced for APIs to ensure each request is completed before the next one begins, since processing multiple API requests concurrently relies on past data\
+\
+This will also disable the use of cache to speed up decryption key retrieval \
+
 
 ```
 ofscraper --no-cache
+```
+
+### -no-api-cache
+
+Similar to --no-cache, but only disables  caching mechanisms and removes retrieval of past data for API use only
+
+\
+As a result, synchronous processing is enforced for APIs to ensure each request is completed before the next one begins, since processing multiple API requests concurrently relies on past data.
+
+```
+ofscraper --no-api-cache
 ```

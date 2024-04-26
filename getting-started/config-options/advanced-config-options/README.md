@@ -90,10 +90,11 @@ You can change most const  values with the custom dict as well
 **You can use** \
 **--no-cache**&#x20;
 
+**or** \
+**--no-cache-api**
+
 \
 **If your having major issues with cache**
-
-**Just make sure to set --after manually**
 {% endhint %}
 
 {% hint style="info" %}

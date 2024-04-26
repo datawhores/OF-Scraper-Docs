@@ -10,7 +10,17 @@ description: Advanced control of program behavior
 
 ```
 Disables read/writing to cache
-Along with, disabling reading post data from api(s), during scan
+Along with, forcing consquentive api scans
+```
+
+```
+Default: False
+```
+
+### -nca, --no-api-cache
+
+```
+Forces a consquentive api scans
 ```
 
 ```

@@ -134,14 +134,6 @@ By default, 'textlength' corresponds to the maximum number of words you desire. 
 ofscraper --letter-count
 ```
 
-### Skip truncation
-
-To utilize the original file names, include the '--original' flag.
-
-```
-ofscraper --original
-```
-
 
 
 ***

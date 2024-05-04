@@ -65,6 +65,7 @@
     * [Advanced User Filters](command-reference/account-filter-args/advanced-user-filters.md)
   * [Model Sorting & Processing Options](command-reference/account-sorting-args.md)
   * [Media filters Options](command-reference/media-filters-options.md)
+  * [Filename Modification Options](command-reference/filename-modification-options.md)
   * [Advanced Search & Processing Options](command-reference/advanced-search-and-processing-options.md)
   * [Commands for other  Modes](command-reference/commands-for-other-modes/README.md)
     * [Manual Mode Options](command-reference/commands-for-other-modes/manual-mode-args.md)

@@ -56,14 +56,14 @@ Filter accounts to ones where last seen is visible
 Filter accounts to ones where last seen is hidden
 ```
 
-**-po, --promo-only**
+### **-po, --promo-only**
 
 ```
 Filter accounts to ones with any 
 claimable promo price
 ```
 
-**-ps, --promo-skip**
+### **-ps, --promo-skip**
 
 ```
 Filter accounts to ones without

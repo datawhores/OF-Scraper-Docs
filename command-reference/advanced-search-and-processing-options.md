@@ -4,7 +4,7 @@ description: >-
   processed for actions
 ---
 
-# Advanced Search & Processing
+# Advanced Search & Processing Options
 
 ### -uf, --users-first
 
@@ -25,6 +25,8 @@ When --username arg is provided searches each username as a seperate request
 ### **-fl, --force-list**
 
 ```
-When --username arg is provided searches entire list based on the currently enabled 
+When --username arg is provided search entire list 
+based on the currently enabled 
 config settings for userlist or --user-list arg
+and seperate matches names
 ```

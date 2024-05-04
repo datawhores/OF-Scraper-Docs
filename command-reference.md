@@ -56,11 +56,17 @@ ofscraper  [global args][Logging] [main program args]
 [account-sorting-args.md](command-reference/account-sorting-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md" %}
-[advanced-args.md](using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md)
+{% content-ref url="getting-started/config-options/download-options/media-filtering-options.md" %}
+[media-filtering-options.md](getting-started/config-options/download-options/media-filtering-options.md)
 {% endcontent-ref %}
 
-***
+{% content-ref url="command-reference/filename-modification-options.md" %}
+[filename-modification-options.md](command-reference/filename-modification-options.md)
+{% endcontent-ref %}
+
+{% content-ref url="command-reference/advanced-search-and-processing-options.md" %}
+[advanced-search-and-processing-options.md](command-reference/advanced-search-and-processing-options.md)
+{% endcontent-ref %}
 
 ## Other Modes
 
@@ -71,7 +77,3 @@ ofscraper  [global args][Logging] [main program args]
 {% content-ref url="command-reference/commands-for-other-modes/manual-mode-args.md" %}
 [manual-mode-args.md](command-reference/commands-for-other-modes/manual-mode-args.md)
 {% endcontent-ref %}
-
-###
-
-##

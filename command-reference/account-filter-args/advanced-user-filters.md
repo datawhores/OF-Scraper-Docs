@@ -6,6 +6,8 @@ description: >-
 
 # Advanced User Filters
 
+## Advanced Pricing Filters
+
 ### -ppm, --promo-price-max
 
 ```
@@ -34,10 +36,10 @@ Filter accounts to those where the regular price matches
 or falls above the provided value
 ```
 
-### -gpm, --regular-price-max
+### -cpm, --current-price-max
 
 ```
-Filter accounts to those where the regular price matches 
+Filter accounts to those where the curren price matches 
 or falls below the provided value
 ```
 
@@ -48,10 +50,10 @@ Filter accounts to those where the current price matches
 or falls above the provided value
 ```
 
-### -cpm, --current-price-max
+### -rpm, --renewal-price-max
 
 ```
-Filter accounts to those where the curren price matches 
+Filter accounts to those where the renewal price matches 
 or falls below the provided value
 ```
 
@@ -62,12 +64,11 @@ Filter accounts to those where the renewal price matches
 or falls above the provided value
 ```
 
-### -rpm, --renewal-price-max
 
-```
-Filter accounts to those where the renewal price matches 
-or falls below the provided value
-```
+
+***
+
+## Advanced Account Attributes
 
 ### -lsa,--last-seen-after
 

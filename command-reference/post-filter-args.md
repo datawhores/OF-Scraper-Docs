@@ -43,7 +43,7 @@ Default: False
 **excludes labels from all**
 {% endhint %}
 
-
+***
 
 ### -o, --posts
 
@@ -102,6 +102,10 @@ Perform download action on certain content
 Default:None
 ```
 
+
+
+***
+
 ### -sk, --skip-timed
 
 ```
@@ -128,6 +132,10 @@ Filter downloads to exclusively include downloads labeled as mass messages.
 Download only temporary posts,, mostly used for promo
 ```
 
+
+
+***
+
 ### -ft, --filter
 
 ```
@@ -152,7 +160,9 @@ Posts passing the filter test will be excluded.
 Default: None
 ```
 
-####
+
+
+***
 
 ### -to,--protected-only
 
@@ -166,7 +176,7 @@ Restrict downloads to content that specifically requires decryption
 Restrict downloads to content that specifically does not require decryption
 ```
 
-
+***
 
 ### -sp, --scrape-paid
 
@@ -183,12 +193,16 @@ Default: False
 ### -lb,--label
 
 ```
-Scrape specific labelss
+Scrape specific labels
 ```
 
 ```
 Default: None
 ```
+
+
+
+***
 
 ### -be, --before
 
@@ -202,27 +216,11 @@ This functionality works for actions like liking, unliking, and downloading post
 
 ```
 Process posts on or after a specified date in the format Month/Day/Year. 
-This functionality applies to actions like liking, unliking, and downloading posts.
+This functionality applies to actions like liking, unliking, 
+and downloading posts.
 ```
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/batch-scraping-and-bot-actions/selecting-posts#filter-post-by-date" fullWidth="false" %}
-
-### -mt,--mediatype
-
-
-
-```
-Possible choices: Videos,Audio,Images
-```
-
-```
-
-Override the mediatype filter specified in the configuration file
-```
-
-```
-Default: None
-```
+{% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#after" %}
 
 
 
@@ -235,6 +233,15 @@ Default: None
 </strong>Default for normaldownloader is by date
 Default for batchdownloader is shuffled
 </code></pre>
+
+```
+Default: None
+```
+
+### -xc ,--max-count
+
+<pre><code><strong>Max number of posts to like or download
+</strong></code></pre>
 
 ```
 Default: None

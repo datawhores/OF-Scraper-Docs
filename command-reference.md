@@ -44,6 +44,10 @@ ofscraper  [global args][Logging] [main program args]
 [post-filter-args.md](command-reference/post-filter-args.md)
 {% endcontent-ref %}
 
+{% content-ref url="command-reference/user-selection-option.md" %}
+[user-selection-option.md](command-reference/user-selection-option.md)
+{% endcontent-ref %}
+
 {% content-ref url="command-reference/account-filter-args.md" %}
 [account-filter-args.md](command-reference/account-filter-args.md)
 {% endcontent-ref %}
@@ -55,8 +59,6 @@ ofscraper  [global args][Logging] [main program args]
 {% content-ref url="using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md" %}
 [advanced-args.md](using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md)
 {% endcontent-ref %}
-
-
 
 ***
 

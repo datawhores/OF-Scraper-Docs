@@ -6,6 +6,13 @@ description: >-
 
 # Advanced User Filters
 
+### -ppm, --promo-price-max
+
+```
+Filter accounts to those where the lowest promo price matches 
+or falls below the provided value
+```
+
 ### -ppn, --promo-price-min
 
 ```
@@ -13,10 +20,10 @@ Filter accounts to those where the lowest promo price matches
 or falls above the provided value
 ```
 
-### -gpm, --promo-price-max
+### -gpm, --regular-price-max
 
 ```
-Filter accounts to those where the lowest promo price matches 
+Filter accounts to those where the regular price matches 
 or falls below the provided value
 ```
 

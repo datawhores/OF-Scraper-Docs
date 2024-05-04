@@ -10,7 +10,7 @@ description: Advanced control of program behavior
 
 ```
 Disables read/writing to cache
-Along with, forcing consquentive api scans
+Along with, forcing consecutive api scans
 ```
 
 ```
@@ -20,7 +20,7 @@ Default: False
 ### -nca, --no-api-cache
 
 ```
-Forces a consquentive api scans
+Forces a consecutive api scans
 ```
 
 ```

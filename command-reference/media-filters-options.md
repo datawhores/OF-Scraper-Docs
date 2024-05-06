@@ -2,7 +2,7 @@
 description: Options for controlling which media is downloaded
 ---
 
-# Media filters Options
+# Media Filters Options
 
 ### -sx,--size-max
 
@@ -10,7 +10,7 @@ description: Options for controlling which media is downloaded
 
 ```
 Filter files larger than the specified size. 
-This filter accepts human-readable strings like "10GB".
+This filter accepts human-readable strings like "10GB"
 
 ```
 
@@ -22,13 +22,45 @@ Default: None
 
 ```
 Filter files smaller than the specified size. 
-This filter accepts human-readable strings like "10GB".
+This filter accepts human-readable strings like "10GB"
 
 ```
 
 ```
 Default: None
 ```
+
+
+
+***
+
+### -lx,--length-max
+
+
+
+```
+Filters files with duration greater than provided value
+Does not effect non-video files
+```
+
+```
+Default: None
+```
+
+### -lm,--length-min
+
+```
+Filters files with duration less than provided value
+Does not effect non-video files
+```
+
+```
+Default: None
+```
+
+
+
+***
 
 ### -q,--quality
 

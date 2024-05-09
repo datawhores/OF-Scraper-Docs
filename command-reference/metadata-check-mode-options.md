@@ -30,6 +30,14 @@ The `--metadata` argument is used to specify how metadata mode updates the db
 
 The `--scrape-paid` argument is used to specify how metadata mode updates the db, for scrape paid content
 
+The options are the same as --metadata
+
+* **check** - Updates metadata fields for the specified area via an API. This option does not check for new filenames.
+* **update** - This mode performs two actions:
+  1. Updates download status and filenames based on the presence of actual files.
+  2. Updates metadata fields for the specified area via an API.
+* **complete** - Marks the download as complete and updates metadata fields via an API. It also uses a new filename if one is available
+
 
 
 **Available Modes:**

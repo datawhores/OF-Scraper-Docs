@@ -7,7 +7,7 @@ description: >-
 
 # Advanced User Filters
 
-Advanced Pricing Filters
+## Advanced Pricing Filters
 
 These filters allow you to target accounts based on specific price ranges for different pricing models (promotional, regular, current, and renewal
 

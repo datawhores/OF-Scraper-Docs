@@ -1,151 +1,46 @@
 ---
-description: Options for content check subcommands
+description: >-
+  These options are used with specific subcommands of the program that perform
+  content checks for different data types (posts, messages, purchased content,
+  stories/highlights)
 ---
 
-# Content Check Modes Options
+# Content Check Modes Commands Options
 
 {% hint style="info" %}
-&#x20;**cached information is stored for 24 hours**
+&#x20;**Cached information is generally stored for 24 hours to improve efficiency**
 {% endhint %}
 
 
 
 ***
 
-## post\_check
+## Content Check Subcommands
 
-Display a generated table of data showcasing model posts. Accept multiple URLs through command-line input or a file.
+### Subcommand Options
 
+Each content check subcommand (`post_check`, `msg_check`, `paid_check`, `story_check`) accepts common arguments for specifying content sources and controlling update behavior.
 
+#### Specifying Content Source
 
-```
-ofscraper post_check [global args] [post_check args]
-```
+* **-u, --url \[argument]:** (all subcommands)
+  * Scans content from one or more URLs provided as arguments (separate URLs with spaces).
+* **-f, --file \[argument]:** (all subcommands)
+  * Scans content from a file containing entries (URLs or usernames) separated by lines.
 
-### -u, --url
+#### Forcing Update
 
-```
-Scan posts via url
-```
+* **-fo, --force \[argument]:** (all subcommands)
+  * **Default:** `False` (uses cached data if available).
+  * Sets `True` to force the API to retrieve the latest information, bypassing the cache.
 
-### -f, --file
+### Subcommand Descriptions
 
-```
-Scan posts using a file containing URLs separated by lines.
-```
+**Here's a summary of each content check subcommand:**
 
-### -fo, --force
+* **post\_check:** Analyzes data associated with posts from specified URLs or a file. It generates a table displaying relevant information about the posts.
+* **msg\_check:** Analyzes data associated with messages from specified URLs or a file. It generates a table displaying relevant information about the messages.
+* **paid\_check:** Analyzes data associated with purchased content from specified usernames or a file. It generates a table displaying relevant information about the purchased content.
+* **story\_check:** Analyzes data associated with stories and highlights from specified usernames or a file. It generates a table displaying relevant information about the stories/highlights.
 
-```
-Force the API to retrieve updated information on posts
-```
-
-```
-Default: False
-```
-
-
-
-***
-
-## msg\_check
-
-Display a generated table displaying data regarding model messages. Accept multiple URLs through command-line input or a file
-
-```
-ofscraper msg_check [global args] [msg_check args]
-```
-
-### -u, --url
-
-```
-Scan messages via url
-```
-
-### -f, --file
-
-```
-Scan messages using a file containing URLs separated by lines
-```
-
-### -fo, --force
-
-```
-Force the API to retrieve updated information on messages
-```
-
-```
-Default: False
-```
-
-
-
-***
-
-## paid\_check
-
-Display a generated table featuring information on purchased content from models.&#x20;
-
-Allows multiple usernames to be entered via command-line input or a file
-
-```
-ofscraper paid_check [global args] [paid_check args]
-```
-
-### -u, --username
-
-```
-Scan purchases via username
-```
-
-### -f, --file
-
-```
-Scan paid content using a file containing usernames separated by lines.
-```
-
-### -fo, --force
-
-```
-Force the API to retrieve updated information on paid content
-```
-
-```
-Default: False
-```
-
-
-
-***
-
-## story\_check
-
-Display a generated table of data with information about highlights and stories
-
-Multiple usernames can be passed via command-line or file
-
-```
-ofscraper story_check  [global args] [story_check args]
-```
-
-### -u, --username
-
-```
-Scan stories/highlights via username
-```
-
-### -f, --file
-
-```
-Scan stories/highlist using a file containing usernames separated by lines.
-```
-
-### -fo, --force
-
-```
-Force the API to retrieve updated information on stories/highlights
-```
-
-```
-Default: False
-```
+**Common Usage Pattern:**

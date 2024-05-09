@@ -13,35 +13,35 @@ These filters allow you to target accounts based on specific price ranges for di
 
 ### -ppm, --promo-price-max \[argument]
 
-* **Filters:** Accounts where the lowest available promotional price matches or falls below the specified value.
+* **Filters:** Accounts where the lowest available promotional price matches or falls below the specified value
 
 ### -ppn, --promo-price-min \[argument]
 
-* **Filters:** Accounts where the lowest available promotional price matches or falls above the specified value.
+* **Filters:** Accounts where the lowest available promotional price matches or falls above the specified value
 
 ### -gpm, --regular-price-max \[argument]
 
-* **Filters:** Accounts where the regular price (if available) matches or falls below the specified value.
+* **Filters:** Accounts where the regular price (if available) matches or falls below the specified value
 
 ### -gpn, --regular-price-min \[argument]
 
-* **Filters:** Accounts where the regular price (if available) matches or falls above the specified value.
+* **Filters:** Accounts where the regular price (if available) matches or falls above the specified value
 
 #### -cpm, --current-price-max \[argument]
 
-* **Filters:** Accounts where the current price matches or falls below the specified value.
+* **Filters:** Accounts where the current price matches or falls below the specified value
 
 ### -cpn, --current-price-min \[argument]
 
-* **Filters:** Accounts where the current price matches or falls above the specified value.
+* **Filters:** Accounts where the current price matches or falls above the specified value
 
-#### -rpm, --renewal-price-max \[argument]
+### -rpm, --renewal-price-max \[argument]
 
-* **Filters:** Accounts where the renewal price (if applicable) matches or falls below the specified value.
+* **Filters:** Accounts where the renewal price (if applicable) matches or falls below the specified value
 
 ### -rpn, --renewal-price-min \[argument]
 
-* **Filters:** Accounts where the renewal price (if applicable) matches or falls above the specified value.
+* **Filters:** Accounts where the renewal price (if applicable) matches or falls above the specified value
 
 
 
@@ -49,15 +49,15 @@ These filters allow you to target accounts based on specific price ranges for di
 
 ## Advanced Account Attributes
 
-These filters allow you to target accounts based on specific dates related to their activity or subscription status.
+These filters allow you to target accounts based on specific dates related to their activity or subscription status
 
 ### -lsa, --last-seen-after \[argument]
 
-* **Filters:** Accounts where the "last seen" date/time is at or after the provided date (format: YYYY-MM-DD).
+* **Filters:** Accounts where the "last seen" date/time is at or after the provided date
 
 ### -lsb, --last-seen-before \[argument]
 
-* **Filters:** Accounts where the "last seen" date/time is at or before the provided date (format: YYYY-MM-DD).
+* **Filters:** Accounts where the "last seen" date/time is at or before the provided date
 
 **Note:** The "last seen" date/time might not be available for all accounts
 
@@ -79,8 +79,8 @@ These filters allow you to target accounts based on specific dates related to th
 
 ### -sa, --subscribed-after \[argument]
 
-* **Filters:** Accounts with a subscription date at or after the provided date (format: YYYY-MM-DD).
+* **Filters:** Accounts with a subscription date at or after the provided date (format: YYYY-MM-DD)
 
 ### -sb, --subscribed-before \[argument]
 
-* **Filters:** Accounts with a subscription date at or before the provided date (format: YYYY-MM-DD).
+* **Filters:** Accounts with a subscription date at or before the provided date (format: YYYY-MM-DD)

@@ -52,8 +52,8 @@ ofscraper  [global args][Logging] [main program args]
 [account-filter-args.md](command-reference/account-filter-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/account-sorting-args.md" %}
-[account-sorting-args.md](command-reference/account-sorting-args.md)
+{% content-ref url="command-reference/scrape-metadata-options/account-sorting-args.md" %}
+[account-sorting-args.md](command-reference/scrape-metadata-options/account-sorting-args.md)
 {% endcontent-ref %}
 
 {% content-ref url="getting-started/config-options/download-options/media-filtering-options.md" %}

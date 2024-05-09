@@ -1,129 +1,102 @@
 ---
-description: Apply filters to the accounts list
+description: >-
+  These options allow you to refine the list of user accounts displayed and
+  processed by the program. You can combine multiple filters to create specific
+  selections.
 ---
 
 # User List Filter Options
 
-***
+## Pricing Filters
 
-## pricing filters
+{% hint style="info" %}
+**Refer to the dedicated documentation for detailed information on price filtering and sorting**
+{% endhint %}
 
 {% content-ref url="../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
 [price-filtering-sort.md](../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
 {% endcontent-ref %}
 
-```
-Filter accounts based on the pricing 
-```
+These options allow you to filter accounts based on their current price, renewal price, promotional price (if available), and regular price (if available).
 
-### -cp, --current-price
+### -cp, --current-price \[argument]
 
-```
-Possible choices: paid, free
-```
+* **Possible choices:**
+  * `paid`: Filters for accounts with a paid current price.
+  * `free`: Filters for accounts with a free current price.
 
-### _--_ **rp, --**renewal-price
+### -rp, --renewal-price \[argument]
 
-```
-Possible choices: paid, free
-```
+* **Possible choices:**
+  * `paid`: Filters for accounts with a paid renewal price.
+  * `free`: Filters for accounts with a free renewal price.
 
-### _--_ **pp, --promo-price**
+### -pp, --promo-price \[argument]
 
-```
-Possible choices: paid, free
-```
+* **Possible choices:**
+  * `paid`: Filters for accounts with a claimable promotional price.
+  * `free`: Filters for accounts without a claimable promotional price.
 
-### **-- gp, --regular-price**
+### -gp, --regular-price \[argument]
 
-```
-Possible choices: paid, free
-```
-
-***
+* **Possible choices:**
+  * `paid`: Filters for accounts with a regular price (if applicable).
+  * `free`: Filters for accounts without a regular price (if applicable).
 
 ## Account Flags
 
-### **-lo, --last-seen-only**
+These options filter accounts based on specific flags or properties.
 
-```
-Filter accounts to ones where last seen is visible
-```
+### -lo, --last-seen-only
 
-### **-ls, --last-seen-skip**
+* **Filters:** Accounts where the "last seen" date/time is visible.
 
-```
-Filter accounts to ones where last seen is hidden
-```
+### -ls, --last-seen-skip
 
-### **-po, --promo-only**
+* **Filters:** Accounts where the "last seen" date/time is hidden.
 
-```
-Filter accounts to ones with any 
-claimable promo price
-```
+### -po, --promo-only
 
-### **-ps, --promo-skip**
+* **Filters:** Accounts with any claimable promotional price.
 
-```
-Filter accounts to ones without
-any claimable promo price
-```
+### -ps, --promo-skip
 
-### **-ao, --all-promo-only**
+* **Filters:** Accounts without any claimable promotional price.
 
-```
-Filter accounts to ones with any 
-claimable promo price
-```
+### -ao, --all-promo-only
 
-### **-as, --all-promo-skip**
+* **Filters:** Accounts with any claimable promotional price, regardless of current or renewal status.
 
-```
-Filter accounts to ones without
-any claimable promo price
-```
+### -as, --all-promo-skip
 
-
-
-***
+* **Filters:** Accounts without any claimable promotional price, regardless of current or renewal status.
 
 ## Subscription Type
 
-### **-fo, --free-trail-only**
+These options filter accounts based on their subscription status.
 
-```
-Filter accounts to only those 
-currently in a free trial (normally paid)
-```
+### -fo, --free-trial-only
 
-### **-fs, --free-trail-skip**
+* **Filters:** Accounts currently in a free trial (normally paid accounts).
 
-```
-Filter accounts to only those 
-currently not in a free trial (normally paid)
-```
+### -fs, --free-trial-skip
 
-### **-ts, --active-subscriptions**
+* **Filters:** Accounts that are not currently in a free trial (normally paid accounts).
 
-```
-Filter accounts to those with non-expired status
-```
+### -ts, --active-subscriptions
 
-### **-es, --expired-subscription**
+* **Filters:** Accounts with active, non-expired subscriptions.
 
-```
-Filter accounts to those with expired status
-```
+### -es, --expired-subscription
 
-### **-ro, --renew-on**
+* **Filters:** Accounts with expired subscriptions.
 
-```
-Filter accounts to those with the renew flag on
-```
+### -ro, --renew-on
 
-### **-rf, --renew-off**
+* **Filters:** Accounts with the "renew" flag enabled.
 
-```
-Filter accounts to those with the renew flag off
-```
+### -rf, --renew-off
+
+* **Filters:** Accounts with the "renew" flag disabled.
+
+This revised version incorporates clear descriptions, links to potentially existing detailed documentation for complex filters, and avoids unnecessary underscores in option names.

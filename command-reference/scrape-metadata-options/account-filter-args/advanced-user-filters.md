@@ -79,8 +79,8 @@ These filters allow you to target accounts based on specific dates related to th
 
 ### -sa, --subscribed-after \[argument]
 
-* **Filters:** Accounts with a subscription date at or after the provided date (format: YYYY-MM-DD)
+* **Filters:** Accounts with a subscription date at or after the provided date&#x20;
 
 ### -sb, --subscribed-before \[argument]
 
-* **Filters:** Accounts with a subscription date at or before the provided date (format: YYYY-MM-DD)
+* **Filters:** Accounts with a subscription date at or before the provided date

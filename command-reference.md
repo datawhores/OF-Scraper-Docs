@@ -14,12 +14,12 @@ ofscraper  [global args][Logging] [main program args]
 
 ## Global Options
 
-{% content-ref url="command-reference/global-options/global-args.md" %}
-[global-args.md](command-reference/global-options/global-args.md)
+{% content-ref url="command-reference/global-args.md" %}
+[global-args.md](command-reference/global-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/global-options/logging.md" %}
-[logging.md](command-reference/global-options/logging.md)
+{% content-ref url="command-reference/logging.md" %}
+[logging.md](command-reference/logging.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
@@ -30,8 +30,8 @@ ofscraper  [global args][Logging] [main program args]
 [download-options](getting-started/config-options/download-options/)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/global-options/advanced-args.md" %}
-[advanced-args.md](command-reference/global-options/advanced-args.md)
+{% content-ref url="command-reference/advanced-args.md" %}
+[advanced-args.md](command-reference/advanced-args.md)
 {% endcontent-ref %}
 
 ## Main Program Args
@@ -60,12 +60,12 @@ ofscraper  [global args][Logging] [main program args]
 [media-filtering-options.md](getting-started/config-options/download-options/media-filtering-options.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/filename-modification-options.md" %}
-[filename-modification-options.md](command-reference/filename-modification-options.md)
+{% content-ref url="command-reference/filename-modification-options/" %}
+[filename-modification-options](command-reference/filename-modification-options/)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/advanced-search-and-processing-options.md" %}
-[advanced-search-and-processing-options.md](command-reference/advanced-search-and-processing-options.md)
+{% content-ref url="command-reference/scrape-metadata-options/advanced-search-and-processing-options.md" %}
+[advanced-search-and-processing-options.md](command-reference/scrape-metadata-options/advanced-search-and-processing-options.md)
 {% endcontent-ref %}
 
 ## Other Modes

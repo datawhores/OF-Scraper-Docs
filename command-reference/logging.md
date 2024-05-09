@@ -6,9 +6,11 @@ description: >-
 
 # Logging Options
 
-### Log Levels
+##
 
-#### -l, --log \[argument]
+## Log Levels
+
+### -l, --log \[argument]
 
 * **Possible choices:**
   * `OFF`: Disables log output to the log file.
@@ -18,7 +20,7 @@ description: >-
   * `DEBUG`: Logs all program activity and detailed debugging information.
 * **Sets:** The verbosity level for the program's log file.
 
-#### -dc, --discord \[argument]
+### -dc, --discord \[argument]
 
 * **Possible choices:**
   * `OFF`: Disables log output to Discord.
@@ -28,7 +30,7 @@ description: >-
   * `DEBUG`: Logs all program activity and detailed debugging information to Discord.
 * **Sets:** The verbosity level for logs sent to the Discord channel (if configured).
 
-#### -p, --output \[argument]
+### -p, --output \[argument]
 
 * **Possible choices:**
   * `PROMPT`: Logs only critical information displayed on the program prompt.

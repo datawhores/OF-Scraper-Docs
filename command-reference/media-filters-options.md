@@ -22,6 +22,10 @@ description: >-
 * **Default:** `None` (no minimum size filter)
 * **Example:** With `-sm 50MB`, only files 50 megabytes or larger will be downloaded.
 
+
+
+***
+
 ## Media Length Filters (Video Only)
 
 These filters only apply to video files.
@@ -40,7 +44,11 @@ These filters only apply to video files.
 * **Default:** `None` (no minimum length filter)
 * **Example:** With `-lm 5m`, only videos 5 seconds or longer will be downloaded.
 
-### Media Quality Filter
+
+
+***
+
+## Media Quality Filter
 
 #### -q, --quality \[argument]
 

@@ -40,8 +40,8 @@ ofscraper  [global args][Logging] [main program args]
 [general-scraper-args.md](command-reference/general-scraper-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/post-filter-args.md" %}
-[post-filter-args.md](command-reference/post-filter-args.md)
+{% content-ref url="command-reference/shared-scrape-and-metadata-check-mode-options/post-filter-args.md" %}
+[post-filter-args.md](command-reference/shared-scrape-and-metadata-check-mode-options/post-filter-args.md)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/scrape-metadata-options/user-selection-options.md" %}

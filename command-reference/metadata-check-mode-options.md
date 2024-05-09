@@ -24,13 +24,17 @@ The `--metadata` argument is used to specify how metadata mode updates the db
 
 ### -ms, --mark-stray-locked  \[argument]
 
-This option is specifically for setting unprocessed items within a date range as locked. This is meant for items that can not be retrived via api, potentially because they have been deleted\
-\
-It works in conjunction with the `--after` and `--before` options
+Marks unmatched media items as locked.
 
-It excludes media items with labels from being marked as locked
+**Details:**
 
-This is down per API type Timeline, Archived, and Messages
+* This flag is designed to identify and manage media items retrieved using the `--after` and `--before` options (date range filtering) that cannot be retrieved again through the API (potentially due to deletion).
+* Media items with labels are excluded from being marked as locked.
+* Locking is applied on a per-API type basis, including common types like Timeline, Archived Posts, and Messages.
+
+**Use Case:**
+
+Use this option to manage media items that aren't retrievable via the APIS. Marking them as locked prevents main scraper from using these items to set the minimum date
 
 
 

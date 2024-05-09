@@ -8,7 +8,7 @@ description: >-
 # Content Check Modes Options
 
 {% hint style="info" %}
-&#x20;**Cached information is generally stored for 24 hours to improve efficiency**
+&#x20;**Cached information is generally stored for around 3 days to improve efficiency**
 {% endhint %}
 
 

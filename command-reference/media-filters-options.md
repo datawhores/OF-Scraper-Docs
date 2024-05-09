@@ -1,81 +1,55 @@
 ---
-description: Options for controlling which media is downloaded
+description: >-
+  These options allow you to filter downloaded media based on various criteria,
+  helping you manage storage space and download times.
 ---
 
 # Media Filters Options
 
-### -sx,--size-max
 
 
+## File Size Filters
 
-```
-Filter files larger than the specified size. 
-This filter accepts human-readable strings like "10GB"
+## -sx, --size-max \[argument]
 
-```
+* **Filters:** Files exceeding the specified size.
+* **Accepts:** Human-readable size values like "10MB", "500GB", etc.
+* **Default:** `None` (no maximum size filter)
+* **Example:** With `-sx 1GB`, only files 1 gigabyte or smaller will be downloaded.
 
-```
-Default: None
-```
+## -sm, --size-min \[argument]
 
-### -sm,--size-min
+* **Filters:** Files smaller than the specified size.
+* **Accepts:** Human-readable size values like "10MB", "500GB", etc.
+* **Default:** `None` (no minimum size filter)
+* **Example:** With `-sm 50MB`, only files 50 megabytes or larger will be downloaded.
 
-```
-Filter files smaller than the specified size. 
-This filter accepts human-readable strings like "10GB"
+## Media Length Filters (Video Only)
 
-```
+These filters only apply to video files.
 
-```
-Default: None
-```
+## -lx, --length-max \[argument]
 
+* **Filters:** Videos longer than the specified duration.
+* **Accepts:** Values that will be interpreted as seconds
+* **Default:** `None` (no maximum length filter)
+* **Example:** With `-lx 30`, only videos shorter or equal to 30 seconds will be downloaded.
 
+## -lm, --length-min \[argument]
 
-***
+* **Filters:** Videos shorter than the specified duration.
+* **Accepts:** Values that will be intepreted as seconds
+* **Default:** `None` (no minimum length filter)
+* **Example:** With `-lm 5m`, only videos 5 seconds or longer will be downloaded.
 
-### -lx,--length-max
+### Media Quality Filter
 
+#### -q, --quality \[argument]
 
-
-```
-Filters files with duration greater than provided value
-Does not effect non-video files
-```
-
-```
-Default: None
-```
-
-### -lm,--length-min
-
-```
-Filters files with duration less than provided value
-Does not effect non-video files
-```
-
-```
-Default: None
-```
-
-
-
-***
-
-### -q,--quality
-
-```
-The --quality flag determines the minimum acceptable quality, 
-with the actual choice falling back to the 
-lowest available option within --quality to "source"
-
-```
-
-```
-Possible Choices: source,240,720
-```
-
-```
-Default: source
-```
-
+* **Sets:** The minimum acceptable video quality.
+* **Possible choices:**
+  * `source`: Attempts to download the highest available quality (may not always be achievable).
+  * `240`: Filters for videos with a resolution of at least 240p.
+  * `720`: Filters for videos with a resolution of at least 720p.
+* **Default:** `source` (attempts to download highest quality)
+* **Note:** The program might download a higher quality version if the specified quality is unavailable

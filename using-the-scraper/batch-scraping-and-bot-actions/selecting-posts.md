@@ -1,6 +1,6 @@
 # Selecting Posts
 
-### By post type
+## By post type
 
 A comma-separated list indicating the posts from which you wish to download content.
 
@@ -16,7 +16,7 @@ multiple calls
 
 Duplicates will be removed
 
-### Options
+## Options
 
 * profile
 * hightlights
@@ -36,7 +36,7 @@ You can add remove a post type by prepending the type with a hyphen (-). This wi
 
 ***
 
-### Bypass dupe check
+## Bypass dupe check
 
 By default, content is stored in a database to prevent duplicate downloads. If you wish to download all available content for the current model, include the '--force-all' argument.
 
@@ -48,13 +48,13 @@ ofscraper --action download --force-all
 
 ***
 
-### Filter Post by Date
+## Filter Post by Date
 
 {% hint style="info" %}
 **x should be a valid date**
 {% endhint %}
 
-#### Before
+### Before
 
 Filters  posts on or before the specified date. It functions for downloading, liking, and unliking posts.
 
@@ -62,7 +62,7 @@ Filters  posts on or before the specified date. It functions for downloading, li
 ofscraper --action download --before X
 ```
 
-#### After
+### After
 
 Filter  posts on or after the specified date. It functions for downloading, liking, and unliking posts.
 
@@ -70,7 +70,7 @@ Filter  posts on or after the specified date. It functions for downloading, liki
 ofscraper --action download --after X
 ```
 
-**Valid Inputs**
+### **Valid Inputs**
 
 {% hint style="info" %}
 **Read arrow documentation/repo for all valid inputs**
@@ -78,7 +78,7 @@ ofscraper --action download --after X
 
 `YYYY-MM-DD, YYYY-M-DD, YYYY-M-D, YYYY/MM/DD, YYYY/M/DD, YYYY/M/D, YYYY.MM.DD, YYYY.M.DD, YYYY.M.D, YYYYMMDD, YYYY-DDDD, YYYYDDDD, YYYY-MM, YYYY/MM, YYYY.MM, YYYY`
 
-#### Dehumanize Strings
+### Dehumanize Strings
 
 We can convert certain strings into dates The general rules seem to be (number) (timeframe) (ago)
 
@@ -99,7 +99,7 @@ You can enhance granularity by including a comma. When utilizing debuggers, the 
 
 ***
 
-### Filtering Timed Post (Promotional)
+## Filtering Timed Post (Promotional)
 
 skip all timed post
 
@@ -132,7 +132,7 @@ ofscraper --action download --negfilter X
 
 ***
 
-### Search entire paid page
+## Search entire paid page
 
 This option is designed to manage situations like when a model account has been deleted
 

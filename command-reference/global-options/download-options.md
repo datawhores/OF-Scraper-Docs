@@ -1,55 +1,35 @@
 ---
-description: Options for managing downloads
+description: These options allow you to fine-tune how the program handles downloads.
 ---
 
 # Download Options
 
-### -db, --download-bars&#x20;
+## Download Configuration Overrides
 
-```
-Override the download-bars setting in the configuration file
-```
+### -db, --download-bars \[argument]
 
-```
-default: None
-```
+* **Overrides:** The `download-bars` setting in the configuration file. This setting is not currently documented, so refer to the source code for details.
+* **Default:** `None`
 
-### -sd, --download-sems
+### -sd, --download-sems \[argument]
 
-```
-Override the download-sems setting in the configuration file
-```
+* **Overrides:** The `download-sems` setting in the configuration file. This setting controls the number of concurrent download processes.
+* **Default:** `None` (uses default value from configuration file)
 
-```
-default: None
-```
+### -dt, --download-threads \[argument]
 
-### -sd, --download-threads
+* **Overrides:** The `download-threads` setting in the configuration file. This setting controls the number of threads used within each download process.
+* **Special case:** Setting the value to zero forces the program to use the main thread for downloading. The main thread is also used if there aren't enough active downloads to fill the configured number of download threads.
+* **Default:** `None` (uses default value from configuration file)
 
-```
-Override the download-threads setting in the configuration file
+***
 
-Setting the value to zero will force the use of the main thread for downloading. 
-The main thread is also utilized if downloads cannot fill the download-sems.
-```
+## Download Cleanup
 
-```
-default: None
-```
+## -ar, --no-auto-resume
 
-### -ar,--no-auto-resume
+* **Disables:** Automatic cleanup of partially downloaded files (".part" files) upon program exit. This includes forced exits (e.g., Ctrl+C).
+* **Warning:** Disabling auto-cleanup can leave temporary files on your system, potentially taking up unnecessary space.
+* **Default:** `false` (automatic cleanup is enabled)
 
-{% hint style="warning" %}
-**This replaces** \
-**part-cleanup**
-{% endhint %}
-
-```
-cleanup part files on program exit
-
-This includes forced exit
-```
-
-```
-default: false
-```
+***

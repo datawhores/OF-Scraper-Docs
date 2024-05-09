@@ -44,8 +44,8 @@ ofscraper  [global args][Logging] [main program args]
 [post-filter-args.md](command-reference/post-filter-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/user-selection-option.md" %}
-[user-selection-option.md](command-reference/user-selection-option.md)
+{% content-ref url="command-reference/scrape-metadata-options/user-selection-options.md" %}
+[user-selection-options.md](command-reference/scrape-metadata-options/user-selection-options.md)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/scrape-metadata-options/account-filter-args/" %}

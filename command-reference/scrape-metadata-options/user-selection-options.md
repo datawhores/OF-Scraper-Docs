@@ -36,7 +36,8 @@ description: >-
 
 * **Filters:** Users based on entries in a user list.
 * **Default list:** "ofscraper.main" (if no argument provided).
-* **Built-in lists:** The program might also have built-in lists like "ofscraper.active" and "ofscraper.disabled".
+* **Built-in lists:** The program also has built-in lists "ofscraper.active" and "ofscraper.disabled"\
+  corresponding to active and expired account respectively
 * **Argument behavior:**
   * If no argument is provided, the default list ("scrape") will be used.
   * If an argument is provided (e.g., "myuserList"), only the specified list will be processed.
@@ -46,11 +47,9 @@ description: >-
 ### -bl, --black-list \[argument] (optional)
 
 * **Excludes:** Users based on entries in a user list.
-* **Blacklist behavior:** Similar to user lists, but excludes all users from the specified list.
-* **Default list:** "ofscraper.main" (if no argument provided).
-* **Built-in lists:** The program might also have built-in blacklists like "ofscraper.inactive".
+* **Blacklist behavior:** Similar to user lists, but excludes all users from the specified list
+* **Default list:** None
 * **Argument behavior:**
-  * If no argument is provided, the default blacklist ("ofscraper.main") will be used for exclusion.
   * If an argument is provided (e.g., "inactiveUsers"), only users from the specified blacklist will be excluded.
 
 **Example:** With `-bl inactiveUsers`, users in the "inactiveUsers" blacklist will be excluded from processing

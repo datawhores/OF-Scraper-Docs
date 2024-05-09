@@ -6,8 +6,6 @@ description: >-
 
 # Logging Options
 
-##
-
 ## Log Levels
 
 ### -l, --log \[argument]

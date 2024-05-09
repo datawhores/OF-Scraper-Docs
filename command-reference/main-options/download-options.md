@@ -8,7 +8,7 @@ description: These options allow you to fine-tune how the program handles downlo
 
 ### -db, --download-bars \[argument]
 
-* **Overrides:** The `download-bars` setting in the configuration file. This setting is not currently documented, so refer to the source code for details.
+* **Overrides:** The `download-bars` setting in the configuration file
 * **Default:** `None`
 
 ### -sd, --download-sems \[argument]
@@ -29,7 +29,6 @@ description: These options allow you to fine-tune how the program handles downlo
 ## -ar, --no-auto-resume
 
 * **Disables:** Automatic cleanup of partially downloaded files (".part" files) upon program exit. This includes forced exits (e.g., Ctrl+C).
-* **Warning:** Disabling auto-cleanup can leave temporary files on your system, potentially taking up unnecessary space.
 * **Default:** `false` (automatic cleanup is enabled)
 
 ***

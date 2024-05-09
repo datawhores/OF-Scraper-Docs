@@ -1,2 +1,0 @@
-# Common Option Groups
-

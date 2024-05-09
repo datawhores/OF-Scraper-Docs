@@ -1,27 +1,37 @@
 ---
-description: Control automated actions (like/unlike/download) and background execution
+description: >-
+  These options allow you to configure automated actions performed by the
+  program and control its background execution
 ---
 
 # Automation Options
 
-***
+## Background Execution
 
-### -d, --daemon
+### -d, --daemon \[argument] (optional)
 
-```
-Execute the script in the background
-Set the value for the time between runs
-```
+* **Runs:** The program in the background as a daemon process.
+* **Argument:** (Optional) Specify the desired interval between program runs (e.g., `-d 3600` for hourly runs).
+* **Default behavior:** Without the argument, the program runs once in the foreground.
 
+## Automated Actions
 
+### -a, --action \[argument]
 
-### -a, --action
+* **Selects:** The automated action to perform on posts.
+* **Possible choices:**
+  * `like`: Like each post encountered during processing.
+  * `unlike`: Unlike each post encountered during processing.
+  * `download`: Download media associated with each post encountered during processing.
 
-```
-Possible choices: like, unlike,download
-```
+**Combined actions:** You can combine the `-a` option multiple times to specify multiple actions. For example, `-a like -a download` or `a like,download` would like and download media for each post.
 
-<pre><code><strong>Download media from a post
-</strong>and/or 
-<strong>Execute a like or unlike action on each post
-</strong></code></pre>
+#### **Action Descriptions:**
+
+{% hint style="info" %}
+**Like and unlike are limited by rate limiting**
+{% endhint %}
+
+* **Like:** Attempts to like each post processed by the program.
+* **Unlike:** Attempts to unlike each post processed by the program
+* **Download:** Downloads associated media (e.g., images, videos) from each post processed by the program

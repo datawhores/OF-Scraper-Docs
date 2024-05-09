@@ -60,8 +60,8 @@ ofscraper  [global args][Logging] [main program args]
 [media-filtering-options.md](getting-started/config-options/download-options/media-filtering-options.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/common-option-groups/filename-modification-options.md" %}
-[filename-modification-options.md](command-reference/common-option-groups/filename-modification-options.md)
+{% content-ref url="command-reference/main-options/filename-modification-options.md" %}
+[filename-modification-options.md](command-reference/main-options/filename-modification-options.md)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/scrape-metadata-options-groups/advanced-search-and-processing-options.md" %}

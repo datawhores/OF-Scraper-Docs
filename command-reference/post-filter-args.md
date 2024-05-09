@@ -1,248 +1,139 @@
 ---
 description: >-
-  Define what posts to target (areas, filters) and actions to perform (like,
-  unlike, download). Filter by type, date, label, size, and media type
+  This section outlines various options for specifying content targets, actions,
+  and filters within the program.
 ---
 
 # Content Options
 
+## Targeting Content
+
+### **-o, --posts** \[argument]
+
+* Specify the type of content to target for actions (like, unlike, download).
+* **Possible choices:** `highlights`, `all`, `archived`, `messages`, `timeline`, `pinned`, `stories`, `purchased`, `profile`, `labels`.
+* **Defaults:** to `None`.
+
+### **-la, --like-area** \[argument]
+
+* Define the area for like/unlike actions (overrides `--posts`).
+* **Possible choices:** `all`, `archived`, `timeline`, `pinned`, `stories`, `labels`.
+* **Defaults**: to `None`.
+
+### **-da, --download-area (Choice):**
+
+* Specify the area for download actions (overrides `--posts`).
+* **Possible choices:** `highlights`, `all`, `archived`, `messages`, `timeline`, `pinned`, `stories`, `purchased`, `profile`, `labels`.
+* **Defaults** to `None`.
+
 
 
 ***
 
-### -e, --force-all
+## Filtering Content
+
+### **-sk, --skip-timed:**
+
+* Skips temporary posts (commonly used for promotions).
+
+### **-ms, --mass-skip:**
+
+* Filters downloads to include only those labeled as mass messages.
+
+### **-mm, --mass-msg:**
+
+* Excludes downloads marked as mass messages.
+
+### **-ok, --only-timed:**
+
+* Downloads only temporary posts (mostly used for promotions).
+
+### **-ft, --filter (Regex):**
+
+* Filter posts using a provided regular expression pattern.
+* Case-sensitive if uppercase characters are included.
+* Posts matching the pattern are included.
+* **Defaults:** to `".*"` (matches all posts).
+
+### **-nf, --neg-filter (Regex):**
+
+* Filter posts to exclude based on a regular expression pattern.
+* Case-sensitive if uppercase characters are included.
+* Posts matching the pattern are excluded.
+* **Defaults:** to `None` (no exclusion).
+
+### **-to, --protected-only:**
+
+* Restricts downloads to content requiring decryption.
+
+### **-no, --normal-only:**
+
+* Restricts downloads to content that does not require decryption.
+
+### **-lb, --label:**
+
+* Scrape content with specific labels.
+* **Defaults:** to `None` (no specific label).
+
+
+
+
+
+***
+
+### Date Range
 
 {% hint style="info" %}
-**In previous verisons this was called --dupe**
+**See Selecting post for valid date inputs**
 {% endhint %}
-
-```
-Downloads all files regardless of whether the id is in the database
-```
-
-```
-Default: False
-```
-
-
-
-### -eq, --force-model-unique
-
-```
-Downloads all files only if the id is not present for the current model
-```
-
-```
-Default: False
-```
-
-{% hint style="info" %}
-**Exclude a option from \[--posts or --like-area or --download-area]  by appending a hypthen(-)**\
-\
-**Example --download-area all,-labels** \
-**excludes labels from all**
-{% endhint %}
-
-***
-
-### -o, --posts
-
-```
-Possible choices: highlights,all,archived,messages,
-timeline,pinned,stories,purchased,profile,labels
-```
-
-```
-Perform action on certain content 
-Can be used for like, unlike, and download
-```
-
-```
-Default:None
-```
-
-
-
-### -la, --like-area
-
-{% hint style="info" %}
-**This will overide --posts for --action like or unlike**
-{% endhint %}
-
-```
-Possible choices: all,archived,timeline,pinned,stories,labels
-```
-
-```
-Perform like/unlike action on certain content
-```
-
-```
-Default:None
-```
-
-
-
-### -da, --download-area
-
-{% hint style="info" %}
-**This will overide --posts for --action download**
-{% endhint %}
-
-```
-Possible choices: highlights,all,archived,messages,
-timeline,pinned,stories,purchased,profile,labels
-```
-
-```
-Perform download action on certain content
-```
-
-```
-Default:None
-```
-
-
-
-***
-
-### -sk, --skip-timed
-
-```
-Skipped temporary post
-commonly used for promotions
-```
-
-### -ms, --mass-skip
-
-```
-Filter downloads to exclusively include downloads labeled as mass messages.
-```
-
-
-
-### -mm, --mass-msg
-
-<pre><code><strong>Exclude any downloads marked as mass messages
-</strong></code></pre>
-
-### -ok, --only-timed
-
-```
-Download only temporary posts,, mostly used for promo
-```
-
-
-
-***
-
-### -ft, --filter
-
-```
-Filter posts using a provided regex pattern. 
-Please note that including any uppercase characters will make the search case-sensitive. 
-Posts will be included if they pass the filter test.
-```
-
-```
-Default: “.*”
-```
-
-### -nf, --neg-filter
-
-```
-Use a regex pattern to filter posts by text. 
-Note that including uppercase characters will make the search case-sensitive. 
-Posts passing the filter test will be excluded.
-```
-
-```
-Default: None
-```
-
-
-
-***
-
-### -to,--protected-only
-
-```python
-Restrict downloads to content that specifically requires decryption
-```
-
-### -no,--normal-only
-
-```
-Restrict downloads to content that specifically does not require decryption
-```
-
-***
-
-### -sp, --scrape-paid
-
-<pre><code><strong>Scrape the entire paid page for content. 
-</strong>This process can take a substantial amount of time.
-</code></pre>
-
-```
-Default: False
-```
-
-
-
-### -lb,--label
-
-```
-Scrape specific labels
-```
-
-```
-Default: None
-```
-
-
-
-***
-
-### -be, --before
-
-```
-Process posts on or before a specific date. 
-The general syntax is Month/Day/Year. 
-This functionality works for actions like liking, unliking, and downloading posts
-```
-
-### -af, --after
-
-```
-Process posts on or after a specified date in the format Month/Day/Year. 
-This functionality applies to actions like liking, unliking, 
-and downloading posts.
-```
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#after" %}
 
+### **-be, --before (Date):**
+
+* Process posts on or before a specified date (format: Month/Day/Year).
+
+### **-af, --after (Date):**
+
+* Process posts on or after a specified date (format: Month/Day/Year).
 
 
-### -it,--item-sort
 
-<pre><code><strong>Change the order of items/posts before executing action
-</strong><strong>Default sorting for action is used if None
-</strong><strong>
-</strong><strong>Default is by date always for likes/unlikes
-</strong>Default for normaldownloader is by date
-Default for batchdownloader is shuffled
-</code></pre>
+***
 
-```
-Default: None
-```
+## Other Options
 
-### -xc ,--max-count
+### **-e, --force-all:**
 
-<pre><code><strong>Max number of posts to like or download
-</strong></code></pre>
+* Downloads all files regardless of database presence.
+* **Defaults:** to `False`.
 
-```
-Default: None
-```
+### **-eq, --force-model-unique:**
+
+* Downloads files only if not present for the current model.
+* **Defaults:** to `False`.
+
+**-sp, --scrape-paid:**
+
+* Scrapes the entire paid page for content (can be time-consuming).
+* **Defaults:** to `False`.
+
+### **-it, --item-sort** \[argument]
+
+* Defines the order for processing media sort order before actions.
+* Uses default action sorting if `None`.
+* **Defaults are:**
+  * Date for likes/unlikes (always)
+  * Date for normal downloader
+  * Shuffled for batch downlooader
+* **Possible choices:**&#x20;
+  * `random`: Randomize order&#x20;
+  * `text-asc`: Sort by post text in ascending order&#x20;
+  * `text-desc`: Sort by post text in descending order
+  * `date-asc`: Sort by media date in ascending order
+  * `date-desc`: Sort by media date in descending order
+
+### **-xc ,--max-count** \[argument]
+
+* Sets the maximum number of posts to like or download.
+* **Defaults:** to `None` (no limit).

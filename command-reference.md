@@ -30,14 +30,14 @@ ofscraper  [global args][Logging] [main program args]
 [download-options](getting-started/config-options/download-options/)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/main-options/advanced-args.md" %}
-[advanced-args.md](command-reference/main-options/advanced-args.md)
+{% content-ref url="command-reference/global-options/advanced-args.md" %}
+[advanced-args.md](command-reference/global-options/advanced-args.md)
 {% endcontent-ref %}
 
 ## Main Program Args
 
-{% content-ref url="command-reference/scrape-metadata-options/general-scraper-args.md" %}
-[general-scraper-args.md](command-reference/scrape-metadata-options/general-scraper-args.md)
+{% content-ref url="command-reference/general-scraper-args.md" %}
+[general-scraper-args.md](command-reference/general-scraper-args.md)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/post-filter-args.md" %}

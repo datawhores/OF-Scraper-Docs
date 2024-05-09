@@ -1,5 +1,5 @@
 ---
-description: These page is based on the ofscraper -h output
+description: These following pages is based on the ofscraper -h output
 ---
 
 # Command Reference
@@ -7,5 +7,5 @@ description: These page is based on the ofscraper -h output
 ## Syntax
 
 ```
-ofscraper  [global args][Logging] [main program args
+ofscraper  [global args][Logging] [main program args]
 ```

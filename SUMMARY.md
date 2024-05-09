@@ -70,6 +70,7 @@
   * [Filename Modification Options](command-reference/filename-modification-options.md)
   * [Advanced Search & Processing Options](command-reference/advanced-search-and-processing-options.md)
   * [Commands for other  Modes](command-reference/commands-for-other-modes/README.md)
+    * [Metadata Check Mode Options](command-reference/commands-for-other-modes/metadata-check-mode-options.md)
     * [Manual Mode Options](command-reference/commands-for-other-modes/manual-mode-args.md)
     * [Content Check Modes Options](command-reference/commands-for-other-modes/content-check-mode-args.md)
 * [Content Check Modes](content-check-modes.md)

@@ -12,7 +12,7 @@ description: Options for generating metadata based on API response
 **without --force-all or --force-model-unique media will be filter to only those that are set as not downloaded in the database**
 {% endhint %}
 
-### -md, --metadata
+### \[-md, --metadata]  **METADATA\_MODE**
 
 {% hint style="info" %}
 **progress bar  shows  all downloads as skipped**
@@ -22,12 +22,19 @@ description: Options for generating metadata based on API response
 **No change to download field for media entries in database**
 {% endhint %}
 
-```
-This feature skips the downloading of files to the disk, 
-primarily designed for adding metadata to the database
+The `--metadata` argument is used to specify how to handle metadata for a particular area. It requires two parts separated by a comma&#x20;
 
-Does not change download status
-```
+1. **MODE:** This defines the overall action for metadata handling.
+
+**METADATA\_MODE:** This specifies the specific area for which the metadata will be managed.
+
+**Available Modes:**
+
+* **check** - Updates metadata fields for the specified area via an API. This option does not check for new filenames.
+* **update** - This mode performs two actions:
+  1. Updates download status and filenames based on the presence of actual files.
+  2. Updates metadata fields for the specified area via an API.
+* **complete** - Marks the download as complete and updates metadata fields via an API. It also uses a new filename if one is available.
 
 ### -mc, --metadata-complete
 

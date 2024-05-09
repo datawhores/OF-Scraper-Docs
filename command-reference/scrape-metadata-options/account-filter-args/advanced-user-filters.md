@@ -27,7 +27,7 @@ These filters allow you to target accounts based on specific price ranges for di
 
 * **Filters:** Accounts where the regular price (if available) matches or falls above the specified value
 
-#### -cpm, --current-price-max \[argument]
+### -cpm, --current-price-max \[argument]
 
 * **Filters:** Accounts where the current price matches or falls below the specified value
 
@@ -49,7 +49,15 @@ These filters allow you to target accounts based on specific price ranges for di
 
 ## Advanced Account Attributes
 
-These filters allow you to target accounts based on specific dates related to their activity or subscription status
+These filters allow you to target accounts based on specific dates related to their activity or subscription status\
+\
+
+
+{% hint style="info" %}
+**See Selecting post for valid date inputs**
+{% endhint %}
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#after" %}
 
 ### -lsa, --last-seen-after \[argument]
 

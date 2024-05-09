@@ -1,2 +1,0 @@
-# Scrape/Metadata Options Groups
-

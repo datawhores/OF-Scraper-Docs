@@ -7,7 +7,7 @@ description: >-
 
 # Advanced User Filters
 
-## Advanced Pricing Filters
+Advanced Pricing Filters
 
 These filters allow you to target accounts based on specific price ranges for different pricing models (promotional, regular, current, and renewal
 
@@ -49,15 +49,11 @@ These filters allow you to target accounts based on specific price ranges for di
 
 ## Advanced Account Attributes
 
-These filters allow you to target accounts based on specific dates related to their activity or subscription status\
-\
+These filters allow you to target accounts based on specific dates related to their activity or subscription status
 
-
-{% hint style="info" %}
-**See Selecting post for valid date inputs**
-{% endhint %}
-
-{% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#after" %}
+{% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#valid-inputs" %}
+Valid Dates
+{% endembed %}
 
 ### -lsa, --last-seen-after \[argument]
 

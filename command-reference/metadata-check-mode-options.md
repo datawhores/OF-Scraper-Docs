@@ -30,11 +30,12 @@ Marks unmatched media items as locked.
 
 * This flag is designed to identify and manage media items retrieved using the `--after` and `--before` options (date range filtering) that cannot be retrieved again through the API (potentially due to deletion).
 * Media items with labels are excluded from being marked as locked.
-* Locking is applied on a per-API type basis, including common types like Timeline, Archived Posts, and Messages.
+* Locking is applied on a per-API type basis,  Timeline, Archived Posts, and Messages
+* This has no effect if --scrape-paid is the only argument
 
 **Use Case:**
 
-Use this option to manage media items that aren't retrievable via the APIS. Marking them as locked prevents main scraper from using these items to set the minimum date
+Use this option to manage media items that aren't retrievable via the APIs. Marking them as locked prevents main scraper from using these items to set the minimum date
 
 
 

@@ -40,8 +40,8 @@ You can provide a comma-separated list indicating the models you wish to scrape
 
 The following settings can be dynamically modified if using prompts.
 
-{% content-ref url="../../../using-the-scraper/using-prompts/" %}
-[using-prompts](../../../using-the-scraper/using-prompts/)
+{% content-ref url="../../using-prompts/" %}
+[using-prompts](../../using-prompts/)
 {% endcontent-ref %}
 
 Furthermore, this adjustment doesn't alter the retrieval of usernames; it solely impacts the subset of usernames that are displayed\
@@ -122,8 +122,8 @@ ofscraper  --regular-price paid
 
 ### Advanced filtering
 
-{% content-ref url="../../../command-reference/account-filter-args.md" %}
-[account-filter-args.md](../../../command-reference/account-filter-args.md)
+{% content-ref url="../../../command-reference/scrape-metadata-options/account-filter-args/" %}
+[account-filter-args](../../../command-reference/scrape-metadata-options/account-filter-args/)
 {% endcontent-ref %}
 
 

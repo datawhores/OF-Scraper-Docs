@@ -48,8 +48,8 @@ ofscraper  [global args][Logging] [main program args]
 [user-selection-option.md](command-reference/user-selection-option.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/account-filter-args.md" %}
-[account-filter-args.md](command-reference/account-filter-args.md)
+{% content-ref url="command-reference/scrape-metadata-options/account-filter-args/" %}
+[account-filter-args](command-reference/scrape-metadata-options/account-filter-args/)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/scrape-metadata-options/account-sorting-args.md" %}

@@ -20,7 +20,7 @@ description: >-
 * **Possible choices:** `all`, `archived`, `timeline`, `pinned`, `stories`, `labels`.
 * **Defaults**: to `None`.
 
-### **-da, --download-area (Choice):**
+### **-da, --download-area** \[argument]
 
 * Specify the area for download actions (overrides `--posts`).
 * **Possible choices:** `highlights`, `all`, `archived`, `messages`, `timeline`, `pinned`, `stories`, `purchased`, `profile`, `labels`.
@@ -30,45 +30,45 @@ description: >-
 
 ## Filtering Content
 
-### **-sk, --skip-timed:**
+### **-sk, --skip-timed**
 
 * Skips temporary posts (commonly used for promotions).
 
-### **-ms, --mass-skip:**
+### **-ms, --mass-skip**
 
 * Filters downloads to include only those labeled as mass messages.
 
-### **-mm, --mass-msg:**
+### **-mm, --mass-msg**
 
 * Excludes downloads marked as mass messages.
 
-### **-ok, --only-timed:**
+### **-ok, --only-timed**
 
 * Downloads only temporary posts (mostly used for promotions).
 
-### **-ft, --filter (Regex):**
+### **-ft, --filter** \[argument]
 
 * Filter posts using a provided regular expression pattern.
 * Case-sensitive if uppercase characters are included.
 * Posts matching the pattern are included.
 * **Defaults:** to `".*"` (matches all posts).
 
-### **-nf, --neg-filter (Regex):**
+### **-nf, --neg-filter** \[argument]
 
 * Filter posts to exclude based on a regular expression pattern.
 * Case-sensitive if uppercase characters are included.
 * Posts matching the pattern are excluded.
 * **Defaults:** to `None` (no exclusion).
 
-### **-to, --protected-only:**
+### **-to, --protected-only**
 
 * Restricts downloads to content requiring decryption.
 
-### **-no, --normal-only:**
+### **-no, --normal-only**
 
 * Restricts downloads to content that does not require decryption.
 
-### **-lb, --label:**
+### **-lb, --label**
 
 * Scrape content with specific labels.
 * **Defaults:** to `None` (no specific label).
@@ -83,11 +83,11 @@ description: >-
 Valid Date Inputs
 {% endembed %}
 
-### **-be, --before (Date):**
+### **-be, --before** \[argument]
 
 * Process posts on or before a specified date (format: Month/Day/Year).
 
-### **-af, --after (Date):**
+### **-af, --after** \[argument]
 
 * Process posts on or after a specified date (format: Month/Day/Year).
 
@@ -95,17 +95,17 @@ Valid Date Inputs
 
 ## Other Options
 
-### **-e, --force-all:**
+### **-e, --force-all**
 
 * Downloads all files regardless of database presence.
 * **Defaults:** to `False`.
 
-### **-eq, --force-model-unique:**
+### **-eq, --force-model-unique**
 
 * Downloads files only if not present for the current model.
 * **Defaults:** to `False`.
 
-**-sp, --scrape-paid:**
+### **-sp, --scrape-paid**
 
 * Scrapes the entire paid page for content (can be time-consuming).
 * **Defaults:** to `False`.

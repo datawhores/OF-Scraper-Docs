@@ -14,12 +14,12 @@ ofscraper  [global args][Logging] [main program args]
 
 ## Global Options
 
-{% content-ref url="command-reference/global-options/global-args.md" %}
-[global-args.md](command-reference/global-options/global-args.md)
+{% content-ref url="command-reference/main-options/global-args.md" %}
+[global-args.md](command-reference/main-options/global-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/global-options/logging.md" %}
-[logging.md](command-reference/global-options/logging.md)
+{% content-ref url="command-reference/main-options/logging.md" %}
+[logging.md](command-reference/main-options/logging.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}

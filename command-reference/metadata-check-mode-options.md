@@ -1,7 +1,7 @@
 # Metadata Check Mode Options
 
 {% hint style="info" %}
-**Metadata Mode inherets mosts options from the main mode, with a few options removed because they don't make sense outside of downloading**
+**Metadata Mode inherits mosts options from the main/scraper mode, with a few options removed because they don't make sense outside of downloading**
 {% endhint %}
 
 ***
@@ -10,7 +10,7 @@
 **without --force-all or --force-model-unique media will be filter to only those that are set as not downloaded in the database**
 {% endhint %}
 
-### \[-md, --metadata] **METADATA\_MODE**&#x20;
+### -md, --metadata \[argument]
 
 The `--metadata` argument is used to specify how metadata mode updates the db
 
@@ -26,7 +26,7 @@ The `--metadata` argument is used to specify how metadata mode updates the db
 
 ***
 
-### \[-sp, --scrape-paid]  **METADATA\_MODE**&#x20;
+### -sp, --scrape-paid  \[argument]&#x20;
 
 The `--scrape-paid` argument is used to specify how metadata mode updates the db, for scrape paid content
 

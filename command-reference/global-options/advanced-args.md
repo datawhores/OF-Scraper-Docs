@@ -63,4 +63,4 @@ description: >-
 * **Arguments passed to script:** Username, model ID, media JSON, and post JSON (all based on the original API responses, with additional data for convenience).
 * **Note:** This option allows for custom post-download processing but requires creating and managing the script separately.
 * **Requires Argument:** You must provide the path to your script after the option \
-  (e.g., `-ds /path/to/my_script.sh`).
+  (e.g., `-ds /path/to/my_script.sh`)

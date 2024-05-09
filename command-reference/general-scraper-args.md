@@ -8,7 +8,7 @@ description: >-
 
 ## Background Execution
 
-### -d, --daemon \[argument] (optional)
+### -d, --daemon \[argument]
 
 * **Runs:** The program in the background as a daemon process.
 * **Argument:** (Optional) Specify the desired interval between program runs (e.g., `-d 3600` for hourly runs).

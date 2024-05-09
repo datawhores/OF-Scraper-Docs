@@ -14,12 +14,12 @@ ofscraper  [global args][Logging] [main program args]
 
 ## Global Options
 
-{% content-ref url="command-reference/general-program-options/global-args.md" %}
-[global-args.md](command-reference/general-program-options/global-args.md)
+{% content-ref url="command-reference/main-options/global-args.md" %}
+[global-args.md](command-reference/main-options/global-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/general-program-options/logging.md" %}
-[logging.md](command-reference/general-program-options/logging.md)
+{% content-ref url="command-reference/main-options/logging.md" %}
+[logging.md](command-reference/main-options/logging.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
@@ -30,8 +30,8 @@ ofscraper  [global args][Logging] [main program args]
 [download-options](getting-started/config-options/download-options/)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/general-program-options/advanced-args.md" %}
-[advanced-args.md](command-reference/general-program-options/advanced-args.md)
+{% content-ref url="command-reference/global-options/advanced-args.md" %}
+[advanced-args.md](command-reference/global-options/advanced-args.md)
 {% endcontent-ref %}
 
 ## Main Program Args
@@ -60,8 +60,8 @@ ofscraper  [global args][Logging] [main program args]
 [media-filtering-options.md](getting-started/config-options/download-options/media-filtering-options.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/general-program-options/filename-modification-options.md" %}
-[filename-modification-options.md](command-reference/general-program-options/filename-modification-options.md)
+{% content-ref url="command-reference/common-option-groups/filename-modification-options.md" %}
+[filename-modification-options.md](command-reference/common-option-groups/filename-modification-options.md)
 {% endcontent-ref %}
 
 {% content-ref url="command-reference/scrape-metadata-options/advanced-search-and-processing-options.md" %}
@@ -70,10 +70,10 @@ ofscraper  [global args][Logging] [main program args]
 
 ## Other Modes
 
-{% content-ref url="command-reference/commands-for-other-modes/content-check-mode-args.md" %}
-[content-check-mode-args.md](command-reference/commands-for-other-modes/content-check-mode-args.md)
+{% content-ref url="command-reference/content-check-mode-args.md" %}
+[content-check-mode-args.md](command-reference/content-check-mode-args.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/manual-mode-args.md" %}
-[manual-mode-args.md](command-reference/manual-mode-args.md)
+{% content-ref url="command-reference/commands-for-other-modes/manual-mode-args.md" %}
+[manual-mode-args.md](command-reference/commands-for-other-modes/manual-mode-args.md)
 {% endcontent-ref %}

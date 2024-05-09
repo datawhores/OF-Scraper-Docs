@@ -5,7 +5,7 @@ description: >-
   stories/highlights)
 ---
 
-# Content Check Modes Commands Options
+# Content Check Modes Options
 
 {% hint style="info" %}
 &#x20;**Cached information is generally stored for 24 hours to improve efficiency**
@@ -15,26 +15,26 @@ description: >-
 
 ***
 
-## Content Check Subcommands
 
-### Subcommand Options
+
+## Subcommand Options
 
 Each content check subcommand (`post_check`, `msg_check`, `paid_check`, `story_check`) accepts common arguments for specifying content sources and controlling update behavior.
 
-#### Specifying Content Source
+### Specifying Content Source
 
 * **-u, --url \[argument]:** (all subcommands)
   * Scans content from one or more URLs provided as arguments (separate URLs with spaces).
 * **-f, --file \[argument]:** (all subcommands)
   * Scans content from a file containing entries (URLs or usernames) separated by lines.
 
-#### Forcing Update
+### Forcing Update
 
 * **-fo, --force \[argument]:** (all subcommands)
   * **Default:** `False` (uses cached data if available).
   * Sets `True` to force the API to retrieve the latest information, bypassing the cache.
 
-### Subcommand Descriptions
+## Subcommand Descriptions
 
 **Here's a summary of each content check subcommand:**
 
@@ -42,5 +42,3 @@ Each content check subcommand (`post_check`, `msg_check`, `paid_check`, `story_c
 * **msg\_check:** Analyzes data associated with messages from specified URLs or a file. It generates a table displaying relevant information about the messages.
 * **paid\_check:** Analyzes data associated with purchased content from specified usernames or a file. It generates a table displaying relevant information about the purchased content.
 * **story\_check:** Analyzes data associated with stories and highlights from specified usernames or a file. It generates a table displaying relevant information about the stories/highlights.
-
-**Common Usage Pattern:**

@@ -6,8 +6,6 @@ description: >-
 
 # Media Filters Options
 
-
-
 ## File Size Filters
 
 ## -sx, --size-max \[argument]

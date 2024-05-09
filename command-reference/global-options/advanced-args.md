@@ -50,7 +50,7 @@ description: >-
 
 ***
 
-### Additional Options
+## Additional Options
 
 ### -up, --update-profile
 

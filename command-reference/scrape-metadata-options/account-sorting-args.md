@@ -15,7 +15,7 @@ description: >-
 
 ## Sorting Criteria
 
-#### -st, --sort \[argument]
+### -st, --sort \[argument]
 
 * **Controls:** The order of the model list and processing order.
 * **Possible choices:**

@@ -22,8 +22,8 @@ ofscraper  [global args][Logging] [main program args]
 [logging.md](command-reference/global-options/logging.md)
 {% endcontent-ref %}
 
-{% content-ref url="command-reference/global-options/metadata-options.md" %}
-[metadata-options.md](command-reference/global-options/metadata-options.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="getting-started/config-options/download-options/" %}

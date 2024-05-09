@@ -57,7 +57,6 @@
   * [Global Options](command-reference/global-options/README.md)
     * [Program Options](command-reference/global-options/global-args.md)
     * [Logging Options](command-reference/global-options/logging.md)
-    * [Metadata Options](command-reference/global-options/metadata-options.md)
     * [Download Options](command-reference/global-options/download-options.md)
     * [Advanced Program Options](command-reference/global-options/advanced-args.md)
   * [Automation Options](command-reference/general-scraper-args.md)

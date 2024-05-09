@@ -22,6 +22,16 @@ The `--metadata` argument is used to specify how metadata mode updates the db
   2. Updates metadata fields for the specified area via an API.
 * **complete** - Marks the download as complete and updates metadata fields via an API. It also uses a new filename if one is available
 
+### -ms, --mark-stray-locked  \[argument]
+
+This option is specifically for setting unprocessed items within a date range as locked. This is meant for items that can not be retrived via api, potentially because they have been deleted\
+\
+It works in conjunction with the `--after` and `--before` options
+
+It excludes media items with labels from being marked as locked
+
+This is down per API type Timeline, Archived, and Messages
+
 
 
 ***

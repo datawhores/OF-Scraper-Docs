@@ -18,7 +18,7 @@ description: >-
   Also forces the program to make fresh sequential API calls for data, even if it's available in the cache. This can be useful for ensuring you have the latest information but can be slower than using the cache
 * **Default:** `False` (cache is enabled)
 
-#### -nca, --no-api-cache
+### -nca, --no-api-cache
 
 * **Effect:** Forces the program to make sequential  API calls for data, even if it's cached within the current program session. This is different from `--no-cache` which is for all uses of the cache library beyond just OF API request
 * **Default:** `False` (API cache is enabled for the current session)

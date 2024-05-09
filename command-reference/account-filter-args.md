@@ -43,6 +43,10 @@ These options allow you to filter accounts based on their current price, renewal
   * `paid`: Filters for accounts with a regular price (if applicable).
   * `free`: Filters for accounts without a regular price (if applicable).
 
+
+
+***
+
 ## Account Flags
 
 These options filter accounts based on specific flags or properties.
@@ -71,6 +75,10 @@ These options filter accounts based on specific flags or properties.
 
 * **Filters:** Accounts without any claimable promotional price, regardless of current or renewal status.
 
+
+
+***
+
 ## Subscription Type
 
 These options filter accounts based on their subscription status.
@@ -98,5 +106,3 @@ These options filter accounts based on their subscription status.
 ### -rf, --renew-off
 
 * **Filters:** Accounts with the "renew" flag disabled.
-
-This revised version incorporates clear descriptions, links to potentially existing detailed documentation for complex filters, and avoids unnecessary underscores in option names.

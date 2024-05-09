@@ -26,8 +26,6 @@ description: >-
 * **Possible choices:** `highlights`, `all`, `archived`, `messages`, `timeline`, `pinned`, `stories`, `purchased`, `profile`, `labels`.
 * **Defaults** to `None`.
 
-
-
 ***
 
 ## Filtering Content
@@ -75,19 +73,15 @@ description: >-
 * Scrape content with specific labels.
 * **Defaults:** to `None` (no specific label).
 
-
-
-
-
 ***
 
 ### Date Range
 
-{% hint style="info" %}
-**See Selecting post for valid date inputs**
-{% endhint %}
 
-{% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#after" %}
+
+{% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#valid-inputs" %}
+Valid Date Inputs
+{% endembed %}
 
 ### **-be, --before (Date):**
 
@@ -96,8 +90,6 @@ description: >-
 ### **-af, --after (Date):**
 
 * Process posts on or after a specified date (format: Month/Day/Year).
-
-
 
 ***
 

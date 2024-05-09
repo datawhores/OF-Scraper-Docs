@@ -52,7 +52,7 @@ These filters allow you to target accounts based on specific price ranges for di
 These filters allow you to target accounts based on specific dates related to their activity or subscription status
 
 {% embed url="https://of-scraper.gitbook.io/of-scraper/using-the-scraper/batch-scraping-and-bot-actions/selecting-posts#valid-inputs" %}
-Valid Dates
+Valid Date Inputs
 {% endembed %}
 
 ### -lsa, --last-seen-after \[argument]

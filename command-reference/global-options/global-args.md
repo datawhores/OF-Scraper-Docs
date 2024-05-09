@@ -23,6 +23,9 @@ description: These options allow you to configure various aspects of the program
 
 ### -r, --profile \[argument] (optional)
 
-* **Specifies:** The location of the profile directory, which stores authentication information.
-* **Default behavior:** The program uses the default profile location.
-* **Example:** With `-r /custom/profile/path`, the program will look for authentication data in the `/custom/profile/path` directory.
+* **Specifies:** The name of the profile directory, which stores authentication information&#x20;
+
+&#x20;     This is store in the config location
+
+* **Default behavior:** The program uses the default profile 'main'
+* **Example:** With `-r test`, the program will use a profile named test

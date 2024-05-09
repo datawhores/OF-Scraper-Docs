@@ -1,17 +1,21 @@
 ---
-description: Manually download media by providing a list of urls or ID
+description: >-
+  These options allow you to download media from specific URLs or post IDs
+  without relying on user lists or other automated selection methods.
 ---
 
 # Manual Mode Options
 
-### -f, --file
+### Download Sources
 
-```
-File containing a list of links or post IDs separated by lines
-```
+### **-f, --file \[argument]:**&#x20;
 
-### -u, --url
+Download media from a file containing URLs or post IDs, separated by line breaks.
 
-```
-url(s) to download
-```
+### **u, --url \[argument]:**
+
+Download media directly from one or more URLs provided as arguments (separate URLs with spaces).
+
+***
+
+**Combining Options:** You can use both `-f` and `-u` in a single command. The program will prioritize URLs from the file first, followed by any URLs specified with `-u`.

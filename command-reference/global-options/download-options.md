@@ -6,7 +6,7 @@ description: These options allow you to fine-tune how the program handles downlo
 
 ## Download Configuration Overrides
 
-### -db, --download-bars \[argument]
+### -db, --download-bars
 
 * **Overrides:** The `download-bars` setting in the configuration file
 * **Default:** `None`

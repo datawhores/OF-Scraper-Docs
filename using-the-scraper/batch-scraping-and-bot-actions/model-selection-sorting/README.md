@@ -122,8 +122,8 @@ ofscraper  --regular-price paid
 
 ### Advanced filtering
 
-{% content-ref url="../../../command-reference/scrape-metadata-options/account-filter-args/" %}
-[account-filter-args](../../../command-reference/scrape-metadata-options/account-filter-args/)
+{% content-ref url="../../../command-reference/shared-scrape+metadata-mode-options/account-filter-args/" %}
+[account-filter-args](../../../command-reference/shared-scrape+metadata-mode-options/account-filter-args/)
 {% endcontent-ref %}
 
 

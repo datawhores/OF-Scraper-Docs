@@ -37,3 +37,10 @@ description: >-
   * `NORMAL` (default): Logs most program activity and errors to the console.
   * `DEBUG`: Logs all program activity and detailed debugging information to the console.
 * **Sets:** The verbosity level for log messages displayed in the console window.
+
+## Other Options
+
+### **-nl,--no-live**
+
+* **Controls**: Live displays via rich, these are used for Panels, Spinners, and progress bars
+* **Defaults**: False

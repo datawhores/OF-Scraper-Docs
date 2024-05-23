@@ -98,7 +98,12 @@ Valid Date Inputs
 ### **-e, --force-all**
 
 * Downloads all files regardless of database presence.
-* **Defaults:** to `False`.
+* **Defaults:** to `False`
+
+### **-fl,--force-like**
+
+* Like posts regardless of status in cache&#x20;
+* **Defaults:** to `False`
 
 ### **-eq, --force-model-unique**
 

@@ -14,6 +14,11 @@ description: various options for output
 **Discord logs will solely contain the log message, whereas other logs will include additional details like function calls and line numbers.**
 {% endhint %}
 
+{% hint style="info" %}
+**You can turn the const value 'DISCORD\_ASYNC' to true to spend up discord logs**\
+**This could result in logs not being in order**
+{% endhint %}
+
 The output goes to the Discord channel
 
 #### LEVELS

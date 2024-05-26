@@ -29,6 +29,7 @@
 ## How to customize them
 
 * To change a constant value in the config, you'll need to provide a dictionary for the custom\_values option in advanced\_options where the key is the constant value you want to modify and the value is the new value you'd like to assign to it
+* There is no limit to how many variables can be changed
 
 ***
 

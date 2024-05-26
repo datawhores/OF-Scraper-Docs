@@ -1,4 +1,4 @@
-# Changing Const Value
+# Changing Const Values
 
 ***
 
@@ -32,8 +32,45 @@
 
 ***
 
+## Example
+
+### Syntax is&#x20;
+
+```
+Custom_Variable:Value,
+Custom_Variable2:Value
+```
+
+### In the config
+
+```
+.....
+ "advanced_options": {
+        "code-execution": false,
+        "dynamic-mode-default": "deviint",
+        "backend": "aio",
+        "downloadbars": true,
+        "cache-mode": "sqlite",
+        "appendlog": false,
+        "custom_values": {
+            "DISCORD_THREAD_OVERRIDE": false,
+            "REMOVE_UNVIEWABLE_METADATA": false,
+            "API_DISPLAY": false
+        },
+        "sanitize_text": false,
+        "temp_dir": null,
+        "remove_hash_match": false,
+        "infinite_loop_action_mode": false,
+        "post_download_script": null,
+        "disable_auto_after": false,
+        "default_user_list": "main",
+        "default_black_list": ""
+    },
+`
+```
+
 ## Limitations
 
 * If you change any **OFSCRAPER\_\*\_LIST value** you will need to provide the new list manually with --user-list or change **default\_user\_list**
 * changes in **KEY\_OPTIONS** are not accepted in args
-* **configFile** and **configPath** are not changable
+* **configFile** and **configPath** are not changeable

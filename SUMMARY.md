@@ -30,7 +30,7 @@
     * [CDM Options](getting-started/config-options/key-option.md)
     * [Performance Options](getting-started/config-options/performance-options.md)
     * [Advanced config options](getting-started/config-options/advanced-config-options/README.md)
-      * [Changing Const Value](getting-started/config-options/advanced-config-options/changing-const.md)
+      * [Changing Const Values](getting-started/config-options/advanced-config-options/changing-const.md)
       * [Mediatype overwrites](getting-started/config-options/advanced-config-options/mediatype-overwrites.md)
   * [Auth](getting-started/auth.md)
   * [Controlling Output/Logs](getting-started/controlling-output.md)

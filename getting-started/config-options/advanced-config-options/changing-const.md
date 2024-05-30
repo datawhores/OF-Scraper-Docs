@@ -44,8 +44,10 @@ Custom_Variable2:Value
 
 ### In the config
 
+* should be in **advanced\_options**
+
 <pre class="language-markup"><code class="lang-markup">.....
- # <a data-footnote-ref href="#user-content-fn-1">"advanced_options"</a>: {
+  <a data-footnote-ref href="#user-content-fn-1">"advanced_options"</a>: {
         "code-execution": false,
         "dynamic-mode-default": "deviint",
         "backend": "aio",

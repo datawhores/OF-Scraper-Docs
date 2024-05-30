@@ -44,9 +44,8 @@ Custom_Variable2:Value
 
 ### In the config
 
-```
-.....
- "advanced_options": {
+<pre class="language-markup"><code class="lang-markup">.....
+ # <a data-footnote-ref href="#user-content-fn-1">"advanced_options"</a>: {
         "code-execution": false,
         "dynamic-mode-default": "deviint",
         "backend": "aio",
@@ -68,10 +67,12 @@ Custom_Variable2:Value
         "default_black_list": ""
     },
 `
-```
+</code></pre>
 
 ## Limitations
 
 * If you change any **OFSCRAPER\_\*\_LIST value** you will need to provide the new list manually with --user-list or change **default\_user\_list**
 * changes in **KEY\_OPTIONS** are not accepted in args
 * **configFile** and **configPath** are not changeable
+
+[^1]: 

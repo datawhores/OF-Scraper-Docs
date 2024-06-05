@@ -1,11 +1,5 @@
 # Changing Const Values
 
-***
-
-{% hint style="info" %}
-**New in version 3.7**
-{% endhint %}
-
 ## Where are they
 
 **Default Values:** The default values for constants are read from the `ofscraper/const/values` folder. This folder contains separate files for different types of values

@@ -8,9 +8,11 @@
 
 ## Where are they
 
-* Const values are in the ofscraper/const folder&#x20;
-* We try to organize them by usage\
-  \
+**Default Values:** The default values for constants are read from the `ofscraper/const/values` folder. This folder contains separate files for different types of values
+
+* **Custom Configuration (3.7.1 and above):** Starting from version 3.7.1, you can override default values with custom values by setting the `"custom_values"` key in your configuration file.
+* **Environment Variables (3.10 and above):** From version 3.10 onwards, you can also customize values by setting environment variables for the wanted value
+
 
 
 ## What can be changed

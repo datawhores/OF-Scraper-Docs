@@ -69,7 +69,7 @@ This will limit the program to exclusively interact with and display free accoun
 This demonstrates scraping messages from subscriptions that have expired
 
 ```
-ofscraper --sub-status expired --posts messages --username ALL --action download
+ofscraper --active-subscription --posts messages --username ALL --action download
 ```
 
 ### Restrict by renewal status
@@ -77,7 +77,7 @@ ofscraper --sub-status expired --posts messages --username ALL --action download
 You can utilize this option to exclusively scrape active accounts, considering the renewal status of their subscriptions.
 
 ```
-ofscraper  --renewal disabled --username ALL
+ofscraper  --renewal-off --username ALL
 ```
 
 
@@ -89,13 +89,13 @@ ofscraper  --renewal disabled --username ALL
 Filters are commonly employed to scrape accounts that are scheduled for expiration.
 
 ```
-ofscraper  --current-price paid --sub-status active --renewal expired --username ALL
+ofscraper  --current-price paid --active-subscription --renewal-off --username ALL
 ```
 
 Alternatively, you might choose to scrape only free accounts with active subscriptions
 
 ```
-ofscraper  --current-price free --sub-status active --username ALL
+ofscraper  --current-price free --active-subscription --username ALL
 ```
 
 ### Exclude specific models

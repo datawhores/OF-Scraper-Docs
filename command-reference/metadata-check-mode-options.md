@@ -10,6 +10,20 @@
 **without --force-all or --force-model-unique media will be filter to only those that are set as not downloaded in the database**
 {% endhint %}
 
+## Syntax
+
+```
+ofscraper metadata [options]
+```
+
+### example
+
+```
+ofscraper metadata -metadata check
+```
+
+## Options
+
 ### -md, --metadata \[argument]
 
 The `--metadata` argument is used to specify how metadata mode updates the db

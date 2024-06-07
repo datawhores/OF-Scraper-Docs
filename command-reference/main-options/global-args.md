@@ -17,8 +17,8 @@ description: These options allow you to configure various aspects of the program
 * **Default behavior:** The program uses the default configuration location
 * **Example:** With `-cg /custom/config/path`, the program will look for configuration files in the `/custom/config/path` directory
 
-{% content-ref url="../../../using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md" %}
-[advanced-args.md](../../../using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md)
+{% content-ref url="../../using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md" %}
+[advanced-args.md](../../using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md)
 {% endcontent-ref %}
 
 ### -r, --profile \[argument] (optional)

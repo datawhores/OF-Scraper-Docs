@@ -13,8 +13,8 @@ description: >-
 **Refer to the dedicated documentation for detailed information on price filtering and sorting**
 {% endhint %}
 
-{% content-ref url="../../../../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
-[price-filtering-sort.md](../../../../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
+{% content-ref url="../../../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md" %}
+[price-filtering-sort.md](../../../using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
 {% endcontent-ref %}
 
 These options allow you to filter accounts based on their current price, renewal price, promotional price (if available), and regular price (if available).

@@ -3,13 +3,13 @@
 ## Syntax
 
 ```
-ofscraper metadata [options]
+ofscraper [options]
 ```
 
 ### example
 
 ```
-ofscraper metadata -metadata check
+ofscraper --metadata check
 ```
 
 ## General Options
@@ -20,6 +20,6 @@ ofscraper metadata -metadata check
 
 ## Options
 
-{% content-ref url="shared-options/scrape-metadata-options/" %}
-[scrape-metadata-options](shared-options/scrape-metadata-options/)
+{% content-ref url="scrape-metadata-options/" %}
+[scrape-metadata-options](scrape-metadata-options/)
 {% endcontent-ref %}

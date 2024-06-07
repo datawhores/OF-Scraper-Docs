@@ -6,10 +6,16 @@
 ofscraper [options]
 ```
 
-### example
+### examples
 
 ```
-ofscraper --metadata check
+ofscraper
+```
+
+or
+
+```
+ofscraper --username ALL
 ```
 
 ## General Options

@@ -20,8 +20,8 @@ ofscraper manual --url test
 
 ## General Options
 
-{% content-ref url="../common-option-groups/" %}
-[common-option-groups](../common-option-groups/)
+{% content-ref url="../shared-options/common-option-groups/" %}
+[common-option-groups](../shared-options/common-option-groups/)
 {% endcontent-ref %}
 
 ## Download Sources

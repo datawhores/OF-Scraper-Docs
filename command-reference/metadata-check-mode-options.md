@@ -24,12 +24,12 @@ ofscraper metadata -metadata check
 
 ## General Options
 
-{% content-ref url="common-option-groups/" %}
-[common-option-groups](common-option-groups/)
+{% content-ref url="shared-options/common-option-groups/" %}
+[common-option-groups](shared-options/common-option-groups/)
 {% endcontent-ref %}
 
-{% content-ref url="scrape-metadata-options/" %}
-[scrape-metadata-options](scrape-metadata-options/)
+{% content-ref url="shared-options/scrape-metadata-options/" %}
+[scrape-metadata-options](shared-options/scrape-metadata-options/)
 {% endcontent-ref %}
 
 ## Options

@@ -29,8 +29,8 @@ ofscraper post_check --url test
 
 ## General Options
 
-{% content-ref url="../common-option-groups/" %}
-[common-option-groups](../common-option-groups/)
+{% content-ref url="common-option-groups/" %}
+[common-option-groups](common-option-groups/)
 {% endcontent-ref %}
 
 ## Subcommand Options

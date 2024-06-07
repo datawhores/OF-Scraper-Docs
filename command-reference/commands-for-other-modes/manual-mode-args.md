@@ -6,7 +6,19 @@ description: >-
 
 # Manual Mode Options
 
-### Download Sources
+## Syntax
+
+```
+ofscraper manual [options]
+```
+
+### example
+
+```
+ofscraper manual --url test
+```
+
+## Download Sources
 
 ### **-f, --file \[argument]:**&#x20;
 

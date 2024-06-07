@@ -18,6 +18,12 @@ ofscraper manual [options]
 ofscraper manual --url test
 ```
 
+## General Options
+
+{% content-ref url="../common-option-groups/" %}
+[common-option-groups](../common-option-groups/)
+{% endcontent-ref %}
+
 ## Download Sources
 
 ### **-f, --file \[argument]:**&#x20;

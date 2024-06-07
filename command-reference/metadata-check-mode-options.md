@@ -22,6 +22,16 @@ ofscraper metadata [options]
 ofscraper metadata -metadata check
 ```
 
+## General Options
+
+{% content-ref url="common-option-groups/" %}
+[common-option-groups](common-option-groups/)
+{% endcontent-ref %}
+
+{% content-ref url="scrape-metadata-options/" %}
+[scrape-metadata-options](scrape-metadata-options/)
+{% endcontent-ref %}
+
 ## Options
 
 ### -md, --metadata \[argument]

@@ -27,6 +27,12 @@ ofscraper [subcommand_name] [subcommand_options]
 ofscraper post_check --url test
 ```
 
+## General Options
+
+{% content-ref url="../common-option-groups/" %}
+[common-option-groups](../common-option-groups/)
+{% endcontent-ref %}
+
 ## Subcommand Options
 
 Each content check subcommand (`post_check`, `msg_check`, `paid_check`, `story_check`) accepts common arguments for specifying content sources and controlling update behavior.
@@ -52,3 +58,4 @@ Each content check subcommand (`post_check`, `msg_check`, `paid_check`, `story_c
 * **msg\_check:** Analyzes data associated with messages from specified URLs or a file. It generates a table displaying relevant information about the messages.
 * **paid\_check:** Analyzes data associated with purchased content from specified usernames or a file. It generates a table displaying relevant information about the purchased content.
 * **story\_check:** Analyzes data associated with stories and highlights from specified usernames or a file. It generates a table displaying relevant information about the stories/highlights.
+

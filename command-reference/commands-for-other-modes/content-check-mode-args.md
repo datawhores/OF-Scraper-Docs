@@ -15,7 +15,17 @@ description: >-
 
 ***
 
+## Syntax
 
+```
+ofscraper [subcommand_name] [subcommand_options]
+```
+
+### example
+
+```
+ofscraper post_check --url test
+```
 
 ## Subcommand Options
 

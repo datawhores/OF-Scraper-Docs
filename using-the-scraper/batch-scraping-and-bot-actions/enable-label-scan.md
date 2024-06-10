@@ -20,6 +20,11 @@ or&#x20;
 ofscraper --posts labels
 ```
 
+or&#x20;
+
+<pre><code><strong>ofscraper --posts labels*
+</strong></code></pre>
+
 ## permanently add labels to all
 
 ```

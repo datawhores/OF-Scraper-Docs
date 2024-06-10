@@ -19,14 +19,19 @@ Duplicates will be removed
 ## Options
 
 * profile
-* hightlights
+* highlights
 * timeline
 * archived
 * stories
 * messages
 * purchased
 * pinned
+* labels
+
+### Special Options
+
 * all (adding this option means scraping highlights,timeline,archived,stories,pinned,purchased and messages)
+* labels\* or labels+ (This means scraping all+labels)
 
 ### remove post type
 

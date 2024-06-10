@@ -14,16 +14,16 @@ This enables you to choose arguments using the prompt menus.
 ofscraper
 ```
 
-{% content-ref url="selecting-posts.md" %}
-[selecting-posts.md](selecting-posts.md)
+{% content-ref url="basic-actions/selecting-posts.md" %}
+[selecting-posts.md](basic-actions/selecting-posts.md)
 {% endcontent-ref %}
 
 {% content-ref url="model-selection-sorting/" %}
 [model-selection-sorting](model-selection-sorting/)
 {% endcontent-ref %}
 
-{% content-ref url="liking-unliking-post.md" %}
-[liking-unliking-post.md](liking-unliking-post.md)
+{% content-ref url="basic-actions/liking-unliking-post.md" %}
+[liking-unliking-post.md](basic-actions/liking-unliking-post.md)
 {% endcontent-ref %}
 
 

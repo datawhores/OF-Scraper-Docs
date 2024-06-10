@@ -8,7 +8,7 @@
 * While this functionality remains valuable for specific workflows, it can introduce extend scan times  if you don't require labels in your database
 * To address this, Version 3.9 the default is to disable label usage , resulting in a performance improvement for the `--all command`
 
-## add labels to the arg
+## adding labels
 
 ```
 ofscraper --posts all,labels
@@ -20,9 +20,14 @@ or&#x20;
 ofscraper --posts labels
 ```
 
-or&#x20;
+## shorthands for scraping all with labels
 
 <pre><code><strong>ofscraper --posts labels*
+</strong></code></pre>
+
+or&#x20;
+
+<pre><code><strong>ofscraper --posts labels+
 </strong></code></pre>
 
 ## permanently add labels to all

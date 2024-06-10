@@ -14,8 +14,8 @@ This enables you to choose arguments using the prompt menus.
 ofscraper
 ```
 
-{% content-ref url="basic-actions/selecting-posts/" %}
-[selecting-posts](basic-actions/selecting-posts/)
+{% content-ref url="basic-actions/selecting-posts.md" %}
+[selecting-posts.md](basic-actions/selecting-posts.md)
 {% endcontent-ref %}
 
 {% content-ref url="model-selection-sorting/" %}

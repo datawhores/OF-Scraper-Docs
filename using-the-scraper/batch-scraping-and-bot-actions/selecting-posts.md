@@ -37,7 +37,7 @@ Duplicates will be removed
 
 #### remove post type
 
-You can add remove a post type by prepending the type with a hyphen (-). This will override any other preferences non hyphen preference including all
+You can add remove a post type by prepending the type with a hyphen (-). This will remove any selection, including those from all
 
 
 

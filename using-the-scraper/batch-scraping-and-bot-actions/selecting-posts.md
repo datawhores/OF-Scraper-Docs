@@ -1,6 +1,8 @@
-# Selecting Posts
+# Downloading Content
 
-## By post type
+## Selecting Posts
+
+### By post type
 
 A comma-separated list indicating the posts from which you wish to download content.
 
@@ -16,7 +18,7 @@ multiple calls
 
 Duplicates will be removed
 
-## Options
+### Options
 
 * profile
 * highlights
@@ -28,12 +30,12 @@ Duplicates will be removed
 * pinned
 * labels
 
-### Special Options
+#### Special Options
 
 * all (adding this option means scraping highlights,timeline,archived,stories,pinned,purchased and messages)
 * labels\* or labels+ (This means scraping all+labels)
 
-### remove post type
+#### remove post type
 
 You can add remove a post type by prepending the type with a hyphen (-). This will override any other preferences non hyphen preference including all
 

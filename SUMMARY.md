@@ -40,7 +40,7 @@
     * [Old Menu](using-the-scraper/using-prompts/old-menu.md)
   * [Username selection or Fuzzy Search](using-the-scraper/username-selection-or-fuzzy-search.md)
   * [Basic Automation with command-line](using-the-scraper/batch-scraping-and-bot-actions/README.md)
-    * [Selecting Posts](using-the-scraper/batch-scraping-and-bot-actions/selecting-posts.md)
+    * [Downloading Content](using-the-scraper/batch-scraping-and-bot-actions/selecting-posts.md)
     * [Model Filtering/Sorting](using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/README.md)
       * [Price Filtering/Sort](using-the-scraper/batch-scraping-and-bot-actions/model-selection-sorting/price-filtering-sort.md)
     * [Advanced Args](using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md)

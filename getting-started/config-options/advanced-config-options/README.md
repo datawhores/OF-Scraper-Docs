@@ -152,19 +152,13 @@ Sets the script to run in a infinite loop even when \
 
 ***
 
-## disable\_auto\_after
+## enable\_auto\_after
 
-{% hint style="info" %}
-**If set to true then every scan will be either the earliest post marked as not downloaded or latest posts**
-{% endhint %}
-
-{% hint style="info" %}
-**If set to false, then at least one full scan most be done on a subsequent scan following --after use**
-{% endhint %}
-
-Whether the script should mark the next scan as a full scan with --after usage
-
-
+* dynamically sets after if enabled
+  1. after is set to zero for the first run following that --after was used previously and has been removed in a future run
+  2. dynamically sets after based on db status
+* if disabled after is is set based on --after only
+  1. if --after is None, then after will be set as 0
 
 ***
 

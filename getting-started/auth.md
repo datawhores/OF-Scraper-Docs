@@ -100,6 +100,10 @@ Go to your [notification area](https://onlyfans.com/my/notifications) on OnlyFan
 |      Windows     |  ctrl+shift+I |
 |       Linux      |  ctrl+shift+I |
 
+### **1. Getting a valid requests**
+
+
+
 Once you have your browser's developer tools open, your screen should look like the following:
 
 ![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/browser\_tools\_open.png)
@@ -114,11 +118,39 @@ Then click on `XHR` sub-tab inside of the `Network` tab:
 
 Once you're inside of the `XHR` sub-tab, refresh the page while you have your browser's developer tools open. After the page reloads, you should see a section titled `init` appear:
 
+
+
 ![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/init.png)
 
 When you click on `init`, you should see a large sidebar appear. Make sure you're in the `Headers` section:
 
 ![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/headers.png)
+
+
+
+***
+
+{% hint style="info" %}
+**If init does not appear use any entry with the domain onlyfans.com**
+{% endhint %}
+
+#### **Examples**
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>onlyfans.com</p></figcaption></figure>
+
+
+
+You may need to right click the header field to enable the domain column
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+### 2. Getting data from requests
+
+![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/init.png)
+
+
 
 After that, scroll down until you see a subsection called `Request Headers`. You should then see three important fields inside of the `Request Headers` subsection: `Cookie`, `User-Agent`, and `x-bc`
 

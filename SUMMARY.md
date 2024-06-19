@@ -31,7 +31,7 @@
     * [Advanced config options](getting-started/config-options/advanced-config-options/README.md)
       * [Changing Const Values](getting-started/config-options/advanced-config-options/changing-const.md)
       * [Mediatype overwrites](getting-started/config-options/advanced-config-options/mediatype-overwrites.md)
-      * [Depreciated Options](getting-started/config-options/advanced-config-options/depreciated-options.md)
+  * [Depreciated Options](getting-started/depreciated-options.md)
   * [Auth](getting-started/auth.md)
   * [Controlling Output/Logs](getting-started/controlling-output.md)
   * [Migrating from Digitalcriminal's script](getting-started/migrating-from-digitalcriminals-script.md)

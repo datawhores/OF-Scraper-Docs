@@ -3,7 +3,7 @@
 ## disable\_auto\_after
 
 {% hint style="info" %}
-**If set to true then every scan will be either the earliest post marked as not downloaded or latest posts**
+**If set to true then every scan will be either the earliest post marked as not downloaded or latest posts in the db**
 {% endhint %}
 
 {% hint style="info" %}

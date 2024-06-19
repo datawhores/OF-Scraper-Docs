@@ -126,7 +126,8 @@ When you click on `init`, you should see a large sidebar appear. Make sure you'r
 
 ![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/headers.png)
 
-
+Skip to step 2 if you have found init successfully\
+otherwise read the next section
 
 ***
 

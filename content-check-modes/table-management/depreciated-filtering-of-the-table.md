@@ -4,6 +4,14 @@
 **For <3.10.7**
 {% endhint %}
 
+{% hint style="info" %}
+**In new versions the filtering is no longer applied automatically**
+{% endhint %}
+
+{% hint style="info" %}
+**The top bar was also replaced with a scrollable  sidebar**
+{% endhint %}
+
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/7aba01b5-e768-43aa-ba98-6d85aca4e37e)
 
 The form above contains all the filters. Clicking 'Submit' will apply the selected filters to the form

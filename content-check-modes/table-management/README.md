@@ -12,7 +12,7 @@ Click the column labels on the top ![image](https://github.com/datawhores/OF-Scr
 
 ***
 
-## Filtering the table
+## Deprecated filtering of the table
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/7aba01b5-e768-43aa-ba98-6d85aca4e37e)
 
@@ -31,7 +31,7 @@ enter semicolon: \[ ;] or  apostrophe: \[ ' ]  the table will filter to rows mat
 The word 'videos' is highlighted\
 
 
-<figure><img src="../.gitbook/assets/img1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img1.png" alt=""><figcaption></figcaption></figure>
 
 Once enter semicolon: \[ ;] or  apostrophe: \[ ' ]   is pressed
 

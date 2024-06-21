@@ -1,4 +1,4 @@
-# Deprecated filtering of the table
+# Depreciated filtering of the table
 
 {% hint style="info" %}
 **For <3.10.7**

@@ -58,7 +58,7 @@
 * [Content Check Modes](content-check-modes/README.md)
   * [Table Columns](content-check-modes/table-columns.md)
   * [Table Management](content-check-modes/table-management/README.md)
-    * [Deprecated filtering of the table](content-check-modes/table-management/deprecated-filtering-of-the-table.md)
+    * [Depreciated filtering of the table](content-check-modes/table-management/depreciated-filtering-of-the-table.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Metadata](page.md)
 * [CDM Setup](cdm-options/README.md)

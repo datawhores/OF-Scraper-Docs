@@ -77,65 +77,148 @@ Click on the reset button. Keep in mind, the program saves the current table inf
 
 ### Table Columns
 
-```
-Download Cart = A cart for sending downloads to a queue
-```
+#### Download Cart&#x20;
 
 ```
-Username = model username
+A cart for sending downloads to a queue
 ```
 
-```
-Downloaded = is the media marked by the db as downloaded
-```
+#### Username
 
 ```
-Unlocked = Whether the post tied to the media is unlocked
+model username
 ```
 
-```
-Times Detected = The greater of how many times the media id is in the db 
-vs how many times the API returns the same media id from different posts
-```
+#### Downloaded
 
 ```
-Length = This is the length of videos/audio
+is the media marked by the db as downloaded
+```
+
+#### Unlocked
+
+```
+Whether the post tied to the media is unlocked
+```
+
+#### Length
+
+```
+This is the length of videos/audio
 N/A ==0 for pictures
 ```
 
-```
-Mediatype = type of media
-```
+#### other\_posts\_with\_media
 
 ```
-Post date = Date the post was created/updated
+Identifies media with matching media IDs from both database 
+and requests
 ```
 
-```
-Post Media Count = Number of media in the original post
-```
+#### Mediatype
 
 ```
-Responsetype = Which API the media was retrieved from
+type of media
 ```
 
-```
-Price = Where the price of the post the media is tied to
-```
+#### Post date
 
 ```
-Post ID = id for the post the media is tied
+Date the post was created/updated
 ```
 
-```
-Media ID = id for the media
-```
+#### Post Media Count
 
 ```
-Text = Text that came with the post
+Number of media in the original post
 ```
 
-###
+#### Responsetype
+
+```
+Which API the media was retrieved from
+```
+
+#### Price
+
+```
+Where the price of the post the media is tied to
+```
+
+#### Post ID
+
+```
+id for the post the media is tied
+```
+
+#### Media ID
+
+```
+id for the media
+```
+
+#### Text
+
+```
+Text that came with the post
+```
+
+#### Caption
+
+```
+The text caption that accompanies the media
+```
+
+#### Author
+
+```
+The creator of the post
+```
+
+#### Likes
+
+```
+The number of likes the post has received
+```
+
+#### Comments
+
+```
+The number of comments on the post
+```
+
+#### Share Count
+
+```
+The number of times the post has been shared
+```
+
+#### Media Type
+
+```
+The format of the media (image, video, etc.)
+```
+
+#### Hashtags
+
+```
+The hashtags used in the post
+```
+
+#### Location
+
+```
+The location where the post was made
+```
+
+### Depreciated  Columns
+
+#### Times Detected
+
+```
+The greater of how many times the media id is in the db 
+vs how many times the API returns the same media id from different posts
+```
 
 ### Example filter by all content with the text dog
 

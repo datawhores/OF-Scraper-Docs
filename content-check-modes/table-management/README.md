@@ -12,34 +12,37 @@ Click the column labels on the top ![image](https://github.com/datawhores/OF-Scr
 
 ***
 
-## Deprecated filtering of the table
+## Filtering of the table
 
-![image](https://github.com/datawhores/OF-Scraper/assets/67020411/7aba01b5-e768-43aa-ba98-6d85aca4e37e)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-The form above contains all the filters. Clicking 'Submit' will apply the selected filters to the form
+* Toggle the form with Ctrl+S
+* The filter form  contains fields for all the columns in the table.
+* Clicking 'Filter' applies form values to filter the table.
 
-### Adding filter from table
+### Adding value  from table
 
-Click on a cell to heighlight it
-
-enter semicolon: \[ ;] or  apostrophe: \[ ' ]  the table will filter to rows matching that cell value
-
-
+* Click on a cell to heighlight it
+* enter semicolon: \[ ;] or  apostrophe: \[ ' ]&#x20;
+* &#x20;the matching field in the filter form, will use the value from the cell
+* To apply click 'Filter'
 
 #### Example
 
-The word 'videos' is highlighted\
+The table a cell with the word 'videos' is highlighted in the mediatype column\
 
 
 <figure><img src="../../.gitbook/assets/img1.png" alt=""><figcaption></figcaption></figure>
 
-Once enter semicolon: \[ ;] or  apostrophe: \[ ' ]   is pressed
+&#x20;Pressing semicolon (`;`) or apostrophe (\`) confirms your choice and updates the filter form
 
-only cell matching videos will appear
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Clicking "Filter" applies the changes, showing only videos in the table.
+
+
 
 ![image](https://github.com/datawhores/OF-Scraper/assets/67020411/11911f08-2e0c-4759-b033-1fcaf40a5e6f)
-
-Furthermore, the forum will also refresh. This cycle continues until you press the reset button.
 
 ###
 

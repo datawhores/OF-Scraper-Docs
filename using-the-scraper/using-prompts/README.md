@@ -30,7 +30,7 @@ Basically, any command lacking the --action command will automatically go to thi
 **Go to main menu options**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -49,7 +49,7 @@ use this menu to perform scraping actions or combination\
 
 ## Profile Menu
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Use this option to
 
@@ -66,7 +66,7 @@ Each profile corresponds to a single account. So, if you aim to have multiple ac
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

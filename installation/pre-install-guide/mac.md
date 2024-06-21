@@ -8,7 +8,7 @@ Start by opening your terminal program
 
 #### Terminal Program
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 
 

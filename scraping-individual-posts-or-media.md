@@ -51,8 +51,8 @@ To grasp this better, checking out the **`get_info`** function in **`manual.py`*
 
 **1. Run a content scraper mode**
 
-{% content-ref url="content-check-modes.md" %}
-[content-check-modes.md](content-check-modes.md)
+{% content-ref url="content-check-modes/" %}
+[content-check-modes](content-check-modes/)
 {% endcontent-ref %}
 
 **2. Use the mouse to toggle the checkmark of the row you want to download**\

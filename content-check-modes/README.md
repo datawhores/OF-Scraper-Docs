@@ -2,7 +2,7 @@
 
 ## What is this
 
-<figure><img src=".gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
 It scrapes data from OnlyFans.com, parsing the database to showcase content information via a generated table.&#x20;
 
@@ -57,7 +57,7 @@ enter semicolon: \[ ;] or  apostrophe: \[ ' ]  the table will filter to rows mat
 The word 'videos' is highlighted\
 
 
-<figure><img src=".gitbook/assets/img1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/img1.png" alt=""><figcaption></figcaption></figure>
 
 Once enter semicolon: \[ ;] or  apostrophe: \[ ' ]   is pressed
 
@@ -74,151 +74,6 @@ Furthermore, the forum will also refresh. This cycle continues until you press t
 Click on the reset button. Keep in mind, the program saves the current table information in memory, so it won't fetch new data until you restart it
 
 ###
-
-### Table Columns
-
-#### Download Cart&#x20;
-
-```
-A cart for sending downloads to a queue
-```
-
-#### Username
-
-```
-model username
-```
-
-#### Downloaded
-
-```
-is the media marked by the db as downloaded
-```
-
-#### Unlocked
-
-```
-Whether the post tied to the media is unlocked
-```
-
-#### Length
-
-```
-This is the length of videos/audio
-N/A ==0 for pictures
-```
-
-#### other\_posts\_with\_media
-
-```
-Identifies media with matching media IDs from both database 
-and requests
-```
-
-#### Mediatype
-
-```
-type of media
-```
-
-#### Post date
-
-```
-Date the post was created/updated
-```
-
-#### Post Media Count
-
-```
-Number of media in the original post
-```
-
-#### Responsetype
-
-```
-Which API the media was retrieved from
-```
-
-#### Price
-
-```
-Where the price of the post the media is tied to
-```
-
-#### Post ID
-
-```
-id for the post the media is tied
-```
-
-#### Media ID
-
-```
-id for the media
-```
-
-#### Text
-
-```
-Text that came with the post
-```
-
-#### Caption
-
-```
-The text caption that accompanies the media
-```
-
-#### Author
-
-```
-The creator of the post
-```
-
-#### Likes
-
-```
-The number of likes the post has received
-```
-
-#### Comments
-
-```
-The number of comments on the post
-```
-
-#### Share Count
-
-```
-The number of times the post has been shared
-```
-
-#### Media Type
-
-```
-The format of the media (image, video, etc.)
-```
-
-#### Hashtags
-
-```
-The hashtags used in the post
-```
-
-#### Location
-
-```
-The location where the post was made
-```
-
-### Depreciated  Columns
-
-#### Times Detected
-
-```
-The greater of how many times the media id is in the db 
-vs how many times the API returns the same media id from different posts
-```
 
 ### Example filter by all content with the text dog
 

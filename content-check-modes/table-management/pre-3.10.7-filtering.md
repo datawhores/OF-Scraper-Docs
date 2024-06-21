@@ -1,4 +1,4 @@
-# Depreciated filtering of the table
+# Pre 3.10.7 filtering
 
 {% hint style="info" %}
 **For <3.10.7**

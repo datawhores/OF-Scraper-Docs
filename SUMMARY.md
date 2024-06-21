@@ -57,6 +57,7 @@
     * [Redownload Deleted Downloads](using-the-scraper/recipes/redownload-deleted-downloads.md)
 * [Content Check Modes](content-check-modes/README.md)
   * [Table Columns](content-check-modes/table-columns.md)
+  * [Table Management](content-check-modes/table-management.md)
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Metadata](page.md)
 * [CDM Setup](cdm-options/README.md)

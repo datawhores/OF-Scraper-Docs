@@ -73,6 +73,14 @@ description: >-
 * Scrape content with specific labels.
 * **Defaults:** to `None` (no specific label).
 
+### **-pd, --post-id \[argument]**
+
+* Filters content based on post ID
+* **Arguments:** One or more comma-separated (",") post IDs. You can also provide URLs containing a valid post ID
+* **Defaults:** None
+* **Note:** In certain situation this will allow direct search of content, namely for timeline and message related posts and if the number is less then 10
+* **Note:** you can also use manual if you want to process post for multiple users
+
 ***
 
 ### Date Range

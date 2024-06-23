@@ -42,7 +42,7 @@ These filters only apply to video files.
 * **Filters:** Videos shorter than the specified duration.
 * **Accepts:** Values that will be intepreted as seconds
 * **Default:** `None` (no minimum length filter)
-* **Example:** With `-lm 5m`, only videos 5 seconds or longer will be downloaded.
+* **Example:** With `-lm 5`, only videos 5 seconds or longer will be downloaded.
 
 
 

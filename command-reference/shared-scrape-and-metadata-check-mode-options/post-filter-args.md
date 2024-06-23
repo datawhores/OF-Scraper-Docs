@@ -81,6 +81,11 @@ description: >-
 * **Note:** In certain situation this will allow direct search of content, namely for timeline and message related posts and if the number is less then 10
 * **Note:** you can also use manual if you want to process post for multiple users
 
+### -tls, --timeline-strict
+
+* Filters timeline to only include non-pinned and non-archived posts
+* **Default: False**
+
 ***
 
 ### Date Range

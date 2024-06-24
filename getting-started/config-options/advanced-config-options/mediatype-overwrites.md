@@ -37,3 +37,8 @@ The following can be changed
 {"text":""
 }
 ```
+
+## Notes
+
+* arguments will always have precedence of overwrites
+* If using an argument you can  use --mediatype to target the argument to a specific mediatype such as video

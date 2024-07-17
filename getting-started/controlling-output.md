@@ -19,6 +19,10 @@ description: various options for output
 **This could result in logs not being in order**
 {% endhint %}
 
+{% hint style="info" %}
+**For optimal performance with Discord, it's recommended to use the Normal or below logging level. Levels like Debug generate a significant amount of data, requiring numerous requests to process and log**
+{% endhint %}
+
 The output goes to the Discord channel
 
 #### LEVELS

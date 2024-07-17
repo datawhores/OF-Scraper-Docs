@@ -23,6 +23,8 @@ The output goes to the Discord channel
 
 #### LEVELS
 
+_In ascending output order_
+
 * OFF
 * LOW
 * NORMAL
@@ -35,7 +37,13 @@ The output goes to the Discord channel
 
 **output to the console**
 
+{% hint style="info" %}
+**For clear console output, it is recommended to set the logging level to Normal or below to avoid excessive messages**
+{% endhint %}
+
 #### LEVELS
+
+_In ascending output order_
 
 * PROMPT
 * LOW
@@ -48,6 +56,8 @@ The output goes to the Discord channel
 ### Log
 
 **output to logfile within the config folder**
+
+_In ascending output order_
 
 * OFF
 * LOW

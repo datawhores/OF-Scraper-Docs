@@ -49,14 +49,6 @@ The schema may be extended in future versions, but existing columns will remain 
 * **id:**  INTEGER NOT NULL PRIMARY KEY
 * **UNIQUE (post\_id, model\_id)**
 
-### Models
-
-* **id:** INTEGER NOT NULL PRIMARY KEY
-* **model\_id:** INTEGER NOT NULL&#x20;
-* **UNIQUE model\_id**
-
-
-
 ### **Posts**
 
 * **model\_id:** INTEGER
@@ -85,6 +77,21 @@ The schema may be extended in future versions, but existing columns will remain 
 * **UNIQUE (post\_id, model\_id)**
 
 
+
+### Models
+
+* **id:** INTEGER NOT NULL PRIMARY KEY
+* **model\_id:** INTEGER NOT NULL&#x20;
+* **UNIQUE model\_id**
+
+
+
+### Profiles
+
+* **username**: VARCHAR NOT NULL
+* **user\_id**: INTEGER NOT NULL
+* **id**: INTEGER NOT NULL PRIMARY KEY
+* **UNIQUE (user\_id, username)**
 
 ### &#x20;Products
 

@@ -1,12 +1,4 @@
----
-description: 'N'
----
-
 # Performance Options
-
-
-
-
 
 ## threads
 

@@ -62,6 +62,7 @@
 * [Scraping Individual Posts or Media](scraping-individual-posts-or-media.md)
 * [Metadata](page/README.md)
   * [Schema](page/schema.md)
+  * [Creating Meta](page/creating-meta.md)
 * [CDM Setup](cdm-options/README.md)
   * [CDM issues](cdm-options/cdm-issues.md)
 * [FAQ/Common Issues](faq/README.md)

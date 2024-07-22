@@ -6,13 +6,13 @@ The schema may be extended in future versions, but existing columns will remain 
 
 ### labels
 
-* id INTEGER NOT NULL PRIMARY KEY
-* label\_id INTEGER
-* name VARCHAR
-* type VARCHAR
-* post\_id INTEGER
-* model\_id INTEGER
-* UNIQUE (post\_id, label\_id, model\_id)
+* **id:** INTEGER NOT NULL PRIMARY KEY
+* **label\_id:** INTEGER
+* **name:** VARCHAR
+* **type:** VARCHAR
+* **post\_id:** INTEGER
+* **model\_id:** INTEGER
+* **UNIQUE (post\_id, label\_id, model\_id)**
 
 ### Medias
 
@@ -38,15 +38,15 @@ The schema may be extended in future versions, but existing columns will remain 
 
 ### Messages
 
-* id INTEGER NOT NULL PRIMARY KEY
-* post\_id INTEGER NOT NULL
-* text VARCHAR
-* price INTEGER
-* paid  BOOLEAN
-* archived BOOLEAN
-* created\_at TIMESTAMP
-* `user_id INTEGER` (May be null)
-* `model_id INTEGER` (May be null)
+* **model\_id:** INTEGER
+* **user\_id:**  INTEGER
+* **created\_at:**  TIMESTAMP
+* **archived:**  BOOLEAN
+* **paid:**  BOOLEAN
+* **price:**  INTEGER
+* **text:**  VARCHAR
+* **post\_id:**  INTEGER NOT NULL
+* **id:**  INTEGER NOT NULL PRIMARY KEY
 * **UNIQUE (post\_id, model\_id)**
 
 ### Models

@@ -4,7 +4,7 @@
 
 The schema may be extended in future versions, but existing columns will remain for backwards compatibility.
 
-### labels
+### Labels
 
 * **id:** INTEGER NOT NULL PRIMARY KEY
 * **label\_id:** INTEGER

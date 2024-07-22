@@ -6,6 +6,14 @@ description: These options allow you to fine-tune how the program handles downlo
 
 ## Download Configuration Overrides
 
+{% hint style="info" %}
+**For threads and sems**
+{% endhint %}
+
+{% content-ref url="../../getting-started/config-options/performance-options/values-to-pick.md" %}
+[values-to-pick.md](../../getting-started/config-options/performance-options/values-to-pick.md)
+{% endcontent-ref %}
+
 ### -db, --download-bars
 
 * **Overrides:** The `download-bars` setting in the configuration file

@@ -16,24 +16,24 @@ The schema may be extended in future versions, but existing columns will remain 
 
 ### Medias
 
-* id INTEGER NOT NULL PRIMARY KEY
-* media\_id INTEGER
-* post\_id INTEGER NOT NULL
-* link VARCHAR
-* directory VARCHAR
-* filename VARCHAR
-* size INTEGER
-* api\_type VARCHAR
-* media\_type VARCHAR
-* preview INTEGER
-* linked BOOL
-* downloaded BOOL
-* created\_at TIMESTAMP
-* posted\_at TIMESTAMP
-* duration VARCHAR
-* unlocked BOOL
-* hash VARCHAR
-* model\_id INTEGER
+* **model\_id**: INTEGER
+* **hash**: VARCHAR
+* **unlocked**: BOOL
+* **duration**: VARCHAR
+* **posted\_at**: TIMESTAMP
+* **created\_at**: TIMESTAMP
+* **downloaded**: BOOL
+* **linked**: BOOL
+* **preview**: INTEGER
+* **media\_type**: VARCHAR
+* **api\_type**: VARCHAR
+* **size**: INTEGER
+* **filename**: VARCHAR
+* **directory**: VARCHAR
+* **link**: VARCHAR
+* **post\_id**: INTEGER NOT NULL
+* **media\_id**: INTEGER
+* **id**: INTEGER NOT NULL PRIMARY KEY
 * **UNIQUE (media\_id, model\_id, post\_id)**
 
 ### Messages
@@ -74,15 +74,15 @@ The schema may be extended in future versions, but existing columns will remain 
 
 ### Stories
 
-* `id INTEGER NOT NULL PRIMARY KEY`
-* `post_id INTEGER NOT NULL`
-* `text VARCHAR`
-* `price INTEGER`
-* `paid INTEGER`
-* `archived BOOLEAN`
-* `created_at TIMESTAMP`
-* `model_id INTEGER`
-* `UNIQUE (post_id, model_id)`
+* **model\_id:**  INTEGER
+* **created\_at:**  TIMESTAMP
+* **archived:**  BOOLEAN
+* **paid:**  INTEGER
+* **price:**  INTEGER
+* **text:**  VARCHAR
+* **post\_id:**  INTEGER NOT NULL
+* **id:**  INTEGER NOT NULL PRIMARY KEY
+* **UNIQUE (post\_id, model\_id)**
 
 
 

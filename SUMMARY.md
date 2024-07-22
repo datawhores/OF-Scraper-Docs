@@ -63,7 +63,7 @@
 * [Metadata](page/README.md)
   * [Schema](page/schema.md)
   * [Creating Metadata](page/creating-metadata.md)
-  * [metadata location](page/metadata-location.md)
+  * [Metadata location](page/metadata-location.md)
 * [CDM Setup](cdm-options/README.md)
   * [CDM issues](cdm-options/cdm-issues.md)
 * [FAQ/Common Issues](faq/README.md)

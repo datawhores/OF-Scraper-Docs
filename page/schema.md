@@ -119,3 +119,8 @@ The schema may be extended in future versions, but existing columns will remain 
 * **`created_at`:** TIMESTAMP
 * **`model_id`:** INTEGER
 * **UNIQUE (post\_id, model)**
+
+### &#x20;**Schema\_flags**
+
+* **flag\_name:** TEXT PRIMARY KEY&#x20;
+* **flag\_value:** TEXT

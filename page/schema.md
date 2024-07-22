@@ -72,6 +72,18 @@ The schema may be extended in future versions, but existing columns will remain 
 * **id:** INTEGER NOT NULL PRIMARY KEY
 * **UNIQUE** (**post\_id**, **model\_id**)
 
+### Stories
+
+* `id INTEGER NOT NULL PRIMARY KEY`
+* `post_id INTEGER NOT NULL`
+* `text VARCHAR`
+* `price INTEGER`
+* `paid INTEGER`
+* `archived BOOLEAN`
+* `created_at TIMESTAMP`
+* `model_id INTEGER`
+* `UNIQUE (post_id, model_id)`
+
 
 
 ### &#x20;Products
@@ -99,4 +111,4 @@ The schema may be extended in future versions, but existing columns will remain 
 * **`archived`:** BOOLEAN
 * **`created_at`:** TIMESTAMP
 * **`model_id`:** INTEGER
-* UNIQUE (post\_id, model)
+* **UNIQUE (post\_id, model)**

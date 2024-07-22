@@ -8,6 +8,7 @@
   * **0 threads** means downloads will occur on the main program thread.
 * Using a combination of console debug (or higher log levels) and download progress bars might benefit from more threads.
 * However, in newer versions, the performance difference between different thread counts is usually minimal or non-existent.
+* It is recommended to log trace level to log file instead of adding more threads with console output
 
 ### Sems
 

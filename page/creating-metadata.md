@@ -14,7 +14,7 @@ metadata mode can be entered with the metadata subcommand
 ofscraper metadata [args]
 ```
 
-
+This will update metadata without having to download files
 
 {% content-ref url="../command-reference/scrape-metadata-options/" %}
 [scrape-metadata-options](../command-reference/scrape-metadata-options/)

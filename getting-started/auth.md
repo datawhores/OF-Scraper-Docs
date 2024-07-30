@@ -6,6 +6,12 @@ description: Setting up authorization
 
 ***
 
+##
+
+{% hint style="info" %}
+<mark style="color:orange;">**The best way to solve  authentication issues is to join the discord, as this will allow you to confirm if may be a wide spread issue**</mark>
+{% endhint %}
+
 ## Example
 
 {% hint style="info" %}

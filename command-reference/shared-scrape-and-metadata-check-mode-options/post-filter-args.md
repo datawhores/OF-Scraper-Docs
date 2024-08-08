@@ -144,7 +144,7 @@ Valid Date Inputs
 
 ### **-eq, --force-model-unique**
 
-* Downloads files only if not present for the current model.
+* Downloads files only if not present for the current model
 * **Defaults:** to `False`.
 
 ### **-sp, --scrape-paid**

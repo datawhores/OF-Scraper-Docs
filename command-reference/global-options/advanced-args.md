@@ -59,8 +59,46 @@ description: >-
 
 ### -ds, --download-script \[argument]
 
-* **Executes:** A user-defined script after a model is downloaded.
-* **Arguments passed to script:** Username, model ID, media JSON, and post JSON (all based on the original API responses, with additional data for convenience).
+*   **Executes:** A user-defined script after each model is processed
+
+    * runs after each model is downloaded in the main scraper
+    * runs after each model's metadata is processed in metadata mode
+    * runs after each something manual mode
+    * runs for each unique model, after the current cart is downloaded in check mode
+
+
+* **Arguments passed to script:**  all based on the original API responses, with additional data for convenience
+  * Username
+  * model ID,
+  * media JSON,
+  * post JSON
+  * final json with all information&#x20;
 * **Note:** This option allows for custom post-download processing but requires creating and managing the script separately.
 * **Requires Argument:** You must provide the path to your script after the option \
   (e.g., `-ds /path/to/my_script.sh`)
+
+
+
+### -ps, --post-script \[argument]
+
+* **Executes:** A user-defined script once the script finishes an action&#x20;
+  * once all models are downloaded or liked in scrape mode
+  * once all the post from manual mode are completed
+  * After the current cart downloads are processed in check mode, and after the download-script is processed for each user
+  * after all metadata for  all users is processed in metadata mode&#x20;
+* **Arguments passed to script:** a single json with the following
+  * username
+  * dir\_format from config
+  * file\_format from config
+  *   metadata from config
+
+      ```python
+      {"users":users,
+      "dir_format":config_data.get_dirformat(),
+      "file_format":config_data.get_fileformat(),
+      "metadata":config_data.get_metadata()
+      }
+      ```
+* **Note:** This option allows for custom post-script processing but requires creating and managing the script separately.
+* **Requires Argument:** You must provide the path to your script after the option \
+  (e.g., `-ps /path/to/my_script.sh`)

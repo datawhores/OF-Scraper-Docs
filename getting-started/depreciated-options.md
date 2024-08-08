@@ -14,5 +14,23 @@ Whether the script should mark the next scan as a full scan with --after usage
 
 
 
+## mp4decrypt
 
+
+
+{% hint style="info" %}
+**Only 'mp4decrypt' or 'mp4decrypt.exe' are required**
+{% endhint %}
+
+Decryption is necessary for specific content. Utilize this to establish the path for 'mp4decrypt' on your system.
+
+### Releases/Download Source
+
+{% embed url="https://www.bento4.com/downloads/" %}
+
+{% embed url="https://www.bok.net/Bento4/binaries" %}
+
+***
+
+## ffmpeg
 

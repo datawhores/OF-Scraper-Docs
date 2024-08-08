@@ -19,6 +19,8 @@ description: >-
 * **Defaults:** Audio, Video , Images
 * **Example:**  -mt Images, only images will be downloaded
 
+***
+
 ## File Size Filters
 
 ### -sx, --size-max \[argument]

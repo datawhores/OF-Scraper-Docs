@@ -47,7 +47,7 @@ description: >-
   * digital
   * deviint
 * **Requires Argument:** You must specify a value for dynamic rules (e.g., `-dr sneaky`)
-* **Note:  Possible values may change based on removal of sources, frequency of updates of sources**
+* **Note:** Possible values may change based on removal of sources, frequency of updates of sources
 
 ***
 
@@ -64,7 +64,7 @@ description: >-
 
     * runs after each model is downloaded in the main scraper
     * runs after each model's metadata is processed in metadata mode
-    * runs after each something manual mode
+    * runs after each user is processed in manual mode
     * runs for each unique model, after the current cart is downloaded in check mode
 
 

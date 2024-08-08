@@ -30,6 +30,17 @@ max=system
 
 Max concurrent number of downloads per thread
 
-If threads is the number of workers for downloading, then download-sems is the number of tasks each worker can process at a time.
+If threads is the number of workers for downloading, then download-sems is the number of tasks each worker can process at a time
+
+***
+
+## download\_limit
+
+Maximum download speed per second for  each thread
+
+**Accepts**&#x20;
+
+* human readable inputs&#x20;
+* int representing the number of bytes per second
 
 \

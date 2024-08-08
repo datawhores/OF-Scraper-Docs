@@ -47,6 +47,7 @@ description: >-
   * digital
   * deviint
 * **Requires Argument:** You must specify a value for dynamic rules (e.g., `-dr sneaky`)
+* **Note:  Possible values may change based on removal of sources, frequency of updates of sources**
 
 ***
 

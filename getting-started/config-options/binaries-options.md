@@ -4,8 +4,6 @@ description: Required Binaries for protected downloads
 
 # Binaries Options
 
-##
-
 ## ffmpeg
 
 This is necessary to combine audio and video parts of files utilized with mp4decrypt, resulting in the final output file\

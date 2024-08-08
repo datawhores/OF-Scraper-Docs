@@ -6,6 +6,18 @@ description: >-
 
 # Media Filters Options
 
+## Media Type Filter
+
+### -mt, --mediatype \[argument]
+
+* **Filters:** media by type
+* **Possible Choices:**
+  * Audio
+  * Videos
+  * Images
+  * Text (Downloads Post Text)
+* **Defaults:** Audio, Video , Images
+
 ## File Size Filters
 
 ### -sx, --size-max \[argument]

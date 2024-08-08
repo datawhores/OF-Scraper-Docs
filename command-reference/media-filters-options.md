@@ -17,6 +17,7 @@ description: >-
   * Images
   * Text (Downloads Post Text)
 * **Defaults:** Audio, Video , Images
+* **Example:**  -mt Images, only images will be downloaded
 
 ## File Size Filters
 

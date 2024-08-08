@@ -4,6 +4,10 @@ description: Settings control which media is downloaded
 
 # Media Filtering Options
 
+## max\_post\_count
+
+The maximum  number of items to process
+
 ## filter
 
 Determines the type of content you wish to download.

@@ -1,6 +1,6 @@
 # Performance Options
 
-## threads
+## thread\_count
 
 The count of threads or workers designated for downloading
 

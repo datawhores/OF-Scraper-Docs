@@ -58,7 +58,7 @@ description: >-
 * Filter posts to exclude based on a regular expression pattern.
 * Case-sensitive if uppercase characters are included.
 * Posts matching the pattern are excluded.
-* **Defaults:** to `None` (no exclusion).
+* **Defaults:** to `None` (no exclusion)
 
 ### **-to, --protected-only**
 
@@ -85,6 +85,30 @@ description: >-
 
 * Filters timeline to only include non-pinned and non-archived posts
 * **Default: False**
+
+***
+
+## AD Filter
+
+### **-ba, --block-ads**
+
+* Filter posts with regex to block posts with common words for advertisements
+*   **Regex :**
+
+    ```python
+    r"(#(?:ad|ads|AD|advertising|sponsored|promotion)|trial|discount|exclusive\s+offer|giveaway|limited\s+time|\Buser\s+promo|shoutout|endorsement)"
+
+    ```
+* **Defaults:** None
+
+### **-nf, --neg-filter** \[argument]
+
+* Filter posts to exclude based on a regular expression pattern.
+* Case-sensitive if uppercase characters are included.
+* Posts matching the pattern are excluded.
+* **Defaults:** to `None` (no exclusion)
+
+
 
 ***
 

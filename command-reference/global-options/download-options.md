@@ -34,6 +34,7 @@ description: These options allow you to fine-tune how the program handles downlo
 
 * **Overrides:** The `download_limit` setting in the configuration file.
 * **Limits:** the maximum download speed per thread to the specified number of bytes per second
+* **Accepts:** Human-readable size values like "10MB"
 * **Default:** No default limit (unlimited download speed).
 
 ***

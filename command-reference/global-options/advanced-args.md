@@ -68,12 +68,32 @@ description: >-
     * runs for each unique model, after the current cart is downloaded in check mode
 
 
-* **Arguments passed to script:**  all based on the original API responses, with additional data for convenience
-  * Username
-  * model ID,
-  * media JSON,
-  * post JSON
-  * final json with all information&#x20;
+* **Arguments passed to script:**  all based on the original API responses, with additional data for convenience\
+  \
+  in the form of a json file
+  * <pre><code><strong>username:username
+    </strong></code></pre>
+  * ```
+    model_id:model_id
+    ```
+  * ```
+    media:media dictionary from api, with final_path added
+    ```
+  * ```
+    posts:posts dictionary from api
+    ```
+  * ```
+    userdata:a dictionary from users api
+    ```
+
+
+
+
+
+
+
+
+
 * **Note:** This option allows for custom post-download processing but requires creating and managing the script separately.
 * **Requires Argument:** You must provide the path to your script after the option \
   (e.g., `-ds /path/to/my_script.sh`)
@@ -87,19 +107,23 @@ description: >-
   * once all the post from manual mode are completed
   * After the current cart downloads are processed in check mode, and after the download-script is processed for each user
   * after all metadata for  all users is processed in metadata mode&#x20;
-* **Arguments passed to script:** a single json with the following
-  * username
-  * dir\_format from config
-  * file\_format from config
-  *   metadata from config
+*   **Arguments passed to script:** a single json with the following
 
-      ```python
-      {"users":users,
-      "dir_format":config_data.get_dirformat(),
-      "file_format":config_data.get_fileformat(),
-      "metadata":config_data.get_metadata()
-      }
+
+
+    * <pre><code><strong>users:A dictionary of user dictionaries retrieved from the user API
+      </strong></code></pre>
+    * ```
+      dir_format:string from  config
       ```
+    * ```
+      file_format:string from  config
+      ```
+    * ```
+      metadata":string from  config
+      ```
+
+
 * **Note:** This option allows for custom post-script processing but requires creating and managing the script separately.
 * **Requires Argument:** You must provide the path to your script after the option \
   (e.g., `-ps /path/to/my_script.sh`)

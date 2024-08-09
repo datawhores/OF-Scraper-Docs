@@ -11,11 +11,10 @@ A script that runs after  an action for a user has completed
 
 ### Data sent
 
-as a file with a  json
+as a json file
 
-* ```
-  username":username
-  ```
+* <pre><code><strong>username:username
+  </strong></code></pre>
 * ```
   model_id:model_id
   ```
@@ -40,11 +39,10 @@ A script that runs after all actions for all users have completed
 
 ### Data Sent
 
-as a file with a  json
+as a json file
 
-* ```
-  users:A dictionary of user dictionaries retrieved from the user API
-  ```
+* <pre><code><strong>users:A dictionary of user dictionaries retrieved from the user API
+  </strong></code></pre>
 * ```
   dir_format:string from  config
   ```

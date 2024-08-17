@@ -14,6 +14,13 @@ description: >-
 * **Possible choices:** `highlights`, `all`, `archived`, `messages`, `timeline`, `pinned`, `stories`, `purchased`, `profile`, `labels`.
 * **Defaults:** to `None`.
 
+### **-o, --text** \[argument]
+
+* Specify the type of content to target for text download
+* **Note:** This only has an effect on action download
+* **Possible choices:** `highlights`, `all`, `archived`, `messages`, `timeline`, `pinned`, `stories`, `purchased`, `profile`, `labels`.
+* **Defaults:** to `None`
+
 ### **-la, --like-area** \[argument]
 
 * Define the area for like/unlike actions (overrides `--posts`).

@@ -127,3 +127,9 @@ description: >-
 * **Note:** This option allows for custom post-script processing but requires creating and managing the script separately.
 * **Requires Argument:** You must provide the path to your script after the option \
   (e.g., `-ps /path/to/my_script.sh`)
+
+### -al, --auth-fail
+
+* quit on authentication failure rather then prompting
+* **Default:** False
+

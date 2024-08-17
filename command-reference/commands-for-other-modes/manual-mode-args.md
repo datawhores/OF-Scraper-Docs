@@ -24,6 +24,16 @@ ofscraper manual --url test
 [common-option-groups](../common-option-groups/)
 {% endcontent-ref %}
 
+## Text
+
+### **-tn, --text** \[argument]
+
+* Specify to  download text with any media tied to that text
+
+### **-tp, --text-only** \[argument]
+
+* Specify to  download only text, skipping any media
+
 ## Download Sources
 
 ### **-f, --file \[argument]:**&#x20;

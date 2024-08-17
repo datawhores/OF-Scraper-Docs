@@ -50,6 +50,16 @@ Each content check subcommand (`post_check`, `msg_check`, `paid_check`, `story_c
   * **Default:** `False` (uses cached data if available).
   * Sets `True` to force the API to retrieve the latest information, bypassing the cache.
 
+### Text
+
+### **-tn, --text** \[argument]
+
+* Specify to  download text with any media tied to that text
+
+### **-tp, --text-only** \[argument]
+
+* Specify to  download only text, skipping any media
+
 ## Subcommand Descriptions
 
 **Here's a summary of each content check subcommand:**

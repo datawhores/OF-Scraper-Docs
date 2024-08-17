@@ -14,7 +14,7 @@ description: >-
 * **Possible choices:** `highlights`, `all`, `archived`, `messages`, `timeline`, `pinned`, `stories`, `purchased`, `profile`, `labels`.
 * **Defaults:** to `None`.
 
-### **-o, --text** \[argument]
+### **-t, --text** \[argument]
 
 * Specify the type of content to target for text download
 * **Note:** This only has an effect on action download

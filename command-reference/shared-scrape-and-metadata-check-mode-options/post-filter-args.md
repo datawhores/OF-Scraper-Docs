@@ -100,12 +100,15 @@ description: >-
 ### **-ba, --block-ads**
 
 * Filter posts with regex to block posts with common words for advertisements
-*   **Regex :**
+* **Regex :**
 
-    ```python
-    r"(#(?:ad|ads|AD|advertising|sponsored|promotion)|trial|discount|exclusive\s+offer|giveaway|limited\s+time|\Buser\s+promo|shoutout|endorsement)"
+**Note:** This is passed as a raw string when  being used by python
 
-    ```
+```python
+"(#(?:ad|ads|AD|advertising|sponsored|promotion)|trial|discount|exclusive\s+offer|giveaway|limited\s+time|\Buser\s+promo|shoutout|endorsement)"
+
+```
+
 * **Defaults:** None
 
 ### **-nf, --neg-filter** \[argument]

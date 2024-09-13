@@ -14,7 +14,7 @@ Recommended run&#x20;
 * Much faster then --dupe, since no files are writing to disk, and the number of requests required is greatly reduced
 
 ```
-ofscraper --metadata-update
+ofscraper metadata --metadata-update
 ```
 
 * add additional args if needed for example --after 2000

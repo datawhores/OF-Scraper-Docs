@@ -6,16 +6,16 @@
 
 **Good resources if you want an easy way to install python or to manage multiple versio**n
 
-{% content-ref url="managing-multiple-python-versions.md" %}
-[managing-multiple-python-versions.md](managing-multiple-python-versions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ***
 
 **Alternatively you can just follow the pre-install guides**
 
-{% content-ref url="pre-install-guide/" %}
-[pre-install-guide](pre-install-guide/)
+{% content-ref url="pre-install-guide.md" %}
+[pre-install-guide.md](pre-install-guide.md)
 {% endcontent-ref %}
 
 ***

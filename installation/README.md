@@ -4,8 +4,6 @@ description: Getting OF-Scraper onto you system
 
 # Install
 
-
-
 ***
 
 ## Version Info
@@ -18,9 +16,9 @@ description: Getting OF-Scraper onto you system
 **Go to** [**https://pypi.org/project/ofscraper/#history**](https://pypi.org/project/ofscraper/#history) **for latest Dev release**
 {% endhint %}
 
-[![drawing](https://img.shields.io/pypi/v/ofscraper.svg?color=dark\_green\&label=Stable-Release)](https://pypi.org/project/ofscraper/)
+[![drawing](https://img.shields.io/pypi/v/ofscraper.svg?color=dark_green\&label=Stable-Release)](https://pypi.org/project/ofscraper/)
 
-[![drawing](https://img.shields.io/badge/Pre--Release-v3.70.dev-dark\_green.svg)](https://pypi.org/project/ofscraper/3.7.0.dev0/)
+[![drawing](https://img.shields.io/badge/Pre--Release-v3.70.dev-dark_green.svg)](https://pypi.org/project/ofscraper/3.7.0.dev0/)
 
 ##
 
@@ -30,8 +28,8 @@ description: Getting OF-Scraper onto you system
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
 
-{% content-ref url="pre-install-guide/" %}
-[pre-install-guide](pre-install-guide/)
+{% content-ref url="pre-install-guide.md" %}
+[pre-install-guide.md](pre-install-guide.md)
 {% endcontent-ref %}
 
 
@@ -83,10 +81,6 @@ The guide assumes you have your terminal program open and have already installed
 {% content-ref url="binary-releases.md" %}
 [binary-releases.md](binary-releases.md)
 {% endcontent-ref %}
-
-
-
-
 
 ***
 

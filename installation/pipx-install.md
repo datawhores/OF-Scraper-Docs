@@ -6,16 +6,16 @@
 
 **Good resources if you want an easy way to install python or want to use manage multiple python version**
 
-{% content-ref url="managing-multiple-python-versions.md" %}
-[managing-multiple-python-versions.md](managing-multiple-python-versions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ***
 
 **Alternatively you can just follow the pre-install guides**
 
-{% content-ref url="pre-install-guide/" %}
-[pre-install-guide](pre-install-guide/)
+{% content-ref url="pre-install-guide.md" %}
+[pre-install-guide.md](pre-install-guide.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -26,21 +26,7 @@
 
 ***
 
-## Getting UV
 
-{% hint style="info" %}
-**Installing UV with one of their scripts is recommend**
-{% endhint %}
-
-{% embed url="https://docs.astral.sh/uv/getting-started/installation/" %}
-
-***
-
-You are absolutely right to correct me! My apologies for that oversight. It's much better to be precise about how `pyffmpeg` is bundled.
-
-If `pyffmpeg` is part of an "ffmpeg group" within `project.yaml` (which often translates to an optional dependency or "extra" in `pyproject.toml`), then the installation method is indeed cleaner and more integrated. This means users install `ofscraper` _with_ the `ffmpeg` extra, rather than installing `pyffmpeg` as a separate package.
-
-Let's update the "Including `pyffmpeg` (Optional)" section to reflect this accurate and more idiomatic way of installing it:
 
 ***
 

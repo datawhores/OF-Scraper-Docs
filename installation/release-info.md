@@ -26,24 +26,30 @@ description: Code base at time of specific releases
 
 ## Release types
 
-<details>
+### Dev releases
 
-<summary>.*_package</summary>
+This release will have a commit hash in the name
 
 These are releases derived from commits, essentially versions that occur between numbered releases. They can be more current, but might also contain unresolved issues.
 
-![](<../.gitbook/assets/image (26).png>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-</details>
+### **Number Pre-releases**
 
-<details>
 
-<summary>numbered i.e X.X.X</summary>
+
+These release will have a number.dev.number
+
+This mark a release that is sem-stable and is being push for testing
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### **Numbered release**
 
 These are meant to be stable releases and mark the commit used to make these releases\
 ![](<../.gitbook/assets/image (29).png>)
-
-</details>
 
 
 

@@ -14,7 +14,7 @@ Click the column labels on the top ![image](https://github.com/datawhores/OF-Scr
 
 ## Filtering of the table
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * Toggle the form with Ctrl+S
 * The filter form  contains fields for all the columns in the table.
@@ -36,7 +36,7 @@ The table a cell with the word 'videos' is highlighted in the mediatype column\
 
 &#x20;Pressing semicolon (`;`) or apostrophe (\`) confirms your choice and updates the filter form
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Clicking "Filter" applies the changes, showing only videos in the table.
 

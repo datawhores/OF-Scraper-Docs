@@ -1,34 +1,12 @@
-# PIPX Install
+# UV Install
 
-***
+## Installing UV
 
-## Installing Python
-
-**Good resources if you want an easy way to install python or want to use manage multiple python version**
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-***
-
-**Alternatively you can just follow the pre-install guides**
-
-{% content-ref url="pre-install-guide.md" %}
-[pre-install-guide.md](pre-install-guide.md)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-**Tip: You can use the --python command to change the default python interpreter used for pipx**
+{% hint style="warning" %}
+Important: UV is a standalone binary. You do not need Python installed on your system to install UV. Once UV is installed, it can then manage and install Python versions for you. Installing UV with one of their official installation scripts is recommended for the most straightforward setup.
 {% endhint %}
 
-
-
-***
-
-
-
-***
+[pre-install-guide](pre-install-guide/ "mention")
 
 ## Installing/Upgrading OF-Scraper
 
@@ -81,20 +59,14 @@ You can specify the Python version `uv` should use for the tool installation by 
 uv tool install --prerelease allow ofscraper==<version> --python 3.12
 ```
 
-### Including `pyffmpeg` (Optional)
+### Including pyffmpeg (Optional)
 
-`pyffmpeg` is a Python package that provides `ffmpeg` capabilities directly within Python, often by bundling its own `ffmpeg` binaries. It is included as an optional dependency group named `ffmpeg` within the `ofscraper` project's `pyproject.toml` (or `project.yaml`).
+pyffmpeg is a Python package that provides ffmpeg capabilities directly within Python by bundling its own ffmpeg binaries. You can accomplish this by appending \[ffmpeg] to the install name when using uv tool install.
 
-Installing `ofscraper` with this `ffmpeg` extra can simplify your setup, as you might not need to manually install `ffmpeg` or `mp4decrypt` on your system or mount them into Docker containers.
-
-To install `ofscraper` and include `pyffmpeg` through the `ffmpeg` extra, use the following command:
-
-```bash
-uv tool install ofscraper[ffmpeg] --force
-```
+example:  `uv tool install ofscraper[ffmpeg] --force`
 
 {% hint style="info" %}
-When you install `ofscraper` using `ofscraper[ffmpeg]`, `pyffmpeg` will be automatically installed as a dependency. `pyffmpeg` then manages its own `ffmpeg` binary for the script, meaning you generally **do not** need to separately install `ffmpeg` or `mp4decrypt` on your host system or mount them into Docker containers.
+When you install ofscraper using ofscraper\[ffmpeg], pyffmpeg will be automatically installed as a dependency. pyffmpeg then manages its own ffmpeg binary for the script, meaning you generally do not need to separately install ffmpeg or mp4decrypt on your host system or mount them into Docker containers.
 {% endhint %}
 
 ### Upgrade

@@ -28,8 +28,8 @@ description: Getting OF-Scraper onto you system
 
 The guide assumes you have your terminal program open and have already installed Python. If you're unsure about this, follow this guide
 
-{% content-ref url="pre-install-guide.md" %}
-[pre-install-guide.md](pre-install-guide.md)
+{% content-ref url="pre-install-guide/" %}
+[pre-install-guide](pre-install-guide/)
 {% endcontent-ref %}
 
 
@@ -50,14 +50,14 @@ The guide assumes you have your terminal program open and have already installed
 
 ### **Option 1: PIPX Install**
 
-{% content-ref url="pipx-install.md" %}
-[pipx-install.md](pipx-install.md)
+{% content-ref url="uv-install.md" %}
+[uv-install.md](uv-install.md)
 {% endcontent-ref %}
 
 ### **Option 2: PIP install**
 
-{% content-ref url="pip-install.md" %}
-[pip-install.md](pip-install.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Install via Docker

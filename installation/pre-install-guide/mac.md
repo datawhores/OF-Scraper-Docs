@@ -8,7 +8,7 @@ Start by opening your terminal program
 
 #### Terminal Program
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (12).png>)
 
 
 
@@ -18,7 +18,7 @@ Start by opening your terminal program
 
 Macs usually come with a pre-installed Python version, but it might be outdated
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 **Doesn't Work**\
 Move to step 3

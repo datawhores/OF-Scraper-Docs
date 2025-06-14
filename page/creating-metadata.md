@@ -16,8 +16,8 @@ ofscraper metadata [args]
 
 This will update metadata without having to download files
 
-{% content-ref url="../command-reference/scrape-metadata-options/" %}
-[scrape-metadata-options](../command-reference/scrape-metadata-options/)
+{% content-ref url="../command-reference/shared-options/scrape-metadata-options/" %}
+[scrape-metadata-options](../command-reference/shared-options/scrape-metadata-options/)
 {% endcontent-ref %}
 
 {% content-ref url="../command-reference/metadata-check-mode-options.md" %}

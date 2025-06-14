@@ -39,6 +39,6 @@ This will present a menu, that will allow many actions to be performed without a
 [batch-scraping-and-bot-actions](../using-the-scraper/batch-scraping-and-bot-actions/)
 {% endcontent-ref %}
 
-{% content-ref url="../command-reference.md" %}
-[command-reference.md](../command-reference.md)
+{% content-ref url="../command-reference/" %}
+[command-reference](../command-reference/)
 {% endcontent-ref %}

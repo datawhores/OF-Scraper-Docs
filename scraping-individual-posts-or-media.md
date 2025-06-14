@@ -56,7 +56,7 @@ To grasp this better, checking out the **`get_info`** function in **`manual.py`*
 {% endcontent-ref %}
 
 **2. Use the mouse to toggle the checkmark of the row you want to download**\
-_Note you can also toggle with  ";" or "',"_&#x20;
+&#xNAN;_&#x4E;ote you can also toggle with  ";" or "',"_&#x20;
 
 Only unlocked media will have a checkmark
 

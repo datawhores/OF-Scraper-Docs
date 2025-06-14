@@ -221,3 +221,12 @@ check formatting of auth file
 ```
 change dynamic mode default
 ```
+
+18. <mark style="color:blue;">Support For Network Drives</mark>
+
+```
+Network Drives are have limited support for storing Media, but are not supported
+at all for config files are db. 
+
+Those should be stored on a local drive
+```

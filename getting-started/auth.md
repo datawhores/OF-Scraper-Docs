@@ -58,7 +58,7 @@ This method is probably the second simplest. However, not all information can be
 
 You'll still need to manually locate and provide the x-bc header and the User-Agent as demonstrated below.
 
-![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/request\_headers.png)
+![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/request_headers.png)
 
 For more details, check out the manual section below.
 
@@ -112,15 +112,15 @@ Go to your [notification area](https://onlyfans.com/my/notifications) on OnlyFan
 
 Once you have your browser's developer tools open, your screen should look like the following:
 
-![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/browser\_tools\_open.png)
+![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/browser_tools_open.png)
 
 Click on the `Network` tab at the top of the browser tools:
 
-![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/network\_tab.png)
+![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/network_tab.png)
 
 Then click on `XHR` sub-tab inside of the `Network` tab:
 
-![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/xhr\_tab.png)
+![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/xhr_tab.png)
 
 Once you're inside of the `XHR` sub-tab, refresh the page while you have your browser's developer tools open. After the page reloads, you should see a section titled `init` appear:
 
@@ -143,13 +143,13 @@ otherwise read the next section
 
 #### **Examples**
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>onlyfans.com</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>onlyfans.com</p></figcaption></figure>
 
 
 
 You may need to right click the header field to enable the domain column
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -161,7 +161,7 @@ You may need to right click the header field to enable the domain column
 
 After that, scroll down until you see a subsection called `Request Headers`. You should then see three important fields inside of the `Request Headers` subsection: `Cookie`, `User-Agent`, and `x-bc`
 
-![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/request\_headers.png)
+![](https://raw.githubusercontent.com/taux1c/onlyfans-scraper/main/media/request_headers.png)
 
 Inside of the `Cookie` field, you will see a couple of important bits:
 

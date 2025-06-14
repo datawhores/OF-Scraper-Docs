@@ -16,9 +16,9 @@ description: Code base at time of specific releases
 **Go to** [**https://pypi.org/project/ofscraper/#history**](https://pypi.org/project/ofscraper/#history) **for latest Dev release**
 {% endhint %}
 
-[![drawing](https://img.shields.io/pypi/v/ofscraper.svg?color=dark\_green\&label=Stable-Release)](https://pypi.org/project/ofscraper/)
+[![drawing](https://img.shields.io/pypi/v/ofscraper.svg?color=dark_green\&label=Stable-Release)](https://pypi.org/project/ofscraper/)
 
-[![drawing](https://img.shields.io/badge/Pre--Release-v3.70.dev-dark\_green.svg)](https://pypi.org/project/ofscraper/3.7.0.dev0/)
+[![drawing](https://img.shields.io/badge/Pre--Release-v3.70.dev-dark_green.svg)](https://pypi.org/project/ofscraper/3.7.0.dev0/)
 
 
 
@@ -32,7 +32,7 @@ description: Code base at time of specific releases
 
 These are releases derived from commits, essentially versions that occur between numbered releases. They can be more current, but might also contain unresolved issues.
 
-![](<../.gitbook/assets/image (1) (2) (1).png>)
+![](<../.gitbook/assets/image (26).png>)
 
 </details>
 
@@ -41,7 +41,7 @@ These are releases derived from commits, essentially versions that occur between
 <summary>numbered i.e X.X.X</summary>
 
 These are meant to be stable releases and mark the commit used to make these releases\
-![](<../.gitbook/assets/image (13) (1).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 </details>
 
@@ -53,7 +53,7 @@ These are meant to be stable releases and mark the commit used to make these rel
 
 ### Example
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -65,9 +65,9 @@ The distinction from other releases is that startup might be slightly faster wit
 \
 **Example**
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (7).png>)
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 
 

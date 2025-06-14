@@ -112,9 +112,9 @@ For most folks, SQLite works fine, but if you're on a network drive, its perform
 
 ***
 
-## appendlog
+## rotate\_logs
 
-If set to False, each run will generate a new log. If set to True, logs will be combined into one file per day.
+If set to True, each run will generate a new log. If set to False, each logs will be combined into one file per day.
 
 ## sanitize\_text
 
@@ -149,6 +149,20 @@ This overrides the temporary directory used during download\
 
 Sets the script to run in a infinite loop even when \
 \--action is used
+
+
+
+## logs\_expire\_time
+
+Logs older than the specified time will be deleted from the system. Log rotation must be enabled, and the value must be greater than 0.
+
+
+
+## ssl\_validation:
+
+Disable validation of ssl certificates
+
+
 
 ***
 

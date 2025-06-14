@@ -26,51 +26,46 @@
 
 ***
 
-## Getting PIPX
+## Getting UV
 
 {% hint style="info" %}
-**Installing PIPX with PIP is recommended** \
-**This way you can control which python it is install with**
+**Installing UV with one of their scripts is recommend**
 {% endhint %}
 
-{% embed url="https://github.com/pypa/pipx" %}
+{% embed url="https://docs.astral.sh/uv/getting-started/installation/" %}
 
 ***
 
-## Installing OF-Scraper
+## Installing/Upgrading OF-Scraper
 
 {% hint style="info" %}
 **Tip: Use the --verbose command to get more details about the install process**
 {% endhint %}
 
-{% tabs %}
-{% tab title="Windows Install" %}
-## Install
-
-### **Stable install**
+### **Stable Release install**
 
 ```
-pipx install ofscraper
+uv tool install ofscraper --force
 ```
 
-### Development
+### Development Release
 
 #### Pre-release
 
 ```
-pipx install ofscraper --pip-args=--pre
+uv tool install --prerelease allow ofscraper --force
 ```
 
 #### Development
 
 ```
-pipx install git+https://github.com/datawhores/OF-Scraper.git 
+uv tool install git+https://github.com/datawhores/OF-Scraper.git --force
 ```
 
 ### Specific version of script
 
 ```
-pipx install ofscraper==version --force
+uv tool install --prerelease allow ofscraper==version
 ```
 
 where x is the version you want to install
@@ -78,90 +73,22 @@ where x is the version you want to install
 ### Specific version of python
 
 ```
-Append --python $(where {python version}
+Append --python (version number)
 ```
 
-```
-Example: pipx install ofscraper --python $(where python3.11)
-```
-
-## Upgrade
-
-Not uninstalling has caused problems for users before
-
-```
- pipx upgrade ofscraper
-```
-
-or
-
-```
-pipx install ofscraper==x --force
-```
-
-```
-Append --python $(where {python version}
-```
-{% endtab %}
-
-{% tab title="Linux/Mac Install" %}
-## **Install**
-
-### **Stable Install**
-
-```
-pipx install ofscraper
-```
-
-### Development
-
-#### Pre-release
-
-<pre><code><strong>pipx install ofscraper --pip-args=--pre
+<pre><code><strong>Example: uv tool install --prerelease allow ofscraper==version --python 3.12
 </strong></code></pre>
 
-#### Development version
-
-```
-pipx install git+https://github.com/datawhores/OF-Scraper.git 
-```
-
-### Specific version of script
-
-```
-pipx install ofscraper==x --force
-```
-
-where x is the version you want to install
-
-### Specific version of python
-
-```
-Append --python $(which {python version})
-```
-
-```
-Example: pipx install ofscraper --python $(which python3.11)
-```
-
-## Upgrading
+### Upgrade
 
 Not uninstalling has caused problems for users before
 
 ```
- pipx upgrade ofscraper
+uv tool upgrade ofscraper
 ```
 
-or
+or to upgrade to a prerelease/dev version
 
 ```
-pipx install ofscraper==x --force
+uv tool install ofscraper --prerelease allow
 ```
-
-```
-Append --python $(where {python version}
-```
-{% endtab %}
-{% endtabs %}
-
-###

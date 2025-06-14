@@ -26,6 +26,6 @@ ofscraper --username ALL
 
 ## Options
 
-{% content-ref url="scrape-metadata-options/" %}
-[scrape-metadata-options](scrape-metadata-options/)
+{% content-ref url="shared-options/scrape-metadata-options/" %}
+[scrape-metadata-options](shared-options/scrape-metadata-options/)
 {% endcontent-ref %}

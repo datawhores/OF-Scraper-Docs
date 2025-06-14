@@ -157,10 +157,14 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 ```
 
 {% hint style="warning" %}
-**Note on FFmpeg**
+Modifying the Dockerfile requires you to clone the OF-Scraper repository and understand its build process. Ensure that any added Python dependencies are compatible with the container's environment and the existing OF-Scraper codebase.
 {% endhint %}
 
-Since official OF-Scraper images already have ffmpeg included, setting INSTALL\_FFMPEG=true during a custom build primarily ensures pyffmpeg is available (if your custom use case requires it), and that a local ffmpeg instance is provided by pyffmpeg. You generally won't need to mount ffmpeg from your host when using either official or properly built custom images.
+
+
+
+
+
 
 
 

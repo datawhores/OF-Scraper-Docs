@@ -34,8 +34,6 @@ docker run -it --rm --name=ofscraper \
 
 #### Using Optional Environment Variables
 
-For better permission management, especially when dealing with mounted volumes, it is **highly recommended** to set the `USER_ID` and `GROUP_ID` to match your host system's user. You can also customize the `USER_NAME` and `GROUP_NAME`.
-
 To pass these optional variables, add them to your `docker run` command using the `-e` flag:
 
 Bash
@@ -51,11 +49,9 @@ docker run -it --rm --name=ofscraper \
   ghcr.io/datawhores/of-scraper:main ofscraper {args}
 ```
 
-####
-
 ## Environment Variables
 
-The container's entrypoint script uses the following environment variables to dynamically create a user and group inside the container. This is crucial for matching permissions between the container and your host system, especially for files on mounted volumes.
+For better permission management, especially when dealing with mounted volumes, it is **highly recommended** to set the `USER_ID` and `GROUP_ID` to match your host system's user. You can also customize the `USER_NAME` and `GROUP_NAME`
 
 | **Environment Variable** | **Default Value (if not set)** | **Purpose & Effect of Changing the Value**                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ------------------------ | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -133,7 +129,9 @@ Replace `{args}` with your desired OF-Scraper commands, for example: `docker com
 
 ## Building Custom Images
 
+{% hint style="info" %}
 **All officially released OF-Scraper Docker images already include `ffmpeg` built-in.**
+{% endhint %}
 
 This section is **only relevant if you are building the OF-Scraper Docker image locally from source**, for instance, to include specific Python dependencies or to customize the build process. You can use `docker buildx` for this.
 
@@ -156,17 +154,13 @@ docker buildx build --platform linux/amd64,linux/arm64 \
   -t my-ofscraper-image:latest \
 ```
 
-{% hint style="warning" %}
-Modifying the Dockerfile requires you to clone the OF-Scraper repository and understand its build process. Ensure that any added Python dependencies are compatible with the container's environment and the existing OF-Scraper codebase.
+{% hint style="info" %}
+**Benefit of built-in FFmpeg:** If your image was built with `INSTALL_FFMPEG=true` (or if you're using an official released image that already includes FFmpeg), the image is self-contained. This means you generally **do not need to install `ffmpeg` on your host system or mount it into your Docker container**
 {% endhint %}
 
 
 
-
-
-
-
-
+***
 
 ## Releases
 
@@ -177,6 +171,8 @@ Images on Docker.com
 {% embed url="https://github.com/datawhores/OF-Scraper/pkgs/container/of-scraper/" %}
 Images on ghcr.io
 {% endembed %}
+
+***
 
 ## Tags
 
@@ -189,4 +185,3 @@ This table explains the different image tags you can use to pull specific versio
 | `branch`             | `main`         | Latest commits for a specific branch |
 | `version number`     | `2.4.3`        | Specific stable release              |
 
-####

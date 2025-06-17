@@ -178,10 +178,12 @@ Images on ghcr.io
 
 This table explains the different image tags you can use to pull specific versions or builds of the OF-Scraper Docker image.
 
-| **Syntax**           | **Example**    | **What it is**                       |
-| -------------------- | -------------- | ------------------------------------ |
-| `latest`             | `latest`       | Get the latest stable release        |
-| `branch-commitshort` | `main-9e54ed3` | Container for a specific commit      |
-| `branch`             | `main`         | Latest commits for a specific branch |
-| `version number`     | `2.4.3`        | Specific stable release              |
+| **Syntax**           | **Example**    | **What it is**                        |
+| -------------------- | -------------- | ------------------------------------- |
+| `latest`             | `latest`       | Get the latest commit from any branch |
+| `stable`             | `stable`       | the latest stable release             |
+| `dev`                | `dev`          | the latest development release        |
+| `branch-commitshort` | `main-9e54ed3` | Container for a specific commit       |
+| `branch`             | `main`         | Latest commits for a specific branch  |
+| `version number`     | `2.4.3`        | Specific stable release               |
 

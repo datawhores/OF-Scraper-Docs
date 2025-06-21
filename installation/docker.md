@@ -6,12 +6,100 @@
 **If manually downloading binaries, you'll need to mount the Linux-based binaries from your host system into the container. Refer to the 'Docker Compose' section for examples.**
 {% endhint %}
 
-This table outlines the essential volume mounts required for OF-Scraper. Replace `anypath` with the desired absolute path on your **host machine**.
+| Mount Point     | Purpose                                                                                                                         | Typical Default Location                              |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **APP\_HOME**   | The **home directory** for your application's user inside the container. This often serves as the base for other default paths. | `/home/<APP_USER>` (e.g., `/home/ofscraper`)          |
+| **DATA\_DIR**   | Where the application stores its **persistent data files**, such as databases, downloaded content, or user-generated media.     | `$APP_HOME/data` (e.g., `/home/ofscraper/data`)       |
+| **CONFIG\_DIR** | Where the application stores its **configuration files** and settings.                                                          | `$APP_HOME/.config` (e.g., `/home/ofscraper/.config`) |
 
-| Host Path           | Container Path                      | Use          | Required |
-| ------------------- | ----------------------------------- | ------------ | -------- |
-| `anypath` (on host) | `/home/ofscraper/.config/ofscraper` | Store config | True     |
-| `anypath` (on host) | `/home/ofscraper/data`              | Data storage | False    |
+### CONFIG\_DIR
+
+The `CONFIG_DIR` is where OF-Scrapers configuration files will be stored. It will prioritizes any explicit setting by the user
+
+| Scenario               | `CONFIG_DIR` Environment Variable        | `APP_HOME` Value (Example) | `CONFIG_DIR` Final Path   | Explanation                                                                                                                                                                                                                     |
+| ---------------------- | ---------------------------------------- | -------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Explicitly Set**  | `CONFIG_DIR=/app/onfig/`                 | `/home/ofscraper`          | `/app/config`             | If you explicitly provide the `CONFIG_DIR` environment variable, its value is used directly. This overrides any default behavior.                                                                                               |
+| **2. Not Set / Empty** | `CONFIG_DIR` is unset or `CONFIG_DIR=""` | `/home/ofscraper`          | `/home/ofscraper/.config` | <p>If <code>CONFIG_DIR</code> is not provided (or provided as an empty string), it defaults to a hidden <code>.config</code> directory within the determined <code>APP_HOME</code>.   </p><p>or users <br><code>Home</code></p> |
+
+
+
+### DATA\_DIR
+
+The `DATA_DIR` is where your application will store its persistent data. Similar to `CONFIG_DIR`, it will respects user overrides.
+
+| Scenario               | `DATA_DIR` Environment Variable      | `APP_HOME` Value (Example) | `DATA_DIR` Final Path  | Explanation                                                                                                                       |
+| ---------------------- | ------------------------------------ | -------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Explicitly Set**  | `DATA_DIR=/app/data`                 | `/home/ofscraper`          | `/app/data`            | If you explicitly provide the `DATA_DIR` environment variable, its value is used directly, overriding any default.                |
+| **2. Not Set / Empty** | `DATA_DIR` is unset or `DATA_DIR=""` | `/home/ofscraper`          | `/home/ofscraper/data` | If `DATA_DIR` is not provided (or provided as an empty string), it defaults to a `data` directory within the determined `APP_HOM` |
+
+### Home Folder
+
+{% hint style="danger" %}
+**If you do&#x20;**_**not**_**&#x20;explicitly set the `HOME_FOLDER` environment variable, the script's default behavior is to make the home directory name match the adapted `APP_USER` name. For instance, if `APP_USER` was initially `ofscraper` but gets adapted to an existing user like `nginx` (due to a UID conflict), the `APP_HOME`  folder will dynamically change to `/home/nginx`. This keeps the user's name and home folder consistent within the container's `/etc/passwd` file.**
+{% endhint %}
+
+| Scenario     | `HOME_FOLDER` Environment Variable Status | `APP_USER` Adaptation (e.g., from `ofscraper` to `nginx`) | Resulting `APP_HOME` Directory Path in Container (`/etc/passwd`) | Explanation                                                                                                                                                                                                                                   |
+| ------------ | ----------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Default**  | **Not set** (or empty string)             | **Yes**, `APP_USER` changes                               | `/home/nginx` (dynamically matches new `APP_USER`)               | When `HOME_FOLDER` isn't specified, the home directory name **automatically updates** to match the new `APP_USER` name if the user account has to adapt to an existing UID on the host. This keeps the user name and home folder consistent.  |
+|              | **Not set** (or empty string)             | **No**, `APP_USER` remains `ofscraper`                    | `/home/ofscraper`                                                | If no `HOME_FOLDER` is set and `APP_USER` doesn't need to change, the home directory defaults to `/home/ofscraper`.                                                                                                                           |
+| **Explicit** | **Set** (e.g., `mydata`)                  | **Yes**, `APP_USER` changes                               | `/home/mydata` (remains as explicitly set)                       | If you explicitly define `HOME_FOLDER`, the home directory path **stays fixed** at `/home/mydata`. It will not change, even if `APP_USER` adapts to a different name due to UID/GID conflicts. This provides a stable, predictable home path. |
+|              | **Set** (e.g., `mydata`)                  | **No**, `APP_USER` remains `ofscraper`                    | `/home/mydata`                                                   | The explicitly set `HOME_FOLDER` always takes precedence, so the home directory will be `/home/mydata`.                                                                                                                                       |
+
+
+
+
+
+
+
+
+
+***
+
+Ah, I understand now! My apologies. You are seeing the raw `<br>` HTML tag I used to create line breaks inside the table, and the letter "E" is simply the first letter of the next word, "**E**ffect".
+
+I will regenerate the entire section for you immediately, but this time I will remove those `<br>` tags and combine the text into a single paragraph within each cell.
+
+Here is the corrected version:
+
+***
+
+## Environment Variables
+
+The container is managed by a entrypoint script that automatically creates a non-root user to run the application.&#x20;
+
+You can control the user, group, paths, and script behavior using the environment variables below.
+
+### User and Group Identity
+
+These variables control the identity of the user that runs the application inside the container.
+
+For the best experience with mounted volumes, it is **highly recommended** to set `UID` and `GID` to match your host system's user (e.g., `-e UID=$(id -u) -e GID=$(id -g)`).
+
+| **Environment Variable** | **Default Value (if not set)** | **Purpose & Effect of Changing the Value**                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------ | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `UID`                    | `1000`                         | Sets the **numeric User ID (UID)** for the application user, which is critical for matching file ownership on mounted volumes. Setting `UID=$(id -u)` makes the container user have the _same UID as your host user_, ensuring files it creates are correctly owned by you on the host. if the UID already exists with a different username in the container, it will adapt and use that existing user.     |
+| `GID`                    | `1000`                         | Sets the **numeric Group ID (GID)** for the application user's primary group, which works with `UID` to manage correct group ownership. Setting `GID=$(id -g)` ensures file permissions align with your host's primary group. Similar to `UID`, the script will adapt if this GID already belongs to an existing group.                                                                                     |
+| `USERNAME`               | `ofscraper`                    | Defines the **name** of the user to be created or managed inside the container. If you set `USERNAME=youruser`, the script will attempt to create or modify a user named `youruser` with the specified `UID`. This name is mainly for logical identification. If the `UID` you provide is already taken by a different user, the script will use that existing user's name instead and print a log message. |
+| `GROUPNAME`              | The value of `USERNAME`        | Defines the **name** of the primary group for the application user. By default, the group name will match the username (e.g., `ofscraper`). You can set this explicitly if you have specific group naming conventions. Like `USERNAME`, this is secondary to `GID`.                                                                                                                                         |
+
+### Path and Directory Management
+
+These variables allow you to control where the application stores its files. This is useful for mounting specific host directories.
+
+| **Environment Variable** | **Default Value (if not set)** | **Purpose & Effect of Changing the Value**                                                                                                                                                                                                                                                            |
+| ------------------------ | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `HOME_FOLDER`            | The value of `USERNAME`        | Sets the **folder name** for the user's home directory inside the container's `/home/` directory. If you set `USERNAME=john` and leave this unset, the home directory will be `/home/john`. If you set `HOME_FOLDER=my_app`, the home directory becomes `/home/my_app`, regardless of the `USERNAME`. |
+| `DATA_DIR`               | `$APP_HOME/data`               | Overrides the path for the application's data directory. By default, data is stored in a `data` folder inside the user's home directory (e.g., `/home/ofscraper/data`). You can set this to any absolute path, such as `/data`, if you prefer to mount a volume directly to `/data`.                  |
+| `CONFIG_DIR`             | `$APP_HOME/.config`            | Overrides the path for the application's configuration directory. By default, configuration is stored in a hidden `.config` folder inside the user's home directory (e.g., `/home/ofscraper/.config`). You can set this to an absolute path like `/config` to mount a volume there instead.           |
+
+#### Script Behavior Flags
+
+These variables act as on/off switches to control specific actions within the entrypoint script.
+
+| **Environment Variable** | **Default Value (if not set)** | **Purpose & Effect of Changing the Value**                                                                                                                                                                                                                                                              |
+| ------------------------ | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `KEEP_PERM`              | `false`                        | Prevents the script from changing ownership of the home, data, and config directories. If you set `KEEP_PERM=true`, the script will **not** run `chown` on your mounted directories. This is useful for advanced setups like rootless Docker or when you are managing permissions manually on the host. |
+| `SKIP_FFMPEG`            | `false`                        | Controls the installation of the `pyffmpeg` Python package. If you set `SKIP_FFMPEG=true`, the script will not attempt to install the `pyffmpeg` package. This can be used to speed up container startup if you do not need its functionality or if the installation is causing issues.                 |
 
 ***
 
@@ -22,8 +110,6 @@ This section provides the basic `docker run` commands to get OF-Scraper started.
 ### Minimal `docker run` Command
 
 This command uses the container's default user and group settings (`ofscraper` user with UID/GID `1000`).
-
-Bas
 
 ```
 docker run -it --rm --name=ofscraper \
@@ -48,17 +134,6 @@ docker run -it --rm --name=ofscraper \
   -e GROUP_NAME=yourgroup \ # Optional: Only if you want a custom group name different from USER_NAME
   ghcr.io/datawhores/of-scraper:main ofscraper {args}
 ```
-
-## Environment Variables
-
-For better permission management, especially when dealing with mounted volumes, it is **highly recommended** to set the `USER_ID` and `GROUP_ID` to match your host system's user. You can also customize the `USER_NAME` and `GROUP_NAME`
-
-| **Environment Variable** | **Default Value (if not set)** | **Purpose & Effect of Changing the Value**                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------ | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `USER_NAME`              | `ofscraper`                    | **Purpose:** Defines the **name** of the user created inside the container (e.g., `ofscraper`). This is mainly for logical identification and setting the home directory path (`/home/ofscraper` by default). \&lt;br>**Effect of Change:** If you set `USER_NAME=youruser`, a user named `youruser` will be created in the container, with their home directory at `/home/youruser`. This name is also used when dropping root privileges.                                            |
-| `USER_ID`                | `1000`                         | **Purpose:** Sets the **numeric User ID (UID)** for the user created in the container. This is vital for matching file ownership on **mounted volumes** with your host user. \&lt;br>**Effect of Change:** Setting `USER_ID=$(id -u)` (highly recommended) makes the container's user have the _same UID as your host user_. This ensures files created on shared volumes are correctly owned by you on the host. Changing it to a different number might cause permission mismatches. |
-| `GROUP_ID`               | `1000`                         | **Purpose:** Sets the **numeric Primary Group ID (GID)** for the group created in the container. This works with `USER_ID` to manage correct **group ownership** for files on **mounted volumes**. \&lt;br>**Effect of Change:** Setting `GROUP_ID=$(id -g)` (highly recommended) makes the container's user part of a group with the _same GID as your host's primary group_. Changing it could lead to permission issues on shared volumes if it doesn't match your host's GID.      |
-| `GROUP_NAME`             | Defaults to `USER_NAME`        | **Purpose:** Defines the **name** of the primary group created for the user in the container. \&lt;br>**Effect of Change:** By default, the group will share the same name as `USER_NAME` (e.g., `ofscraper`). If you explicitly set `GROUP_NAME=mygroup`, the user will be added to a group named `mygroup` instead. This is less common unless you have specific group naming conventions.                                                                                           |
 
 ***
 

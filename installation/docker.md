@@ -92,7 +92,7 @@ These variables allow you to control where the application stores its files. Thi
 | `DATA_DIR`               | `$APP_HOME/data`               | Overrides the path for the application's data directory. By default, data is stored in a `data` folder inside the user's home directory (e.g., `/home/ofscraper/data`). You can set this to any absolute path, such as `/data`, if you prefer to mount a volume directly to `/data`.                  |
 | `CONFIG_DIR`             | `$APP_HOME/.config`            | Overrides the path for the application's configuration directory. By default, configuration is stored in a hidden `.config` folder inside the user's home directory (e.g., `/home/ofscraper/.config`). You can set this to an absolute path like `/config` to mount a volume there instead.           |
 
-#### Script Behavior Flags
+### Script Behavior Flags
 
 These variables act as on/off switches to control specific actions within the entrypoint script.
 

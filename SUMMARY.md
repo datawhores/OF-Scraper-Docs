@@ -8,6 +8,7 @@
   * [Binary Releases](installation/binary-releases.md)
   * [Docker](installation/docker.md)
   * [Release Info](installation/release-info.md)
+  * [Install from source](installation/install-from-source.md)
 * [Getting Started and Settings](getting-started/README.md)
   * [Config Options](getting-started/config-options/README.md)
     * [Config Location](getting-started/config-options/config-location.md)

@@ -30,7 +30,9 @@ C:/Users/John.config/ofscraper/bin/ffmpeg.exe
 
 The placeholders described below will substitute the {} values
 
-[example-configs.md](../example-configs.md "mention")
+{% content-ref url="../example-configs.md" %}
+[example-configs.md](../example-configs.md)
+{% endcontent-ref %}
 
 ```
 "file_options": {

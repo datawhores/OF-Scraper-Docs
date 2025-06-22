@@ -75,7 +75,6 @@ This is based on common settings from DC script
             "private-key": "//home/james/.config/ofscraper/device/private_key.pem",
             "client-id": "//home/james/.config/ofscraper/device/client_id.bin",
             "key-mode-default": "manual",
-            "keydb_api": ""
         },
         "performance_options": {
             "download-sems": 10,

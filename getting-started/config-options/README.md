@@ -60,7 +60,9 @@
             "temp_dir": null,           
 <strong>            "disable_auto_after": false,
 </strong>            "default_user_list": "main",
-            "default_black_list": ""
+            "default_black_list": "",
+            "logs_expire_time": 0.0
+
         },
         "responsetype": {
             "timeline": "Posts",
@@ -71,7 +73,11 @@
             "highlights": "Stories",
             "profile": "Profile",
             "pinned": "Posts"
-        }
+        },
+         "script_options": {
+        "post_download_script": null,
+        "post_script": null
+    },
         "overwrites":{
         audios:{},
         videos:{},

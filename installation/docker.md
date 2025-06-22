@@ -55,14 +55,6 @@ The `DATA_DIR` is where your application will store its persistent data. Similar
 
 ***
 
-Ah, I understand now! My apologies. You are seeing the raw `<br>` HTML tag I used to create line breaks inside the table, and the letter "E" is simply the first letter of the next word, "**E**ffect".
-
-I will regenerate the entire section for you immediately, but this time I will remove those `<br>` tags and combine the text into a single paragraph within each cell.
-
-Here is the corrected version:
-
-***
-
 ## Environment Variables
 
 The container is managed by a entrypoint script that automatically creates a non-root user to run the application.&#x20;

@@ -10,8 +10,8 @@
 
 **Customize the final file path for downloads**
 
-{% content-ref url="file-output-options/" %}
-[file-output-options](file-output-options/)
+{% content-ref url="options/file-output-options/" %}
+[file-output-options](options/file-output-options/)
 {% endcontent-ref %}
 
 ***
@@ -20,8 +20,8 @@
 
 **Customize which files are downloaded**
 
-{% content-ref url="download-options/media-filtering-options.md" %}
-[media-filtering-options.md](download-options/media-filtering-options.md)
+{% content-ref url="options/download-options/media-filtering-options.md" %}
+[media-filtering-options.md](options/download-options/media-filtering-options.md)
 {% endcontent-ref %}
 
 ***
@@ -30,6 +30,6 @@
 
 **These settings are required for some files**
 
-{% content-ref url="key-option.md" %}
-[key-option.md](key-option.md)
+{% content-ref url="options/key-option.md" %}
+[key-option.md](options/key-option.md)
 {% endcontent-ref %}

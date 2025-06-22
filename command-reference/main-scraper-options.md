@@ -20,8 +20,8 @@ ofscraper --username ALL
 
 ## General Options
 
-{% content-ref url="../getting-started/config-options/general-options.md" %}
-[general-options.md](../getting-started/config-options/general-options.md)
+{% content-ref url="../getting-started/config-options/options/general-options.md" %}
+[general-options.md](../getting-started/config-options/options/general-options.md)
 {% endcontent-ref %}
 
 ## Options

@@ -4,8 +4,6 @@ In the config.json file, you can modify the default metadata location or adjust 
 
 Using your existing metadata files from DIGITALCRIMINALS' script enables immediate utilization of the dupe checker, with any new files added subsequently being appended to the existing ones
 
-##
-
 ***
 
 ## Config File Location

@@ -23,8 +23,8 @@
 **Including the defaults**
 {% endhint %}
 
-{% content-ref url="config-options/file-output-options/" %}
-[file-output-options](config-options/file-output-options/)
+{% content-ref url="config-options/options/file-output-options/" %}
+[file-output-options](config-options/options/file-output-options/)
 {% endcontent-ref %}
 
 ##

@@ -83,6 +83,7 @@ This is based on common settings from DC script
         "advanced_options": {
             "code-execution": true,
             "dynamic-mode-default": "dc",
+            "logs_expire_time": 0.0
             "backend": "aio",
             "downloadbars": false,
             "cache-mode": "sqlite",
@@ -96,6 +97,10 @@ This is based on common settings from DC script
             "avatar": true,
             "temp_dir": null
         },
+     "script_options": {
+        "post_download_script": null,
+        "post_script": null
+    },
         "responsetype": {
             "timeline": "Posts",
             "message": "Messages",

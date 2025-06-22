@@ -154,7 +154,7 @@ Sets the script to run in a infinite loop even when \
 
 ## logs\_expire\_time
 
-Logs older than the specified time will be deleted from the system. rotate\_logs must be enabled, and the value must be greater than 0.
+&#x20;Determines the maximum age for log files in days. When log rotation is enabled, any log file older than this configured value will be automatically deleted from the system. For this feature to be active, the value must be set to a positive number greater than zero, and rotate\_logs must be enabled
 
 
 

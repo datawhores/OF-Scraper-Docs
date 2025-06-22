@@ -11,6 +11,7 @@
 * [Getting Started and Settings](getting-started/README.md)
   * [Config Options](getting-started/config-options/README.md)
     * [Config Location](getting-started/config-options/config-location.md)
+    * [Example Configs](getting-started/config-options/example-configs.md)
     * [General Options](getting-started/config-options/general-options.md)
     * [File Output Options](getting-started/config-options/file-output-options/README.md)
       * [Placeholders](getting-started/config-options/file-output-options/customizing-save-path.md)

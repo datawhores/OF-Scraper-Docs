@@ -32,8 +32,6 @@ description: >-
 * **Overrides:** The key mode setting specified in the configuration file.
 * **Possible values:**
   * cdrm
-  * cdrm2
-  * keydb
   * manual
 * **Requires Argument:** You must specify the desired key mode after the option (e.g., `-k manual`).
 

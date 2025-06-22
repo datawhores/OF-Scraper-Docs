@@ -29,8 +29,6 @@
 [file-output-options](config-options/file-output-options/)
 {% endcontent-ref %}
 
-##
-
 ## Example
 
 See the advanced DC config

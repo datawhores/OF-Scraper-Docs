@@ -76,8 +76,8 @@ These options also effect the final file name
 
 ## metadata
 
-{% content-ref url="../../setting-metadata-path.md" %}
-[setting-metadata-path.md](../../setting-metadata-path.md)
+{% content-ref url="../setting-metadata-path.md" %}
+[setting-metadata-path.md](../setting-metadata-path.md)
 {% endcontent-ref %}
 
 Metadata is mainly used for&#x20;

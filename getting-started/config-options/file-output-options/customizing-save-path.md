@@ -30,8 +30,8 @@ C:/Users/John.config/ofscraper/bin/ffmpeg.exe
 
 The placeholders described below will substitute the {} values
 
-{% content-ref url="../../example-configs.md" %}
-[example-configs.md](../../example-configs.md)
+{% content-ref url="../example-configs.md" %}
+[example-configs.md](../example-configs.md)
 {% endcontent-ref %}
 
 ```
@@ -161,12 +161,12 @@ Some placeholders will be changed
 
 </code></pre>
 
-{% content-ref url="../../../../using-the-scraper/batch-scraping-and-bot-actions/basic-actions/selecting-posts/downloading-text-files.md" %}
-[downloading-text-files.md](../../../../using-the-scraper/batch-scraping-and-bot-actions/basic-actions/selecting-posts/downloading-text-files.md)
+{% content-ref url="../../../using-the-scraper/batch-scraping-and-bot-actions/basic-actions/selecting-posts/downloading-text-files.md" %}
+[downloading-text-files.md](../../../using-the-scraper/batch-scraping-and-bot-actions/basic-actions/selecting-posts/downloading-text-files.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../advanced-config-options/mediatype-overwrites.md" %}
-[mediatype-overwrites.md](../../../advanced-config-options/mediatype-overwrites.md)
+{% content-ref url="../options/advanced-config-options/mediatype-overwrites.md" %}
+[mediatype-overwrites.md](../options/advanced-config-options/mediatype-overwrites.md)
 {% endcontent-ref %}
 
 ***
@@ -175,8 +175,8 @@ Some placeholders will be changed
 
 Controls where metadata is save
 
-{% content-ref url="../../setting-metadata-path.md" %}
-[setting-metadata-path.md](../../setting-metadata-path.md)
+{% content-ref url="../setting-metadata-path.md" %}
+[setting-metadata-path.md](../setting-metadata-path.md)
 {% endcontent-ref %}
 
 ***

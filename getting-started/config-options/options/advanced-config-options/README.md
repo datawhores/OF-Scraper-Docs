@@ -154,13 +154,7 @@ Sets the script to run in a infinite loop even when \
 
 ## logs\_expire\_time
 
-Logs older than the specified time will be deleted from the system. Log rotation must be enabled, and the value must be greater than 0.
-
-
-
-## ssl\_validation:
-
-Disable validation of ssl certificates
+Logs older than the specified time will be deleted from the system. rotate\_logs must be enabled, and the value must be greater than 0.
 
 
 

@@ -30,7 +30,7 @@ Whether the post tied to the media is unlocked
 
 ```
 This is the length of videos/audio
-N/A ==0 for pictures
+N/A is used for media like pictures without a length
 ```
 
 #### other\_posts\_with\_media

@@ -4,63 +4,6 @@
 
 ***
 
-## custom\_values
-
-Before, 'custom' was transformed into a dictionary using Python's built-in JSON library.&#x20;
-
-While this approach remains an option, OF-Scraper now supports scripting within the 'custom' block, allowing for the inclusion of small scripts directly.\
-
-
-### How it works
-
-{% hint style="info" %}
-**Use exec if you need to save a variable**\
-**the keys should be executed in order**
-{% endhint %}
-
-````
-```python
-            if not isinstance(custom,dict)==True:
-                try:return eval(custom)
-                except:return custom
-            for key,val in custom.items():
-                try:custom[key]=eval(val)
-                except:continue
-```
-````
-
-Each value in dictionary is ran through eval, meaning each value should be a statement that equals some value
-
-You can access the calculated value via
-
-```
-custom.get(key)
-```
-
-### Example
-
-```
-code-execution:true
-dir_format:{custom.get(model_username,model_username)}
-custom={"mymodel","'replace'.lower()"}
-```
-
-It's crucial to note that when working with strings, the inner quotes hold significance because 'eval' interprets what's inside the quotes as code.&#x20;
-
-Therefore, maintaining the inner quotes is vital for accurate interpretation by 'eval'.
-
-### Changing const
-
-You can change most const  values with the custom dict as well
-
-{% content-ref url="changing-const.md" %}
-[changing-const.md](changing-const.md)
-{% endcontent-ref %}
-
-
-
-***
-
 ## dynamic-mode-default
 
 * This is utilized to sign a request, essential for its authorization. Without this, the request would lack proper authorization and fail.
@@ -207,3 +150,73 @@ The default user list used during username scan
 {% endhint %}
 
 The default black list used during username scan
+
+
+
+## custom\_values
+
+Before, 'custom' was transformed into a dictionary using Python's built-in JSON library.&#x20;
+
+While this approach remains an option, OF-Scraper now supports scripting within the 'custom' block, allowing for the inclusion of small scripts directly.\
+
+
+### How it works
+
+{% hint style="info" %}
+**Use exec if you need to save a variable**\
+**the keys should be executed in order**
+{% endhint %}
+
+````
+```python
+            if not isinstance(custom,dict)==True:
+                try:return eval(custom)
+                except:return custom
+            for key,val in custom.items():
+                try:custom[key]=eval(val)
+                except:continue
+```
+````
+
+Each value in dictionary is ran through eval, meaning each value should be a statement that equals some value
+
+You can access the calculated value via
+
+```
+custom.get(key)
+```
+
+### Example
+
+```
+code-execution:true
+dir_format:{custom.get(model_username,model_username)}
+custom={"mymodel","'replace'.lower()"}
+```
+
+It's crucial to note that when working with strings, the inner quotes hold significance because 'eval' interprets what's inside the quotes as code.&#x20;
+
+Therefore, maintaining the inner quotes is vital for accurate interpretation by 'eval'
+
+### Changing const
+
+You can change most const  values with the custom dict as well
+
+## code-execution
+
+```
+The 'code-execution' feature enables code execution during the 
+generation of metadata, path, file_format, and dir_format.
+```
+
+\
+All available placeholders can be used within these options, and the input for these choices will be transformed into an f-string for processing.\
+
+
+As an example
+
+```
+eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
+```
+
+in this example any Python code that produces a string as its output should work

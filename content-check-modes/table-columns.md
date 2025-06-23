@@ -1,7 +1,5 @@
 # Table Columns
 
-### Table Columns
-
 #### Download Cart&#x20;
 
 ```

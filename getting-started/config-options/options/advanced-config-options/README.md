@@ -1,19 +1,5 @@
 # Advanced config options
 
-## code-execution
-
-The 'code-execution' feature enables code execution during the generation of metadata, path, file\_format, and dir\_format.&#x20;
-
-All available placeholders can be used within these options, and the input for these choices will be transformed into an f-string for processing.\
-\
-As an example
-
-```
-eval("f'{}'".format(config_.get_dirformat(config_.read_config())))
-```
-
-Any Python code that produces a string as its output should work just fine in this context.
-
 
 
 ***
@@ -157,6 +143,12 @@ Sets the script to run in a infinite loop even when \
 &#x20;Determines the maximum age for log files in days. When log rotation is enabled, any log file older than this configured value will be automatically deleted from the system. For this feature to be active, the value must be set to a positive number greater than zero, and rotate\_logs must be enabled
 
 
+
+***
+
+## ssl\_validation:
+
+Disable validation of ssl certificates
 
 ***
 

@@ -17,13 +17,13 @@ model username
 #### Downloaded
 
 ```
-is the media marked by the db as downloaded
+Boolean for whether the media is marked by the db as downloaded
 ```
 
 #### Unlocked
 
 ```
-Whether the post tied to the media is unlocked
+Boolean for whether the post tied to the media is unlocked
 ```
 
 #### Length
@@ -31,19 +31,19 @@ Whether the post tied to the media is unlocked
 ```
 This is the length of videos/audio
 N/A is used for media like pictures without a length
+Formated in HH:MM:SS
 ```
 
 #### other\_posts\_with\_media
 
 ```
-Identifies media with matching media IDs from both database 
-and requests
+Identifies posts with the same media id
 ```
 
 #### Mediatype
 
 ```
-type of media
+Type of media
 ```
 
 #### Post date
@@ -55,7 +55,7 @@ Date the post was created/updated
 #### Post Media Count
 
 ```
-Number of media in the original post
+Number of media in the post this media item is in
 ```
 
 #### Responsetype
@@ -67,80 +67,23 @@ Which API the media was retrieved from
 #### Price
 
 ```
-Where the price of the post the media is tied to
+Price of the post the media is tied to
 ```
 
 #### Post ID
 
 ```
-id for the post the media is tied
+ID for the post the media is tied
 ```
 
 #### Media ID
 
 ```
-id for the media
+ID for the media
 ```
 
 #### Text
 
 ```
-Text that came with the post
-```
-
-#### Caption
-
-```
-The text caption that accompanies the media
-```
-
-#### Author
-
-```
-The creator of the post
-```
-
-#### Likes
-
-```
-The number of likes the post has received
-```
-
-#### Comments
-
-```
-The number of comments on the post
-```
-
-#### Share Count
-
-```
-The number of times the post has been shared
-```
-
-#### Media Type
-
-```
-The format of the media (image, video, etc.)
-```
-
-#### Hashtags
-
-```
-The hashtags used in the post
-```
-
-#### Location
-
-```
-The location where the post was made
-```
-
-### Depreciated  Columns
-
-#### Times Detected
-
-```
-The greater of how many times the media id is in the db 
-vs how many times the API returns the same media id from different posts
+Text from the post
 ```

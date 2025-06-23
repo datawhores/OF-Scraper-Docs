@@ -30,8 +30,6 @@ cd OF-Scraper
 
 To ensure you have access to all version information, pull the Git tags:
 
-Bash
-
 ```
 git pull --tags
 ```

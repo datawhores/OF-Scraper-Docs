@@ -34,12 +34,16 @@ Controls the minimum allowable file size for downloads
 
 Limits processed items to media as long or  longer then the given length
 
+in seconds
+
 * ignored if 0
 * only used to filter videos
 
 ## length\_min
 
 Limits processed items to media as short or  shorter then the given length
+
+in seconds
 
 * ignored if 0
 * only used to filter videos

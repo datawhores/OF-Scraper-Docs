@@ -29,3 +29,18 @@ description: These options allow you to configure various aspects of the program
 
 * **Default behavior:** The program uses the default profile 'main'
 * **Example:** With `-r test`, the program will use a profile named test
+
+### --env-file \[path]
+
+* **Specifies:** The path to an external `.env` file from which to load environment variables.
+* **Effect:** Variables defined in this file are loaded into the program's environment. Values from this file will **override** system environment variables that might be set. These values are then utilized by various configuration settings that are designed to read from environment variables.
+* **Default behavior:** If this option is not provided, the program automatically searches for a `.env` file in the current working directory and its parent directories.
+* **Example:** With `--env-file /home/user/my_app/prod.env`, the program will load environment variables from the specified `prod.env` file.
+
+#### Configuration Precedence
+
+When determining the final value for any configuration setting, the program follows a specific order of precedence. Items higher on this list will **override** items lower on the list:
+
+1. **Explicit `.env` File (`--env-file` option):** Values loaded from the `.env` file(s) specified by the `--env-file` option. If this option is provided multiple times on the command line (e.g., `cli --env-file a.env --env-file b.env`), all specified files are loaded in the order they are declared in the command. Values from files loaded later will take precedence over those from files loaded earlier. These values also override any conflicting values from earlier source
+2. **System Environment Variables:** Values already set in your operating system's environment (e.g., via `export VAR=VALUE` on Linux/macOS, or `set VAR=VALUE` on Windows Command Prompt). These are present before any `.env` files are loaded.
+3. **Hardcoded Defaults:** Default values defined directly within the program's source code. These are used only if a setting is not found via any of the above methods.

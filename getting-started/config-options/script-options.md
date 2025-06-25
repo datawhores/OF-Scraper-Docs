@@ -95,8 +95,12 @@ A script that determines whether to skip or continue a download. This script can
 
 As a JSON dictionary, typically via standard input (stdin).
 
-* `media`: A comprehensive dictionary representing the media item to be downloaded&#x20;
-* `post`: A dictionary representing the post associated with the media item&#x20;
+* `username`: The model's username (string).
+* `model_id`: The model's ID (integer).
+* `post_id`: The ID of the post associated with the media (integer).
+* `media_id`: The ID of the media item (integer).
+* `media`: dictionary representing the media item to be downloaded.
+* `post`: A dictionary representing the post associated with the media item.
 * `total_size`: The total size of the download in bytes (integer).
 
 ### **Expected Output**

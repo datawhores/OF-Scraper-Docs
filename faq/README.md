@@ -214,8 +214,8 @@ Obtain the GPL non-shared release version.
 check formatting of auth file
 ```
 
-{% content-ref url="../getting-started/config-options/options/advanced-config-options/" %}
-[advanced-config-options](../getting-started/config-options/options/advanced-config-options/)
+{% content-ref url="../getting-started/config-options/options/advanced-config-options.md" %}
+[advanced-config-options.md](../getting-started/config-options/options/advanced-config-options.md)
 {% endcontent-ref %}
 
 ```

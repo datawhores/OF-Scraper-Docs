@@ -165,8 +165,8 @@ Some placeholders will be changed
 [downloading-text-files.md](../../../using-the-scraper/batch-scraping-and-bot-actions/basic-actions/selecting-posts/downloading-text-files.md)
 {% endcontent-ref %}
 
-{% content-ref url="../options/advanced-config-options/mediatype-overwrites.md" %}
-[mediatype-overwrites.md](../options/advanced-config-options/mediatype-overwrites.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ***

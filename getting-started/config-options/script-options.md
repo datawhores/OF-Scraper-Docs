@@ -1,54 +1,98 @@
 # Script Options
 
-## post\_download\_script
+## Post Download Script (`post_download_script`)
 
-A script that runs after  an action for a user has completed
+A script that runs after an action for a user has completed. This script can be configured via the `--download-script` command-line argument or the `download_script` setting in the program's configuration.
 
-* runs after each model is downloaded in the main scraper
-* runs after each model's metadata is processed in metadata mode
-* runs after each model is processed in manual mode
-* runs for each unique model, after the current cart is downloaded in check mode
+### **Trigger Conditions**
 
-### Data sent
+* Runs after each model is downloaded in the main scraper.
+* Runs after each model's metadata is processed in metadata mode.
+* Runs after each model is processed in manual mode.
+* Runs for each unique model, after the current cart is downloaded in check mode.
 
-as a json file
+### **Data Sent**
 
-* <pre><code><strong>username:username
-  </strong></code></pre>
-* ```
-  model_id:model_id
-  ```
-* ```
-  media:media dictionary from api, with final_path added
-  ```
-* ```
-  posts:posts dictionary from api
-  ```
-* ```
-  userdata:a dictionary from users api
-  ```
+As a JSON dictionary, typically via standard input (stdin).
 
-## post\_script
+* `username`: username (string).
+* `model_id`: model\_id (integer).
+* `media`: media dictionary from API, with `final_path` added.
+* `posts`: posts dictionary from API.
+* `userdata`: a dictionary from the users API.
 
-A script that runs after all actions for all users have completed
+***
 
-* once all models are downloaded or liked in scrape mode
-* once all the post from manual mode are completed
-* After the current cart downloads are processed in check mode, and after the download-script is processed for each user
-* after all metadata for  all users is processed in metadata mode&#x20;
+## Post Script (`post_script`)
 
-### Data Sent
+A script that runs after all actions for all users have completed. This script can be configured via the `--post-script` command-line argument or the `post_script` setting in the program's configuration.
 
-as a json file
+### **Trigger Conditions**
 
-* <pre><code><strong>users:A dictionary of user dictionaries retrieved from the user API
-  </strong></code></pre>
-* ```
-  dir_format:string from  config
-  ```
-* ```
-  file_format:string from  config
-  ```
-* ```
-  metadata":string from  config
-  ```
+* Once all models are downloaded or liked in scrape mode.
+* Once all the posts from manual mode are completed.
+* After the current cart downloads are processed in check mode, and after the download-script is processed for each user.
+* After all metadata for all users is processed in metadata mode.
+
+### **Data Sent**
+
+As a JSON dictionary, typically via standard input (stdin).
+
+* `users`: A dictionary of user dictionaries retrieved from the user API.
+* `dir_format`: String from config.
+* `file_format`: String from config.
+* `metadata`: String from config.
+
+***
+
+## Naming Script (`naming_script`)
+
+A script that dynamically generates the final filename or full path for a downloaded media item. This script can be configured via the `--naming-script` command-line argument or the `naming_script` setting in the program's configuration.
+
+### **Trigger Conditions**
+
+* For each individual media item, this script runs while its temporary filename is being generated.
+* It is executed again after the temporary file has been downloaded, and before the file is renamed to its final destination.
+* **As a special case, the script also runs before generating filenames for text files when using the `--text` or `--text-only` option.**
+
+### **Data Sent**
+
+As a JSON dictionary, typically via standard input (stdin).
+
+* `media`: A dictionary representing the media item.
+* `post_payload`: The dictionary representing the post associated with the media item.
+* `dir_format`: The current directory format string (string from config).
+* `file_format`: The current file format string (string from config).
+* `metadata`: The current metadata format setting (string from config).
+
+### **Expected Output**
+
+The script is expected to print the desired the **full desired path** to standard output (stdout). The scraper will then use this output to rename or move the downloaded file
+
+
+
+## Download Skip Script (`download_skip_script`)
+
+A script that determines whether to skip or continue a download. This script can be configured via the `--download-skip-script` command-line argument or the `download_skip_script` setting in the program's configuration.
+
+### **Trigger Conditions**
+
+* It executes before the download process begins for each individual media item.
+
+### **Data Sent**
+
+As a JSON dictionary, typically via standard input (stdin).
+
+* `media`: A comprehensive dictionary representing the media item to be downloaded&#x20;
+* `post`: A dictionary representing the post associated with the media item&#x20;
+* `total_size`: The total size of the download in bytes (integer).
+
+### **Expected Output**
+
+The script is expected to return a string via standard output (stdout).
+
+* If the returned string is `"False"` (case-insensitive) or an empty string, the download will be **skipped**.
+* Any other non-empty string returned will allow the download to **proceed**.
+
+
+

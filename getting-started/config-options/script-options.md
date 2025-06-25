@@ -57,13 +57,25 @@ A script that dynamically generates the final filename or full path for a downlo
 
 ### **Data Sent**
 
-As a JSON dictionary, typically via standard input (stdin).
+As a JSON dictionary, typically via standard input (stdin)
 
-* `media`: A dictionary representing the media item.
-* `post_payload`: The dictionary representing the post associated with the media item.
+* `media`: A dictionary representing the media item
+* `post`: The dictionary representing the post associated with the media item.
+* `dir`: The calculated directory path (string).
+* `file`: The calculated filename (string).
 * `dir_format`: The current directory format string (string from config).
 * `file_format`: The current file format string (string from config).
 * `metadata`: The current metadata format setting (string from config).
+* `username`: The model's username (string).
+* `model_id`: The model's ID (integer).
+* `post_id`: The ID of the post associated with the media (integer).
+* `media_id`: The ID of the media item (integer).
+* `media_type`: The type of media
+* `value`: The value associated with the media
+* `date`: The formatted date related to the media/post (string)
+* `response_type`: The response type of the media (string).
+* `label`: A string representing associated labels
+* `download_type`: The type of download
 
 ### **Expected Output**
 

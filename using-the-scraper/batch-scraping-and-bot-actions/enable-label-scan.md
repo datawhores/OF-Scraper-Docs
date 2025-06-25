@@ -36,6 +36,6 @@ or&#x20;
 override include_labels_all to True
 ```
 
-{% content-ref url="../../getting-started/config-options/options/advanced-config-options/changing-const.md" %}
-[changing-const.md](../../getting-started/config-options/options/advanced-config-options/changing-const.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

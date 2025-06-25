@@ -29,7 +29,6 @@
         * [Values to Pick](getting-started/config-options/performance-options/values-to-pick.md)
       * [Script Options](getting-started/config-options/script-options.md)
       * [Advanced config options](getting-started/config-options/options/advanced-config-options/README.md)
-        * [Changing Const Values](getting-started/config-options/options/advanced-config-options/changing-const.md)
         * [Mediatype overwrites](getting-started/config-options/options/advanced-config-options/mediatype-overwrites.md)
   * [Auth](getting-started/auth.md)
   * [Controlling Output/Logs](getting-started/controlling-output.md)

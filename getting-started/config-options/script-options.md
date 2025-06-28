@@ -17,7 +17,7 @@ As a JSON dictionary, typically via standard input (stdin).
 
 * `username`: username (string).
 * `model_id`: model\_id (integer).
-* `media`: media dictionary from API, with `final_path` added.
+* `media`: media dictionary from API, with `final_path` added, and whether they were downloaded or not
 * `posts`: posts dictionary from API.
 * `userdata`: a dictionary from the users API.
 
@@ -38,10 +38,7 @@ A script that runs after all actions for all users have completed. This script c
 
 As a JSON dictionary, typically via standard input (stdin).
 
-* `users`: A dictionary of user dictionaries retrieved from the user API.
-* `dir_format`: String from config.
-* `file_format`: String from config.
-* `metadata`: String from config.
+* `users`: A list of users that were processed during the run
 
 ***
 

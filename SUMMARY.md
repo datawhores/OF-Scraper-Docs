@@ -32,6 +32,7 @@
   * [Auth](getting-started/auth.md)
   * [Controlling Output/Logs](getting-started/controlling-output.md)
   * [Migrating from Digitalcriminal's script](getting-started/migrating-from-digitalcriminals-script.md)
+  * [Advanced Configuration](getting-started/advanced-configuration.md)
 * [Using the Scraper](using-the-scraper/README.md)
   * [Using Prompts](using-the-scraper/using-prompts/README.md)
     * [Old Menu](using-the-scraper/using-prompts/old-menu.md)

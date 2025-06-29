@@ -37,6 +37,6 @@ description: These options allow you to configure various aspects of the program
 * **Default behavior:** If this option is not provided, the program automatically searches for a `.env` file in the current working directory and its parent directories.
 * **Example:** With `--env-file /home/user/my_app/prod.env`, the program will load environment variables from the specified `prod.env` file.
 
-{% content-ref url="../../../getting-started/advanced-configuration.md" %}
-[advanced-configuration.md](../../../getting-started/advanced-configuration.md)
+{% content-ref url="../../../getting-started/advanced-customization.md" %}
+[advanced-customization.md](../../../getting-started/advanced-customization.md)
 {% endcontent-ref %}

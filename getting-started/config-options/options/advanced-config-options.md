@@ -151,7 +151,8 @@ The default user list used during username scan
 
 The default black list used during username scan
 
+***
 
+## env\_files
 
-Therefore, maintaining the inner quotes is vital for accurate interpretation by 'eval'
-
+list of files imported to set custom enviroment variables for the script

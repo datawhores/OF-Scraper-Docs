@@ -75,6 +75,7 @@
       * [Media Filters Options](command-reference/shared-options/common-option-groups/media-filters-options.md)
       * [Download Options](command-reference/shared-options/common-option-groups/download-options.md)
       * [Advanced Program Options](command-reference/shared-options/common-option-groups/advanced-args.md)
+      * [Script Options](command-reference/shared-options/common-option-groups/script-options.md)
     * [Shared Scrape and Metadata Check Mode Options](command-reference/shared-options/scrape-metadata-options/README.md)
       * [User List Filter Options](command-reference/shared-options/scrape-metadata-options/account-filter-args/README.md)
         * [Advanced User Filters](command-reference/shared-options/scrape-metadata-options/account-filter-args/advanced-user-filters.md)

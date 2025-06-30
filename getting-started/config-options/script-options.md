@@ -1,12 +1,13 @@
 # Script Options
 
-## Post Download Script (`post_download_script`)
+## Post Action Script (`post_download_script`)
 
-A script that runs after an action for a user has completed. This script can be configured via the `--download-script` command-line argument or the `download_script` setting in the program's configuration.
+A script that runs after an action for a user has completed. This script can be configured via the `--after-action-script` command-line argument or the `after_action_script` setting in the program's configuration.
 
 ### **Trigger Conditions**
 
 * Runs after each model is downloaded in the main scraper.
+* Runs after each model like/unlike process is finished
 * Runs after each model's metadata is processed in metadata mode.
 * Runs after each model is processed in manual mode.
 * Runs for each unique model, after the current cart is downloaded in check mode.
@@ -15,7 +16,8 @@ A script that runs after an action for a user has completed. This script can be 
 
 As a JSON dictionary, typically via standard input (stdin).
 
-* `username`: username (string).
+* `username`: username (string)
+* `action` : action ran (string)
 * `model_id`: model\_id (integer).
 * `media`: media dictionary from API, with `final_path` added, and whether they were downloaded or not
 * `posts`: posts dictionary from API.
@@ -78,7 +80,23 @@ As a JSON dictionary, typically via standard input (stdin)
 
 The script is expected to print the desired the **full desired path** to standard output (stdout). The scraper will then use this output to rename or move the downloaded file
 
+***
 
+## After Download Script (`download_skip_script`)
+
+A script that runs after a download has completed. This script can be configured via the `--after-download-script` command-line argument or the `after_download_script` setting in the program's configuration.
+
+### **Trigger Conditions**
+
+* It executes after a download has successfully been downloaded
+
+### **Data Sent**
+
+a single string
+
+* The final filepath of the download
+
+***
 
 ## Download Skip Script (`download_skip_script`)
 
@@ -106,6 +124,10 @@ The script is expected to return a string via standard output (stdout).
 
 * If the returned string is `"False"` (case-insensitive) or an empty string, the download will be **skipped**.
 * Any other non-empty string returned will allow the download to **proceed**.
+
+
+
+
 
 
 

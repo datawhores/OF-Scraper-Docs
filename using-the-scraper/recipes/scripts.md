@@ -23,9 +23,10 @@ def main():
 
     # 1. Parse the JSON string into a Python dictionary
     data = json.loads(input_json_str)
-    filename=str(pathlib.Path(data["dir"],data["file"]))
     #2  Fix name
-    filename=filename.replace("jpeg","jpg").strip()
+    dir=data["dir"]
+    file=data["file"].replace("jpeg","jpg").strip()
+    filename=str(pathlib.Path(dir,file))
     #2. Print to stdout for output
     print(filename, file=sys.stdout)
     #3. Print all information data to stderr

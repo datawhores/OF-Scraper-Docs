@@ -53,6 +53,7 @@
   * [Recipes](using-the-scraper/recipes/README.md)
     * [Adding Proxy](using-the-scraper/recipes/adding-proxy.md)
     * [Redownload Deleted Downloads](using-the-scraper/recipes/redownload-deleted-downloads.md)
+    * [Scripts](using-the-scraper/recipes/scripts.md)
 * [Content Check Modes](content-check-modes/README.md)
   * [Table Columns](content-check-modes/table-columns.md)
   * [Table Management](content-check-modes/table-management/README.md)

@@ -1,10 +1,16 @@
+---
+description: Example of scripts to change the program behavior
+---
+
 # Scripts
 
 {% hint style="danger" %}
-All files must end with a .py to be autodetected  by OF-Scraper as a python file
+All files must end with a .py to be auto-detected  by OF-Scraper as a python file
 {% endhint %}
 
 ## Naming Scripts
+
+These scripts would be place into the naming\_script section of the config
 
 ### rename jpeg to jpg
 

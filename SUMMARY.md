@@ -50,7 +50,7 @@
     * [Advanced Args](using-the-scraper/batch-scraping-and-bot-actions/advanced-args.md)
     * [Scripting tips](using-the-scraper/batch-scraping-and-bot-actions/scripting-tips.md)
     * [Enable label scan](using-the-scraper/batch-scraping-and-bot-actions/enable-label-scan.md)
-  * [Scripts](using-the-scraper/scripts.md)
+  * [Scripts](using-the-scraper/recipes/scripts.md)
   * [Recipes](using-the-scraper/recipes/README.md)
     * [Adding Proxy](using-the-scraper/recipes/adding-proxy.md)
     * [Redownload Deleted Downloads](using-the-scraper/recipes/redownload-deleted-downloads.md)

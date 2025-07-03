@@ -17,11 +17,13 @@ These scripts would be place into the naming\_script section of the config
 ```
 import sys
 import json
+import pathlib
 def main():
     input_json_str = sys.stdin.read()
+
     # 1. Parse the JSON string into a Python dictionary
     data = json.loads(input_json_str)
-    filename=data["file"] 
+    filename=str(pathlib.Path(data["dir"],data["file"]))
     #2  Fix name
     filename=filename.replace("jpeg","jpg").strip()
     #2. Print to stdout for output
@@ -30,4 +32,6 @@ def main():
     print(filename, file=sys.stderr)
 if __name__=="__main__":
     main()
+
+
 ```

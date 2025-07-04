@@ -10,7 +10,8 @@ A script that runs after an action for a user has completed. This script can be 
 
 ### **Trigger Conditions**
 
-* Runs after each model is downloaded in the main scraper.
+* Runs after each model is downloaded in the main scraper
+  * Including in daemon-mode
 * Runs after each model like/unlike process is finished
 * Runs after each model's metadata is processed in metadata mode.
 * Runs after each model is processed in manual mode
@@ -37,9 +38,10 @@ A script that runs after all actions for all users have completed. This script c
 
 ### **Trigger Conditions**
 
-* Once all models are downloaded or liked in scrape mode.
-* Once all the posts from manual mode are completed.
-* After the current cart downloads are processed in check mode, and after the download-script is processed for each user.
+* Once all models are downloaded or liked in scrape mode
+* After each cycle in daemon mode
+* Once all the posts from manual mode are completed
+* After the current cart downloads are processed in check mode, and after the download\_action\_script is processed for each user.
 * After all metadata for all users is processed in metadata mode.
 
 ### **Data Sent**

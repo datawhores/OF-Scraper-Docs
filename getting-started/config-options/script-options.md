@@ -1,5 +1,9 @@
 # Script Options
 
+{% content-ref url="../../using-the-scraper/recipes/scripts.md" %}
+[scripts.md](../../using-the-scraper/recipes/scripts.md)
+{% endcontent-ref %}
+
 ## Post Action Script (`post_download_script`)
 
 A script that runs after an action for a user has completed. This script can be configured via the `--after-action-script` command-line argument or the `after_action_script` setting in the program's configuration.
@@ -9,8 +13,10 @@ A script that runs after an action for a user has completed. This script can be 
 * Runs after each model is downloaded in the main scraper.
 * Runs after each model like/unlike process is finished
 * Runs after each model's metadata is processed in metadata mode.
-* Runs after each model is processed in manual mode.
-* Runs for each unique model, after the current cart is downloaded in check mode.
+* Runs after each model is processed in manual mode
+* Runs for each unique model, after the current cart is downloaded in check mode
+* Runs for each model after scrape paid is process,
+  * Note: modeldeleted or models without a active account would be ran together as one unit
 
 ### **Data Sent**
 

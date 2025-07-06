@@ -48,7 +48,14 @@ A script that runs after all actions for all users have completed. This script c
 
 As a JSON dictionary, typically via standard input (stdin).
 
-* `users`: A list of users that were processed during the run
+* `like_processed`: A list of users who have successfully completed the 'like' action.
+* `like_unprocessed`: A list of users who are queued for the 'like' action but have not yet been processed.
+* `unlike_processed`: A list of users who have successfully completed the 'unlike' action.
+* `unlike_unprocessed`: A list of users who are queued for the 'unlike' action but have not yet been processed.
+* `download_processed`: A list of users whose content has been successfully downloaded.
+* `download_unprocessed`: A list of users whose content is queued for download but has not yet been processed.
+* `paid_processed`: A list of users who were successfully processed during the 'paid' scrape activity.
+* `paid_unprocessed`: A list of users who are queued for the 'paid' scrape activity but have not yet been processed.
 
 ***
 

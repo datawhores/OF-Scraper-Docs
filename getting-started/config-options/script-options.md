@@ -13,6 +13,7 @@ A script that runs after an action for a user has completed. This script can be 
 * Runs after each model is downloaded in the main scraper
   * Including in daemon-mode
 * Runs after each model like/unlike process is finished
+  * Including in daemon-mode
 * Runs after each model's metadata is processed in metadata mode.
 * Runs after each model is processed in manual mode
 * Runs for each unique model, after the current cart is downloaded in check mode

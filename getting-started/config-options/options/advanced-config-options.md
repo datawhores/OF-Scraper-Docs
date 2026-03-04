@@ -13,6 +13,13 @@
 
 ***
 
+## skip unavailable content
+
+* Completely bypasses the Timeline, Pinned, Archived, Stories, and Highlights API endpoints for expired users, within a specified grace period, defaults to 2
+* Continues to scan Messages and Purchased content
+
+***
+
 ## cache-mode
 
 {% hint style="info" %}
@@ -65,8 +72,7 @@ Disabling these can improve performance
 **If not set the the final download directory is used to hold temp files**
 {% endhint %}
 
-This overrides the temporary directory used during download\
-
+This overrides the temporary directory used during download<br>
 
 ## infinite\_loop\_action\_mode
 

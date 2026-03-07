@@ -15,7 +15,7 @@
 
 ## skip unavailable content
 
-* Completely bypasses the Timeline, Pinned, Archived, Stories, and Highlights API endpoints for expired users, within a specified grace period, defaults to 2
+* Completely bypasses the Timeline, Pinned, Archived, Stories, and Highlights API endpoints for expired users, within a specified grace period, defaults to 2 days
 * Continues to scan Messages and Purchased content
 
 ***

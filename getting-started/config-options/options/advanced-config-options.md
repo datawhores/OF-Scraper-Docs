@@ -101,13 +101,11 @@ Disable validation of ssl certificates
 
 ***
 
-## enable\_auto\_after
+## incremental\_downloads
 
-* dynamically sets after if enabled
-  1. after is set to zero for the first run following that --after was used previously and has been removed in a future run
-  2. dynamically sets after based on db status
-* if disabled after is is set based on --after only
-  1. if --after is None, then after will be set as 0
+* incrementally download content, by automatically setting --after based on successful completion of downloads in previous runs
+  * Deleted content is automatically detected and flagged
+  * ignored if --after was set by the user in the last run
 
 ***
 

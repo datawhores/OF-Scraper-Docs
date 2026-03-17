@@ -91,7 +91,7 @@ ofscraper --action download --after X
 
 ### Dehumanize Strings
 
-We can convert certain strings into dates The general rules seem to be (number) (timeframe) (ago)
+We can convert certain strings into dates. The general rules seem to be (number) (timeframe) (ago)
 
 **timeframes**
 
@@ -99,6 +99,7 @@ We can convert certain strings into dates The general rules seem to be (number) 
 * month
 * year
 * second
+* day
 
 You can enhance granularity by including a comma. When utilizing debuggers, the output will display in UTC, offering greater detail.
 
@@ -124,7 +125,7 @@ This feature can accept regex patterns, but you might need to enclose the string
 
 #### Filter
 
-This will include only post that match the provided regex patter
+This will include only post that match the provided regex pattern
 
 ```
 

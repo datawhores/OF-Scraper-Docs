@@ -103,6 +103,10 @@ Disable validation of ssl certificates
 
 ## incremental\_downloads
 
+{% hint style="info" %}
+replaces auto\_after
+{% endhint %}
+
 * incrementally download content, by automatically setting --after based on successful completion of downloads in previous runs
   * Deleted content is automatically detected and flagged
   * ignored if --after was set by the user in the last run

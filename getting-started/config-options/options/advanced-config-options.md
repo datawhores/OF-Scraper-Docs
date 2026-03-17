@@ -104,7 +104,7 @@ Disable validation of ssl certificates
 ## incremental\_downloads
 
 {% hint style="info" %}
-replaces auto\_after
+**replaces auto\_after**
 {% endhint %}
 
 * incrementally download content, by automatically setting --after based on successful completion of downloads in previous runs

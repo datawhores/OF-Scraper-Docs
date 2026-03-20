@@ -97,6 +97,8 @@ Sets the script to run in a infinite loop even when \
 
 ## ssl\_verify
 
+Controls how the scraper handles SSL certificate validation and TLS fingerprinting
+
 **Available Options:**
 
 * `"custom"` **(Default & Recommended)** Uses a custom SSL context with TLS fingerprint hardening.&#x20;

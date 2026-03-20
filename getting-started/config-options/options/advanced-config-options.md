@@ -95,9 +95,15 @@ Sets the script to run in a infinite loop even when \
 
 ***
 
-## ssl\_validation:
+## ssl\_verify
 
-Disable validation of ssl certificates
+**Available Options:**
+
+* `"custom"` **(Default & Recommended)** Uses a custom SSL context with TLS fingerprint hardening.&#x20;
+* `"default"` Uses the standard Python SSL validation. This is the default behavior of the `aiohttp`&#x20;
+* `"false"` Disables SSL certificate validation entirely
+
+
 
 ***
 

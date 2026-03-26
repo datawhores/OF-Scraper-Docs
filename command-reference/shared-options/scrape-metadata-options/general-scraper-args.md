@@ -11,8 +11,7 @@ description: >-
 ### -d, --daemon \[argument]
 
 * **Runs:** The program in the background as a daemon process.
-* **Argument:** (Optional) Specify the desired interval between program runs (e.g., `-d 3600` for hourly runs).
-* **Default behavior:** Without the argument, the program runs once in the foreground.
+* **Argument:** (required) Specify the desired interval between program runs (e.g., `-d 60` for hourly runs).
 
 ## Automated Actions
 
